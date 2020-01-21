@@ -6,9 +6,45 @@
  */
 
 module.exports = {
-  someSidebar: {
-    "Getting Started": ['introduction' /*, 'doc2', 'doc3','doc1'*/],
+  someSidebar: [
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: ['introduction'],
+    },
+    {
+      type: 'category',
+      label: 'References',
+      items: ['yaml','markdown','mako'],
+    },
+    {
+      type: 'category',
+      label: 'Tutorials',
+      items: ['tutorials']
+    },
+    {
+      type: 'category',
+      label: 'Classes',
+      items: [
+        {
+          type: 'category',
+          label: 'Lawyering in the Age of Smart Machines',
+          items: ['classes/2020-law-smart-machines','classes/2020-law-smart-machines-assigment-1']
+        },
+      ]
+    },
+  ]
+}
+
+/*  {
+    "Getting Started": ['introduction' ],
     Tutorials: ['tutorials'],
-    References: ['yaml','markdown']
+    References: ['yaml','markdown'],
+    {
+      type: 'category',
+      'label': 'Classes', 
+      items: ['classes/2020-law-smart-machines']
+    }
   },
 };
+*/

@@ -61,11 +61,11 @@ Templates are normally one of three choices, each with different systems of logi
 The plain text format can be downloaded by the end user as an RTF, Word or PDF file, and Microsoft Word templates can also be downloaded as PDF files.
 
 ### Logic
-Docassemble runs on Python, a popular and easy to use computer programming logic. It's typical to write business rules in Python.
+Docassemble runs on Python, a popular and easy to use computer programming logic. It's typical to write business rules in Python. There are slight variations on Python used for logic inside templates.
 
-There's no one place that you absolutely must put this Python code. It can live in the template file. It could be embedded into your interview file. Or it can live in separate Python modules.
+There's no one place that you absolutely must put this logic. It can live in the template file. It could be embedded into your interview file. Or it can live in separate Python modules.
 
-However, it's recommended to keep most of the logic representing substantive rules in Python. This keeps templates and interview files neat and readable. It also helps you be able to view all of your business rules in one place to validate, check for errors, and even run automated tests. For example, you could use short functions like this:
+However, it's recommended to keep most of the logic representing substantive rules in separate Python modules. This keeps templates and interview files neat and readable. It also helps you be able to view all of your business rules in one place to validate, check for errors, and even run automated tests. For example, you could use short functions like this:
 
 ```python
 def test_rule_against_perpetuities(person, vesting_time):

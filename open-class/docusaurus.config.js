@@ -2,7 +2,7 @@ module.exports = {
   title: 'Docassemble Open Class',
   tagline: 'A collaboratively-built class for teaching Docassemble',
   url: 'https://nonprofittechy.github.io',
-  baseUrl: '/',
+  baseUrl: '/docassemble-class/',
   favicon: 'img/favicon.ico',
   organizationName: 'nonprofittechy', // Usually your GitHub org/user name.
   projectName: 'docassemble-class', // Usually your repo name.
@@ -16,6 +16,7 @@ module.exports = {
       links: [
         {to: 'docs/introduction', label: 'Docs', position: 'left'},
         /*{to: 'blog', label: 'Blog', position: 'left'},*/
+        {to: 'docs/classes/2020-law-smart-machines', label: 'Classes', position: 'left'},
         {href: 'https://docassemble.org/docs.html',
          label: 'Official Documentation',
          position: 'left'
