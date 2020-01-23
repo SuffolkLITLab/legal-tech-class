@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{111:function(s){s.exports=JSON.parse('{"allTagsPath":"/docassemble-class/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/docassemble-class/blog/tags/hello"}')}}]);
