@@ -15,7 +15,7 @@ module.exports = {
     {
       type: 'category',
       label: 'References',
-      items: ['yaml','markdown','mako'],
+      items: ['yaml','markdown','mako','python'],
     },
     {
       type: 'category',

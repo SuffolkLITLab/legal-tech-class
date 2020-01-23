@@ -111,3 +111,7 @@ A `Mako` `if` statement is written on its own line. Notice that the line _must_ 
 
 ### Stretch goal
 1. Display a balloon if it's the user's birthday. You may want to use a font-awesome decorator. See [documentation](https://docassemble.org/docs/fields.html#date). You can also use a static image or a gif.
+
+## Turning in your work
+
+Please use the course Blackboard to turn in your work this week. I would like you to provide me a link so that I can run your interview, and a copy of the interview code. To obtain the link, use the green "Share" button. Right-click and Copy link. Use the "Download" button to download a copy of your YAML. Turn both of these in by 5:30 PM on Wednesday.

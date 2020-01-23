@@ -77,7 +77,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/nonprofittechy/docassemble-class/edit/master/open-class/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

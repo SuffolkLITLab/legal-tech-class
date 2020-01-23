@@ -68,3 +68,8 @@ Here's a start at a flow chart:
     * Wage/hour
 * You have jury duty, go to:
     * Wage/hour
+
+## Inspiration from other law students
+
+* [Irontech Lawyer Competition](https://www.georgetowntech.org/irontechlawyer): see projects from past years.
+* [Suffolk LIT Lab](https://suffolklitlab.org/portfolio/)
