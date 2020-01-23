@@ -24,6 +24,12 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Choosing the Right Project',
+      items: ['choosing-project/choosing-project']
+
+    }
+    {
+      type: 'category',
       label: 'Classes',
       items: [
         {
