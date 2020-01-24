@@ -27,7 +27,7 @@ module.exports = {
       label: 'Choosing the Right Project',
       items: ['choosing-project/choosing-project']
 
-    }
+    },
     {
       type: 'category',
       label: 'Classes',
