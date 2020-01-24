@@ -20,10 +20,10 @@ One source of project ideas might be your employer, a substantive clinic, or a n
 
 ### Phase 2: Work on your project
 
-In week 5, you should start working on your project. We will still have regular assignments, but by the second half of the semester they will have ended so you have time to work on your project. Use the user-centered design framework of:
+In week 5, you should start working on your project. We will still have regular assignments, but by the second half of the semester they will have ended so you have time to work on your project. Use the [user-centered design](user-centered-design/user-centered-design.md) framework of:
 
 * User research
-* Planning
+* Ideating (brainstorming)
 * Prototyping
 * Gathering feedback / testing
 * Iterating
