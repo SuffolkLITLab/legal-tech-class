@@ -94,11 +94,6 @@ module.exports = {
     },                                                
     {
       type: 'category',
-      label: 'References',
-      items: ['yaml','markdown','mako','python'],
-    },
-    {
-      type: 'category',
       label: 'Maintenance',
       items: ['maintenance/maintenance']
     },      
@@ -123,6 +118,12 @@ module.exports = {
         },
       ]
     },
+    {
+      type: 'category',
+      label: 'References',
+      items: ['yaml','markdown','mako','python','jinja2'],
+    },
+
   ]
 }
 
