@@ -16,7 +16,8 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "remark-mermaid": "^0.2.0",
-    "remarkable-plantuml": "^1.1.0"
+    "remarkable-plantuml": "^1.1.0",
+    "to-vfile": "^6.0.0"
   },
   "browserslist": {
     "production": [

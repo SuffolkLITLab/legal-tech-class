@@ -1,3 +1,10 @@
+---
+id: editing-docusaurus
+title: 
+sidebar_label: 
+---
+
+
 Recommend enable Windows feature Windows Subsystem for Linux and then the Ubuntu image from Microsoft Store.
 
 In VS Code, you can install the plugins:
@@ -7,7 +14,6 @@ Markdown Preview Enhanced
 Markdown Preview Mermaid
 
 To see what you are doing as you work.
-
 
 ## Quick start
 

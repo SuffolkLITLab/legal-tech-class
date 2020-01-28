@@ -123,6 +123,11 @@ module.exports = {
       label: 'References',
       items: ['yaml','markdown','mako','python'],
     },
+    {
+      type: 'category',
+      label: 'Appendices',
+      items: ['appendices/editing-docusaurus'],
+    },
 
   ]
 }

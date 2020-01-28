@@ -1,4 +1,5 @@
 const mermaid = require('remark-mermaid')
+// var vfile = require('to-vfile');
 
 module.exports = {
   title: 'Docassemble Open Class',
@@ -80,8 +81,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/nonprofittechy/docassemble-class/edit/master/open-class/',
-          remarkPlugins: [mermaid],
-
+          remarkPlugins: [[mermaid,{ simple: true }]], // Plugin for remark-mermaid to generate UML diagrams
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
