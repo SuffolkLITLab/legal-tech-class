@@ -106,7 +106,7 @@ A `Mako` `if` statement is written on its own line. Notice that the line _must_ 
 
 ## Your assignment
 
-1. Modify the Hello, World exercise so that is asks for the user's birthday. Use the `date` datatype. Take a look at the [Docassemble documentation](https://docassemble.org/docs/fields.html#date) to see examples.
+1. Modify the Hello, World exercise so that it asks for the user's birthday. Use the `date` datatype. Take a look at the [Docassemble documentation](https://docassemble.org/docs/fields.html#date) to see examples.
 1. If today is the user's birthday, wish them happy birthday.
 
 ### Stretch goal

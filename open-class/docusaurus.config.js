@@ -1,3 +1,5 @@
+const mermaid = require('remark-mermaid')
+
 module.exports = {
   title: 'Docassemble Open Class',
   tagline: 'A collaboratively-built class for teaching Docassemble',
@@ -78,6 +80,8 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/nonprofittechy/docassemble-class/edit/master/open-class/',
+          remarkPlugins: [mermaid],
+
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -85,4 +89,6 @@ module.exports = {
       },
     ],
   ],
+
+  
 };
