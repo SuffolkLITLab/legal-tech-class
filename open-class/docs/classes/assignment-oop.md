@@ -4,8 +4,6 @@ title: Object Oriented Programming
 sidebar_label: Assignment 2
 ---
 
-
-
 ## Overview of Classes
 
 Objects are a special type of variable. Instead of holding one piece of information, they can hold several at once. For example, the variable `x` can easily represent the number `10`. But what if you wanted a variable to refer to, for example, an apple? You might want to store several pieces of information about the apple at once. Perhaps you want to know its weight, color, and variety.
@@ -88,7 +86,7 @@ Methods also use dot notation. Like functions, you call a method with two parent
 
 ### Special class constructor methods `__init__()` and `init()`
 
-Python Classes expect to see a special method, named `__init__`. This is called the class constructor. Docassemble objects should never replace this method. Instead, you will use the method `init()`
+Python Classes expect to see a special method, named `__init__`. This is called the class constructor. Docassemble objects should never replace this method. Instead, you will use the method `init()`. Any time that Docassemble (or Python) creates a new object of this class, the `__init__` method will run. Creating a new class constructor is a very advanced topic.
 
 ### Special method `__str__()`
 
