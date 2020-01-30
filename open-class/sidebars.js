@@ -65,7 +65,7 @@ module.exports = {
     {
       type: 'category',
       label: 'A Practical Guide to Docassemble Development',
-      items: ['practical-guide-docassemble/practical-guide-docassemble']
+      items: ['practical-guide-docassemble/practical-guide-docassemble', 'practical-guide-docassemble/object-oriented-programming']
     },      
     {
       type: 'category',
