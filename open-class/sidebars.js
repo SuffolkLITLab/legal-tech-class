@@ -114,7 +114,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Lawyering in the Age of Smart Machines',
-          items: ['classes/2020-law-smart-machines','classes/law-smart-machines-final-project','classes/project-ideas','classes/2020-law-smart-machines-assignment-1','classes/2020-law-smart-machines-assignment-2']
+          items: ['classes/2020-law-smart-machines','classes/law-smart-machines-final-project','classes/project-ideas','classes/2020-law-smart-machines-assignment-1','classes/2020-law-smart-machines-assignment-2','classes/assignment-branch-logic']
         },
       ]
     },
