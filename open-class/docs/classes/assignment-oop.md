@@ -25,39 +25,11 @@ There's a lot of information in the documentation about classes. The important f
 
 Practically, using the `objects` block and recognizing that you need a period to separate the object's name and the attribute or method is what you'll need to make use of objects in your Docassemble interviews.
 
-## Assignment
+## Assignment (due Week 3)
 
 Before getting started, please review the section on [Object oriented programming in Docassemble](practical-guide-docassemble/object-oriented-programming.md)
 
 Pay special attention beginning with the discussion of [Objects in Docassemble](practical-guide-docassemble/object-oriented-programming.md#using-an-object-inside-docassemble). 
-
-### Describe a Python class for a law school class
-
-Think of a generic class offering in a law school setting, and how you would describe it in computer code that might be used
-to create a course catalog and to help students decide to sign up for it.
-
-1. What attributes would your class have? Consider aspects such as course title, location, etc. Remember, you can think of these as the column headers in a spreadsheet that lists all of the classes.
-1. What methods would be appropriate to include? In other words, would you want to summarize or transform any of the attributes with a helper function? For inspiration, think of the `.full()` method of an IndividualName and `map_of()` function for an Address.
-1. What might be the output of the `__str__()` method for your class? Remember, `__str__()` just displays a summary of an object as text. Think of the way `${user}` displays the user name for inspiration. Your `__str__()` method should probably display some, but not all of the attributes, in a logical order.
-
-Write out an answer to each question above. Explain why you have chosen the attributes and methods you included.
-
-#### Stretch goal:
-
-Try creating a UML diagram for your class like the ones in the [Object oriented programming in Docassemble](practical-guide-docassemble/object-oriented-programming.md) section of this documentation. You might use [Draw.io](https://www.draw.io/), [Creately](https://creately.com/), or [Mermaid.js](https://mermaid-js.github.io/mermaid-live-editor/).
-
-Here's the code for a Mermaid.js diagram that might get you started:
-
-```
-classDiagram
-class LawschoolClass {
-  name
-  location
-  __str__()
-}
-```
-
-You can copy and paste the above code into the [Mermaid.js](https://mermaid-js.github.io/mermaid-live-editor/) live editor and change the names to match your diagram.
 
 ### Alter the interview below so that it leverages Docassemble built-in classes and methods
 
@@ -126,6 +98,37 @@ attachments:
     content: |
       ${results}
 ```
+
+### Optional strech goals
+
+#### Stretch goal #1: Describe a Python class for a law school class
+
+Think of a generic class offering in a law school setting, and how you would describe it in computer code that might be used
+to create a course catalog and to help students decide to sign up for it.
+
+1. What attributes would your class have? Consider aspects such as course title, location, etc. Remember, you can think of these as the column headers in a spreadsheet that lists all of the classes.
+1. What methods would be appropriate to include? In other words, would you want to summarize or transform any of the attributes with a helper function? For inspiration, think of the `.full()` method of an IndividualName and `map_of()` function for an Address.
+1. What might be the output of the `__str__()` method for your class? Remember, `__str__()` just displays a summary of an object as text. Think of the way `${user}` displays the user name for inspiration. Your `__str__()` method should probably display some, but not all of the attributes, in a logical order.
+
+Write out an answer to each question above. Explain why you have chosen the attributes and methods you included.
+
+#### Stretch goal #2: Turn your class description into a diagram
+
+Try creating a UML diagram for your class like the ones in the [Object oriented programming in Docassemble](practical-guide-docassemble/object-oriented-programming.md) section of this documentation. You might use [Draw.io](https://www.draw.io/), [Creately](https://creately.com/), or [Mermaid.js](https://mermaid-js.github.io/mermaid-live-editor/).
+
+Here's the code for a Mermaid.js diagram that might get you started:
+
+```
+classDiagram
+class LawschoolClass {
+  name
+  location
+  __str__()
+}
+```
+
+You can copy and paste the above code into the [Mermaid.js](https://mermaid-js.github.io/mermaid-live-editor/) live editor and change the names to match your diagram.
+
 
 ## Turn in your work
 

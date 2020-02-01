@@ -19,6 +19,8 @@ Our code has to make a choice and, until the AI take over, we have to give it ve
 
 ## Example 1
 
+![](https://imgs.xkcd.com/comics/automation.png)
+
 Suppose you have a friend who comes to you for advice. They were invited to a party, but they're not sure if they should go. You give them advice, your friend is happy, and now you have lots of friends, and even strangers coming to you looking for advice on the same topic. You decide [code is the answer](https://xkcd.com/1319/) and you'll write a simple form to help them out.
 
 You start simple.
@@ -44,8 +46,8 @@ event: go_to_party
 question: |
   You should go to the party! I promise it'll be awesome!
 ---
-```
 
+```
 ### What do you need to know?
 
 Well, without user research, you don't really know what good questions would be. You don't have funding or time to do that discovery work, though, but you don't care that much about those strangers and it's not like they have other options, so you'll start by making a guess and worry about it later.
@@ -59,7 +61,6 @@ question: |
   Do you like parties?
 fields:
   - Do you like parties: user_likes_parties
----
 ```
 <!-- I'd stick with fields for now because those will be used most consistently -->
 
@@ -102,16 +103,15 @@ We could ask them both questions separately...
 id: flow
 mandatory: True
 code: |
-  if ( user_likes_parties ):
+  if user_likes_parties :
     go_to_party
   else:
     dont_go_to_party
   
-  if ( user_has_a_ride ):
+  if user_has_a_ride :
     go_to_party
   else:
     dont_go_to_party
----
 ```
 
 ...but we'd be wasting their time. If they don't like parties, why does it matter if they have a ride? They want their answer as soon as possible! So we nest the `if` statements inside each other. We only ask the second question if they said yes to the first question.
@@ -121,12 +121,11 @@ code: |
 id: flow
 mandatory: True
 code: |
-  if ( user_likes_parties ):
-    if ( user_has_a_ride ):
+  if user_likes_parties :
+    if user_has_a_ride:
       go_to_party
   else:
     dont_go_to_party
----
 ```
 
 ### Assignment 3
@@ -162,35 +161,29 @@ comment: |
   
   My link to my working interview: 
 ---
-id: flow
 mandatory: True
 code: |
-  if ( user_likes_parties ):
-    if ( user_has_a_ride ):
+  if user_likes_parties :
+    if user_has_a_ride:
       go_to_party
   else:
     dont_go_to_party
 ---
-id: does_like_parties
 question: |
   Do you like parties?
 fields:
   - yesno: user_likes_parties
 ---
-id: has_a_ride
 question: |
   Do you have a ride?
 fields:
   - yesno: user_has_a_ride
 ---
-id: no_go_advice
 event: dont_go_to_party
 question: |
   Don't go to that dumb party. Do something fun instead!
 ---
-id: go_advice
 event: go_to_party
 question: |
   You should go to the party! I promise it'll be awesome!
----
 ```
