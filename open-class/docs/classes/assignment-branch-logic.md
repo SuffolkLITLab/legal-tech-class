@@ -32,7 +32,7 @@ What outcomes will our flowchart have?
 1. Go to the party
 2. Stay home
 
-We'll need two ending screens. You make endings screens with an [`event` attribute](https://docassemble.org/docs/questions.html#event) in a `question` block. That's like the `field` attribute we've used before. Unlike regular question screens, your user isn't going to give an answer here, so there's no variable for Docassemble to find. The `event` attribute tells Docassemble how to find the question without needing a variable name.
+We'll need two ending screens. You make endings screens with an [`event` specifier](https://docassemble.org/docs/questions.html#event) in a `question` block. Unlike regular question screens, your user isn't going to give an answer here, so there's no variable for Docassemble to find. The `event` specifier tells Docassemble how to find the question without needing a variable name.
 
 ```yaml
 ---
