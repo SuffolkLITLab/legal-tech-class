@@ -1,5 +1,4 @@
 ---
-id: assignment-branch-logic
 title: |
   Assignment 3: Branching logic
 sidebar_label: Assignment 3
@@ -36,12 +35,10 @@ We'll need two ending screens. You make endings screens with an [`event` specifi
 
 ```yaml
 ---
-id: no_go_advice
 event: dont_go_to_party
 question: |
   Don't go to that dumb party. Do something fun instead!
 ---
-id: go_advice
 event: go_to_party
 question: |
   You should go to the party! I promise it'll be awesome!
@@ -56,7 +53,6 @@ Do they even like parties? That seems like a place to start.
 
 ```yaml
 ---
-id: does_like_parties
 question: |
   Do you like parties?
 fields:
@@ -70,16 +66,17 @@ Docassemble will show two buttons on this question screen. If the user clicks 'Y
 
 We'll use what's called an `if` statement. It tells our program, 'if the situation is this, then do that.'
 
+We already learned about using `if` statements inside a `question` block. The `if` statement inside a `code` block is very similar. However, we don't need to start our line with a `%` symbol. We also use indentation to show the start and end instead of an `endif` statement.
+
 ``` yaml
 ---
-id: flow
 mandatory: True
 code: |
-  if ( user_likes_parties ):
+  if user_likes_parties :
     go_to_party
   else:
     dont_go_to_party
----
+
 ```
 
 ### More branches!
@@ -88,19 +85,16 @@ So that's not really all that matters, right? For example, do they have a ride o
 
 ```yaml
 ---
-id: has_a_ride
 question: |
   Do you have a ride?
 fields:
   - yesno: user_has_a_ride
----
 ```
 
 We could ask them both questions separately...
 
 ``` yaml
 ---
-id: flow
 mandatory: True
 code: |
   if user_likes_parties :
@@ -118,7 +112,6 @@ code: |
 
 ``` yaml
 ---
-id: flow
 mandatory: True
 code: |
   if user_likes_parties :
@@ -150,16 +143,19 @@ Also, Python has some naming conventions that Python coders try to stick to. Whe
 ### Examples
 -->
 
-Add three more questions to the file we already have. Remember to complete the checklist in the comment at the top of the script. 
+Add three more questions to the file we already have. If you are short on inspiration, you could choose from this list:
+
+* Do you have a big assignment due the next day?
+* Do you have someone you want to meet?
+* Is it really far away?
+* Will it be mostly people you don't know?
+
+The basic steps will be:
+
+1. Create a question block for each question.
+2. Add the question in the right place inside your nested `if` statement.
 
 ``` yaml
----
-comment: |
-  [ ] Step 1
-  [ ] Step 2
-  [ ] Paste your link to your interview below
-  
-  My link to my working interview: 
 ---
 mandatory: True
 code: |
@@ -187,3 +183,9 @@ event: go_to_party
 question: |
   You should go to the party! I promise it'll be awesome!
 ```
+
+## Contributors
+
+This exercise was prepared by:
+
+[Quinten Steenhuis](https://github.com/nonprofittechy), [@Plocket](https://github.com/plocket)
