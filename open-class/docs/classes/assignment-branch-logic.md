@@ -39,10 +39,14 @@ We'll need two **ending** screens. You make endings screens with an [`event` spe
 event: dont_go_to_party
 question: |
   Don't go to that dumb party. Do something fun instead!
+subquestion: |
+  [FILE https://media.giphy.com/media/3j7lxEPPFseD0xvhPi/giphy.gif]
 ---
 event: go_to_party
 question: |
   You should go to the party! I promise it'll be awesome!
+subquestion: |
+  [FILE https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif]
 ```
 
 ### What do you need to know?
