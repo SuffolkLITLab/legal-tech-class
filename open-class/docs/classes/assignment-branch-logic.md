@@ -56,9 +56,18 @@ Do they even like parties? That seems like a place to start.
 question: |
   Do you like parties?
 fields:
-  - Do you like parties: user_likes_parties
+  - no label: user_likes_parties
+    datatype: yesnoradio
 ```
-<!-- I'd stick with fields for now because those will be used most consistently -->
+
+<!-- Alternative:
+```yaml
+---
+question: |
+  Do you like parties?
+yesno: user_likes_parties
+```
+-->
 
 Docassemble will show two buttons on this question screen. If the user clicks 'Yes', `user_likes_parties` will have a value of `True`. If they click 'No', it will have a value of `False`. We can use that to help our program decide what to do. [Read more about yes/no fields](https://docassemble.org/docs/fields.html#fields%20yesno).
 
@@ -87,8 +96,18 @@ So that's not really all that matters, right? For example, do they have a ride o
 question: |
   Do you have a ride?
 fields:
-  - yesno: user_has_a_ride
+  - no label: user_has_a_ride
+    datatype: yesnoradio
 ```
+
+<!-- Alternative:
+```yaml
+---
+question: |
+  Do you have a ride?
+yesno: user_has_a_ride
+```
+-->
 
 We could ask them both questions separately...
 
@@ -152,9 +171,19 @@ Add three more questions to the file we already have. If you are short on inspir
 The basic steps will be:
 
 1. Create a question block for each question.
-2. Add the question in the right place inside your nested `if` statement.
+1. Add the question in the right place inside your nested `if` statement.
 
 ``` yaml
+---
+comment: |
+  ASSIGNMENT CHECKLIST:
+  [ ] Copy this code
+  [ ] Turn it into an interview
+  [ ] Add three more question blocks
+  [ ] Add logical `if` statements to the code block
+  [ ] Upload two items to the Blackboard
+      [ ] Your version of this script on the Blackboard
+      [ ] A link to your working interview
 ---
 mandatory: True
 code: |
@@ -167,12 +196,14 @@ code: |
 question: |
   Do you like parties?
 fields:
-  - yesno: user_likes_parties
+  - no label: user_likes_parties
+  - datatype: yesnoradio
 ---
 question: |
   Do you have a ride?
 fields:
-  - yesno: user_has_a_ride
+  - no label: user_has_a_ride
+  - datatype: yesnoradio
 ---
 event: dont_go_to_party
 question: |
@@ -182,6 +213,10 @@ event: go_to_party
 question: |
   You should go to the party! I promise it'll be awesome!
 ```
+
+## Turn in your work
+
+Use Blackboard to turn in your work. As you see in the comment at the top of the script, you will need to turn in a link to your working interview, as well as the actual YAML code.
 
 ## Contributors
 
