@@ -21,6 +21,8 @@ Our code has to make a choice and, until the AI take over, we have to give it ve
 
 ![](https://imgs.xkcd.com/comics/automation.png)
 
+_Panel by Randall Munroe from xkcd.com_
+
 Suppose you have a friend who comes to you for advice. They were invited to a party, but they're not sure if they should go. You give them advice, your friend is happy, and now you have lots of friends, and even strangers coming to you looking for advice on the same topic. You decide [code is the answer](https://xkcd.com/1319/) and you'll write a simple form to help them out.
 
 You start simple.
