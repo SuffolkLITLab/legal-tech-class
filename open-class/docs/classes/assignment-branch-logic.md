@@ -164,9 +164,10 @@ Also, Python has some naming conventions that Python coders try to stick to. Whe
 Add three more questions to the file we already have. If you are short on inspiration, you could choose from this list:
 
 * Do you have a big assignment due the next day?
-* Do you have someone you want to meet?
 * Is it really far away?
 * Will it be mostly people you don't know?
+* Do you have someone you want to meet?
+* Did you promise someone a ride?
 
 The basic steps will be:
 
