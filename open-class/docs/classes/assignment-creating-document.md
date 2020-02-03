@@ -162,7 +162,7 @@ attachment:
 
 * Change the file name of the letter to be more descriptive
 * Add a yes/no question to the interview that prompts the user about whether they live in Alabama.
-* Add an optional paragraph using `% if ...:` and `% endif` tags that only displays if they live in Alabama. For example, it might say "As an Alabama resident, I am disappointed..." 
+* Add an optional paragraph using `% if ...:` and `% endif` tags that only displays if they live in Alabama. For example, it might say "As an Alabama resident, I am disappointed..." Take a look back at assignment 1 where we went over optional text.
 
 ### Turning in your work
 
