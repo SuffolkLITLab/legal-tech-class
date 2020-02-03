@@ -78,6 +78,7 @@ Our letter will request the release of Dr. Martin Luther King, Jr. from the Birm
 
 In addition to the `attachment` specifier, we introduce two new kinds of screens:
 
+* The [`area` input type](https://docassemble.org/docs/fields.html#plaintext)
 * An [information screen with a continue button](https://docassemble.org/docs/questions.html#tocAnchor-1-6-3), which uses the specifier `field`
 * A [signature screen](https://docassemble.org/docs/questions.html#tocAnchor-1-6-5), which uses the specifier `signature`
 
@@ -120,13 +121,13 @@ under: |
   ${user}
 ---
 comment: |
-  datatype: area lets you collect more than one line of text
+  input type: area lets you collect more than one line of text
   at once
 question: |
   Add a custom paragraph
 fields:
   - no label: custom_paragraph
-    datatype: area
+    input type: area
 ---
 event: download_screen
 question: |
@@ -141,7 +142,7 @@ attachment:
 
     ## The charges against Martin Luther King Jr. must be dropped
 
-    Dear Prosector,
+    Dear Prosecutor,
 
     I am writing to you concerning the prosecution of Martin Luther King Jr., who is currently incarcerated in the Birmingham Jail.
 
