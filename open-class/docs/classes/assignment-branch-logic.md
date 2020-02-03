@@ -17,7 +17,7 @@ Very simple interviews might just ask a user some questions and spit out some re
 
 Our code has to make a choice and, until the AI take over, we have to give it very specific instructions about how to make that choice. That's often called *branching logic*. Probably because of trees.
 
-## Example 1
+## Example
 
 ![](https://imgs.xkcd.com/comics/automation.png)
 
@@ -32,7 +32,7 @@ What outcomes will our flowchart have?
 1. Go to the party
 2. Stay home
 
-We'll need two ending screens. You make endings screens with an [`event` specifier](https://docassemble.org/docs/questions.html#event) in a `question` block. Unlike regular question screens, your user isn't going to give an answer here, so there's no variable for Docassemble to find. The `event` specifier tells Docassemble how to find the question without needing a variable name.
+We'll need two **ending** screens. You make endings screens with an [`event` specifier](https://docassemble.org/docs/questions.html#event) in a `question` block. Unlike regular question screens, your user isn't going to give an answer here, so there's no variable for Docassemble to find. The `event` specifier tells Docassemble how to find the question without needing a variable name.
 
 ```yaml
 ---
@@ -43,9 +43,8 @@ question: |
 event: go_to_party
 question: |
   You should go to the party! I promise it'll be awesome!
----
-
 ```
+
 ### What do you need to know?
 
 Well, without user research, you don't really know what good questions would be. You don't have funding or time to do that discovery work, though, but you don't care that much about those strangers and it's not like they have other options, so you'll start by making a guess and worry about it later.
@@ -77,7 +76,6 @@ code: |
     go_to_party
   else:
     dont_go_to_party
-
 ```
 
 ### More branches!
@@ -160,7 +158,7 @@ The basic steps will be:
 ---
 mandatory: True
 code: |
-  if user_likes_parties :
+  if user_likes_parties:
     if user_has_a_ride:
       go_to_party
   else:
