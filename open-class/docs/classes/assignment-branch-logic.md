@@ -10,244 +10,223 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ## Walking Down the Path: Branching Logic
 
 <img alt="Woman at crossroads" src={useBaseUrl('img/einar-storsul-K3W7I7x37Xk-unsplash.jpg')} />
+
 _Photo by Einar Storsul on Unsplash_
 
-All but the most complex Docassemble interviews will have some choices that change the information
-that you show to the user or that you will need to ask a follow-up question for. Sometimes, this choice
-making is called branching logic. It's the kind of choice that you might think of making with a flowchart.
+Very simple interviews might just ask a user some questions and spit out some result. Most interviews, though, will want to change what the questions they ask and the results they show based on a user's answers.
 
-In today's class, we'll talk about how to write a Docassemble interview that achieves this goal.
+Our code has to make a choice and, until the AI take over, we have to give it very specific instructions about how to make that choice. That's often called *branching logic*. Probably because of trees.
 
-## The problem
+## Example
 
-Suppose you have a friend who comes to you for advice. They were invited to a party, but they're not
-sure if they should go. You give them advice, your friend is happy, and now you have lots of friends coming
-to you looking for advice on the same topic. You decide to write a simple flowchart to help them out.
+![](https://imgs.xkcd.com/comics/automation.png)
+
+_Panel by Randall Munroe from xkcd.com_
+
+Suppose you have a friend who comes to you for advice. They were invited to a party, but they're not sure if they should go. You give them advice, your friend is happy, and now you have lots of friends, and even strangers coming to you looking for advice on the same topic. You decide [code is the answer](https://xkcd.com/1319/) and you'll write a simple form to help them out.
+
+You start simple.
 
 ### Thinking through outcomes
 
-What outcomes will our flowchart have?
+What outcomes will our flowchart have? 
 
 1. Go to the party
 2. Stay home
-3. Go, but don't stay too late
 
-### Gathering the facts
-
-What kind of information do we want to know to advise our friends? Let's think of some possible questions.
-
-* Do you like parties?
-* Is there anyone there who you want to meet?
-* How difficult is it to get to the party?
-* Do you have any big assignments or studying you should do?
-
-### Sorting our questions out
-
-Let's think of a logical order for our questions, and how they fit together.
-
-It might make sense to first learn a little about what the person prefers. It makes
-sense to choose a question order that is respectful of the user's time. Let's think of big
-questions up front that might reduce the number of unnecessary questions we have to ask later.
-
-A logical first question might be:
-
-1. Do you like parties?
-
-If they don't like parties at all, they can probably skip this one. But just in case, a good follow-up might be:
-
-* Is there anyone there who you want to meet?
-
-Followed by
-
-* Do you have any big assigments or studying to do?
-
-If they do like parties, we might ask:
-
-2. Do you have a big assignment due?
-
-## Map it out
-
-For a small problem like this, it might be helpful to write out a small flow chart or map of the logic. For a bigger problem, you might come up with a different way to organize it.
-
-Below is a flowchart that maps out part of the logic we worked out above:
-
-[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcblx0QVtEbyB5b3UgbGlrZSBwYXJ0aWVzP10gLS0-IEJ7eWVzfVxuICBBIC0tPiBDe25vfVxuICBDIC0tPkRbSXMgdGhlcmUgYW55b25lIHlvdSB3YW50IHRvIG1lZXQ_XVxuICBEIC0tPkV7eWVzfVxuICBEIC0tPkZ7bm99XG4gIEYgLS0-IFooZmE6ZmEtYmVkIERvbid0IEdvKVxuICBFIC0tPiBHW0RvIHlvdSBoYXZlIGEgYmlnIGFzc2lnbm1lbnQgZHVlP11cbiAgRyAtLT5oe3llc31cbiAgRyAtLT5pe25vfVxuICBpIC0tPlkoZmE6ZmEtZ2lmdCBHbyB0byB0aGUgcGFydHkpXG5cbiAgaCAtLT4gWlxuICBCIC0tPiBHXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcblx0QVtEbyB5b3UgbGlrZSBwYXJ0aWVzP10gLS0-IEJ7eWVzfVxuICBBIC0tPiBDe25vfVxuICBDIC0tPkRbSXMgdGhlcmUgYW55b25lIHlvdSB3YW50IHRvIG1lZXQ_XVxuICBEIC0tPkV7eWVzfVxuICBEIC0tPkZ7bm99XG4gIEYgLS0-IFooZmE6ZmEtYmVkIERvbid0IEdvKVxuICBFIC0tPiBHW0RvIHlvdSBoYXZlIGEgYmlnIGFzc2lnbm1lbnQgZHVlP11cbiAgRyAtLT5oe3llc31cbiAgRyAtLT5pe25vfVxuICBpIC0tPlkoZmE6ZmEtZ2lmdCBHbyB0byB0aGUgcGFydHkpXG5cbiAgaCAtLT4gWlxuICBCIC0tPiBHXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
-
-## Building our Docassemble interview
-
-### What kinds of information do we need to gather?
-
-Before we start, let's think about what kinds of information we will want to ask.
-
-This Docassemble interview will use two kinds of screens:
-
-1. Yes/no questions
-2. Ending screens
-
-As a reminder, ending screens use the `event` specifier. 
-
-We haven't seen a `question` block that uses just a yes/no question yet. Here's a [link to the documentation](https://docassemble.org/docs/questions.html#tocAnchor-1-6-1).
-
-Let's take a look at an example:
-
-```yaml
-question: |
-  Are you at least 18 years of age?
-yesno: over_eighteen
-```
-
-And here's what it looks like when we run it:
-
-<img alt="Yes/No question" src={useBaseUrl('img/Yes_no.png')} />
-
-Docassemble uses two different kinds of `question` blocks. This new kind only lets you ask for one variable on a screen, and doesn't use the `fields` specifier we learned earlier. It's kind of a simplified shorcut version.
-
-Let's look at line 3 of our sample:
-
-```yaml
-yesno: over_eighteen
-```
-
-This is a new specifier: the `yesno` specifier. It always shows the text `yes` and `no` as buttons on the screen. On the right hand side of the : is the variable that will be assigned the value `True` or `False`, depending on which button the user clicks.
-
-### Planning out our variables
-
-It can help to start out by writing a list of the actual variables we will want to ask. This way, we can plan variable names that make sense together.
-
-In Docassemble interviews, it's traditional to use variables names that are:
-
-1. Short
-1. Descriptive (without cryptic abbreviations)
-1. Lower-case
-1. Use _ to separate multiple words when needed
-
-We are going to need true/false variables and an ending screen. Let's name them as follows:
-
-variable name | meaning
---------------|---------
-go_to_party | A screen that tells the person to go to the party
-dont_go_to_party | A screen that says not to go to the party
-likes_parties | Do you like parties?
-wants_to_meet | Do you want to meet someone there?
-big_assignment | Do you have a big assignment due?
-
-### Writing our first question blocks
-
-Let's start with writing the ending blocks, which are the simplest. Remember, we will use the `event` specifier for these because they are ending screens.
-
-```yaml
----
-event: go_to_party
-question: |
-  You should go to the party!
-subquestion: |
-  [FILE https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif]
-```
-
-[![](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)]
+We'll need two **ending** screens. You make endings screens with an [`event` specifier](https://docassemble.org/docs/questions.html#event) in a `question` block. Unlike regular question screens, your user isn't going to give an answer here, so there's no variable for Docassemble to find. The `event` specifier tells Docassemble how to find the question without needing a variable name.
 
 ```yaml
 ---
 event: dont_go_to_party
 question: |
-  You should just go to sleep
+  Don't go to that dumb party. Do something fun instead!
 subquestion: |
-  [FILE https://media.giphy.com/media/xT8qBvH1pAhtfSx52U/giphy.gif]
-```
-
-[![](https://media.giphy.com/media/xT8qBvH1pAhtfSx52U/giphy.gif)]
-
-Let's try writing one of the yes/no questions.
-
-```yaml
----
-question: |
-  Do you like parties?
-yesno: likes_parties
----
-question: |
-  Do you want to meet someone at the party?
-yesno: wants_to_meet
----
-question: | 
-  Do you have a big assignment due?
-yesno: big_assignment 
-```
-
-### Setting up the branch logic
-
-We have already seen in class how we can use a `code` block to control question order. Now, we're going to combine that with `if`/`else` statements. These will follow pretty well regular English expressions.
-
-```yaml
----
-comment: |
-  We will write the questions below in the order we want them 
-  to appear. Optional questions will be underneath an if statement.
-
-  This will be the only mandatory block in our interview
-mandatory: True
-code: |
-  if likes_parties:
-    if big_assignment:
-      dont_go_to_party
-    else:
-      go_to_party
-  else: # Doesn't like parties
-    if wants_to_meet:
-      if big_assignment:
-        dont_go_to_party
-      else:
-        go_to_party
-    else:
-      dont_go_to_party
-```
-
-## The final interview
-
-```yaml
----
-comment: |
-  We will write the questions below in the order we want them 
-  to appear. Optional questions will be underneath an if statement.
-
-  This will be the only mandatory block in our interview
-mandatory: True
-code: |
-  if likes_parties:
-    if big_assignment:
-      dont_go_to_party
-    else:
-      go_to_party
-  else: # Doesn't like parties
-    if wants_to_meet:
-      if big_assignment:
-        dont_go_to_party
-      else:
-        go_to_party
-    else:
-      dont_go_to_party
----
-question: |
-  Do you like parties?
-yesno: likes_parties
----
-question: |
-  Do you want to meet someone at the party?
-yesno: wants_to_meet
----
-question: | 
-  Do you have a big assignment due?
-yesno: big_assignment 
+  [FILE https://media.giphy.com/media/3j7lxEPPFseD0xvhPi/giphy.gif]
 ---
 event: go_to_party
 question: |
-  You should go to the party!
+  You should go to the party! I promise it'll be awesome!
 subquestion: |
   [FILE https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif]
+```
+
+### What do you need to know?
+
+Well, without user research, you don't really know what good questions would be. You don't have funding or time to do that discovery work, though, but you don't care that much about those strangers and it's not like they have other options, so you'll start by making a guess and worry about it later.
+
+Do they even like parties? That seems like a place to start.
+
+```yaml
+---
+question: |
+  Do you like parties?
+fields:
+  - no label: user_likes_parties
+    datatype: yesnoradio
+```
+
+<!-- Alternative:
+```yaml
+---
+question: |
+  Do you like parties?
+yesno: user_likes_parties
+```
+-->
+
+Docassemble will show two buttons on this question screen. If the user clicks 'Yes', `user_likes_parties` will have a value of `True`. If they click 'No', it will have a value of `False`. We can use that to help our program decide what to do. [Read more about yes/no fields](https://docassemble.org/docs/fields.html#fields%20yesno).
+
+### If this, then that
+
+We'll use what's called an `if` statement. It tells our program, 'if the situation is this, then do that.'
+
+We already learned about using `if` statements inside a `question` block. The `if` statement inside a `code` block is very similar. However, we don't need to start our line with a `%` symbol. We also use indentation to show the start and end instead of an `endif` statement.
+
+``` yaml
+---
+mandatory: True
+code: |
+  if user_likes_parties :
+    go_to_party
+  else:
+    dont_go_to_party
+```
+
+### More branches!
+
+So that's not really all that matters, right? For example, do they have a ride or would they have to walk?
+
+```yaml
+---
+question: |
+  Do you have a ride?
+fields:
+  - no label: user_has_a_ride
+    datatype: yesnoradio
+```
+
+<!-- Alternative:
+```yaml
+---
+question: |
+  Do you have a ride?
+yesno: user_has_a_ride
+```
+-->
+
+We could ask them both questions separately...
+
+``` yaml
+---
+mandatory: True
+code: |
+  if user_likes_parties :
+    go_to_party
+  else:
+    dont_go_to_party
+  
+  if user_has_a_ride :
+    go_to_party
+  else:
+    dont_go_to_party
+```
+
+...but we'd be wasting their time. If they don't like parties, why does it matter if they have a ride? They want their answer as soon as possible! So we nest the `if` statements inside each other. We only ask the second question if they said yes to the first question.
+
+``` yaml
+---
+mandatory: True
+code: |
+  if user_likes_parties :
+    if user_has_a_ride:
+      go_to_party
+  else:
+    dont_go_to_party
+```
+
+### Assignment 3
+
+We've put the app out there and people aren't happy. They feel the situation is more nuanced than the questions you have. Add some more questions! What else could you ask? Copy the script above and add some more questions.
+
+<!-- I suggest putting the variable name suggestions on another page at this point. It muddies the water here -->
+<!-- Here is some people's advice for [creating variable names](link) -->
+<!--
+## Variable names
+
+Code is about communiating with humans. One way we do that is with variable names. Creating good ones is as hard in code as communication is hard in the rest of life. These are a couple tips that some people like to keep in mind when creating varible names, listed in order of priority. Variable names are sometimes good when they:
+
+1. Are descriptive (without cryptic abbreviations)
+1. Are short
+
+Also, Python has some naming conventions that Python coders try to stick to. When humans know what to expect from a situation, they do better processing it. In Python, variables:
+
+1. Use `_` to separate multiple words when needed
+1. Are lower-case
+
+### Examples
+-->
+
+Add three more questions to the file we already have. If you are short on inspiration, you could choose from this list:
+
+* Do you have a big assignment due the next day?
+* Is it really far away?
+* Will it be mostly people you don't know?
+* Do you have someone you want to meet?
+* Did you promise someone a ride?
+
+The basic steps will be:
+
+1. Create a question block for each question.
+1. Add the question in the right place inside your nested `if` statement.
+
+``` yaml
+---
+comment: |
+  ASSIGNMENT CHECKLIST:
+  [ ] Copy this code
+  [ ] Turn it into an interview
+  [ ] Add three more question blocks
+  [ ] Add logical `if` statements to the code block
+  [ ] Upload two items to the Blackboard
+      [ ] Your version of this script on the Blackboard
+      [ ] A link to your working interview
+---
+mandatory: True
+code: |
+  if user_likes_parties:
+    if user_has_a_ride:
+      go_to_party
+  else:
+    dont_go_to_party
+---
+question: |
+  Do you like parties?
+fields:
+  - no label: user_likes_parties
+  - datatype: yesnoradio
+---
+question: |
+  Do you have a ride?
+fields:
+  - no label: user_has_a_ride
+  - datatype: yesnoradio
 ---
 event: dont_go_to_party
 question: |
-  You should just go to sleep
-subquestion: |
-  [FILE https://media.giphy.com/media/xT8qBvH1pAhtfSx52U/giphy.gif]
+  Don't go to that dumb party. Do something fun instead!
+---
+event: go_to_party
+question: |
+  You should go to the party! I promise it'll be awesome!
 ```
+
+## Turn in your work
+
+Use Blackboard to turn in your work. As you see in the comment at the top of the script, you will need to turn in a link to your working interview, as well as the actual YAML code.
+
+## Contributors
+
+This exercise was prepared by:
+
+[Quinten Steenhuis](https://github.com/nonprofittechy), [@Plocket](https://github.com/plocket)
