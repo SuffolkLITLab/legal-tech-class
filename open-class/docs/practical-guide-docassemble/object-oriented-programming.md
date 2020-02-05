@@ -83,9 +83,9 @@ Any function that expects to work with a Fruit object will also be able to work 
 ### Object conventions and syntax
 
 ####  Naming conventions
-One convention that is true for almost every programming language that has objects is that we use capital letters at the beginning of words, and without spaces, for class names. For example, if we have a class the represents rectangles, we would normally name it `Rectangle` or maybe `FourSidedFigure`. This style of naming is called CamelCase because the capital letters rise and fall a bit like the humps on a camel.
+One convention that is true for almost every programming language that has objects is that we use capital letters at the beginning of words, and without spaces, for class names. For example, if we have a class the represents rectangles, we would normally name it `Rectangle` or maybe `FourSidedFigure`. This capitalization style is called [Pascal Case](https://en.wikipedia.org/wiki/Camel_case) after the first programming language to use this variable naming standard, [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)). (Another name for this style is sometimes camel case, although "camel case" is often reserved for variable names where only the second word is capitalized, looking a little like a camel's hump.)
 
-When you see a name written in CamelCase style, it's a good clue that you are looking at a class name.
+When you see a name written in PascalCase style, it's a good clue that you are looking at a class name.
 
 When you use an object, you still use lower case names with underscores between each word for variable names. For example, `my_apple` could be an instance of the `Apple` class.
 

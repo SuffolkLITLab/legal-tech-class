@@ -1,6 +1,104 @@
 ---
-# id: id
-# title: 
-# sidebar_label: 
+id: practical-guide-docassemble
+title: What should you use Docassemble for?
+sidebar_label: What should you use Docassemble for?
 ---
-This is a stub
+
+## What should you use Docassemble for?
+
+If we look over our [legal technology taxonomy](legal-tech-overview/legal-tech-overview.md),
+which of these tasks is Docassemble best suited for?
+
+Docassemble's main metaphor is a linear series of step-by-step questions. Many of the things Docassemble does best are controlled by that choice: 
+
+* Expert systems
+* Filling forms and templates (document assembly)
+* Referral and triage
+* Intake tools
+* Tickler/reminder systems
+* Gathering digital signatures, documents, or more from participants in litigation (i.e., collecting your client's documents that must be provided in discovery, getting a signature on a retainer or release, etc)
+* Database frontends (i.e., traditional create/read/update/delete systems)
+
+## Examples
+
+### Expert systems and form-filling tools
+
+Most expert systems built-on Docassemble also include filling forms and templates, but they don't need to.
+
+#### Demos
+
+* [Pizza chooser demo](https://interviews-dev.gbls.org/interview?i=docassemble.GBLSDemos%3Adata%2Fquestions%2Fchatbot.yml) ([view code](https://github.com/GBLS/docassemble-workinggroup/blob/master/skeletons/chatbot.yml))
+* [Consumer demand letter demo](https://interviews-dev.gbls.org/interview?i=docassemble.GBLSDemos%3Adata%2Fquestions%2Fdemand_letter.yml) ([view code](https://github.com/GBLS/docassemble-workinggroup/blob/master/skeletons/demand_letter.yml))
+
+#### Real-world systems
+
+* [UpSolve](https://upsolve.org/) - Helps file bankruptcy
+* [MADE](https://www.gbls.org/MADE) - Helps fight eviction
+
+### Referral and triage tools
+
+#### Demos
+
+#### Real-world systems
+
+* [Houston Volunteer Lawyers Project](https://docassemble.makejusticehappen.org/interview?i=docassemble.TXProSeDivorceScreening%3Adata%2Fquestions%2FInterview.yml&new_session=1)
+
+### Intake tools
+
+#### Demos
+
+#### Real-world systems
+
+### Tickler/reminder systems
+
+#### Demos
+
+* [Court date reminder](https://interviews-dev.gbls.org/interview?i=docassemble.GBLSDemos%3Adata%2Fquestions%2Fsms_scheduled.yml) ([code](https://github.com/GBLS/docassemble-workinggroup/blob/master/skeletons/sms_scheduled.yml))
+
+#### Real-world systems
+
+* [Houston Volunteer Lawyers Project](https://docassemble.makejusticehappen.org/interview?i=docassemble.ProSeTextReminder%3Adata%2Fquestions%2FProSeTextReminder.yml&new_session=1)
+
+### Information gathering tools
+
+#### Demos
+
+#### Real-world systems
+
+### Database frontends
+
+#### Demos
+
+#### Real-world systems
+
+## What are Docassemble's unique strengths?
+
+### Customizability
+The greatest strength of Docassemble is the ability for Docassemble to talk to other existing systems. Because Docassemble is code based, you can easily add in new integrations without waiting for the platform author to add them.
+
+For example, document assembly has existed for decades. Docassemble makes it possible to have document assembly _with information pulled from a case management system_. Of course some platforms integrate with some case management systems. But Docassemble allows you to use any CMS that has a public API or whose database you can access. This may take time, but it's doable. This makes it safe to invest in Docassemble, without fear that the next system that comes along won't be supported.
+
+### Working at scale
+Docassemble excels at the development of large, complex apps. While the drag-and-drop metaphor is great for infrequently updated and small, contained systems, larger apps have always been built with written code. Docassemble allows you to use traditional programming tools such as linters and code auto-completion while focusing on your core goal. 
+
+Plain-text code can use `diff` to compare and track changes; easily be versioned; easily be searched and take advantage of code-folding and other techniques to provide an overview without requiring drilling down through hundreds of dialogs or menus. Using object-oriented techniques minimizes duplicate code; CSS and other web-development standbys allow you to manage and tweak the appearance of your system without making changes in hundreds of places for each tweak.
+
+### Internationalization and accessibility
+
+Docassemble is a modern tool, built with multiple languages and accessibility for different levels of ability in mind from the beginning.
+
+A single Docassemble interview can easily be written in multiple languages. The default themes are designed to comply with the Americans with Disability Act / Web Content Accessibility Guidelines ([WCAG](https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines)). Most of the important elements use `aria` tags to aid screen readers. And it even includes a built-in screen reading tool and readability analysis scoring system.
+
+### Built-in features
+
+Docassemble's built-in features could easily be dedicated tools in their own right. For example:
+
+* Collecting uploaded files from users
+* Optical character recognition
+* Digital signatures
+* Scheduled tasks that can run without your user being present, for things such as court date reminders
+* Integration with SMS and email
+
+## Other lists of apps built with Docassemble
+
+* https://community.lawyer/featured-apps

@@ -8,7 +8,9 @@ As part of this class, you will produce a final project that demonstrates the sk
 
 ## Project selection
 
-You will be expected to produce a project that meets a real need. In many cases, you will be exposed to appropriate technologies in the class and provided "recipes" that solve the technical part. A great deal of your time will be spent on "soft" skills, not writing code.
+You will be expected to produce a project that meets a real need. In many cases, you will be exposed to appropriate technologies in the class and provided "recipes" that solve the technical part. A great deal of your time will be spent on "soft" skills, not writing code. 
+
+You may find it helpful to take a look at [What Should You Use Docassemble For?](practical-guide-docassemble/practical-guide-docassemble.md) and the chapter on [Choosing a Project](choosing-project/choosing-project.md).
 
 ### Phase 1: Coming up with a project idea
 
