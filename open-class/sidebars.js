@@ -14,8 +14,13 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Legal Technology Overview',
+      items: ['legal-tech-overview/legal-tech-overview'],
+    },
+    {
+      type: 'category',
       label: 'The Access to Justice Problem',
-      items: ['a2j/a2j']
+      items: ['a2j/a2j'],
     },
     {
       type: 'category',
