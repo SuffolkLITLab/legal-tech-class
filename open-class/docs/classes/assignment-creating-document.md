@@ -21,7 +21,7 @@ the `attachment` specifier. You can read more about `attachments` here, or check
 
 ## Example
 
-Let's create a simple interview that assembles a Hello, World document.
+Let's demonstrate a simple interview that assembles a Hello, World document.
 We'll use a few new specifiers: the `attachment` specifier, and a few options that fall underneath it to control the name and content of the document we create.
 
 ```yaml
@@ -72,7 +72,8 @@ Docassemble also offers us an option to email the completed document.
 
 ## Putting it into practice
 
-Let's create a letter for Amnesty International.
+[Amnesty International](https://www.amnesty.org/en/) uses international letter writing and other pressure campaigns
+to get governments around the world to release "[prisoners of conscience](https://en.wikipedia.org/wiki/Prisoner_of_conscience)". Let's write a tool that might help someone write letters more efficiently.
 
 Our letter will request the release of Dr. Martin Luther King, Jr. from the Birmingham jail.
 
@@ -81,6 +82,8 @@ In addition to the `attachment` specifier, we introduce two new kinds of screens
 * The [`area` input type](https://docassemble.org/docs/fields.html#plaintext)
 * An [information screen with a continue button](https://docassemble.org/docs/questions.html#tocAnchor-1-6-3), which uses the specifier `field`
 * A [signature screen](https://docassemble.org/docs/questions.html#tocAnchor-1-6-5), which uses the specifier `signature`
+
+Let's start with some working code. We'll modify this to improve it.
 
 ```yaml
 ---
@@ -107,7 +110,7 @@ subquestion: |
   This tool will help you send a letter to request the release of Dr. Martin Luther King, Jr. He was arrested in August 1963 during non-violent demonstrations against segregation in the city of Birmingham, Alabama.
 
   At the end, we'll ask you sign the letter, print it, and mail it to the city prosecutor's office.
-field: introduction
+continue button field: introduction
 ---
 question: |
   What is your name
@@ -162,8 +165,8 @@ attachment:
 ## Assignment
 
 * Change the file name of the letter to be more descriptive
-* Add a yes/no question to the interview that prompts the user about whether they live in Alabama.
-* Add an optional paragraph using `% if ...:` and `% endif` tags that only displays if they live in Alabama. For example, it might say "As an Alabama resident, I am disappointed..." Take a look back at assignment 1 where we went over optional text.
+* Add a yes/no question to the interview that prompts the user about whether they live in Alabama. Look back at assignment 3 for one way to add a [yes/no question](https://docassemble.org/docs/fields.html#fields%20yesnoradio) using the `fields` specifier. You could also use [yes/no buttons](https://docassemble.org/docs/fields.html#yesornoquestions).
+* Add an optional paragraph using `% if ...:` and `% endif` tags that only displays if they live in Alabama. For example, it might say "As an Alabama resident, I am disappointed..." You may want to review the section in [Mako](mako.md#use-conditional-text) on conditional text. We also used conditional text in Assignment 1.
 
 ### Turning in your work
 

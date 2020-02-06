@@ -132,7 +132,7 @@ module.exports = {
     {
       type: 'category',
       label: 'References',
-      items: ['yaml','markdown','mako','python'],
+      items: ['yaml','markdown','mako','python','repeated-information'],
     },
     {
       type: 'category',
