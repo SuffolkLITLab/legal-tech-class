@@ -138,9 +138,11 @@ code: |
 ---
 mandatory: True
 code: |
-  if user_likes_parties :
+  if user_likes_parties:
     if user_has_a_ride:
       go_to_party
+    else:
+      dont_go_to_party      
   else:
     dont_go_to_party
 ```
@@ -197,6 +199,8 @@ code: |
   if user_likes_parties:
     if user_has_a_ride:
       go_to_party
+    else:
+      dont_go_to_party
   else:
     dont_go_to_party
 ---
@@ -204,13 +208,13 @@ question: |
   Do you like parties?
 fields:
   - no label: user_likes_parties
-  - datatype: yesnoradio
+    datatype: yesnoradio
 ---
 question: |
   Do you have a ride?
 fields:
   - no label: user_has_a_ride
-  - datatype: yesnoradio
+    datatype: yesnoradio
 ---
 event: dont_go_to_party
 question: |
