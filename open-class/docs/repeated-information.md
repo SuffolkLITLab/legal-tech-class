@@ -6,81 +6,137 @@ sidebar_label: Repeated Information (Groups)
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## What is repeated information?
+## Repeated information, groups, and data structures (are all the same thing)
 
-Repeated information refers to gathering information when we don't know how many of each kind of information
-we want to gather up front.
+Many variables are 1 to 1. Each person has one birthdate, one full name, etc. But right away we run into information where one person has more than one of the same kind of thing. For example: each person might have more than one phone number; child; and more.
 
-A common task for Docassemble is a client intake. Let's think of a paper intake form. A lot of the information
-would neatly fit in one column of a spreadsheet. But not everything does. Some information is "repeated", and
-we don't know how many we need to collect in advance.
+One way to handle that could be to make a bunch of variables: child1, child2, etc. That gets messy fast! In computer programming, we can replace a bunch of variables with one variable that stores that _repeated_ information, giving it a single variable name like `children`. Those special variables are called data structures in computer science. Docassemble calls them "groups". The most common data structures you will run into in Docassemble are lists, dictionaries, and sets.
+
+## Introduction to lists
+
+The first kind of data structure you should learn about is called a _list_. Lists can store any kind of repeated information: numbers, text, objects, or even other lists. Lists are similar to arrays in other computer programming languages.
 
 Here's a portion of a real paper intake form from Greater Boston Legal Services:
 
 <img alt="Intake showing list of household members" src={useBaseUrl('img/intake.png')} />
 
-This actually shows two repeated fields:
+Right away, the first thing you might notice is that our form can only handle up to 9 people. That probably is plenty for most households, but not every household (I come from a family of 11!).
 
-1. The names of the people who live with the client
-1. The income sources that each person has.
+If we wanted to model this intake form in Docassemble, we might start out by using a _list_ named `household_members`.
 
-We can do our best to squeeze these fields in, but notice we were limited to 9 household members. And if someone 
-has two jobs, or gets both SSI and a job, they have to fit that information into a small box. Our form probably works for
-_most_ people (who live with fewer than 9 other household members, and who have no more than about 2 jobs), but not everyone.
+Below is a short Python program that demonstrates two ways to handle a list of children: as separate variables, and as one list.
 
-One way to try to solve this problem would be to mirror the paper form. The form has 9 lines; we could write 9 separate variables. For example: `household1`, `household2`, etc. This would be pretty hard to work with. We'd need all kinds of `if` statements to
-figure out how many lines to show in different contexts. We also wouldn't be able to handle someone with 10 family members at all.
+Click the "run" button to run the code sample. After you have run it once, change the value of `use_variables` to False and run it again.
 
-Computers don't have this limit. We can add as many questions about income as we want, and as many questions about the people
-who live with our user as we want. We do that using what Docassemble calls groups. A group is a variable that store many items
-in a single variable.
+<iframe src="https://trinket.io/embed/python/defc77eeb6" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-In Docassemble, there are three basic kinds of groups: 
-
-1. Lists
-1. Dictionaries
-1. Sets
-
-Each kind of group relates to a built-in Python data structure. Under the hood, groups are also [Objects](practical-guide-docassemble/object-oriented-programming.md). As a result, they have `attributes` and `methods` just like
-other kinds of objects.
-
-Let's start with discussing the basic kinds of groups. Then, let's talk about how they work in Docassemble. Docassemble adds some special features to standard Python lists, dictionaries, and sets that help you use them in an interview.
-
-### Lists
-
-Lists are the most basic kind of group that you will work with. A Python list is similar to an array in other programming languages, although it's much easier to work with.
-
-A list is a group of data that has these features:
-
-&nbsp; | &nbsp;
--------|-------
-Size | Unlimited - a list can be as large as you like, and will automatically grow
-Order | A list has an _order_. Each item is assigned an _index_ as you add it, starting with 0. 
-What you can collect | You can store anything you like in a list. You can have duplicates and mix types. You can store objects, regular variables, or even other groups.
-Syntax | You use `[]` to access an item in a list. E.g., `my_list[0]` lets you access the first item added to a list.
-Create a list | You can specify a list's items using square brackets when you create it, like this: `my_list = ["Apple", "Peach","Pear"]`
-Add an item | use `my_list.append(item)`
-Change an item | use `my_list[index_number] = item`
-Combine two lists | use `my_new_list = my_list1 + my_list2` (creates a new list) or `my_list1.extend(my_list2)` (modifies `my_list1` to include the items from `my_list2`)
-Other features | You can also remove items from a list. Check out all of the ways to work with list items in the [Python documentation](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists).
-
-You can recognize a list because of the bracket syntax `[]` and the fact that you use numbers, not words, to index items in the list.
-
-To keep things simple, let's start with a small Python demonstration of a list:
+For easy reference, here is the full code:
 
 ```python
-my_list = [] # Create an empty list
-my_list.append("Apple")
-my_list.append("Pear")
+use_variables = True
+child1 = "James"
+child2 = "Alice"
+child3 = "Richard"
+children = ["Alexandra","Robert","Lisa"]
+if use_variables:
+  print(child1)
+  print(child2)
+  print(child3)
+elif not use_variables:
+  for child in children:
+    print(child)
 ```
 
-Results in a list like this: `["Apple","Pear"]`
+We can see that using several variables and using a list can get us to the same outcome. But using the list is more flexible: we can keep track of many items without having to create a variable name for each item in advance.
 
-If we want to access the first fruit in our list, we would write `my_list[0]`, which would return `"Apple"`. To access the second fruit, we would write `my_list[1]`.
+### Accessing items in a list
 
-#### The Docassemble variation
+Once we have created a list, we can access the items in it like this:
 
-When you use a list in Docassemble and want it to handle collecting items for you, you will create an object of class `DAList` instead of creating it using `my_list = []`. Once you've done that, you can access/modify, and otherwise work with the items the same way you do in Python: you can refer to `my_dalist[0]` and use the methods `.append()`, `.extend()`, and even add lists together using `list1 + list2`.
+```python
+children = ["Jenny","Shakira"]
+children[0]
+```
+
+Try copying and running the code above (one line at a time) in the interactive Python console below:
+
+<iframe src="https://trinket.io/embed/python/acbf9f2337?outputOnly=true&runOption=console" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+The number in the square brackets is called an **index**. In Python, the first item in a list has an **index** of 0, not 1.
+
+Inside the computer, our list is stored like a spreadsheet:
+
+Index | Value
+------|------
+0 | Jenny
+1 | Shakira
+2 | Beyonce
+
+We read down to the row (index) we want to find the value stored in that row.
+
+After running the code above, try typing `children[1]`. What value does it have? What happens if we try to access `children[2]`?
+
+### Changing the value of a list
+
+Changing the value of an item in a list is the same as changing the value of a variable. We use the item's index to say which item we want to change:
+
+`children[1] = "Sean"`
+
+You can add items to a list by using `.append()`, like this:
+
+<iframe src="https://trinket.io/embed/python/885b0045c2" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+Try adding a new name to the list.
+
+Here's the code for reference:
+
+```python
+children = ["Alexandra","Robert","Lisa"]
+print(children)
+children.append("Miles")
+print(children)
+```
+
+### Deleting an item in a list
+
+You can delete an item in a list two different ways: by value, or by index.
+
+By value, using `.remove()`:
+
+```python
+shopping_list = ["Eggs","Milk","Cereal"]
+shopping_list.remove("Milk")
+print(shopping_list)
+```
+
+By index, using `.pop()`:
+
+```python
+shopping_list = ["Eggs","Milk","Cereal"]
+shopping_list.pop(1)
+print(shopping_list)
+```
+
+### `for` loops
+
+In the first example, we used a `for` loop to print the name of each child. Let's take a closer look at that now.
+
+```python
+children = ["Alexandra","Robert","Lisa"]
+for child in children:
+  print(child)
+```
+
+When you use a `for` loop like the one above, Python will run the same series of actions for each item in the list. The variable `child` is a temporary variable. Each time the loop runs, the value changes.
+
+1. On the first loop, `child` is equal to "Alexandra"
+1. On the second loop, `child` is equal to "Robert"
+1. On the third loop, `child` is equal to "Lisa"
+
+
+### The DAList class in Docassemble
+
+When you use a list in Docassemble and want it to handle collecting items for you, you will create an object of class `DAList` instead of creating it using `my_list = []`. Once you've done that, you can access/modify, and otherwise work with the items the same way you do in Python.
 
 As a reminder, we use the `objects` block to create a Docassemble object. Here's an interview that creates a DAList:
 
@@ -91,41 +147,75 @@ objects:
 
 You can read [Docassemble's documentation about lists](https://docassemble.org/docs/groups.html#list).
 
-#### Use in the YAML file format
+### More explorations of lists
 
-In the section about [YAML](yaml.md), we discussed that a list in YAML is represented with a hyphen `-`. Any time you use the `-` at the beginning of a line in YAML, you are creating a list. For example, we use a list in combination with the `fields` and `objects` specifiers.
+* https://www.w3schools.com/python/python_lists.asp
+* https://teachcomputerscience.com/gcse-python/lists/
 
-### Dictionaries
+## Dictionaries
 
-A dictionary is a lot like a list. The main difference between a list and a dictionary is that a dictionary has no inherent order, and instead of using numbers, we use keywords to index items in a dictionary. You can think of a dictionary as an unordered list of key/value pairs.
+Like a list, a dictionary is a data structure that can store repeated information. The main difference is that in a list, the index is _numeric_. In a dictionary, the index is a keyword. Dictionaries are similar to associative arrays or hashtables in other computer programming languages.
 
-If you are coming from a different programming language, you might know Python's dictionaries as _Associative arrays_, or _Hashtables_. Internally, [Python's objects](practical-guide-docassemble/object-oriented-programming.md) are actually all a special kind of dictionary. Like objects, you can think of a dictionary as a big spreadsheet, where you can read down from a column (key) to the find the value for your row.
+If a list is a good way to store a unknown number of items, a dictionary is a good way to store an unknown number of items that match exactly one category.
 
-Here is a summary of the basic features of a dictionary: 
+Sticking with our intake analogy, let's think about an intake that asks someone to report all of their expenses. We know everyone has some expenses, and we want to be able to work with each expense separately. For example:
 
-&nbsp; | &nbsp;
--------|-------
-Size | Unlimited - a dictionary can be as large as you like, and will automatically grow as necessary
-Order | A dictionary is _not_ guaranteed to be ordered. You can sort a dictionary by its keys or values.
-What you can collect | You can store anything you like in a dictionary. You can have duplicates and mix types. You can store objects, regular variables, or even other groups.
-Syntax | You use `[]` to access an item in a dictionary. Instead of a numeric index, you use a keyword. E.g., `my_dict['keyword']`.
-Create a dictionary | You can specify a dictionary's items when you create it using curly brackets, like this: `my_dict = {"keyword1" : "value 1", "keyword2" : "value 2"}`
-Add an item | You need a keyword, like this: `my_dict['keyword'] = item`. The keyword doesn't have to already be part of the dictionary; referring to it creates it.
-Change an item | use `my_dict['keyword'] = item`
-Combine two dictionaries | use `my_dict.update(my_dict2)` (modifies `my_dict` to include the items from `my_dict2`)
-Other features | You can also remove items from a dictionary. Check out all of the ways to work with dictionary items in the [Python documentation](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
+* Rent
+* Food
+* Utilities
+* Credit card payments
+* Student loan payments
+* Medical bills
 
-Let's demonstrate some simple Python code that uses a dictionary:
+Here's a small example of a Python dictionary:
+
+<iframe src="https://trinket.io/embed/python/201f75d61d" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+Run the code sample above. Notice that when we use a `for` loop on this dictionary, on each loop the variable gets the keyword, or index of the dictionary.
+
+A python dictionary is created with curly braces, like this: `{}`. Each entry is a keyword, followed by a : and then a value. Commas separate multiple pairs of key/value.
+
+### Accessing items in a dictionary
+
+Once we have created a dictionary, we can access items in it like this: 
 
 ```python
-my_dict = {}
-my_dict["keyword"] = 1
-my_dict["keyword2"] = "Rutabaga"
+expenses = {
+  "rent": 1000,
+  "utilities": 300,
+  "food": 400,
+  "credit cards": 120,
+  "student loans": 1000,
+  "medical bills": 200
+}
+print(expenses['rent'])
 ```
 
-Would result in `my_dict` looking like this: `{"keyword": 1, "keyword2": "Rutabaga"}`
+This is very similar to how we access an item in a list. A dictionary is a lot like a spreadsheet where each row has a unique name instead of a number. The difference is that the **index** can be a descriptive word (or even a sentence) instead of a number. A dictionary item's index is called a **key**.
 
-#### The Docassemble variation
+Key | Value
+----|------
+rent | 1000
+utilities | 300
+food | 400
+
+For a quick example of why using a dictionary is powerful, let's introduce the `sum()` function. Try running the code sample below.
+
+<iframe src="https://trinket.io/embed/python/0835fc7fa9" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+Try changing some of the numbers and see how the value that is printed out changes at the same time.
+
+In the example above, we use the `.values()` method of a dictionary to get all of the values as one list. Then we used `sum()` to add all of the numbers together. Storing items in a dictionary lets us label them, while still working on them as a group. It gives us a little more context than a list, where we only would know that one expense was the first, second, third, and so on.
+
+### Adding a new item to a dictionary
+
+You can add a new item to a dictionary simply by referencing a key that you haven't used yet. Referencing an existing key will change the value stored at that key.
+
+Run the code sample below. Try adding an expense for automobile insurance.
+
+<iframe src="https://trinket.io/embed/python/eb7652260f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+### Docassemble's DADict class
 
 When you use a dictionary in Docassemble and want it to handle collecting items for you, you will create an object of class `DADict` instead of creating it using `my_dict = {}`. Once you've done that, you can access/modify, and otherwise work with the items the same way you do in Python: you can refer to `my_dadict["keyword"]` and use the method `.update()` to combine two DA dictionaries.
 
@@ -138,46 +228,52 @@ objects:
 
 You can read [Docassemble's documentation about dictionaries](https://docassemble.org/docs/groups.html#dictionary).
 
-#### Use in the YAML file format
+### More explorations of dictionaries
 
-In the section about [YAML](yaml.md), we discussed that a dictionary in YAML is represented with a `:` (just as in Python). A keyword, followed by a `:` and then a value, is a dictionary in YAML.
+* https://www.w3schools.com/python/python_dictionaries.asp
+* https://realpython.com/python-dicts/
 
-Each `specifier` (and some of the options) in a Docassemble interview is actually a dictionary key. For example, `question` is a dictionary key, and whatever text you display to the user (such as "Hello, World") is a dictionary value.
+## Introduction to sets
 
-### Sets
+Sets come from the world of mathematics: think [Venn diagrams](https://en.wikipedia.org/wiki/Venn_diagram). In a set, each item can only appear exactly once. No duplicates allowed. Items in a set don't have an index _or_ a key, unlike items stored in dictionaries and lists.
 
-Sets are like lists, with the exception that a set can only contain exactly one of every item. This limits the kinds of objects that can be contained in a set; there must be a way for Python to figure out if the item is unique (this is called _hashing_ the item). The item you add must be _unchanging_ (immutable). If you try adding the wrong kind of item to a set, you will get an error that it is not hashable. You can't add other groups to a set, for example.
+Suppose you go on a bird watch. You want to know how many different species of birds you see. If you store the names of each bird in a set, each bird species appears only once, so you don't have to worry about duplicates.
 
-Sets are a little strange compared to the other group types. Sets are borrowed from mathematics, and don't appear as a built-in data structure in many programming languages. Don't feel discouraged if the concept confuses you at first. Why use a set? Using a set is a helpful way to make sure you don't have any duplicates in a list. Often, you'll work with a group as a list, and then turn it into a set to remove the duplicates without a lot of manual work.
+Run the code sample below.
 
-The syntax is also slightly different for a set.
+<iframe src="https://trinket.io/embed/python/ecc912a6c2" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-&nbsp; | &nbsp;
--------|-------
-Size | Unlimited
-Order | A set is _not_ ordered. You can sort it.
-What you can collect | Items must be _unique_, and Python needs to be able to figure out if they are unique (or "hashable"). A set _cannot_ contain an item that might change, such as another group.
-Syntax | Items are either in a set, or not. They do not have an index. You can work with the items one at a time, using the methods we'll discuss below. You can delete, but not change an item in a set.
-Create a set | There is no shortcut bracket syntax for a set. You create a set with the `set()` Class constructor, like this: `my_set = set()`
-Adding an item | Use the `.add()` method, like this: `my_set.add(item)`
-Combine two sets | Use the `.update()` method, like this: `my_list.update(my_list2)`.
-Other features |  See [Python documentation](https://docs.python.org/3/tutorial/datastructures.html#sets)
+Notice that when we stored the bird names in a list, we had duplicates. When we use a set instead, each bird species only appears one time. Try adding a new bird species to both the set and to the list and see what happens when you run it again.
+
+An alternative Python way to create a set is with curly braces, like the example below:
 
 ```python
-my_set = set()
-my_set.add(1)
-my_set.add(2)
-my_set.add(3)
-
-my_set.add(1)
-my_set.add(3)
+birds = {"Blue jay","Pileated woodpecker","Ivory billed woodpecker"}
 ```
 
-Results in the value of `my_set` looking like this: `{1,2,3}`. Notice that even though we add 1 and 3 twice, they still only appear once in our set.
+### Accessing items in a set
 
-#### The Docassemble variation
+An item is in a set, or not. It doesn't have an index or a key. The items don't have any order to them. You can use standard mathematical operations on a set, such as Union, Intersection, Difference, etc. You can use a `for` loop to work on the whole list at once.
 
-When you use a dictionary in Docassemble and want it to handle collecting items for you, you will create an object of class `DASet`. Once you've done that, you can work with the items the same way you do in Python. Use the method `.update()` to combine two DA sets.
+```python
+birds = {"Blue jay","Pileated woodpecker","Ivory billed woodpecker"}
+for bird in birds:
+  print(bird)
+```
+
+See the explorations below for more about operations on sets, including use of the union and intersection operators.
+
+### Turning lists into sets
+
+Sometimes, you may want to collect everything in a list, and then turn it into a set later, so you can keep track just of the unique values.
+
+You can do that with `set()`. Try running the code sample below:
+
+<iframe src="https://trinket.io/embed/python/573e9681c8" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+### Docassemble's DASet class
+
+When you use a dictionary in Docassemble and want it to handle collecting items for you, you will create an object of class `DASet`. Once you've done that, you can work with the items the same way you do in Python. Use the method `.update()` to combine two DASets.
 
 As a reminder, we use the `objects` block to create a Docassemble object. Here's an interview that creates a DASet:
 
@@ -188,9 +284,16 @@ objects:
 
 You can read [Docassemble's documentation about sets](https://docassemble.org/docs/groups.html#set).
 
+### More explorations of sets
+
+* https://www.w3schools.com/python/python_sets.asp
+* https://realpython.com/python-sets/
+
 ## Groups and objects work well together
 
-Groups can store all kinds of information. But you might notice that groups are a perfect metaphor to extend our metaphor of objects; if an object is one row in a spreadsheet, a list is a whole spreadsheet. Often when we gather repeated information, we have more than one attribute of each item that we want to know about.
+Groups can store all kinds of information. One of the most common things to store in a group is an object. 
+
+If we go back to our spreadsheet metaphor, lists and dictionaries are just two columns in a spreadsheet. If we store an object in a list, now we suddenly have a whole table.
 
 Thinking back to our intake sheet, for each household member we collected:
 
@@ -199,6 +302,20 @@ Thinking back to our intake sheet, for each household member we collected:
 1. Gender
 1. Birthdate
 1. Income
+
+On paper, we could represent that as a table:
+
+First name | Last name | Gender | Birthdate | Income
+-----------|-----------|--------|-----------|--------
+Jane | Smith | F | 10/1/2000 | SSI
+Robert | Smith | M | 1/25/1997 | Employment
+
+Or in a Python list of Individual objects, with each column representing an attribute of our object: 
+
+Index | name.first | name.last | gender | birthdate | income_type
+------|------------|-----------|-----------|--------|-----
+0 | Jane | Smith | F | 10/1/2000 | SSI
+1 | Robert | Smith | M | 1/25/1997 | Employment
 
 Docassemble lets you work with lists, dictionaries, and sets of objects. They just work better together. On one screen, you can collect all 5 fields for each household member, and store them as one object in the list, dictionary, or set.
 
@@ -549,6 +666,154 @@ question: |
 ```
 
 Remember, the `for` loop takes each item in the list, dictionary, or set, and assigns that item to a temporary variable. That makes it possible to work with each item one at a time.
+
+<!--
+## A closer look
+
+### Lists
+
+Lists are the most basic kind of group that you will work with. A Python list is similar to an array in other programming languages, although it's much easier to work with.
+
+
+A list is a group of data that has these features:
+
+&nbsp; | &nbsp;
+-------|-------
+Size | Unlimited - a list can be as large as you like, and will automatically grow
+Order | A list has an _order_. Each item is assigned an _index_ as you add it, starting with 0. 
+What you can collect | You can store anything you like in a list. You can have duplicates and mix types. You can store objects, regular variables, or even other groups.
+Syntax | You use `[]` to access an item in a list. E.g., `my_list[0]` lets you access the first item added to a list.
+Create a list | You can specify a list's items using square brackets when you create it, like this: `my_list = ["Apple", "Peach","Pear"]`
+Add an item | use `my_list.append(item)`
+Change an item | use `my_list[index_number] = item`
+Combine two lists | use `my_new_list = my_list1 + my_list2` (creates a new list) or `my_list1.extend(my_list2)` (modifies `my_list1` to include the items from `my_list2`)
+Other features | You can also remove items from a list. Check out all of the ways to work with list items in the [Python documentation](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists).
+
+You can recognize a list because of the bracket syntax `[]` and the fact that you use numbers, not words, to index items in the list.
+
+To keep things simple, let's start with a small Python demonstration of a list:
+
+```python
+my_list = [] # Create an empty list
+my_list.append("Apple")
+my_list.append("Pear")
+```
+
+Results in a list like this: `["Apple","Pear"]`
+
+If we want to access the first fruit in our list, we would write `my_list[0]`, which would return `"Apple"`. To access the second fruit, we would write `my_list[1]`.
+
+#### The Docassemble variation
+
+When you use a list in Docassemble and want it to handle collecting items for you, you will create an object of class `DAList` instead of creating it using `my_list = []`. Once you've done that, you can access/modify, and otherwise work with the items the same way you do in Python: you can refer to `my_dalist[0]` and use the methods `.append()`, `.extend()`, and even add lists together using `list1 + list2`.
+
+As a reminder, we use the `objects` block to create a Docassemble object. Here's an interview that creates a DAList:
+
+```yaml
+objects:
+  - my_list: DAList
+```
+
+You can read [Docassemble's documentation about lists](https://docassemble.org/docs/groups.html#list).
+
+#### Use in the YAML file format
+
+In the section about [YAML](yaml.md), we discussed that a list in YAML is represented with a hyphen `-`. Any time you use the `-` at the beginning of a line in YAML, you are creating a list. For example, we use a list in combination with the `fields` and `objects` specifiers.
+
+### Dictionaries
+
+A dictionary is a lot like a list. The main difference between a list and a dictionary is that a dictionary has no inherent order, and instead of using numbers, we use keywords to index items in a dictionary. You can think of a dictionary as an unordered list of key/value pairs.
+
+If you are coming from a different programming language, you might know Python's dictionaries as _Associative arrays_, or _Hashtables_. Internally, [Python's objects](practical-guide-docassemble/object-oriented-programming.md) are actually all a special kind of dictionary. Like objects, you can think of a dictionary as a big spreadsheet, where you can read down from a column (key) to the find the value for your row.
+
+Here is a summary of the basic features of a dictionary: 
+
+&nbsp; | &nbsp;
+-------|-------
+Size | Unlimited - a dictionary can be as large as you like, and will automatically grow as necessary
+Order | A dictionary is _not_ guaranteed to be ordered. You can sort a dictionary by its keys or values.
+What you can collect | You can store anything you like in a dictionary. You can have duplicates and mix types. You can store objects, regular variables, or even other groups.
+Syntax | You use `[]` to access an item in a dictionary. Instead of a numeric index, you use a keyword. E.g., `my_dict['keyword']`.
+Create a dictionary | You can specify a dictionary's items when you create it using curly brackets, like this: `my_dict = {"keyword1" : "value 1", "keyword2" : "value 2"}`
+Add an item | You need a keyword, like this: `my_dict['keyword'] = item`. The keyword doesn't have to already be part of the dictionary; referring to it creates it.
+Change an item | use `my_dict['keyword'] = item`
+Combine two dictionaries | use `my_dict.update(my_dict2)` (modifies `my_dict` to include the items from `my_dict2`)
+Other features | You can also remove items from a dictionary. Check out all of the ways to work with dictionary items in the [Python documentation](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
+
+Let's demonstrate some simple Python code that uses a dictionary:
+
+```python
+my_dict = {}
+my_dict["keyword"] = 1
+my_dict["keyword2"] = "Rutabaga"
+```
+
+Would result in `my_dict` looking like this: `{"keyword": 1, "keyword2": "Rutabaga"}`
+
+#### The Docassemble variation
+
+When you use a dictionary in Docassemble and want it to handle collecting items for you, you will create an object of class `DADict` instead of creating it using `my_dict = {}`. Once you've done that, you can access/modify, and otherwise work with the items the same way you do in Python: you can refer to `my_dadict["keyword"]` and use the method `.update()` to combine two DA dictionaries.
+
+As a reminder, we use the `objects` block to create a Docassemble object. Here's an interview that creates a DAList:
+
+```yaml
+objects:
+  - my_dict: DADict
+```
+
+You can read [Docassemble's documentation about dictionaries](https://docassemble.org/docs/groups.html#dictionary).
+
+#### Use in the YAML file format
+
+In the section about [YAML](yaml.md), we discussed that a dictionary in YAML is represented with a `:` (just as in Python). A keyword, followed by a `:` and then a value, is a dictionary in YAML.
+
+Each `specifier` (and some of the options) in a Docassemble interview is actually a dictionary key. For example, `question` is a dictionary key, and whatever text you display to the user (such as "Hello, World") is a dictionary value.
+
+### Sets
+
+Sets are like lists, with the exception that a set can only contain exactly one of every item. This limits the kinds of objects that can be contained in a set; there must be a way for Python to figure out if the item is unique (this is called _hashing_ the item). The item you add must be _unchanging_ (immutable). If you try adding the wrong kind of item to a set, you will get an error that it is not hashable. You can't add other groups to a set, for example.
+
+Sets are a little strange compared to the other group types. Sets are borrowed from mathematics, and don't appear as a built-in data structure in many programming languages. Don't feel discouraged if the concept confuses you at first. Why use a set? Using a set is a helpful way to make sure you don't have any duplicates in a list. Often, you'll work with a group as a list, and then turn it into a set to remove the duplicates without a lot of manual work.
+
+The syntax is also slightly different for a set.
+
+&nbsp; | &nbsp;
+-------|-------
+Size | Unlimited
+Order | A set is _not_ ordered. You can sort it.
+What you can collect | Items must be _unique_, and Python needs to be able to figure out if they are unique (or "hashable"). A set _cannot_ contain an item that might change, such as another group.
+Syntax | Items are either in a set, or not. They do not have an index. You can work with the items one at a time, using the methods we'll discuss below. You can delete, but not change an item in a set.
+Create a set | There is no shortcut bracket syntax for a set. You create a set with the `set()` Class constructor, like this: `my_set = set()`
+Adding an item | Use the `.add()` method, like this: `my_set.add(item)`
+Combine two sets | Use the `.update()` method, like this: `my_list.update(my_list2)`.
+Other features |  See [Python documentation](https://docs.python.org/3/tutorial/datastructures.html#sets)
+
+```python
+my_set = set()
+my_set.add(1)
+my_set.add(2)
+my_set.add(3)
+
+my_set.add(1)
+my_set.add(3)
+```
+
+Results in the value of `my_set` looking like this: `{1,2,3}`. Notice that even though we add 1 and 3 twice, they still only appear once in our set.
+
+#### The Docassemble variation
+
+When you use a dictionary in Docassemble and want it to handle collecting items for you, you will create an object of class `DASet`. Once you've done that, you can work with the items the same way you do in Python. Use the method `.update()` to combine two DA sets.
+
+As a reminder, we use the `objects` block to create a Docassemble object. Here's an interview that creates a DASet:
+
+```yaml
+objects:
+  - my_set: DASet
+```
+
+You can read [Docassemble's documentation about sets](https://docassemble.org/docs/groups.html#set).
+
+-->
 
 ## Further reading
 
