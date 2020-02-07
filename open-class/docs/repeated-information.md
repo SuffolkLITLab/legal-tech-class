@@ -287,6 +287,34 @@ fields:
   - no label: my_object.favorite_color  
 ```
 
+### The .gather() method and other ways to trigger gathering
+
+There are two ways to trigger gathering a group in Docassemble:
+
+1. Using the .gather() method of the list in a mandatory code block, or
+1. Referencing the full list: in a code block, a question's text, or a template.
+
+Here's an example code block:
+
+```yaml
+---
+mandatory: True
+code: |
+  children.gather()
+```
+
+And here's a question:
+
+```yaml
+---
+question: |
+  List of children
+subquestion: |
+  ${children}
+```
+
+If you want to control when the items of a list will be collected, using the `.gather()` method is a neat and explicit way to do so. But referencing the list is just fine.
+
 ### Methods of collection
 
 There are four recommended ways to use groups in Docassemble. These apply to lists, dictionaries, and sets:
@@ -354,15 +382,173 @@ question: |
 fields:
   - First name: children[i].name.first
   - Last name: children[i].name.last
-```  
+```
 
 ### Asking after each item is gathered
 
+The default way to gather items in a list is to ask, in order: 
+
+1. are there any items in the list? with the attribute `.there_are_any`
+1. Tell us about the first item (with whatever attributes of the item are required)
+1. Are there any more items? with the attribute `.there_is_another`
+
+Because this is the default, if you use this method, you don't need to set any options with `.using()`, other than the `object_type`.
+
+Each of these questions appear on a different screen. In some cases, this can be quite tedious, but sometimes it offers the best user experience.
+
+Let's show a short example:
+
+```yaml
+---
+mandatory: True
+code: |
+  children.gather()
+  ending_screen
+---
+objects:
+  - children: DAList.using(object_type=Individual)
+---
+question: |
+  Do you have any children?
+yesno: children.there_are_any
+---
+question: |
+  What is your ${ordinal(i)} child's name?
+fields:
+  - First name: children[i].name.first
+  - Last name: children[i].name.last
+---
+question: |
+  Do you have any more children?
+yesno: children.there_is_another
+---
+event: ending_screen
+question: |
+  Here are your children
+subquestion: |
+  ${children}
+```
+
 ### Asking for multiple items on one screen
+
+If you only need a few pieces of information for each item in your list, collecting them all on one screen can be a good user experience.
+
+We still need to ask one preliminary question: are there any items on the list? with the attribute `.there_are_any`. But we no longer have to answer if there are any more items. The way to trigger this is to add the `specifier` `list collect: True` to the bottom of the question that asks the users for the details of each list item.
+
+This method only works for a list, and not for a dictionary or set.
+
+Here is a short interview that uses this technique:
+
+```yaml
+---
+mandatory: True
+code: |
+  children.gather()
+  ending_screen
+---
+objects:
+  - children: DAList.using(object_type=Individual)
+---
+question: |
+  Do you have any children?
+yesno: children.there_are_any
+---
+question: |
+  What is your ${ordinal(i)} child's name?
+fields:
+  - First name: children[i].name.first
+  - Last name: children[i].name.last
+list collect: True
+---
+event: ending_screen
+question: |
+  Here are your children
+subquestion: |
+  ${children}
+```
+
+In some cases, you might know that there is at least one option. For example, collecting members of a corporate board. Then, you could set `.there_are_any` to True with a `.using()` statement, like this:
+
+```yaml
+---
+objects:
+  - board_members: DAList.using(object_type=Individual, there_are_any=True)
+```
+
+By default, the list collect screen has buttons to delete each item, as well as a number next to each item. [Read more](https://docassemble.org/docs/groups.html#list%20collect) about how to customize the appearance.
 
 ### Using code to pre-fill items, with or without prompts
 
+Sometimes, we want to use code to gather items in a list, or otherwise gather the items without Docassemble triggering the questions manually. To do so, we need to set the `auto_gather` attribute to `False`. Then, once we have finished gathering the items into our list, we need to set the `.gathered` attribute to `True`.
+
+Here is a short example:
+
+```yaml
+---
+mandatory: True
+code: |
+  # For simplicity, "Bob" and "Jane" are just text, and not Individual objects as in the other examples
+  children.append("Bob")
+  children.append("Jane")
+  children.gathered = True
+  ending_screen
+---
+objects:
+  - children: DAList.using(auto_gather=False)
+---
+event: ending_screen
+question: |
+  Here are your children
+subquestion: |
+  ${children}
+```
+
 ## Display information from a Docassemble Group on screen or in a template
+
+### Using the built-in `comma_and_list()` method
+
+One easy way to display a list is to simply reference the list's name. The list's `__str__()` method displays each item, in order, separated by a comma and with the word `and` before the final item. It does this with a built-in function named [`comma_and_list()`](https://docassemble.org/docs/functions.html#comma_and_list).
+
+For example, if you have a DAList `people` with items `["bob","jane","roger"]` and you reference it as `${people}`, the output will be `bob, jane, and roger`.
+
+### Using a `for` or `while` loop
+
+If you want more control over displaying the items in your list--for example, you want to display just the first names, and not the last names--you will need to use a loop.
+
+You can read more about the `for` and `while` loop in the section about [Python](python.md#repetition-loops).
+
+A `for` loop in Python:
+
+1. Takes some action 
+1. **For** each item **in** the list, set, or dictionary
+
+The basic structure is the keyword `for`, followed by a temporary variable name, the keyword `in`, and finally followed by the name of the list, dictionary, or set.
+
+In a Python code block, you will write a `for` loop just like an `if` statement, with the start/end shown by indentation.
+
+```python
+for item in my_list:
+  do_something(item)
+```
+
+Just like an `if` statement, when you use a `for` loop inside a question block, you need to start the line with a `%` symbol, and you need to explicitly end it, with the `endfor` keyword. For more, you could review the section on [Mako](mako.md). Here's what it looks like in a short example:
+
+```yaml
+---
+mandatory: True
+code: |
+  items = ['A','B','C']
+  ending_screen
+---
+event: ending_screen
+question: |
+
+  % for item in items:
+  * ${item}
+  % endfor
+```
+
+Remember, the `for` loop takes each item in the list, dictionary, or set, and assigns that item to a temporary variable. That makes it possible to work with each item one at a time.
 
 ## Further reading
 
