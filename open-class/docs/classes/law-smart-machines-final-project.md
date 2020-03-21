@@ -30,6 +30,23 @@ In week 5, you should start working on your project. We will still have regular 
 * Gathering feedback / testing
 * Iterating
 
+You should use one of the annotated project templates as a starting point, which are available
+[here](https://github.com/nonprofittechy/docassemble-finalproject/).
+
+The samples include:
+
+* An intake to Google Sheets
+* Filling in a Word template
+* A non-linear menu-driven interview that someone can return to over time (a ledger)
+
+Watch a video that describes the project templates (40 minutes).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fv5vgbBGJXM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Watch a video that explains how to install the templates into your own Docassemble playground (1.5 minutes).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I5RwlSbc1RA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ### Phase 3: Turn in your work
 
 Your final deliverables will include:
