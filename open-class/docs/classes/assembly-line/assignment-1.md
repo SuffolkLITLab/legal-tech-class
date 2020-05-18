@@ -215,14 +215,14 @@ Pull the repository into the playground.
 Click back. Switch to the file `plain_language_experiment.yml`. Edit the text in
 the Playground, following the instructions that are right in the file.
 
-Go back to the Packages menu. Now, you can click the Github button to 
-add your changes back on the repository. Make your changes in a new
-**branch**. Add your github username to the branch name. Branch names can 
-include hyphens, but not spaces.
+Go back to the Packages menu. Now, you can click the Github button to add your
+changes back on the repository. Make your changes in a **new branch**. Add your
+github username to the branch name. Branch names can include hyphens, but not
+spaces.
 
 <img alt="Pull Package" src={useBaseUrl('img/github_new_branch.png')} />
 
-Add a brief "commit" message. A commit message is a short note that explains
+Add a brief "commit message". A commit message is a short note that explains
 what you changed since the last time you sent code to GitHub in this repository.
 
-Click the "Github" button to send your changes to GitHub.
+Click the "Commit" button to send your changes to GitHub.
