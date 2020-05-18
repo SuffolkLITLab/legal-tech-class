@@ -127,6 +127,13 @@ module.exports = {
             'classes/assignment-branch-logic',
             'classes/assignment-creating-document']
         },
+        {
+          type: 'category',
+          label: 'Assembly Line Project Teaching Tuesdays',
+          items: [
+            'classes/assembly-line/2020-assembly-line-assignment-1'
+          ]
+        },
       ]
     },
     {
