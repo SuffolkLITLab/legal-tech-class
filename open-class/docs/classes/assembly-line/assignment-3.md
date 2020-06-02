@@ -52,8 +52,11 @@ In our document, we marked the variable with `{{ user_name }}`. The text
 `{{user_name}}` is replaced with the name the user gives us during the
 interview.
 
-There are different ways to add an attachment to a question. We're using the style
-that embeds 
+There are different ways to add an
+[attachment](https://docassemble.org/docs/documents.html#attachment) to a
+question. Above, we're using the style that embeds a thumbail of the document
+right in the page. We also assigned a `variable name` to the attachment so we
+can re-use the same attachment in multiple places.
 
 ### What is a Docx Template?
 
@@ -147,6 +150,10 @@ Yours sincerely,
 address block, including their name. In a PDF, we would have had to code as many
 as six different fields to show the same information.
 
+Above we use the second kind of attachment block, one that is part of a question. This style
+adds a fair amount of text and buttons around the attachment automatically. It also adds
+an email box by default, so that someone can send themselves a copy of the finished document.
+
 ## Using the built-in variables from the docassembly line project in your interview
 
 Take a look at the list of variables in the [Docassembly Line Documentation](https://github.com/SuffolkLITLab/doc-assembly-line/blob/master/internal_object_names.md).
@@ -195,6 +202,7 @@ Signed {{ signature_date}}
 
 ## Further reading
 
+1. The [attachment](https://docassemble.org/docs/documents.html#attachment) block
 1. [Docx Templates](https://docassemble.org/docs/documents.html#docx%20template%20file)
 1. [Docassemble tutorial](https://docassemble.org/docs/helloworld.html)
 1. [Jinja reference](https://jinja.palletsprojects.com/en/2.11.x/) (this is
