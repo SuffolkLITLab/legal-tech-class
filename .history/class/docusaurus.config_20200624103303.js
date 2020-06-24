@@ -2,26 +2,26 @@ const mermaid = require('remark-mermaid')
 // var vfile = require('to-vfile');
 
 module.exports = {
-  title: 'Docassemble Open Class',
-  tagline: 'A collaboratively-built class for teaching Docassemble',
-  url: 'https://nonprofittechy.github.io',
-  baseUrl: '/docassemble-class/',
+  title: 'Legal Tech Class',
+  tagline: 'A collaboratively-built class for teaching legal technology',
+  url: 'https://suffolklitlab.github.io',
+  baseUrl: '/legal-tech-class/',
   favicon: 'img/favicon.ico',
-  organizationName: 'nonprofittechy', // Usually your GitHub org/user name.
-  projectName: 'docassemble-class', // Usually your repo name.
+  organizationName: 'suffolklitlab', // Usually your GitHub org/user name.
+  projectName: 'legal-tech-class', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Docassemble Class',
+      title: 'Legal Tech Class',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Gavel with digital waveform',
+        src: 'img/icons8-law-96.png',
       },
       links: [
-        {to: 'docs/introduction', label: 'Docs', position: 'left'},
+        {to: 'docs/introduction', label: 'Textbook', position: 'left'},
         /*{to: 'blog', label: 'Blog', position: 'left'},*/
         {to: 'docs/classes/2020-law-smart-machines', label: 'Classes', position: 'left'},
         {href: 'https://docassemble.org/docs.html',
-         label: 'Official Documentation',
+         label: 'Official Docassemble Documentation',
          position: 'left'
         },
         {
@@ -53,24 +53,42 @@ module.exports = {
           ],
         },
         {
-          title: 'Social',
+          title: 'More information',
           items: [
             {
-              label: 'Blog',
+              label: 'About the Editor',
               href: 'https://nonprofittechy.com',
             },
             {
+              label: "About the LIT Lab",
+              href: "https://suffolklitlab.org",
+            },
+            {
               label: 'GitHub',
-              href: 'https://github.com/nonprofittechy/docassemble-class',
+              href: 'https://github.com/suffolklitlab/legal-tech-class',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/qsteenhuis',
+              href: 'https://twitter.com/suffolklitlab',
             },
           ],
         },
+        {
+          title: "Image Credits",
+          items: [
+            {
+              label: "Icons made by Freepik",
+              href: "https://www.flaticon.com/authors/freepik",
+            },
+            {
+              label: "Icons made by Freepik",
+              href: "https://www.flaticon.com/free-icon/excavator_975574",
+            },
+
+          ],
+        }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Quinten Steenhuis. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Quinten Steenhuis and open source contributors. Built with Docusaurus. <a target="_blank" href="https://icons8.com/icons/set/law">Law icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>`,
     },
   },
   presets: [
@@ -80,7 +98,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/nonprofittechy/docassemble-class/edit/master/open-class/',
+            'https://github.com/suffolklitlab/legal-tech-class/edit/master/class/',
           remarkPlugins: [[mermaid,{ simple: true }]], // Plugin for remark-mermaid to generate UML diagrams
         },
         theme: {
