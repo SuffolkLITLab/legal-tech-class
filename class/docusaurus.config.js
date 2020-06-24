@@ -24,13 +24,9 @@ module.exports = {
         {to: 'docs/classes/class-overview', 
         label: 'Classes', 
         position: 'left'},
-        {href: 'https://docassemble.org/docs.html',
-         label: 'Official Docassemble Documentation',
-         position: 'left'
-        },
         {
           href: "https://suffolklitlab.org",
-          label: "Suffolk University LIT Lab",
+          label: "Suffolk Law School LIT Lab",
           position: "right",
         },
         {

@@ -5,19 +5,6 @@ sidebar_label: Hello, World
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## Before you get started
-
-We will discuss the first few sections of this assignment in class. To refresh
-your memory and reflect on your own, I recommend skimming the [Overview of
-Docassemble](introduction.md), Description of [YAML](yaml.md), and the section
-describing [Mako](mako.md). If you run into any trouble, please ask for help on
-the A2J Slack channel.
-
-Watch the video below to learn how to create an account on our Docassemble server and
-on [GitHub.com](https://github.com).
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TcQChDCgv30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## What is Docassemble?
 
 Docassemble is a system for running interactive questionnaires. It uses several
@@ -187,42 +174,3 @@ to show the beginning and end of the `if` statement.
 
 1. Modify the Hello, World exercise so that it ask for the user's first and last
    names separately.
-
-## Working with GitHub
-
-One of the powerful features of Docassemble is its integration with
-[GitHub](https://github.com). GitHub is like track changes on steroids. It helps
-people work in teams and to let an individual keep track of the history of a
-project, which is important for solving bugs.
-
-The DocAssembly Line use GitHub.
-
-Watch this video again to learn how to create a GitHub account.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TcQChDCgv30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-For our exercise today, we'll work with this
-[repository](https://github.com/SuffolkLITLab/docassemble-teachingtuesday).
-
-In the Playground, visit the Packages folder.
-
-<img alt="Packages Menu" src={useBaseUrl('img/folders_packages.png')} />
-
-Pull the repository into the playground.
-
-<img alt="Pull Package" src={useBaseUrl('img/Playground_Pull.png')} />
-
-Click back. Switch to the file `plain_language_experiment.yml`. Edit the text in
-the Playground, following the instructions that are right in the file.
-
-Go back to the Packages menu. Now, you can click the Github button to add your
-changes back on the repository. Make your changes in a **new branch**. Add your
-github username to the branch name. Branch names can include hyphens, but not
-spaces.
-
-<img alt="Pull Package" src={useBaseUrl('img/github_new_branch.png')} />
-
-Add a brief "commit message". A commit message is a short note that explains
-what you changed since the last time you sent code to GitHub in this repository.
-
-Click the "Commit" button to send your changes to GitHub.
