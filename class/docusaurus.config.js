@@ -13,8 +13,8 @@ module.exports = {
     navbar: {
       title: 'Legal Tech Class',
       logo: {
-        alt: 'Gavel with digital waveform',
-        src: 'img/icons8-law-96.png',
+        alt: 'LIT Lab',
+        src: 'img/blue_logo.png',
       },
       links: [
         {to: 'docs/about-legal-tech-class', 
@@ -29,7 +29,12 @@ module.exports = {
          position: 'left'
         },
         {
-          href: 'https://github.com/nonprofittechy/docassemble-class',
+          href: "https://suffolklitlab.org",
+          label: "Suffolk University LIT Lab",
+          position: "right",
+        },
+        {
+          href: 'https://github.com/SuffolkLITLab/legal-tech-class',
           label: 'GitHub',
           position: 'right',
         },
