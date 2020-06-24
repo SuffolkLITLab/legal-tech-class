@@ -3,7 +3,8 @@ The aim of this project is to create a collaboratively built textbook for teachi
 
 [Quinten Steenhuis](https://nonprofittechy.com) is the author and editor of almost all of the content as of 2020, so the material
 reflects his interests and biases. However, he hopes to encourage collaboration from many sources, and the material will
-start to become a centralized library reflecting many overlapping goals.
+start to become a centralized library reflecting many overlapping goals. Several people have contributed thoughts and ideas
+on [this Trello board](https://trello.com/b/Fz9PIm2g/project-materials).
 
 All content is released under a Creative Commons [Non-commercial Attribution/Share-alike license](https://creativecommons.org/licenses/by-nc-sa/2.0/).
 
