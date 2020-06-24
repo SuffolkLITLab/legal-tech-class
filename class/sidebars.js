@@ -136,6 +136,8 @@ module.exports = {
       label: 'Classes',
       items: [
         'classes/class-overview',
+        'classes/other-classes',
+        'classes/resources',
         {
           type: 'category',
           label: 'Lawyering in the Age of Smart Machines',

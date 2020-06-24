@@ -10,9 +10,10 @@ sidebar_label: Other Classes
 maintained by [John Mayer](https://www.cali.org/user/138) at the [Center for
 Computer Asssisted Legal Instruction](https://cali.org).
 
-### Docassemble-specific courses on Github
+### Docassemble-specific courses
 
 * [University of Alberta, Coding the Law](https://github.com/Gauntlet173/CodingTheLaw)
+* [Flinders University, Adelaide, Law in a Digital Age](https://github.com/LLAW3301)
 
 ## Other Open Course Concepts
 
