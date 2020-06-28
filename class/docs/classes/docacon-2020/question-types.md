@@ -1,3 +1,9 @@
+---
+id: question-types
+title: Question Types
+sidebar_label: Question Types
+---
+
 So far we've only looked at one type of question - single text. Docassemble
 comes pre-loaded with many different question types that give you options 
 on how to ask users for information, as well as how to present options to 
@@ -106,3 +112,5 @@ fields:
 ## Your assignment
 
 1. Modify your Hello, World exercise so that it uses three different question types.
+
+Sam Harden, June 2020

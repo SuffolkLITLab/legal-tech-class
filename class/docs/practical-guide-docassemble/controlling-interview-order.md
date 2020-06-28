@@ -138,3 +138,15 @@ is shown. But docassemble pauses on the "results" screen indefinitely.
 
 ## The interview order block
 
+I often call the code block that I use to control question order the "interview order" block.
+There is no official name for it; in HotDocs and its predecessors, this would be called the
+INTERVIEW computation. Here's an example:
+
+```yaml
+---
+mandatory: True
+code: |
+
+```
+
+Quinten Steenhuis, June 2020

@@ -163,6 +163,8 @@ module.exports = {
           label: 'Docacon 2020',
           items: [
             'classes/docacon-2020/hello-world',
+            'classes/docacon-2020/logic',
+            'classes/docacon-2020/question-types',
             'classes/docacon-2020/customizing-appearance',
             'classes/docacon-2020/working-with-docx',
           ]

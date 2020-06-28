@@ -1,3 +1,8 @@
+---
+id: logic
+title: Logic
+sidebar_label: Logic
+---
 
 ### Introducing logic
 
@@ -124,3 +129,6 @@ fields:
 
 1. Modify the Hello, World exercise so that it ask for the user's first and last
    names separately.
+
+
+Quinten Steenhuis, June 2020
