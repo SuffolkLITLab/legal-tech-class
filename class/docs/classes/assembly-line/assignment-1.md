@@ -28,10 +28,9 @@ you need to do so.
 
 ## Introduction to the Docassemble Playground
 
-We will use the Docassemble playground for all exercises. Log in to the
-Docassemble server at https://apps-dev.suffolklitlab.com. When you are loggged
-in, click on your email address, and then select the Playground option to reach the
-Playground.
+We will use the Docassemble playground for all exercises. Log in to your
+Docassemble server. When you are loggged in, click on your email address, and
+then select the Playground option to reach the Playground.
 
 <img alt="Overview of the Docassemble Playground" src={useBaseUrl('img/playground_window.png')} />
 
