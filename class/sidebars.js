@@ -141,6 +141,16 @@ module.exports = {
         'classes/resources',
         {
           type: 'category',
+          label: 'Legal Tech for Small Firms',
+          items: [
+            'classes/small-firms/2020-legal-tech-small-firms',
+            'classes/small-firms/2020-legal-tech-small-firms-syllabus',
+            'classes/small-firms/2020-legal-tech-small-firms-assignments',
+            'classes/small-firms/2020-legal-tech-small-firms-rubric'
+          ]
+        },
+        {
+          type: 'category',
           label: 'Lawyering in the Age of Smart Machines',
           items: ['classes/2020-law-smart-machines',
             'classes/law-smart-machines-final-project',

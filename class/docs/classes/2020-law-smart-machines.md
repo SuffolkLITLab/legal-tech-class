@@ -5,13 +5,35 @@ sidebar_label: |
     Suffolk Law School Spring 2020: Lawyering in the Age of Smart Machines
 ---
 
-It's often said that the best way to learn something is to teach it, and in this course you will teach legal rules to the simplest learner that exists: a computer. I hope that you leave the course with a "programmer's mindset" to solving problems even if you never code again.
+It's often said that the best way to learn something is to teach it, and in this
+course you will teach legal rules to the simplest learner that exists: a
+computer. I hope that you leave the course with a "programmer's mindset" to
+solving problems even if you never code again.
 
-As part of this class, you will be asked to write computer code or to create an application using a drag-and-drop coding platform. Some of you may already have experience with computer programming, but this will be an unfamiliar task to many of you. Your most important job will be to think through the logic of a problem, break it into small components, and lay the tasks out in an appropriate order. Details of syntax may trip you up, and when they do, I ask you to reach out to me or your classmates for help without embarassment. Learning the technological tools is important, but not as important as walking away with a strong understanding of the concepts and techniques involved in solving a legal problem with technology. Please make sure you ask for help if you are stuck. You will not be penalized for having questions.
+As part of this class, you will be asked to write computer code or to create an
+application using a drag-and-drop coding platform. Some of you may already have
+experience with computer programming, but this will be an unfamiliar task to
+many of you. Your most important job will be to think through the logic of a
+problem, break it into small components, and lay the tasks out in an appropriate
+order. Details of syntax may trip you up, and when they do, I ask you to reach
+out to me or your classmates for help without embarassment. Learning the
+technological tools is important, but not as important as walking away with a
+strong understanding of the concepts and techniques involved in solving a legal
+problem with technology. Please make sure you ask for help if you are stuck. You
+will not be penalized for having questions.
 
-The computer code may be the most time-consuming part of this course, but we will spend a large amount of class time putting legal technology in context. We will discuss what it means for the future of the legal profession; how it is impacting today's legal practice across small and solo firms, public interest firms and corporate firms; the risks and benefits of legal automation and the ethical implications thereof; and the implications of legal technology for democratizing law and reducing the access to justice gap.
+The computer code may be the most time-consuming part of this course, but we
+will spend a large amount of class time putting legal technology in context. We
+will discuss what it means for the future of the legal profession; how it is
+impacting today's legal practice across small and solo firms, public interest
+firms and corporate firms; the risks and benefits of legal automation and the
+ethical implications thereof; and the implications of legal technology for
+democratizing law and reducing the access to justice gap.
 
-We will have a variety of guest speakers in this class, representing the public interest, corporate, and academic perspectives on legal technology. Guest names and bios will be provided in advance. You can also check the online version of this syllabus which will be updated when speakers are lined up.
+We will have a variety of guest speakers in this class, representing the public
+interest, corporate, and academic perspectives on legal technology. Guest names
+and bios will be provided in advance. You can also check the online version of
+this syllabus which will be updated when speakers are lined up.
 
 No programming experience or other technical background is required.
 
@@ -49,7 +71,12 @@ What career paths are available for technologically savvy lawyers |	Describe the
 
 Students will be evaluated in the following areas: 
 
-There will be a modest amount of background reading and/or online video for most classes.  But the key requirement in this course is to make something that does useful legal work – i.e., a software application that assists someone with a non-trivial legal task.  That will require analyzing, designing, planning, and managing a project.  See the Project Work column in the course schedule below for more details.  Important advice:  Start Early!  Backup your work frequently!
+There will be a modest amount of background reading and/or online video for most
+classes.  But the key requirement in this course is to make something that does
+useful legal work – i.e., a software application that assists someone with a
+non-trivial legal task.  That will require analyzing, designing, planning, and
+managing a project.  See the Project Work column in the course schedule below
+for more details.  Important advice:  Start Early!  Backup your work frequently!
 
 ### Grading/Evaluation
 You will be evaluated in the following areas: 
