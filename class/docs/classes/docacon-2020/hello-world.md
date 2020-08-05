@@ -106,5 +106,10 @@ this: `${variable_name}`.
 > mandatory. Because the mandatory question requires the variable `user_name`,
 > Docassemble automatically asks the first question that provides a definition.
 
+## Your assignment
+
+1. Modify the Hello, World exercise so that it ask for the user's first and last
+   names separately.
+
 Quinten Steenhuis, June 2020
 Sam Harden, June 2020

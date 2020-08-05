@@ -127,8 +127,11 @@ fields:
 
 ## Your assignment
 
-1. Modify the Hello, World exercise so that it ask for the user's first and last
-   names separately.
-
+1. Modify the Logic exercise so that a new secret message is displayed when a
+   name of your choice is displayed.
+2. Stretch goal: make all of the secret messages work regardless of how the user
+   capitalizes their name. Hint: using the
+   [`.lower()`](https://www.w3schools.com/python/ref_string_lower.asp) method of a
+   Python string should help you out.
 
 Quinten Steenhuis, June 2020

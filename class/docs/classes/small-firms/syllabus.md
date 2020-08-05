@@ -14,7 +14,9 @@ Twitter: https://twitter.com/qsteenhuis
 Website: https://nonprofittechy.com
 
 ### Course Information
-Meetings: Mondays, 2:00-3:50  
+
+Meetings: Mondays, 2:00-3:50 via [Zoom
+  ](https://sumail-my.sharepoint.com/:w:/g/personal/qsteenhuis_adm_suffolk_edu/EXqiagBAmUVDgsfJD-VGzRMBGNyQe45bZ7AMhpfPBL2gNw?e=iyfWTc)  
 Prerequisites: None
 
 ### Materials
@@ -57,6 +59,44 @@ Know how to break down a process analytically into component parts |	Map a proce
 How to build a software application that does useful legal work |	Identify a legal technology need, work with clients to create a project scope, develop software requirements and automate a single process from start to finish |	Final project; interim assignments
 How to model legal knowledge and reasoning |	Break a legal rule or piece of legal knowledge into discrete, automatable components using diagrams and software tools |	Assessments and in-class discussions
 What career paths are available for technologically savvy lawyers |	Describe the many roles of technology in the legal practice and how technical knowledge can assist in different job functions	|In-class discussion
+
+## Learning to fail
+
+In many law school classes, you get a single high stakes test at the end of the
+semester. As a litigator, you may also have a single opportunity to make your
+case.
+
+Software development is not like that. The process of computer programming often
+involves repeatedly running into errors. Errors are an opportunity to learn. In
+addition, creating a successful product requires iteration. The first draft is
+often the first chance to do real discovery about what works and what does not
+work.
+
+As new coders, you will need to ask a lot of questions. I will never "hide the
+ball" or refuse to answer direct questions. Questions are part of the learning
+process, especially for new coders. Failing to ask questions may frustrate and
+slow you down. My rule of thumb is if you have 30 minutes without progress,
+ask a question.
+
+Software development is a highly results-oriented domain. It is not just okay,
+but expected to use libraries, prewritten code, and samples to reduce
+reinvention of basic components of your product. I expect each student to
+produce unique work, but not to waste time rewriting code that already works to
+achieve a goal.
+
+Being successful in this class means:
+
+* Asking for help and feedback early. You will not be graded negatively if you
+  don't understand everything right away. It's expected to need to ask many
+  questions early on.
+* Accepting that you will run into errors and perhaps complete dead ends
+* Your first draft will look very different from your final product
+* It is not just okay, but an important part of the process to collaborate,
+  share early drafts, and gather feedback.
+
+Software development is a creative endeavor that can be truly exhilarating.
+There is the struggle of creation and then the excitement and joy of producing
+something that can live on in the world. Most of all, it should be fun.
 
 ## Online learning expectations
 
@@ -133,3 +173,11 @@ looking for ways to improve.  Therefore, mid-course corrections should be
 anticipated! This online version will be the most "up to date," so if you print
 this, just be aware that the "official" version will be the digital version
 available at this web page.
+
+### Weekly Assignments
+
+[Assignments](assignments.md)
+
+### Final project
+
+[Final Project](rubric.md)
