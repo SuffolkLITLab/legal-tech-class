@@ -18,7 +18,9 @@ Before class:
 
 After class:
 
-3. Write a brief reflection about the readings and class discussion.
+3. Write a [brief
+   reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQUQzWDBYVllDMVJSVUk3Q01FV0NZSlBOMy4u)
+   about the readings and class discussion.
 
 ## Week 2, 8/31: Clio Session 1
 
@@ -32,30 +34,33 @@ Spend some time working through Clio Products Essentials Course.  You needn't
 have finished it by this point, but the more you do in advance of 8/31, the more
 meaningful this session will be.
 
-After class: write a brief reflection.
+After class: [write a brief
+reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUNFc1MkNLM0hNOTNDVTJUSDkxOVUyNkYxSS4u).
 
 ## 9/7 Labor Day, no class
 
-This may be a good week to get started with the [Legal Tech
-Assessment](https://ltaweb.azurewebsites.net/), which is due on the final day of
-class.
+Enjoy the holiday! After Monday, this may be a good week to get started with the
+[Legal Tech Assessment](https://ltaweb.azurewebsites.net/), which is due on the
+final day of class.
 
 Expect to spend a few days working through the training and assessment portions.
 You can retake the assessment portion as needed.
 
-## Week 3 9/14: Guest Speaker: Diego Alcala
+## Week 3 9/14: Guest Speaker: Diego Alcala. Assessing legal technology
 
 Before class, please read Diego's website, [Defensoria Legal](https://www.defensorialegal.com/about)
 
 Come prepared with questions.
 
-After class: write a brief reflection.
+After class: [write a brief
+reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUOFNUUDRDQkw2UlQ3VzZLQVFDT0lPV1lRQS4u)
 
 ## Week 4 9/21: Community Lawyer Basic Skills
 
 Spend some time on Community.Lawyer, which is a free tool for building automated documents.  
 
-After class: write a brief reflection.
+After class: [write a brief
+reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUREZGN0g1VzQ0QUg5Sk0wT0lFUjlUTTRJSC4u).
 
 ## Week 5 9/28: Hello, World in Docassemble
 
@@ -66,12 +71,13 @@ and allows much more advanced automations. It is also completely free and
 customizable, but takes more time and experience to develop in and to host.
 
 Make sure you have an account on the Suffolk LIT Lab Docassemble server,
-https://apps-dev.suffolklitlab.org. NOTE: this server is for Suffolk Law Students,
-only.
+https://apps-dev.suffolklitlab.org. NOTE: this server is for Suffolk Law
+Students, only.
 
-Follow-along with the training from this year's Docacon below. **You only need to listen until
-about 1:45**, which covers the Hello, World exercise and the logic section. You can skip the Docx
-example which takes place in the second half of the training.
+Follow-along with the training from this year's Docacon below. **You only need
+to listen until about 1:45**, which covers the Hello, World exercise and the
+logic section. You can skip the Docx example which takes place in the second
+half of the training.
 
 The video includes breaks, questions, and introduction which you do not need to
 watch. Feel free to watch at a higher speed as well.
@@ -90,21 +96,25 @@ and the
 [Logic](https://suffolklitlab.org/legal-tech-class/docs/classes/docacon-2020/logic#your-assignment)
 sections of the training.
 
-Turn in a hello_world.yml and logic.yml file via the Microsoft Form.
+Turn in a hello_world.yml and logic.yml file via [the Microsoft
+Form](https://forms.office.com/Pages/ShareFormPage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFURUJIQ1NYUFNXM1pMWlhIS0hTOVRCUzJaQy4u&sharetoken=O1ZBtGGZvuhPGE84Bhse).
 
 ## Week 6 10/5: Clio Session 2, Timekeeping, billing, and accounting
 
-After class: write a brief reflection.
+After class: [write a brief
+reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUMklGRFRJVkNJQjk0MVRTMlYxRVpIVTM0Ti4u).
 
 ## Week 7 10/13: Building Your Own Chatbot
 
 **Monday schedule, class meets at regular time on Tuesday**
 
-Go to qnamarkup.org.  Read the syntax and watch the video intro.
+Go to [qnamarkup.org](https://qnamarkup.org).  Read the syntax and watch the video intro.
 
-Open THIS file for our class activity.
+Open [THIS
+file](https://docs.google.com/document/d/1Iz8ZOwNa3ORm9APnHYvyXV21ESLTwzJmAjevT_Wgu-4/edit?usp=sharing)
+for our class activity.
 
-After class: write a brief reflection.
+After class: [turn in your work](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQTcwVzgyT0JJOVpQTUU2Tk5QVzJNMzM2Vi4u).
 
 ## Week 8 10/19: Free Tool Fiesta
 
@@ -113,14 +123,16 @@ have identified that would be useful to small firms/solos.  Be able to show off
 how it works and answer questions about its features and the costs associated
 with it. Sign up here.
 
-You may find the following websites a good resource for identify free tools, but
-please expand your reach!
+You may find the following websites a good resource for identifying free tools,
+but please expand your reach!
 
 * https://techindex.law.stanford.edu/ 
 * https://www.lawsitesblog.com/ 
 
-
-FINAL PROJECT PROPOSAL DUE TODAY AT 2PM
+1. FINAL PROJECT PROPOSAL DUE TODAY AT 2PM. [Turn in your proposal
+   here](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUNTZLTTlaT0pSWkc1MFZIQTlBR01HMElXNS4u).
+2. Turn in a [brief
+   reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQ0NIOVBWQTZFT1VRMzJGNzhWWkk4RDlZWi4u).
 
 ## Week 9 10/26: Community Lawyer, Advanced Skills
 
@@ -128,6 +140,9 @@ For many students, using community.lawyer will make sense for their final
 project.  To prepare for this meeting, spend some time looking at
 community.lawyer's documentation for a sense of what questions you might have
 about how to build conditional logic into your app.
+
+Turn in a [brief
+reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUNVRFN0QxTVJJU1BMOEZYTVJPRVBTSzNQOS4u).
 
 ## Week 10  11/2: The Intersection of Design Thinking and Legal Work
 
@@ -140,11 +155,13 @@ Lab](https://law.stanford.edu/organizations/pages/legal-design-lab/) and read up
 on the various ways that they've used Design Thinking to solve challenging
 problems.
 
-After class: write a brief reflection.
+After class: [write a brief
+reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUNVhBT05XUVcwWVoxNEIxWEQwODI5OTBMNy4u).
 
 ## Week 11: 11/9: Alternative Legal Research Tools; use of AI in legal work
 
-CaseText demo and discussion with guest, Mike Whelan.
+Discussion with guest, Mike Whelan and author of [Lawyer
+Forward](https://www.lawyerforward.com/).
 
 Check out this post on [alternative legal research
 tools](https://guides.library.harvard.edu/alternatelegaldatabases) and click the
@@ -156,7 +173,13 @@ that are new to you, and one that you know well (such as Lexis/Westlaw).
 
 What do you like about the alternative tool? What is missing?
 
+[Write a brief
+reflection.](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUM01IM0QwMUlEMk41UkdKVkpCU1ZROUhIRC4u)
+
 ## Week 12 11/16: Clio Session 3: Document Automation
+
+[Write a brief
+reflection.](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUM0FLOTRURVdDVzM5RkEwMlZUQzlISUlaSi4u)
 
 ## Week 13 11/23: Presentation of student projects.
 

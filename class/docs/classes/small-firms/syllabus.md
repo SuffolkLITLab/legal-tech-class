@@ -117,7 +117,12 @@ each class.
 
 ## Assignments/Exams/Papers/Projects
 
-Students will be evaluated in the following areas: 
+This class takes the ABA requirements of 2 hours of outside class time per
+credit-hour seriously. Because this is a project class, we only meet once a
+week. In exchange for that extra day free, you should expect to spend a fair
+amount of time outside class, at least 6 hours on average, to keep up with
+readings and project work. Project work in particular can eat up as much time as
+you have available.
 
 There will be a modest amount of background reading and/or online video for most
 classes.  But the key requirement in this course is to make something that does
