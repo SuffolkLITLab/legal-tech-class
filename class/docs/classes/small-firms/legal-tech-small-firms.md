@@ -5,6 +5,10 @@ sidebar_label: |
     Suffolk Law School Fall 2020: Legal Technology for Small Firm Practice
 ---
 
+## Course number
+
+LAW-2156-AD
+
 ## About the Instructor
 Quinten Steenhuis, QSteenhuis@suffolk.edu
 
