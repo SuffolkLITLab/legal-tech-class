@@ -12,8 +12,8 @@ LAW-2156-AD
 ## About the Instructor
 Quinten Steenhuis, QSteenhuis@suffolk.edu
 
-Twitter: https://twitter.com/qsteenhuis  
-Website: https://nonprofittechy.com
+[Twitter](https://twitter.com/qsteenhuis)
+[Website](https://nonprofittechy.com)
 
 Meeting time: 2 PM - 3:50 PM, Mondays, Fall 2020
 
@@ -51,6 +51,7 @@ problem.
 * [CaseText](https://www.casetext.com)
 * [LIT Lab Docassemble Server](https://apps-dev.suffolklitlab.org) (For Suffolk Law School students only)
 * [Community.Lawyer](https://community.lawyer)
+* [QnAMarkup.org](https://www.qnamarkup.org/)
 * [Legal Tech Assessment](https://ltaweb.azurewebsites.net/)
 
 

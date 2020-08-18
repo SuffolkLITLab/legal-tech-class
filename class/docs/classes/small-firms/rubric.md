@@ -29,6 +29,22 @@ If you are not sure what project you want to work on, you can select a form
 from the [Doc Assembly Line](https://suffolklitlab.org/doc-assembly-line/)
 project.
 
+## Final presentation
+
+You will be asked to present your work to the class during our last class
+session. This does not need to be a completed project. You will still have 2
+weeks to finish your work. Your final presentation should be about 5 minutes,
+and include:
+
+1. A description of the problem you were trying to solve.
+1. A walkthrough of your ideation and research phases.
+1. A demonstration of your proposed solution.
+1. A discussion of your project's impact, and if applicable, testing.
+
+You are welcome but not required to incorporate slides and a live demo. It's
+okay if you only demo a few screens. Errors are to be expected but your final
+product that you turn in should run through to the end.
+
 ## Grading
 
 The final project can earn a total of 100 points, which

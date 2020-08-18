@@ -110,6 +110,10 @@ reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE
 
 Go to [qnamarkup.org](https://qnamarkup.org).  Read the syntax and watch the video intro.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RVhzQ1JVi3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Take 20 min to review the [Syntax page](https://www.qnamarkup.org/syntax/) and work through a few of the examples found in the [Quick Start Guide](https://www.qnamarkup.org/syntax/QnA_Quick_Start.pdf).
+
 Open [THIS
 file](https://docs.google.com/document/d/1Iz8ZOwNa3ORm9APnHYvyXV21ESLTwzJmAjevT_Wgu-4/edit?usp=sharing)
 for our class activity.

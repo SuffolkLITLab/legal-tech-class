@@ -10,8 +10,8 @@ sidebar_label: |
 ### Instructor
 Quinten Steenhuis, QSteenhuis@suffolk.edu
 
-Twitter: https://twitter.com/qsteenhuis  
-Website: https://nonprofittechy.com
+Twitter: [https://twitter.com/qsteenhuis](https://twitter.com/qsteenhuis)
+Website: [https://nonprofittechy.com](https://nonprofittechy.com)
 
 ### Course Information
 
@@ -62,6 +62,8 @@ What career paths are available for technologically savvy lawyers |	Describe the
 
 ## Learning to fail
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M1CHPnZfFmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 In many law school classes, you get a single high stakes test at the end of the
 semester. As a litigator, you may also have a single opportunity to make your
 case.
@@ -89,7 +91,7 @@ Being successful in this class means:
 * Asking for help and feedback early. You will not be graded negatively if you
   don't understand everything right away. It's expected to need to ask many
   questions early on.
-* Accepting that you will run into errors and perhaps complete dead ends
+* Accepting that you will run into errors and perhaps dead ends
 * Your first draft will look very different from your final product
 * It is not just okay, but an important part of the process to collaborate,
   share early drafts, and gather feedback.
@@ -97,6 +99,9 @@ Being successful in this class means:
 Software development is a creative endeavor that can be truly exhilarating.
 There is the struggle of creation and then the excitement and joy of producing
 something that can live on in the world. Most of all, it should be fun.
+
+[Learn more about growth
+mindset](https://abaforlawstudents.com/2017/09/12/growth-mindset-law-school-success/)
 
 ## Online learning expectations
 
