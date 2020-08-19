@@ -13,7 +13,7 @@ Before class:
  
 2. Read Troman's short article, "Law Firms Are Inefficiency Factories,
    Automation is the Cure"
-   (https://www.artificiallawyer.com/2018/06/11/law-firms-are-inefficiency-factories-automation-is-the-cure/).
+   (https://www.artificiallawyer.com/2018/06/11/law-firms-are-inefficiency-factories-automation-is-the-cure/), [perma.cc](https://perma.cc/3S2F-R3Q3).
    Be prepared to discuss it.
 
 After class:

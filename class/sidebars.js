@@ -17,7 +17,8 @@ module.exports = {
     {
       type: 'category',
       label: 'Legal Technology Overview',
-      items: ['legal-tech-overview/legal-tech-overview'],
+      items: ['legal-tech-overview/legal-tech-overview',
+              'legal-tech-overview/substantive-vs-non-substantive'],
     },
     {
       type: 'category',
