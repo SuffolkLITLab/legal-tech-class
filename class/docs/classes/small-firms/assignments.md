@@ -22,17 +22,26 @@ After class:
    reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQUQzWDBYVllDMVJSVUk3Q01FV0NZSlBOMy4u)
    about the readings and class discussion.
 
-## Week 2, 8/31: Clio Session 1
+## Week 2, 8/31: Introduction to Case Management Systems
 
-Read the 2018 and 2019 Clio Trends Reports and the Covid impact report.
+**This week**: Start working on the Clio University (16 courses, CPE01-16).
+The completed Clio coursework is due by the end of the semester. It should take
+between 5-10 hours. You will be very busy at the end of the semester, so please
+start it early.
 
-If you prefer not to register to download the report, I will send a PDF.
+Before class, read
+* [The Ins and Outs of Practice Management Systems](https://www.abajournal.com/news/article/the-ins-and-outs-of-law-practice-management-software)
+* [10 Reasons to Use Practice Management Software](https://abovethelaw.com/2016/10/this-week-in-legal-tech-10-reasons-you-should-use-practice-management-software/)
+* [Clio 2019 Legal Trends Report](https://www.clio.com/resources/legal-trends/2019-report/read-online/)
+* [July Update, Clio COVID-19 Impact Report](https://www.clio.com/resources/legal-trends/covid-impact/)
 
-https://www.clio.com/resources/legal-trends/covid-impact/ 
-
-Spend some time working through Clio Products Essentials Course.  You needn't
-have finished it by this point, but the more you do in advance of 8/31, the more
-meaningful this session will be.
+Focus questions:
+* What aspects of technology did the report say are most underused by lawyers?
+      * Did anything surprise you in this list?
+      * What do you think would be the biggest advantage for a lawyer to learn?
+* What is the lawyer's funnel?
+* What surprised you about how lawyers spend their day?
+* Based on what you learned from the report, how would you work to get clients?
 
 After class: [write a brief
 reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUNFc1MkNLM0hNOTNDVTJUSDkxOVUyNkYxSS4u).
@@ -50,7 +59,11 @@ You can retake the assessment portion as needed.
 
 Before class, please read Diego's website, [Defensoria Legal](https://www.defensorialegal.com/about)
 
-Come prepared with questions.
+Additional readings to come-please stay tuned if you are reading ahead.
+
+Come prepared with at least 3 questions. [Submit your questions in advance of class](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQVMwWFdMS1pOSDUxS1BTVDRTWFI4UTQ3SS4u).
+
+[View the questions others have submitted](https://forms.office.com/Pages/AnalysisPage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQVMwWFdMS1pOSDUxS1BTVDRTWFI4UTQ3SS4u&AnalyzerToken=vWYAdv2BDIzd38dz7cyjYlccWKVzFQ5A)
 
 After class: [write a brief
 reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUOFNUUDRDQkw2UlQ3VzZLQVFDT0lPV1lRQS4u)
@@ -87,7 +100,7 @@ text book](classes/docacon-2020/hello-world).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lsh_2qmTSAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-We will meet for a shorter period, 30 minutes, this week to answer your questions about
+We will meet for a shorter period, 60 minutes, this week to answer your questions about
 the Hello, World exercise.
 
 After class: do the stretch goals for both the [Hello,
@@ -128,7 +141,7 @@ how it works and answer questions about its features and the costs associated
 with it. Sign up here.
 
 You may find the following websites a good resource for identifying free tools,
-but please expand your reach!
+but please expand your search!
 
 * https://techindex.law.stanford.edu/ 
 * https://www.lawsitesblog.com/ 
@@ -167,6 +180,10 @@ reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE
 Discussion with guest, Mike Whelan and author of [Lawyer
 Forward](https://www.lawyerforward.com/).
 
+Before class: [submit](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUMFFMMzdDNjVTQko5QzFRSlAxUkVPVkxORC4u) up to 3 questions for Mike.
+
+[View your classmates suggestions](https://forms.office.com/Pages/AnalysisPage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUMFFMMzdDNjVTQko5QzFRSlAxUkVPVkxORC4u&AnalyzerToken=xHEt9BpbmzMPIKNqt9LLiqONeTq4mxyR).
+
 Check out this post on [alternative legal research
 tools](https://guides.library.harvard.edu/alternatelegaldatabases) and click the
 links/watch the embedded videos.
@@ -200,6 +217,8 @@ the presentation.
 Come prepared to present/provide constructive critique of classmates' work.
 
 Legal Tech Assessment is due.
+
+Clio University materials are due.
 
 ## November 30th: No class, Wednesday Schedule.
 

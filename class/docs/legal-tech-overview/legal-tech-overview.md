@@ -170,9 +170,11 @@ side as well.
 ## Read more
 
 * https://techindex.law.stanford.edu/
+* https://www.legaltechinnovation.com/
 * https://law-tech-a2j.org/law-tech/access-to-justice-tech-towards-a-taxonomy/
 * https://buyersguide.americanbar.org/sites
 * https://www.lexology.com/library/detail.aspx?g=16d4c040-b200-498f-a5b1-a61c11a8d0f4
+* https://www.event.law.com/legalweek/legaltech-exhibitors
 
 
 Author: Quinten Steenhuis, August 2020

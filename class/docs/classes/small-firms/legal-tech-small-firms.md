@@ -42,12 +42,13 @@ problem.
 * [Class Zoom
   session](https://sumail-my.sharepoint.com/:w:/g/personal/qsteenhuis_adm_suffolk_edu/EXqiagBAmUVDgsfJD-VGzRMBGNyQe45bZ7AMhpfPBL2gNw?e=iyfWTc)
   (Must be logged in with Suffolk University account to view)
+* [Class Notebook](https://sumail-my.sharepoint.com/:o:/g/personal/qsteenhuis_adm_suffolk_edu/Eh87_fq9XfpItNZonOuSA7gBv-7xNlePabE_CihbzmcCuw?e=GNAtgS)
 * [Slack](https://suffolklitlab.slack.com/) (Join the channel `#2020-legal-tech-small-firm-practice`)
 * [Textbook](about.md)
 
 ## Resources
 
-* [Clio](https://www.clio.com)
+* [Clio](https://www.clio.com), [Clio University](https://cliouniversity.learnupon.com/)
 * [CaseText](https://www.casetext.com)
 * [LIT Lab Docassemble Server](https://apps-dev.suffolklitlab.org) (For Suffolk Law School students only)
 * [Community.Lawyer](https://community.lawyer)
@@ -55,4 +56,5 @@ problem.
 * [Legal Tech Assessment](https://ltaweb.azurewebsites.net/)
 
 
+[,](class-outline.md)
 [.](https://sumail-my.sharepoint.com/:x:/r/personal/qsteenhuis_adm_suffolk_edu/_layouts/15/Doc.aspx?sourcedoc=%7B47202EE2-4DB6-46CD-8E17-2AFF11FAA0BF%7D&file=Book.xlsx&action=editnew&mobileredirect=true&wdNewAndOpenCt=1596231400136&wdPreviousSession=c1ff47cf-3f76-4147-8f0f-7224fa6e2387&wdOrigin=OFFICECOM-WEB.START.NEW)
