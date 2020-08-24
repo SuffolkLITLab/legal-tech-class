@@ -113,3 +113,7 @@ Focus questions:
 * Based on what you learned from the report, how would you work to get clients?
 
 ## Make sure everyone can login to Clio (10 minutes)
+
+## Hands-on exercise
+
+* Work through the CPE-03, Contacts

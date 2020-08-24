@@ -24,10 +24,10 @@ After class:
 
 ## Week 2, 8/31: Introduction to Case Management Systems
 
-**This week**: Start working on the Clio University (16 courses, CPE01-16).
-The completed Clio coursework is due by the end of the semester. It should take
-between 5-10 hours. You will be very busy at the end of the semester, so please
-start it early.
+**During class**: Start working on the Clio University (16 mini "courses",
+CPE01-16). The completed Clio coursework is due by the end of the semester. It
+should take between 5-10 hours to go through all of the exercises. You will be
+very busy at the end of the semester, so please start it early.
 
 Before class, read
 * [The Ins and Outs of Practice Management Systems](https://www.abajournal.com/news/article/the-ins-and-outs-of-law-practice-management-software)
@@ -37,8 +37,8 @@ Before class, read
 
 Focus questions:
 * What aspects of technology did the report say are most underused by lawyers?
-      * Did anything surprise you in this list?
-      * What do you think would be the biggest advantage for a lawyer to learn?
+   * Did anything surprise you in this list?
+   * What do you think would be the biggest advantage for a lawyer to learn?
 * What is the lawyer's funnel?
 * What surprised you about how lawyers spend their day?
 * Based on what you learned from the report, how would you work to get clients?
@@ -112,7 +112,12 @@ sections of the training.
 Turn in a hello_world.yml and logic.yml file via [the Microsoft
 Form](https://forms.office.com/Pages/ShareFormPage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFURUJIQ1NYUFNXM1pMWlhIS0hTOVRCUzJaQy4u&sharetoken=O1ZBtGGZvuhPGE84Bhse).
 
-## Week 6 10/5: Clio Session 2, Timekeeping, billing, and accounting
+## Week 6 10/5: Introduction to Microsoft Forms and Power Automate; Discussion about billing, accounting, and business aspects of running a law firm
+
+In class:
+
+1. Build an intake form with branching logic
+1. Add a calendar item
 
 After class: [write a brief
 reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUMklGRFRJVkNJQjk0MVRTMlYxRVpIVTM0Ti4u).
@@ -197,7 +202,7 @@ What do you like about the alternative tool? What is missing?
 [Write a brief
 reflection.](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUM01IM0QwMUlEMk41UkdKVkpCU1ZROUhIRC4u)
 
-## Week 12 11/16: Clio Session 3: Document Automation
+## Week 12 11/16: Document Automation with Clio
 
 [Write a brief
 reflection.](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUM0FLOTRURVdDVzM5RkEwMlZUQzlISUlaSi4u)
