@@ -70,7 +70,9 @@ reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE
 
 ## Week 4 9/21: Community Lawyer Basic Skills
 
-Spend some time on Community.Lawyer, which is a free tool for building automated documents.  
+Spend some time on Community.Lawyer, which is a free tool for building automated documents.The best way to get started with Community.lawyer is by completing their [Document Automation 101 tutorial](https://community.lawyer/document-automation-tutorial). 
+
+Need inspiration? Check out these [Case Studies](https://community.lawyer/case-studies) of how other legal services professionals are using Community.lawyer. Want to talk with the Community.lawyer team or meet others building legal practice automations, [join the Community.lawyer slack](https://community-lawyer.slack.com/join/shared_invite/zt-6b0n85g3-ieW_bJ3sOgm4wZ0ph_vFYA#/).  
 
 After class: [write a brief
 reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUREZGN0g1VzQ0QUg5Sk0wT0lFUjlUTTRJSC4u).
@@ -153,10 +155,12 @@ but please expand your search!
 
 ## Week 9 10/26: Community Lawyer, Advanced Skills
 
-For many students, using community.lawyer will make sense for their final
+For many students, using Community.lawyer will make sense for their final
 project.  To prepare for this meeting, spend some time looking at
-community.lawyer's documentation for a sense of what questions you might have
+[Community.lawyer's documentation](https://community.lawyer/help-guide) for a sense of what questions you might have
 about how to build conditional logic into your app.
+
+You should feel to reach out to the Community.lawyer team directly (there are buttons to schedule a call with Community.lawyer all over their website). They are available to help you think through how to structure your automation. 
 
 Turn in a [brief
 reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUNVRFN0QxTVJJU1BMOEZYTVJPRVBTSzNQOS4u).
