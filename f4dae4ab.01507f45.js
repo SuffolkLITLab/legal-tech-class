@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[87],{187:function(l){l.exports=JSON.parse('{"allTagsPath":"/legal-tech-class/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/legal-tech-class/blog/tags/hello"}')}}]);
