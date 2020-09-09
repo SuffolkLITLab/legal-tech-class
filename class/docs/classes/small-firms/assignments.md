@@ -30,8 +30,8 @@ should take between 5-10 hours to go through all of the exercises. You will be
 very busy at the end of the semester, so please start it early.
 
 Before class, read
-* [The Ins and Outs of Practice Management Systems](https://www.abajournal.com/news/article/the-ins-and-outs-of-law-practice-management-software)
-* [10 Reasons to Use Practice Management Software](https://abovethelaw.com/2016/10/this-week-in-legal-tech-10-reasons-you-should-use-practice-management-software/)
+* [The Ins and Outs of Practice Management Systems](https://www.abajournal.com/news/article/the-ins-and-outs-of-law-practice-management-software), [perma.cc](https://perma.cc/2Z9W-R478)
+* [10 Reasons to Use Practice Management Software](https://abovethelaw.com/2016/10/this-week-in-legal-tech-10-reasons-you-should-use-practice-management-software/), [perma.cc](https://perma.cc/3ERH-8E48)
 * [Clio 2019 Legal Trends Report](https://www.clio.com/resources/legal-trends/2019-report/read-online/)
 * [July Update, Clio COVID-19 Impact Report](https://www.clio.com/resources/legal-trends/covid-impact/)
 
@@ -57,27 +57,57 @@ You can retake the assessment portion as needed.
 
 ## Week 3 9/14: Guest Speaker: Diego Alcala. Assessing legal technology
 
-Before class, please read Diego's website, [Defensoria Legal](https://www.defensorialegal.com/about)
+We will spend the first 1/2 of class talking with Diego Alcala, a small firm and
+technology-oriented lawyer in Puerto Rico.
 
-Additional readings to come-please stay tuned if you are reading ahead.
+The second half we will discuss assessing legal software and software quality
+issues.
 
-Come prepared with at least 3 questions. [Submit your questions in advance of class](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQVMwWFdMS1pOSDUxS1BTVDRTWFI4UTQ3SS4u).
+Before class:
 
-[View the questions others have submitted](https://forms.office.com/Pages/AnalysisPage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQVMwWFdMS1pOSDUxS1BTVDRTWFI4UTQ3SS4u&AnalyzerToken=vWYAdv2BDIzd38dz7cyjYlccWKVzFQ5A)
+* Listen to [Evaluating Legal Technology Applications
+  (podcast)](https://legaltalknetwork.com/podcasts/law-technology-now/2020/03/evaluating-legal-technology-applications/)
+* Read Dan Linna: [Evaluating Legal Services: The Need for a Quality Movement
+  and Standard Measures of Quality and Value
+  ](https://www.legaltechlever.com/2020/03/evaluating-legal-services-the-need-for-a-quality-movement-and-standard-measures-of-quality-and-value-chapter-in-research-handbook-on-big-data-law/),
+  [perma.cc](https://perma.cc/7K9D-KBK3)
+* Read Diego's website, [Defensoria
+  Legal](https://www.defensorialegal.com/about)
+
+Come prepared with at least 3 questions. [Submit your questions in advance of
+class](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQVMwWFdMS1pOSDUxS1BTVDRTWFI4UTQ3SS4u).
+
+[View the questions others have
+submitted](https://forms.office.com/Pages/AnalysisPage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQVMwWFdMS1pOSDUxS1BTVDRTWFI4UTQ3SS4u&AnalyzerToken=vWYAdv2BDIzd38dz7cyjYlccWKVzFQ5A)
 
 After class: [write a brief
 reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUOFNUUDRDQkw2UlQ3VzZLQVFDT0lPV1lRQS4u)
 
 ## Week 4 9/21: Community Lawyer Basic Skills
 
-Spend some time on Community.Lawyer, which is a free tool for building automated documents.The best way to get started with Community.lawyer is by completing their [Document Automation 101 tutorial](https://community.lawyer/document-automation-tutorial). 
+Spend some time on Community.Lawyer, which is a free tool for building automated
+documents.The best way to get started with Community.lawyer is by completing
+their [Document Automation 101
+tutorial](https://community.lawyer/document-automation-tutorial). 
 
-Need inspiration? Check out these [Case Studies](https://community.lawyer/case-studies) of how other legal services professionals are using Community.lawyer. Want to talk with the Community.lawyer team or meet others building legal practice automations, [join the Community.lawyer slack](https://community-lawyer.slack.com/join/shared_invite/zt-6b0n85g3-ieW_bJ3sOgm4wZ0ph_vFYA#/).  
+Need inspiration? Check out these [Case
+Studies](https://community.lawyer/case-studies) of how other legal services
+professionals are using Community.lawyer. Want to talk with the Community.lawyer
+team or meet others building legal practice automations, [join the
+Community.lawyer
+slack](https://community-lawyer.slack.com/join/shared_invite/zt-6b0n85g3-ieW_bJ3sOgm4wZ0ph_vFYA#/).
+
 
 After class: [write a brief
 reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUREZGN0g1VzQ0QUg5Sk0wT0lFUjlUTTRJSC4u).
 
 ## Week 5 9/28: Hello, World in Docassemble
+
+Please make sure to allocate plenty of time before class to complete the exercises!
+
+* Try it at least a few days in advance
+* Ask for help on Slack if you get stuck
+
 
 **Before class**:
 
@@ -116,10 +146,42 @@ Form](https://forms.office.com/Pages/ShareFormPage.aspx?id=qT9zeA5UuE6_KXPE7rY0E
 
 ## Week 6 10/5: Introduction to Microsoft Forms and Power Automate; Discussion about billing, accounting, and business aspects of running a law firm
 
+Please make sure to allocate plenty of time before class to complete the exercises!
+
+* Try it at least a few days in advance
+* Ask for help on Slack if you get stuck.
+
+Before class:
+
+* **Read** ["Five ways to automate workflows"](https://www.attorneyatwork.com/five-ways-to-automate-workflows/)
+* ["Codeless Automation: IFTT vs Zapier vs Microsoft
+  Flow"](https://medium.com/better-programming/codeless-automation-ifttt-vs-zapier-vs-microsoft-flow-57d5bc56fc0e)
+* ["What is Microsoft Flow and how can I use
+  it?"](https://www.contentformula.com/blog/what-is-microsoft-flow-and-how-can-i-use-it/)
+
+* **Complete** the exercises under ["Getting Started with Microsoft Power
+  Automate"](https://docs.microsoft.com/en-us/learn/modules/get-started-flows/).
+  (11 modules, about 1.5 hours)
+* Complete the exercise at ["Create a form with Microsoft
+  Forms"](https://support.microsoft.com/en-us/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d)
+  (about 15 minutes)
+
+You have access to Microsoft Power Automate and Microsoft Forms through the
+Suffolk Office 365 portal. 
+
+To access both tools, go to
+[https://portal.microsoftonline.com](https://portal.microsoftonline.com) and
+click on the "All apps" arrow, and then the "Forms" and "Power Automate" links,
+respectively.
+
 In class:
 
+We will have some interactive troubleshooting time. Then we will build upon the
+out-of-class exercises to build an app that might be useful for a real-world
+small law firm.
+
 1. Build an intake form with branching logic
-1. Add a calendar item
+1. Add a calendar item with the date that someone wants to meet with you
 
 After class: [write a brief
 reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUMklGRFRJVkNJQjk0MVRTMlYxRVpIVTM0Ti4u).
@@ -187,9 +249,15 @@ reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE
 ## Week 11: 11/9: Alternative Legal Research Tools; use of AI in legal work
 
 Discussion with guest, Mike Whelan and author of [Lawyer
-Forward](https://www.lawyerforward.com/).
+Forward](https://www.lawyerforward.com/) and a new e-book with Clio, "Designing your Law Firm's New Normal".
 
-Before class: [submit](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUMFFMMzdDNjVTQko5QzFRSlAxUkVPVkxORC4u) up to 3 questions for Mike.
+Before class:
+
+* Read ["Designing your Law Firm's New
+  Normal"](https://landing.clio.com/designing-your-law-firms-new-normal-thank-you.html) (~ 90 minute read).
+  You do not need to complete the exercises, but get a sense of the ideas and
+  topics in each chapter.
+* [submit](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUMFFMMzdDNjVTQko5QzFRSlAxUkVPVkxORC4u) up to 3 questions for Mike.
 
 [View your classmates suggestions](https://forms.office.com/Pages/AnalysisPage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUMFFMMzdDNjVTQko5QzFRSlAxUkVPVkxORC4u&AnalyzerToken=xHEt9BpbmzMPIKNqt9LLiqONeTq4mxyR).
 

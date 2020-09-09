@@ -119,6 +119,21 @@ each class.
 * Be an active participant in discussions. If your home situation makes it more
   challenging to have your microphone on, please let me know in advance so we
   can find an appropriate accommodation.
+  
+## Class Recordings
+
+I am required to include the following information in this syllabus:
+
+To enable participation of students who are unable to make regular meetings,
+classes will be recorded. Recordings of classes will be made available on Slack
+and via a secure link available only to enrolled Suffolk students and staff.
+
+Students are prohibited from making their own recording
+of lectures and classes, unless the recording is an approved disability
+accommodation in accordance with University policy.
+
+[University policy on recording
+classes](https://www.suffolk.edu/about/president-leadership/provost/temporary-class-recording-policy).
 
 ## Assignments/Exams/Papers/Projects
 

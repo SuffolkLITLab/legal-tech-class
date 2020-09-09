@@ -120,7 +120,7 @@ module.exports = {
          {
           type: 'category',
           label: 'References',
-          items: ['yaml','markdown','mako','python','jinja2'],
+          items: ['yaml','markdown','mako','python','jinja2','practical-guide-docassemble/installing-production-app'],
         },    
         ]
     },      

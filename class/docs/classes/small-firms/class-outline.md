@@ -10,6 +10,18 @@ sidebar_label: Class Outline
 
 * [Slides](https://docs.google.com/presentation/d/1yJtpnIpp5_EaGclV9kgWBpXTAp8orygD-o5ScqxwGOA/edit?usp=sharing)
 
+* This class is a survey
+
+* Unique, 3 credit course with 2 hours of in-class time. The missing meeting is independent learning.
+
+* We are focusing on experiential learning
+* Class time will be a time to experiment, get real-time feedback and to discuss with your classmates
+* I am open to feedback and iteration
+
+* If you are ever feeling behind, reach out to me. Everyone should succeed in this class.
+* Goal is to treat you like adults.
+
+
 ### Introduction and class overview (15 minutes)
 
 * Who am I
@@ -19,6 +31,9 @@ sidebar_label: Class Outline
     * One good and one bad way you have interacted with technology this week
 
 ### Overview of the Doc Assembly Line
+
+One choice for your final project is to implement a form on the
+doc assembly line project.
 
 * [Housing TRO Form](https://apps-test.suffolklitlab.org/start/housing_tro)
 
