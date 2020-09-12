@@ -83,9 +83,11 @@ submitted](https://forms.office.com/Pages/AnalysisPage.aspx?id=qT9zeA5UuE6_KXPE7
 After class: [write a brief
 reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUOFNUUDRDQkw2UlQ3VzZLQVFDT0lPV1lRQS4u)
 
-## Week 4 9/21: Community Lawyer Basic Skills
+## Week 4 9/21: Community Lawyer Basic Skills, Guest Speaker Thomas "Toma" Officer
 
-Spend some time on Community.Lawyer, which is a free tool for building automated
+Before class:
+
+* Spend some time on Community.Lawyer, which is a free tool for building automated
 documents.The best way to get started with Community.lawyer is by completing
 their [Document Automation 101
 tutorial](https://community.lawyer/document-automation-tutorial). 
@@ -106,8 +108,8 @@ reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE
 Please make sure to allocate plenty of time before class to complete the exercises!
 
 * Try it at least a few days in advance
-* Ask for help on Slack if you get stuck
-
+* Ask for help on Slack when you get stuck (follow the "30 minute" rule). Keep
+  in mind I will be more available to help 9-5, during the week.
 
 **Before class**:
 
@@ -190,11 +192,14 @@ reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE
 
 **Monday schedule, class meets at regular time on Tuesday**
 
-Go to [qnamarkup.org](https://qnamarkup.org).  Read the syntax and watch the video intro.
+Go to [qnamarkup.org](https://qnamarkup.org).  Read the syntax and watch the
+video intro.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RVhzQ1JVi3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Take 20 min to review the [Syntax page](https://www.qnamarkup.org/syntax/) and work through a few of the examples found in the [Quick Start Guide](https://www.qnamarkup.org/syntax/QnA_Quick_Start.pdf).
+Take 20 min to review the [Syntax page](https://www.qnamarkup.org/syntax/) and
+work through a few of the examples found in the [Quick Start
+Guide](https://www.qnamarkup.org/syntax/QnA_Quick_Start.pdf).
 
 Open [THIS
 file](https://docs.google.com/document/d/1Iz8ZOwNa3ORm9APnHYvyXV21ESLTwzJmAjevT_Wgu-4/edit?usp=sharing)
@@ -232,21 +237,25 @@ You should feel to reach out to the Community.lawyer team directly (there are bu
 Turn in a [brief
 reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUNVRFN0QxTVJJU1BMOEZYTVJPRVBTSzNQOS4u).
 
-## Week 10  11/2: The Intersection of Design Thinking and Legal Work
+## Week 10  11/2: Guest Speaker: Nora Al Haider, Stanford Legal Design Lab: The Intersection of Design Thinking and Legal Work
+
+Nora Al Haider of the Stanford [Legal Design
+Lab](https://law.stanford.edu/organizations/pages/legal-design-lab/) will share some of the lab's
+work and answer your questions in the first 1/2 of class. Come prepared with
+questions about legal design.
+
+Before class:
+
+* Read chapter 1 of [Law by Design](https://www.lawbydesign.co/legal-design/), by Margaret Hagan, [Perma.cc](https://perma.cc/PEF8-6Z8Y)
 
 Listen to this
 [interview](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy50cmFuc2lzdG9yLmZtL2RhaWx5LW1hdHRlcnMtdGhlLWNoYW5naW5nLWZhY2Utb2YtdGhlLWxlZ2FsLWluZHVzdHJ5/episode/ZGY5MDAxYTEtMDdkMS00MmU2LThmZDAtMDVlZjA3MmU1MjQ3?hl=en&ved=2ahUKEwiL3tiV6ITrAhWImHIEHWC4DJUQjrkEegQIChAE&ep=6)
-of Nicole Bradick of Theory & Principle:
-
-Also, check out the Stanford [Legal Design
-Lab](https://law.stanford.edu/organizations/pages/legal-design-lab/) and read up
-on the various ways that they've used Design Thinking to solve challenging
-problems.
+of Nicole Bradick of Theory & Principle.
 
 After class: [write a brief
 reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUNVhBT05XUVcwWVoxNEIxWEQwODI5OTBMNy4u).
 
-## Week 11: 11/9: Alternative Legal Research Tools; use of AI in legal work
+## Week 11: 11/9: Guest speaker: Mike Whelan, Alternative Legal Research Tools; use of AI in legal work
 
 Discussion with guest, Mike Whelan and author of [Lawyer
 Forward](https://www.lawyerforward.com/) and a new e-book with Clio, "Designing your Law Firm's New Normal".
