@@ -138,7 +138,7 @@ We will meet for a shorter period, 60 minutes, this week to answer your question
 the Hello, World exercise.
 
 After class: do the stretch goals for both the [Hello,
-World](http://localhost:3000/legal-tech-class/docs/classes/docacon-2020/hello-world#your-assignment)
+World](https://suffolklitlab.org/legal-tech-class/docs/classes/docacon-2020/hello-world#your-assignment)
 and the
 [Logic](https://suffolklitlab.org/legal-tech-class/docs/classes/docacon-2020/logic#your-assignment)
 sections of the training.
@@ -146,47 +146,9 @@ sections of the training.
 Turn in a hello_world.yml and logic.yml file via [the Microsoft
 Form](https://forms.office.com/Pages/ShareFormPage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFURUJIQ1NYUFNXM1pMWlhIS0hTOVRCUzJaQy4u&sharetoken=O1ZBtGGZvuhPGE84Bhse).
 
-## Week 6 10/5: Introduction to Microsoft Forms and Power Automate; Discussion about billing, accounting, and business aspects of running a law firm
+## Week 6 10/5: Docassemble continued -- more questions and practice ~Introduction to Microsoft Forms and Power Automate; Discussion about billing, accounting, and business aspects of running a law firm~
 
-Please make sure to allocate plenty of time before class to complete the exercises!
-
-* Try it at least a few days in advance
-* Ask for help on Slack if you get stuck.
-
-Before class:
-
-* **Read** ["Five ways to automate workflows"](https://www.attorneyatwork.com/five-ways-to-automate-workflows/)
-* ["Codeless Automation: IFTT vs Zapier vs Microsoft
-  Flow"](https://medium.com/better-programming/codeless-automation-ifttt-vs-zapier-vs-microsoft-flow-57d5bc56fc0e)
-* ["What is Microsoft Flow and how can I use
-  it?"](https://www.contentformula.com/blog/what-is-microsoft-flow-and-how-can-i-use-it/)
-
-* **Complete** the exercises under ["Getting Started with Microsoft Power
-  Automate"](https://docs.microsoft.com/en-us/learn/modules/get-started-flows/).
-  (11 modules, about 1.5 hours)
-* Complete the exercise at ["Create a form with Microsoft
-  Forms"](https://support.microsoft.com/en-us/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d)
-  (about 15 minutes)
-
-You have access to Microsoft Power Automate and Microsoft Forms through the
-Suffolk Office 365 portal. 
-
-To access both tools, go to
-[https://portal.microsoftonline.com](https://portal.microsoftonline.com) and
-click on the "All apps" arrow, and then the "Forms" and "Power Automate" links,
-respectively.
-
-In class:
-
-We will have some interactive troubleshooting time. Then we will build upon the
-out-of-class exercises to build an app that might be useful for a real-world
-small law firm.
-
-1. Build an intake form with branching logic
-1. Add a calendar item with the date that someone wants to meet with you
-
-After class: [write a brief
-reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUMklGRFRJVkNJQjk0MVRTMlYxRVpIVTM0Ti4u).
+We will spend this week practicing some of the docassemble skills from week 5.
 
 ## Week 7 10/13: Building Your Own Chatbot
 
