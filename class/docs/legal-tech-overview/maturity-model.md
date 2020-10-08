@@ -104,7 +104,7 @@ All features above, and:
 * Developer has followed plain language checklist and used automated tools to
   review language readability
 
-### Level 1, Basic form
+### Level 2, Basic form
 
 #### User-facing features
 
