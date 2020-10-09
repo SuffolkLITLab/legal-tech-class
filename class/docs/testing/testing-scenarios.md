@@ -48,6 +48,27 @@ combinatorial explosion of scenarios. If your tool produces some combination of
 necessarily each combination of possible forms, which would immediately increase
 your scenarios by a factor of 25.
 
+### What features should be tested, and in which combinations?
+
+The goal of scenario-based testing is to approximate real-world use cases.
+
+Yet it's also important to provide good coverage of the features that your tool has
+and makes available, because a user may decide to make use of functionality that
+you did not anticipate.
+
+Make sure your testing scenarios cover:
+
+1. Inputs that trigger a new branch of your form (showing or hiding a screen or
+   follow-up question)
+1. Inputs that trigger a new form
+1. Inputs that trigger computed values (as opposed to ones that are copied into
+   the form literally, without being transformed in any way)
+1. Inputs that trigger an addendum. These can generally all be tested at once.
+1. Reason in advance about combinations of inputs that may interact. For
+   example: code that triggers an addendum is probably independent of code that
+   shows or hides follow-up questions. You may be able to safely test all of the
+   addenda at once.
+
 ## Developing a testing strategy
 
 You should now have between 5-10 scenarios to test. You should come up with at
