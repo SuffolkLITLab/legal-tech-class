@@ -59,15 +59,34 @@ you did not anticipate.
 Make sure your testing scenarios cover:
 
 1. Inputs that trigger a new branch of your form (showing or hiding a screen or
-   follow-up question)
-1. Inputs that trigger a new form
+   follow-up question).
+1. Inputs that trigger a new form.
 1. Inputs that trigger computed values (as opposed to ones that are copied into
-   the form literally, without being transformed in any way)
+   the form literally, without being transformed in any way).
 1. Inputs that trigger an addendum. These can generally all be tested at once.
 1. Reason in advance about combinations of inputs that may interact. For
    example: code that triggers an addendum is probably independent of code that
    shows or hides follow-up questions. You may be able to safely test all of the
    addenda at once.
+
+One way to do this might be to make a matrix. Only some of the overlapping
+features will need to be tested in combination. Write down each field 
+in the columns and rows of a table, and mark an x if you think that combination of
+row and column needs a test.
+
+Example:
+
+&nbsp;      |Has 1 child | Has assets | Lives out of state
+-------------|------------|------------|--------------------
+Has 1 child | x           | x          | x
+Has assets  | (dupe)      | x          |  (not relevant)
+Lives out of state |(dupe)| (not relevant) | x
+
+This matrix produced 5 combinations that our user scenarios should
+test. If this list is too long, we may be able to remove even more
+tests that are truly independent and don't need to be tested in 
+combination. We can also combine some features into a single testing
+scenario.
 
 ## Developing a testing strategy
 
