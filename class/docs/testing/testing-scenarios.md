@@ -135,13 +135,13 @@ ID that is visible and will help record feedback and errors in the right place.
 ```
 Dear tester, thank you for agreeing to test my tool! Please read the list of
 user-scenarios below. I would like you to run through the form following each
-scenario. Please either record yourself on Zoom as you navigate the form, or
+scenario. Please either record your screen on Zoom as you navigate the form, or
 write down your inputs on each screen. Each screen has a unique ID shown in
 red after the words "Page ID". Use this to identify the screen. If you run
 into a bug, try to explain what you did to trigger it, and copy and paste any
 error text you ran into.
 
-You can use this form to [INSERT LINK] to tell me about the bugs you found.
+You can use this form [INSERT LINK] to tell me about the bugs you found.
 You can use this spreadsheet [INSERT LINK] to record the tests that you ran.
 
 The scenario does not cover all of the facts. I would like you to imagine that
