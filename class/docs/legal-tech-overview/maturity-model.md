@@ -8,15 +8,17 @@ sidebar_label: Legal App Maturity Model
 
 ## What is the purpose of this model?
 
-For legal apps that assemble documents or provide legal advice, there is a wide
-range of quality and capabilities that a form could have. It could be more akin
-to mail merge (this is the highest level achievable for most document assembly
-tools that are built-in to case management systems) or it can be a true 
-end-to-end user experience, like using [Upsolve](https://upsolve.org) or 
+Legal apps that assemble documents or provide tailored information may have
+a wide range of quality and capabilities. An app may simply fill in the blanks,
+like Microsoft Word's mail merge functionality (and the functionality that
+is built-in to many case management systems); or it can provide a true
+end-to-end user experience, like using [Upsolve](https://upsolve.org) or
 [gbls.org/MADE](https://gbls.org/MADE).
 
-A maturity model can be helpful to reason about what exactly we mean when we
-discuss document assembly and expert system tools.
+A maturity model can allow us to be more specific about what we mean when we
+discuss legal apps. If we have the end-to-end user experience in mind, it can
+help us choose an appropriate platform. Knowing that there are many useful
+stages in between, meanwhile, can help us prevent "feature creep."
 
 **For app developers**: We want to guide app developers about deliverable
 milestones so that we get things out into the real world before they are
@@ -42,6 +44,13 @@ project that their students are working on. Students can review this maturity
 model to understand at what stage their work is releasable and should try to 
 mentally organize work to meet milestones, and to have deliverable, testable
 work at each milestone.
+
+## What are the limits of a maturity model?
+
+While milestones are helpful to guide development, some critical features
+may move up in priority and some may drop in any particular project. A chart,
+or in particular the detailed example from the MassAccess project below,
+are only a rough guide for any given legal app.
 
 ## Quick summary
 

@@ -89,7 +89,9 @@ module.exports = {
           {
             type: 'category',
             label: 'Testing',
-            items: ['testing/testing']
+            items: ['testing/testing',
+                    'testing/testing-scenarios',
+                    'testing/lorem-ipsum']
           },      
           {
             type: 'category',
