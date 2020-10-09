@@ -113,6 +113,8 @@ the bugs.
 For fields that allow a lot of text, you may want to use this 
 Lorem Ipsum generator to see how the text input is handled.
 
+https://suffolklitlab.org/legal-tech-class/docs/testing/lorem-ipsum
+
 ```
 
 ## Review your tests and iterate
