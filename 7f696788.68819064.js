@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[45],{146:function(s){s.exports=JSON.parse('{"allTagsPath":"/legal-tech-class/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/legal-tech-class/blog/tags/docusaurus"}')}}]);
