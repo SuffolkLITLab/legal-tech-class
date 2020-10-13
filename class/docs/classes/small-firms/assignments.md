@@ -174,7 +174,8 @@ After class: [turn in your work](https://forms.office.com/Pages/ResponsePage.asp
 In groups of 2 (or 3 if necessary) students will demonstrate a FREE tool they
 have identified that would be useful to small firms/solos.  Be able to show off
 how it works and answer questions about its features and the costs associated
-with it. Sign up here.
+with it. [Sign up
+here](https://sumail-my.sharepoint.com/:x:/g/personal/qsteenhuis_adm_suffolk_edu/EbdtSPbOaiBBlTss5Zap5eoB8IX3zR_aophwT_ATHr-_OQ?e=NuTgoG).
 
 You may find the following websites a good resource for identifying free tools,
 but please expand your search!
