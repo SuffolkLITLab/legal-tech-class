@@ -248,8 +248,34 @@ reflection.](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXP
 
 ## Week 12 11/16: Document Automation with Clio
 
-[Write a brief
-reflection.](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUM0FLOTRURVdDVzM5RkEwMlZUQzlISUlaSi4u)
+Optional reading:
+
+* **Read** ["Five ways to automate workflows"](https://www.attorneyatwork.com/five-ways-to-automate-workflows/)
+* ["Codeless Automation: IFTT vs Zapier vs Microsoft
+  Flow"](https://medium.com/better-programming/codeless-automation-ifttt-vs-zapier-vs-microsoft-flow-57d5bc56fc0e)
+* ["What is Microsoft Flow and how can I use
+  it?"](https://www.contentformula.com/blog/what-is-microsoft-flow-and-how-can-i-use-it/)
+
+* Optional: **Complete** the exercises under ["Getting Started with Microsoft Power
+  Automate"](https://docs.microsoft.com/en-us/learn/modules/get-started-flows/).
+  (11 modules, about 1.5 hours)
+* In class: create a "booking" page for yourself.  
+* In class: complete the exercise at ["Create a form with Microsoft
+  Forms"](https://support.microsoft.com/en-us/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d)
+  (about 15 minutes)
+
+You have access to Microsoft Power Automate and Microsoft Forms through the
+Suffolk Office 365 portal. 
+
+To access both tools, go to
+[https://portal.microsoftonline.com](https://portal.microsoftonline.com) and
+click on the "All apps" arrow, and then the "Forms" and "Power Automate" links,
+respectively.
+
+After class: [write a brief
+reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUM0FLOTRURVdDVzM5RkEwMlZUQzlISUlaSi4u).
+
+[Take a moment to reflect on how this semester went](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUNE9XNFNMVExFQUQ2VFEzSVc3UTRVNVFRMy4u)
 
 ## Week 13 11/23: Presentation of student projects.
 
