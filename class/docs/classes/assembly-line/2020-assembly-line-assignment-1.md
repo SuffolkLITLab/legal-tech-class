@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 We will discuss the first few sections of this assignment in class. To refresh
 your memory and reflect on your own, I recommend skimming the [Overview of
-Docassemble](introduction-to-docassemble), Description of [YAML](yaml.md), and the section
+Docassemble](introduction-to-docassemble.md), Description of [YAML](yaml.md), and the section
 describing [Mako](mako.md). If you run into any trouble, please ask for help on
 the A2J Slack channel.
 
