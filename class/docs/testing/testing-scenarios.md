@@ -1,5 +1,5 @@
 ---
-id: testing-scenarios
+slug: testing-scenarios
 title: Testing using scenarios
 sidebar_label: Testing using scenarios
 ---

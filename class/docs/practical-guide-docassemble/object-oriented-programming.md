@@ -1,5 +1,5 @@
 ---
-id: object-oriented-programming
+slug: object-oriented-programming
 title: Object Oriented Programming in Docassemble
 sidebar_label: Object Oriented Programming
 ---

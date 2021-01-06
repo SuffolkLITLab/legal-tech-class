@@ -1,5 +1,5 @@
 ---
-id: 2020-law-smart-machines-assignment-2
+slug: 2020-law-smart-machines-assignment-2
 title: |
   Assignment 2: Object-oriented programming
 sidebar_label: Assignment 2

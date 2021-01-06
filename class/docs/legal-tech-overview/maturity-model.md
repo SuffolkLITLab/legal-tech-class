@@ -1,5 +1,5 @@
 ---
-id: maturity-model
+slug: maturity-model
 title: A maturity model for legal apps
 sidebar_label: Legal App Maturity Model
 ---

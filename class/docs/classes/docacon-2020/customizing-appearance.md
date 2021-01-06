@@ -1,5 +1,5 @@
 ---
-id: customizing-appearance
+slug: customizing-appearance
 title: Customizing Appearance
 sidebar_label: Customizing Appearance
 ---

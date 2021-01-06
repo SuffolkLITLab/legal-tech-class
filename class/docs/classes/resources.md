@@ -1,5 +1,5 @@
 ---
-id: resources
+slug: resources
 title: Resources for Instructors
 sidebar_label: Teaching Resources
 ---

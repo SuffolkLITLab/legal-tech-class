@@ -1,5 +1,5 @@
 ---
-id: 2020-legal-tech-small-firms-syllabus
+slug: 2020-legal-tech-small-firms-syllabus
 title: |
   Syllabus
 sidebar_label: |
@@ -23,7 +23,7 @@ Prerequisites: None
 
 You do not need to purchase any materials.
 
-The [class website](classes/small-firms/legal-tech-small-firms.md)
+The [class website](classes/small-firms/2020-legal-tech-small-firms.md)
 is the "home base" for this class. Links to readings and required videos
 will be posted there in advance of each class.
 
@@ -201,8 +201,8 @@ available at this web page.
 
 ### Weekly Assignments
 
-[Assignments](assignments.md)
+[Assignments](2020-legal-tech-small-firms-assignments.md)
 
 ### Final project
 
-[Final Project](rubric.md)
+[Final Project](2020-legal-tech-small-firms-rubric.md)

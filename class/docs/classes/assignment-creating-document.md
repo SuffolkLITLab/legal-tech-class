@@ -1,5 +1,5 @@
 ---
-id: assignment-creating-document
+slug: assignment-creating-document
 title: |
   Assignment 4: Creating a document
 sidebar_label: Assignment 4

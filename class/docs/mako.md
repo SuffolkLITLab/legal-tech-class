@@ -1,5 +1,5 @@
 ---
-id: mako
+slug: mako
 title: The Mako templating language
 sidebar_label: Overview of Mako
 ---

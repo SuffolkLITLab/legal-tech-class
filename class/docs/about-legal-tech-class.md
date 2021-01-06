@@ -1,5 +1,5 @@
 ---
-id: about-legal-tech-class 
+slug: about-legal-tech-class 
 title: About this text book 
 sidebar_label: About
 ---

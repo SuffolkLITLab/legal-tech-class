@@ -1,5 +1,5 @@
 ---
-id: representing-rules
+slug: representing-rules
 title: Representing Law as Code
 sidebar_label: Representing Law as Code
 ---

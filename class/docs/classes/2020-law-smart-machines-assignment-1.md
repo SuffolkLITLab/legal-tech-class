@@ -1,5 +1,5 @@
 ---
-id: 2020-law-smart-machines-assignment-1
+slug: 2020-law-smart-machines-assignment-1
 title: Assignment 1
 sidebar_label: Assignment 1
 ---
@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl'; // Add to the top of the file b
 
 ## Before you get started
 
-We will discuss the first few sections of this assignment in class. To refresh your memory and reflect on your own, I recommend skimming the [Overview of Docassemble](introduction.md), Description of [YAML](yaml.md), and the section describing [Mako](mako.md). If you run into any trouble, please ask for help on the class Slack channel.
+We will discuss the first few sections of this assignment in class. To refresh your memory and reflect on your own, I recommend skimming the Overview of Docassemble, Description of [YAML](yaml.md), and the section describing [Mako](mako.md). If you run into any trouble, please ask for help on the class Slack channel.
 
 ## Introduction to the Docassemble Playground
 

@@ -1,5 +1,5 @@
 ---
-id: user-centered-design
+slug: user-centered-design
 title: User Centered Design
 sidebar_label: User Centered Design
 ---

@@ -1,5 +1,5 @@
 ---
-id: law-smart-machines-final-project
+slug: law-smart-machines-final-project
 title: Final Project
 sidebar_label: Final Project
 ---

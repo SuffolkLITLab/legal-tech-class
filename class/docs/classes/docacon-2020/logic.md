@@ -1,5 +1,5 @@
 ---
-id: logic
+slug: logic
 title: Logic
 sidebar_label: Logic
 ---

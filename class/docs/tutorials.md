@@ -1,5 +1,5 @@
 ---
-id: tutorials
+slug: tutorials
 title: List of Tutorials
 sidebar_label: Tutorials
 ---

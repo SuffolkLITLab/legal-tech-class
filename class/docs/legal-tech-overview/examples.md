@@ -1,5 +1,5 @@
 ---
-id: examples
+slug: examples
 title: Examples of Legal Technology
 sidebar_label: Examples
 ---

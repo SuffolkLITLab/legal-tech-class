@@ -1,5 +1,5 @@
 ---
-id: legal-tech-overview
+slug: legal-tech-overview
 title: What Legal Technology Is
 sidebar_label: Legal Technology Overview
 ---

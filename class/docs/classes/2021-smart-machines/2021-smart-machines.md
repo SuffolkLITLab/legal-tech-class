@@ -1,8 +1,8 @@
 ---
-slug: 2020-law-smart-machines
-title: Spring 2020, Lawyering in the Age of Smart Machines
+slug: 2021-smart-machines
+title: Lawyering in the Age of Smart Machines
 sidebar_label: |
-    Suffolk Law School Spring 2020: Lawyering in the Age of Smart Machines
+    Lawyering in the Age of Smart Machines (2021)
 ---
 
 It's often said that the best way to learn something is to teach it, and in this

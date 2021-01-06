@@ -1,5 +1,5 @@
 ---
-id: testing
+slug: testing
 title: Testing
 sidebar_label: Testing 
 ---

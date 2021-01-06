@@ -1,5 +1,5 @@
 ---
-id: 2020-legal-tech-small-firms-assignments
+slug: 2020-legal-tech-small-firms-assignments
 title: |
   Assignments: Legal Tech for Small Firms
 sidebar_label: Assignments
@@ -130,7 +130,7 @@ The video includes breaks, questions, and introduction which you do not need to
 watch. Feel free to watch at a higher speed as well.
 
 Also see the training materials, which are hosted as part of this [legal tech
-text book](classes/docacon-2020/hello-world).
+text book](classes/docacon-2020/hello-world.md).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lsh_2qmTSAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -246,7 +246,7 @@ What do you like about the alternative tool? What is missing?
 [Write a brief
 reflection.](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUM01IM0QwMUlEMk41UkdKVkpCU1ZROUhIRC4u)
 
-## Week 12 11/16: Document Automation with Clio
+## Week 12 11/16: Using Office 365 in a law firm
 
 Optional reading:
 
@@ -280,7 +280,7 @@ reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE
 ## Week 13 11/23: Presentation of student projects.
 
 Please come prepared to deliver a 5 minute presentation of your work. See [final
-project guidelines](rubric.md) for more information about how to structure your
+project guidelines](2020-legal-tech-small-firms-rubric.md) for more information about how to structure your
 presentation. Slides are welcome, but not required.
 
 You do not need to have your final project finished. Be ready to demonstrate what
@@ -302,3 +302,7 @@ During the week, get started incorporating feedback on your final project.
 ## December 7th, 5 PM
 
 Final project is due.
+
+[Use this
+link](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUNEpKSUFOQUMySUVQR0wzN1BMWlBQQU9LSy4u)
+to turn in your final project.

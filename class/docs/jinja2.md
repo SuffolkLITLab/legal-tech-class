@@ -1,5 +1,5 @@
 ---
-id: jinja2
+slug: jinja2
 title: The Jinja2 Templating Language
 sidebar_label: Overview of Jinja2
 ---

@@ -16,7 +16,7 @@ module.exports = {
         alt: 'LIT Lab',
         src: 'img/blue_logo.png',
       },
-      links: [
+      items: [
         {to: 'docs/about-legal-tech-class', 
         label: 'Textbook', 
         position: 'left'},
@@ -44,7 +44,7 @@ module.exports = {
           items: [
             {
               label: 'Overview of Docassemble',
-              to: 'docs/introduction',
+              to: 'docs/introduction-to-docassemble',
             },
             {
               label: 'Suffolk LIT Lab How To',

@@ -1,5 +1,5 @@
 ---
-id: installing-production-app
+slug: installing-production-app
 title: Installing a docassemble app on your production server
 sidebar_label: Installing a docassemble app on your production server
 ---
@@ -106,7 +106,7 @@ like this:
 
 ```
 dispatch:
-  alias: docassemble.MyPackageName:interview_name.yml
+  alias: docassemble.MyPackageName:data/questions/interview_name.yml
 ```
 
 Replace "MyPackageName" and "interview_name.yml" with the package name
@@ -119,7 +119,7 @@ this:
 
 ```
 dispatch:
-  eviction: docassemble.MAEvictionDefense:eviction.yml
+  eviction: docassemble.MAEvictionDefense:data/questions/eviction.yml
 ```
 
 And the interview can be run via `https://interviews.gbls.org/start/eviction`.

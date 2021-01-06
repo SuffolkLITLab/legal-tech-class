@@ -1,5 +1,5 @@
 ---
-id: hello-world
+slug: hello-world
 title: Hello, World
 sidebar_label: Hello, World
 ---

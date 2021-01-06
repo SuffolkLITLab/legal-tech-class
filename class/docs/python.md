@@ -1,5 +1,5 @@
 ---
-id: python
+slug: python
 title: The Python programming language
 sidebar_label: Understanding Python
 ---
@@ -197,7 +197,7 @@ Conditionally displayed text
 % endif
 ```
 
-[Jinja](jinja.md) statements allow you to include something almost, but not quite entirely unlike Python inside a Docx template. There are many variations to be aware of, but usually it's best to learn about them one at a time. Jinja statements do not need to be on their own line. There is no colon `:` at the end of the opening keyword. They do require an ending keyword.
+[Jinja](jinja2.md) statements allow you to include something almost, but not quite entirely unlike Python inside a Docx template. There are many variations to be aware of, but usually it's best to learn about them one at a time. Jinja statements do not need to be on their own line. There is no colon `:` at the end of the opening keyword. They do require an ending keyword.
 
 ```
 {% if mytest %} Some conditionally displayed text {% endif %}

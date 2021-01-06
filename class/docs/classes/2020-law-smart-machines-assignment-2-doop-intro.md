@@ -1,5 +1,5 @@
 ---
-id: 2020-law-smart-machines-assignment-2-doop-intro
+slug: 2020-law-smart-machines-assignment-2-doop-intro
 title: Object Oriented Programming
 sidebar_label: Assignment 2
 ---
@@ -55,7 +55,7 @@ Like everything in code, your computer's pretty anxious and needs you to prepare
 
 ``` yaml
 ---
-id: cool_kids
+slug: cool_kids
 objects:
   - Shira: Person
 ---
@@ -77,11 +77,11 @@ We want to be able to text Shira if we're in trouble, so we'll make a `question`
 
 ``` yaml
 ---
-id: cool_kids
+slug: cool_kids
 objects:
   - Shira: Person
 ---
-id: phone_number
+slug: phone_number
 question: |
   What's your phone number? I promise to only use it in an emergency.
 fields:
@@ -93,16 +93,16 @@ Now use a `code` block to trigger that question:
 
 ``` yaml
 ---
-id: cool_kids
+slug: cool_kids
 objects:
   - Shira: Person
 ---
-id: flow_code
+slug: flow_code
 mandatory: True
 code: |
   Shira.phone_number
 ---
-id: phone_number
+slug: phone_number
 question: |
   What's your phone number?
 fields:
@@ -118,7 +118,7 @@ That was a special interview, just for Shira, Princess of Power. Theoretically, 
 
 ```yaml
 ---
-id: people
+slug: people
 objects:
   - user: Person
 ---

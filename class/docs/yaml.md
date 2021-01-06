@@ -1,5 +1,5 @@
 ---
-id: yaml
+slug: yaml
 title: The YAML file Format
 sidebar_label: Understanding YAML
 ---

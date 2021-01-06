@@ -1,5 +1,5 @@
 ---
-id: editing-docusaurus
+slug: editing-docusaurus
 title: 
 sidebar_label: 
 ---

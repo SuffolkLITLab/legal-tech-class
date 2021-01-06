@@ -1,5 +1,5 @@
 ---
-id: exploration-functions
+slug: exploration-functions
 title: Exploration in Functions
 sidebar_label: |
     Experimenting with functions

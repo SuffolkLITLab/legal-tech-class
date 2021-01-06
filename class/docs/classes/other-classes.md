@@ -1,5 +1,5 @@
 ---
-id: other-classes
+slug: other-classes
 title: Other Classes
 sidebar_label: Other Classes
 ---

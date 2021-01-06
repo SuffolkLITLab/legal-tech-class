@@ -1,5 +1,5 @@
 ---
-id: controlling-interview-order
+slug: controlling-interview-order
 title: Controlling Interview Order
 sidebar_label: Controlling Interview Order
 ---

@@ -1,5 +1,5 @@
 ---
-id: speaking-right-language
+slug: speaking-right-language
 title: Speaking the Right Language
 sidebar_label: Using Plain Language
 ---

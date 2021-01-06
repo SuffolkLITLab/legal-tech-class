@@ -1,5 +1,5 @@
 ---
-id: repeated-information
+slug: repeated-information
 title: Working With Repeated Information
 sidebar_label: Repeated Information (Groups)
 ---

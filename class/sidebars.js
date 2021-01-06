@@ -156,7 +156,14 @@ module.exports = {
         },
         {
           type: 'category',
-          label: 'Lawyering in the Age of Smart Machines',
+          label: 'Spring 2021 - Lawyering in the Age of Smart Machines',
+          items: [
+            'classes/2021-smart-machines/2021-smart-machines'
+          ]
+        },
+        {
+          type: 'category',
+          label: '(Archived) Spring 2020 - Lawyering in the Age of Smart Machines',
           items: ['classes/2020-law-smart-machines',
             'classes/law-smart-machines-final-project',
             'classes/project-ideas',
@@ -194,16 +201,3 @@ module.exports = {
 
   ]
 }
-
-/*  {
-    "Getting Started": ['introduction' ],
-    Tutorials: ['tutorials'],
-    References: ['yaml','markdown'],
-    {
-      type: 'category',
-      'label': 'Classes', 
-      items: ['classes/2020-law-smart-machines']
-    }
-  },
-};
-*/

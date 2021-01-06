@@ -1,5 +1,5 @@
 ---
-id: question-types
+slug: question-types
 title: Question Types
 sidebar_label: Question Types
 ---

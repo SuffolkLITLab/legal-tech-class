@@ -1,5 +1,5 @@
 ---
-id: class-overview
+slug: class-overview
 title: Overview of Classes
 sidebar_label: Overview of Classes
 ---

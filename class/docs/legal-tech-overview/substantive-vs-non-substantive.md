@@ -1,5 +1,5 @@
 ---
-id: substantive-vs-non-substantive
+slug: substantive-vs-non-substantive
 title: Substantive vs Non-Substantive Apps
 sidebar_label: Substantive Apps
 ---

@@ -1,5 +1,5 @@
 ---
-id: ethical-issues
+slug: ethical-issues
 title: Ethical issues in legal technology
 sidebar_label: Ethical issues
 ---

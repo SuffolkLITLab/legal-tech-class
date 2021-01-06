@@ -1,5 +1,5 @@
 ---
-id: practical-guide-docassemble
+slug: practical-guide-docassemble
 title: What should you use Docassemble for?
 sidebar_label: What should you use Docassemble for?
 ---

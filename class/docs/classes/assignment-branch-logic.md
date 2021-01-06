@@ -1,5 +1,5 @@
 ---
-id: assignment-branch-logic
+slug: assignment-branch-logic
 title: |
   Assignment 3: Branching logic
 sidebar_label: Assignment 3

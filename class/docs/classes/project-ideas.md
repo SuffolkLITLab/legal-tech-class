@@ -1,5 +1,5 @@
 ---
-id: project-ideas
+slug: project-ideas
 title: Project Ideas
 sidebar_label: Project Ideas
 ---

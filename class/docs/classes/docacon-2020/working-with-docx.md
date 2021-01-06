@@ -1,5 +1,5 @@
 ---
-id: working-with-docx
+slug: working-with-docx
 title: Working with Docx files
 sidebar_label: Working with Docx
 ---

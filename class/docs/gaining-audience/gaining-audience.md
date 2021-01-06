@@ -1,5 +1,5 @@
 ---
-id: gaining-audience
+slug: gaining-audience
 title: Driving user acceptance of your application
 sidebar_label: Driving User Acceptance
 ---

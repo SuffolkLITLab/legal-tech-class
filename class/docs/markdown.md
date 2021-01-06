@@ -1,5 +1,5 @@
 ---
-id: markdown
+slug: markdown
 title: The Markdown formatting language
 sidebar_label: Understanding Markdown
 ---

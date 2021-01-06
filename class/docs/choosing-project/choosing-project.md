@@ -1,5 +1,5 @@
 ---
-id: choosing-project
+slug: choosing-project
 title: Choosing the right project
 sidebar_label: Choosing a project
 ---

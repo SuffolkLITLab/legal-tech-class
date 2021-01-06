@@ -1,5 +1,5 @@
 ---
-id: 2020-legal-tech-small-firms
+slug: 2020-legal-tech-small-firms
 title: Fall 2020, Legal Technology for Small Firm Practice
 sidebar_label: |
     Suffolk Law School Fall 2020: Legal Technology for Small Firm Practice
@@ -36,15 +36,15 @@ problem.
 
 ## Class Materials
 
-* [Syllabus](syllabus.md)
-* [Final Project](rubric.md)
-* [Weekly Reading List and Assignments](assignments.md)
+* [Syllabus](2020-legal-tech-small-firms-syllabus.md)
+* [Final Project](2020-legal-tech-small-firms-rubric.md)
+* [Weekly Reading List and Assignments](2020-legal-tech-small-firms-assignments.md)
 * [Class Zoom
   session](https://sumail-my.sharepoint.com/:w:/g/personal/qsteenhuis_adm_suffolk_edu/EXqiagBAmUVDgsfJD-VGzRMBGNyQe45bZ7AMhpfPBL2gNw?e=iyfWTc)
   (Must be logged in with Suffolk University account to view)
 * [Class Notebook](https://sumail-my.sharepoint.com/:o:/g/personal/qsteenhuis_adm_suffolk_edu/Eh87_fq9XfpItNZonOuSA7gBv-7xNlePabE_CihbzmcCuw?e=GNAtgS)
 * [Slack](https://suffolklitlab.slack.com/) (Join the channel `#2020-legal-tech-small-firm-practice`)
-* [Textbook](about.md)
+* [Textbook](about-legal-tech-class.md)
 
 ## Resources
 

@@ -1,5 +1,5 @@
 ---
-id: lorem-ipsum
+slug: lorem-ipsum
 title: Lorem Ipsum text
 sidebar_label: Lorem Ipsum
 ---

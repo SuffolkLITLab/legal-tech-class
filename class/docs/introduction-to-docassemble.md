@@ -1,5 +1,5 @@
 ---
-id: introduction-to-docassemble
+slug: introduction-to-docassemble
 title: Introduction to Docassemble
 sidebar_label: Introduction to Docassemble
 ---
