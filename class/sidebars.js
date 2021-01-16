@@ -158,7 +158,10 @@ module.exports = {
           type: 'category',
           label: 'Spring 2021 - Lawyering in the Age of Smart Machines',
           items: [
-            'classes/2021-smart-machines/2021-smart-machines'
+            'classes/2021-smart-machines/2021-smart-machines',
+            'classes/2021-smart-machines/2021-smart-machines-syllabus',
+            'classes/2021-smart-machines/2021-smart-machines-assignments',
+            'classes/2021-smart-machines/2021-smart-machines-rubric'      
           ]
         },
         {

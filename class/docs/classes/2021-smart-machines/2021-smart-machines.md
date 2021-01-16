@@ -13,15 +13,19 @@ Quinten Steenhuis, QSteenhuis@suffolk.edu
 [Twitter](https://twitter.com/qsteenhuis)
 [Website](https://nonprofittechy.com)
 
-## Meeting Time
+## Course information
+### Meeting Time
 
 6 PM-7:50 PM, Wednesdays, Spring 20201 Via Zoom
+
+### Syllabus
+[Syllabus](2021-smart-machines-syllabus.md)
 ### Weekly Assignments
 
 [Assignments](2021-smart-machines-assignments.md)
 ### Final project
 
-[Final Project](2021-lawyering-age-smart-machines-rubric.md)
+[Final Project](2021-smart-machines-rubric.md)
 ## About the class
 
 The practice of law is increasingly built around digital tools. Lawyers who

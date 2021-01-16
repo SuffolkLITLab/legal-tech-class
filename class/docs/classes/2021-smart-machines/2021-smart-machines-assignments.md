@@ -143,7 +143,7 @@ Read: [Civil Justice for All](https://www.amacad.org/publication/civil-justice-f
 ## Week 13 4/21: Presentation of student projects.
 
 Please come prepared to deliver a *5 minute* presentation of your work. See [final
-project guidelines](2020-legal-tech-small-firms-rubric.md) for more information about how to structure your
+project guidelines](2021-smart-machines-rubric.md) for more information about how to structure your
 presentation. Slides are welcome, but not required.
 
 You do not need to have your final project finished. Be ready to demonstrate what
@@ -161,5 +161,5 @@ Legal Tech Assessment is due.
 Final project is due.
 
 [Use this
-link](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUNEpKSUFOQUMySUVQR0wzN1BMWlBQQU9LSy4u)
+link]
 to turn in your final project.
