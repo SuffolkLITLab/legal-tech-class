@@ -13,7 +13,8 @@ Before class:
 Focus questions:
 1. How would you define the "Access to Justice Gap"?
 1. What surprised you when you read the report?
-1. How does the reality of access to lawyers fit with the cases and the role of lawyers in law school classes?
+1. How does the reality of access to lawyers fit with the cases you studied and
+   the role of lawyers in law school classes?
 
 During class:
 * Outline of the semester
@@ -29,15 +30,19 @@ Start working on the Legal Tech Assessment
 
 ## Week 2, 2/3: Introduction to expert systems. Hello, World exercise in Docassemble
 
+Before class:
+
 * Visit [courtformsonline.org](https://courtformsonline.org). Explore the links
   and forms available on the site. Complete at least one download (but do not
   send to a court).
 
-Read
+Read:
 * [Introduction to Docassemble](https://suffolklitlab.org/legal-tech-class/docs/introduction-to-docassemble) and [What Should You Use Docassemble For](https://suffolklitlab.org/legal-tech-class/docs/practical-guide-docassemble/practical-guide-docassemble)
 * Should Lawyers Learn to Code? https://esq.io/2016/08/should-lawyers-learn-to-code/, [perma.cc](https://perma.cc/TC2H-F5QB)
 * No, Lawyers Should not Learn to Code. https://web.archive.org/web/20180304090731/https://lawyerist.com/counterpoint-no-lawyers-not-learn-code/
-* To Code or Not to Code: That is not the Question. http://rightbrainlaw.co/to-code-or-not-to-code-that-is-not-the-question/, https://perma.cc/K2VL-TACY 
+
+Optional reading:
+* To Code or Not to Code: That is not the Question. http://rightbrainlaw.co/to-code-or-not-to-code-that-is-not-the-question/, [perma.cc](https://perma.cc/K2VL-TACY) 
 
 In class, we will work through [this exercise](https://suffolklitlab.org/legal-tech-class/docs/classes/docacon-2020/hello-world). An interactive version of it is [recorded here](https://www.youtube.com/watch?v=Lsh_2qmTSAw) if you want to review later.
 
@@ -46,12 +51,16 @@ Turn in the [Hello, World](https://suffolklitlab.org/legal-tech-class/docs/class
 ## Week 3 2/10: QnAMarkup, Flowcharts. Guest David Colarusso. Mapping process for bad housing conditions
 
 Before class:
-* Atul Gawande, [The Checklist](http://www.newyorker.com/magazine/2007/12/10/the-checklist), The New Yorker (Dec. 19, 2007)
+* Read Atul Gawande, [The Checklist](http://www.newyorker.com/magazine/2007/12/10/the-checklist), The New Yorker (Dec. 19, 2007)
+
+Optional / refresher viewing (will overlap with in-class lecture)
 * Watch https://www.codingthelaw.org/Fall_2020/level/1/#mission
 
 ## Week 4 2/17: Documate CEO Dorna Moini
 * Lauritsen, [Liberty, Justice, & Legal Automata](http://scholarship.kentlaw.iit.edu/cgi/viewcontent.cgi?article=3983&context=cklawreview)
 * Lauritsen & Soudakoff, [Keys to a Successful Document Assembly Project](https://static1.squarespace.com/static/571acb59e707ebff3074f461/t/5946f745725e25bf7ad93c9b/1497823045990/keys.pdf)
+
+Optional viewing:
 *  Topics in Digital Law Practice, [Document Automation](https://youtu.be/1sCol4DDm78)
 
 ## Week 5 2/24: Document Assembly Line / Interview Weaver. Critiquing a form. Editing a generated interview.
@@ -79,7 +88,10 @@ In class exercise: creating a cover sheet with user instructions.
 
 Before class, read:
 * Navigating the Field of Civic Tech. https://medium.com/tradecraft-traction/navigating-the-field-of-civic-tech-c1f9670c8f69, [perma.cc](https://perma.cc/K6HE-PXRF)
-* Read Preface, Part 1, Part 2, Part 3 and Chapter 21 of [Beyond Transparency](https://beyondtransparency.org/). [perma.cc](https://perma.cc/WS56-B36F) (Note: our guest wrote chapter 12)
+* Read Chapter 6, Chapter 11, Chapter 12, Chapter 21 of [Beyond Transparency](https://beyondtransparency.org/). [perma.cc](https://perma.cc/WS56-B36F) (Note: our guest wrote chapter 12)
+
+Optional reading:
+* Continue with the rest of parts 1-3 of [Beyond Transparency](https://beyondtransparency.org/)
 
 Come prepared with up to 3 questions for Ms. Harrell before class.
 
@@ -122,7 +134,6 @@ but please expand your search!
 
 * https://techindex.law.stanford.edu/ 
 * https://www.lawsitesblog.com/ 
-
 
 ## Week 10  3/31: Ethics and Software quality issues. Standup
 
