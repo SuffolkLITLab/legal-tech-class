@@ -82,3 +82,14 @@ Required software will not need to be installed on your computer. You can use a 
 * [Documate.org](https://documate.org)
 * [QnAMarkup.org](https://www.qnamarkup.org/)
 * [Legal Tech Assessment](https://ltaweb.azurewebsites.net/)
+
+## Independent reading
+
+If you would like to stay up to date with the legal tech world, I recommend:
+
+* [Reimagining Justice](http://www.andreaperrypetersen.com.au/), podcast from Andrea Perry Petersen
+* [Lawtomatic](https://tinyletter.com/gteninbaum/archive), curated news by Dean Teninbaum
+* [Justice Tech Download](https://www.justicetech.download/), curated news from former ABA Journal reporter Jason Tashea
+* [LawSites](https://www.lawsitesblog.com/), blog by Bob Ambrogi, former editor-in-chief of The National Law Journal
+* [Law-tech-A2j](https://law-tech-a2j.org/), blog by Roger Smith (UK)
+* [Kristen Sonday](http://kristensonday.com/press), COO of Paladin sometimes writes on legal tech and A2J Tech. See also: [70 Female Founders in Legal Tech](https://kristensonday.medium.com/fifty-female-founders-in-legaltech-2d1b32020919).

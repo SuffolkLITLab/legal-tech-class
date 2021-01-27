@@ -5,7 +5,7 @@ title: |
 sidebar_label: Assignments
 ---
 
-## Week 1, 1/27: 
+## Week 1, 1/27: Introduction to the Access to Justice Gap and our course
 
 Before class: 
 * read ["The Justice Gap: Measuring the Unmet Civil Legal Needs of Low-income Americans"](https://www.lsc.gov/sites/default/files/images/TheJusticeGap-FullReport.pdf). Legal Services Corporation, June 2017, [perma.cc](https://perma.cc/C9EP-7KL8).
@@ -53,8 +53,10 @@ Turn in the [Hello, World](https://suffolklitlab.org/legal-tech-class/docs/class
 Before class:
 * Read Atul Gawande, [The Checklist](http://www.newyorker.com/magazine/2007/12/10/the-checklist), The New Yorker (Dec. 19, 2007)
 
-Optional / refresher viewing (will overlap with in-class lecture)
-* Watch https://www.codingthelaw.org/Fall_2020/level/1/#mission
+Hour 1: Guest David Colarusso. Introduction to DACA and building a flowchart, intro to QnAMarkup
+
+Hour 2: Building a QnAMarkup for bad housing conditions
+
 
 ## Week 4 2/17: Documate CEO Dorna Moini
 * Lauritsen, [Liberty, Justice, & Legal Automata](http://scholarship.kentlaw.iit.edu/cgi/viewcontent.cgi?article=3983&context=cklawreview)
@@ -66,6 +68,7 @@ Optional viewing:
 ## Week 5 2/24: Document Assembly Line / Interview Weaver. Critiquing a form. Editing a generated interview.
 
 Before class:
+* Read:  Design Practices: “[Nothing about Us without Us.](https://design-justice.pubpub.org/pub/cfohnud7)” (2020). In Design Justice (1st ed.). Retrieved from https://design-justice.pubpub.org/pub/cfohnud7, [perma.cc](https://perma.cc/5MME-R547)
 * Watch video explaining how to use the Interview Weaver.
 * Read documentation about labels, fields, and the wizard.
 
@@ -127,16 +130,20 @@ you have identified before next week.
 In groups of 2 (or 3 if necessary) students will demonstrate a FREE tool they
 have identified that would be useful to small firms/solos.  Be able to show off
 how it works and answer questions about its features and the costs associated
-with it. 
+with it.
+
+If you have trouble finding a completely free tool, a very low cost tool or tool with
+a free trial would also be fine.
 
 You may find the following websites a good resource for identifying free tools,
 but please expand your search!
 
 * https://techindex.law.stanford.edu/ 
-* https://www.lawsitesblog.com/ 
+* https://www.lawsitesblog.com/ iss
 
 ## Week 10  3/31: Ethics and Software quality issues. Standup
 
+* [The Face of Legal Technology in 2018 (and What it Means for the Future of Access to Justice)](https://www.abajournal.com/files/LegalTech_Demographic_Article_5-8.pdf). Kristen Sonday, May 8, 2018, [perma.cc](https://perma.cc/48VG-LB89)
 * Will Hornsby, [Unauthorized Practice of Law in the 21st Century ](http://tdlp.classcaster.net/2012/03/30/tdlp-class-8-will-hornsby-unauthorized-practice-of-law-in-the-21st-century/0)
 * Listen to [Evaluating Legal Technology Applications
   (podcast)](https://legaltalknetwork.com/podcasts/law-technology-now/2020/03/evaluating-legal-technology-applications/)
@@ -146,6 +153,8 @@ but please expand your search!
   [perma.cc](https://perma.cc/7K9D-KBK3)
 
 ## Week 11: 4/7: Advanced docassemble features / Workday / Standup
+
+Content and readings TBA based on YOUR questions, final project, and feedback
 
 ## Week 12 4/14: Career paths for lawyers and legal tech opportunities for law students; Guest TBA
 
