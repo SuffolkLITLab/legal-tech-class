@@ -1,7 +1,7 @@
 ---
 slug: 2021-smart-machines-assignments
 title: |
-  Assignments: Legal Tech for Small Firms
+  Assignments: Lawyering in the Age of Smart Machines
 sidebar_label: Assignments
 ---
 
