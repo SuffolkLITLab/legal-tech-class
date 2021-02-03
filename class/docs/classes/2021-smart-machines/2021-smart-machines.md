@@ -16,7 +16,7 @@ Quinten Steenhuis, QSteenhuis@suffolk.edu
 ## Course information
 ### Meeting Time
 
-6 PM-7:50 PM, Wednesdays, Spring 20201 Via Zoom
+6 PM-7:50 PM, Wednesdays, Spring 2021 Via Zoom
 
 ### Syllabus
 [Syllabus](2021-smart-machines-syllabus.md)

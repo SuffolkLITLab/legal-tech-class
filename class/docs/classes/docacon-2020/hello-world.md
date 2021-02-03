@@ -13,10 +13,13 @@ let you concentrate on writing your interviews and writing very little code.
 Yet, it's flexible enough to allow you to use advanced coding techniques when
 you need to do so.
 
+### Recording from June 2020 Live Training
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lsh_2qmTSAw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Introduction to the Docassemble Playground
 
-We will use the Docassemble playground for all exercises. Log in to the
-Docassemble server at https://training.docassemble.org/. When you are loggged
+We will use the Docassemble playground for all exercises. Log in to your
+Docassemble server. When you are loggged
 in, click on your email address, and then select the Playground option to reach the
 Playground.
 
