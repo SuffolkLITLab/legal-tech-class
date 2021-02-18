@@ -34,7 +34,7 @@ Notable apps in the same space but with different functionality include:
 
 1. [QnAMarkup](https://qnamarkup.org)
 
-Docassemble has also inspired two user-friendly low-code frontends: [Community.Lawyer](https://community.lawyer) and [Documate](https://www.documate.org/).
+Docassemble has also inspired two user-friendly low-code frontends: [Afterpattern](https://afterpattern.com/) (previously Community Lawyer) and [Documate](https://www.documate.org/).
 
 ## How does Docassemble work?
 
