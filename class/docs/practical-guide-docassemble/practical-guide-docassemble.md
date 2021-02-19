@@ -101,4 +101,4 @@ Docassemble's built-in features could easily be dedicated tools in their own rig
 
 ## Other lists of apps built with Docassemble
 
-* https://community.lawyer/featured-apps
+* https://afterpattern.com/search
