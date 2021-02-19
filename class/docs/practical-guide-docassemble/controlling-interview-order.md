@@ -270,7 +270,9 @@ In the example above, triggering `user.address.address` will run the
 That is because the user's name is displayed on the `id: user's address`
 block.
 
-#### Triggering a screen for a variable that is already defined: `force_ask`
+### Triggering a screen for a variable that is already defined
+
+#### Forcing docassemble to re-ask a defined variable
 
 One pattern you might encounter is that a variable is pre-defined (maybe by an API)
 but you still want the user to have a chance to review and edit the value.
@@ -295,13 +297,86 @@ run more than one time. Try the `named block` pattern below to
 contain any `force_ask()` or `invalidate()` code and ensure it
 only runs one time.
 
+#### The **default** pattern
+
+```yaml
+---
+id: interview order
+mandatory: True
+code: |
+  address_default
+  user.address.address
+---
+code: |
+  address_default = run_some_api()
+---
+question: |
+  What is your address?
+subquestion: |
+  We set the default value based on an API result.
+fields:
+  - Address: user.address.address
+    default: address_default
+```
+
+This very simple pattern just displays the API-generated results as a
+placeholder. This pattern is nice because the user gets to see the value and
+change it. The potentially "wrong" value is never stored in the `Address`
+object.
+
+#### The "existing or new" pattern
+
+Another pattern you could try is allowing the user to choose from existing
+values or to define a new one. `object_radio` combined with `disable others` is
+a good way to do this. This pattern works well with API results.
+
+```yaml
+---
+objects:
+  user: Individual
+---
+id: interview order
+mandatory: True
+code: |
+  address_default_object
+  user.address.address
+  display_results
+---
+code: |
+  # You could use a function or API call that returns an Address object instead of directly initializing the object
+  address_default_object = Address(address="123 Main St", city="Boston")
+---
+question: |
+  What is your address?
+fields:
+  - An existing address: user.address
+    datatype: object_radio
+    none of the above: True
+    choices:
+      - address_default_object
+    disable others: True
+  - Address: user.address.address
+  - City: user.address.city
+  - State: user.address.state
+    code: states_list()
+---
+event: display_results
+question: |
+  ${ user.address.block() }
+```
+
+In the interview snippet above, the Address/City/State fields can only be
+interacted with if the "Existing address" field has been left set to `None of
+the above`.
+
+#### Displaying a link to allow the user to edit a value
 
 One safe option is to display a link to edit a variable on an arbitrary screen 
 with `url_action()`. Here is an example:
 
 ```yaml
 question: |
-  Your address
+  Verify your court
 subquestion: |
   Based on the information you gave us, it looks like
   you belong in ${ trial_court }.
