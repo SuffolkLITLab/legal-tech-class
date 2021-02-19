@@ -171,7 +171,7 @@ this as a place to list variables as a reference and do simple branching logic.
 Don't use it to set any variables or call an API that might be triggered
 multiple times.
 
-### You cannot trigger a block with `id`. `event` does not do what you think
+### You cannot trigger a block with `id`
 
 Another common pattern new Docassemble developers try is to trigger a specific
 block in the interview order block by referencing the block's `id` or by
@@ -179,6 +179,7 @@ adding an `event` modifier to the block.
 
 The `id` of a block is information for you, the developer, and gets used by
 analytics tools as well. It is not used to trigger a block.
+### `event` does not do what you think
 
 A new developer might try using an
 [`event`](https://docassemble.org/docs/questions.html#event) modifier to trigger
@@ -186,6 +187,15 @@ a block. An `event` **generally** does not save or persist any variables that ar
 set during it. You should not attach an `event` modifier to a block of code that
 you want to trigger in an `interview order` block. Reserve it for ending
 questions, not to label code you want to run.
+
+The other place that `event` is used is with the Docassemble `actions` system.
+
+`Event`s linked to actions that **do** permanently alter an interview's state
+can be triggered by an [external
+occurrence](https://docassemble.org/docs/api.html#session_action), [clicking a
+button](https://docassemble.org/docs/functions.html#url_action), or be used by
+[background code](https://docassemble.org/docs/background.html#background).
+Don't try to use an `event` to trigger code in the main flow of an interview.
 
 ### How the interview order block differs from HotDocs' INTERVIEW computation
 
