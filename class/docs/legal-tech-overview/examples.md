@@ -48,7 +48,7 @@ Think of this as a curated walkthrough of some popular legal technology tools.
   built on Python with strong customizability and expert system capabilities
     * [Documate](https://documate.org), a frontend for Docassemble that exposes
       most of its power
-    * [Community.Lawyer](https://community.lawyer), a frontend for Docassemble
+    * [Afterpattern](https://afterpattern.com/), a frontend for Docassemble
       with a free tier + marketplace
 * [A2JAuthor.org](https://a2jauthor.org), a popular non-commercial frontend to
   HotDocs which also includes limited document assembly capabilities that don't

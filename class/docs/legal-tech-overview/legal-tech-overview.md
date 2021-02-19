@@ -155,7 +155,7 @@ services to clients.
   databases, often run by bar associations or legal aid agencies)
 * Lawyer rating and matching services, like Avvo or pro bono focused ones like Paladin
 * Marketplace tools that allow lawyers to sell legal services.
-* Legal App marketplaces, like those created by Community.Lawyer and HotDocs
+* Legal App marketplaces, like those created by Afterpattern and HotDocs
 
 ### Technology used by courts
 
