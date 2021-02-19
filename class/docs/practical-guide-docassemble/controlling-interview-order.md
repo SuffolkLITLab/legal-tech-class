@@ -405,5 +405,8 @@ behavior. `depends on` also serves a dual purpose of allowing you to explain
 your code's purpose to the next developer to come along and read your interview.
 
 
+# Learn more
+
+* Docassemble Documentation: [Logic](https://docassemble.org/docs/logic.html)
 
 Quinten Steenhuis, February 2021
