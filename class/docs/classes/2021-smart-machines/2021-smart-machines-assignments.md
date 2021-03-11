@@ -139,7 +139,7 @@ You may find the following websites a good resource for identifying free tools,
 but please expand your search!
 
 * https://techindex.law.stanford.edu/ 
-* https://www.lawsitesblog.com/ iss
+* https://www.lawsitesblog.com/
 
 ## Week 10  3/31: Ethics and Software quality issues. Standup
 
@@ -147,7 +147,11 @@ but please expand your search!
 * Will Hornsby, [Unauthorized Practice of Law in the 21st Century ](http://tdlp.classcaster.net/2012/03/30/tdlp-class-8-will-hornsby-unauthorized-practice-of-law-in-the-21st-century/0)
 * Listen to [Evaluating Legal Technology Applications
   (podcast)](https://legaltalknetwork.com/podcasts/law-technology-now/2020/03/evaluating-legal-technology-applications/)
-* Read Dan Linna: [Evaluating Legal Services: The Need for a Quality Movement
+* Read: [Substantive Legal Software Quality: A Gathering Storm?](https://static1.squarespace.com/static/571acb59e707ebff3074f461/t/5cfe69e4a851d80001bdf162/1560177127345/Substantive+Legal+Software+Quality+-+A+Gathering+Storm.pdf)
+  
+
+Optional reading:
+* Dan Linna: [Evaluating Legal Services: The Need for a Quality Movement
   and Standard Measures of Quality and Value
   ](https://www.legaltechlever.com/2020/03/evaluating-legal-services-the-need-for-a-quality-movement-and-standard-measures-of-quality-and-value-chapter-in-research-handbook-on-big-data-law/),
   [perma.cc](https://perma.cc/7K9D-KBK3)
@@ -156,9 +160,11 @@ but please expand your search!
 
 Content and readings TBA based on YOUR questions, final project, and feedback
 
-## Week 12 4/14: Career paths for lawyers and legal tech opportunities for law students; Guest TBA
+## Week 12 4/14: Career paths for lawyers and legal tech opportunities for law students; Guest Miguel Willis; Reflecting on our semester and the future of access to justice
 
-Read: [Civil Justice for All](https://www.amacad.org/publication/civil-justice-for-all)
+* Explore: [ATJ Tech Fellows](https://www.atjtechfellows.org/)
+* Read: [Legal Rebels: Miguel Willis](https://www.abajournal.com/legalrebels/article/miguel_willis_law_last_frontier)
+* Read: [Civil Justice for All](https://www.amacad.org/publication/civil-justice-for-all)
 
 ## Week 13 4/21: Presentation of student projects.
 
