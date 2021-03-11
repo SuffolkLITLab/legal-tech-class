@@ -141,6 +141,8 @@ but please expand your search!
 * https://techindex.law.stanford.edu/ 
 * https://www.lawsitesblog.com/
 
+[Add your name and tool before class](https://teams.microsoft.com/l/file/E5BEC30D-FB0D-43D3-B89E-F827EE379792?tenantId=78733fa9-540e-4eb8-bf29-73c4eeb63412&fileType=xlsx&objectUrl=https%3A%2F%2Fsumail.sharepoint.com%2Fsites%2FLawyeringintheageofSmartMachines%2FShared%20Documents%2FGeneral%2FFree%20Tool%20Fiesta%20Signup.xlsx&baseUrl=https%3A%2F%2Fsumail.sharepoint.com%2Fsites%2FLawyeringintheageofSmartMachines&serviceName=teams&threadId=19:c0453950c860471fa74fea797cee863f@thread.tacv2&groupId=a04f7eb3-9320-44ef-bbf9-b15a8d022876)
+
 ## Week 10  3/31: Ethics and Software quality issues. Standup
 
 * [The Face of Legal Technology in 2018 (and What it Means for the Future of Access to Justice)](https://www.abajournal.com/files/LegalTech_Demographic_Article_5-8.pdf). Kristen Sonday, May 8, 2018, [perma.cc](https://perma.cc/48VG-LB89)
