@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[86],{156:function(l){l.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/legal-tech-class/blog/2019/05/30/welcome"},{"title":"Hello","permalink":"/legal-tech-class/blog/2019/05/29/hello-world"},{"title":"Hola","permalink":"/legal-tech-class/blog/2019/05/28/hola"}]}')}}]);
