@@ -36,6 +36,8 @@ Things that I don't do but should consider:
 
 # Setting up Docassemble, start to finish
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JXdOCLMFPHc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Create your AWS account
 
 [Follow Amazon's
