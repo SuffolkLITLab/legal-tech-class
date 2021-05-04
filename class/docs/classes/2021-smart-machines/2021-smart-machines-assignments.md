@@ -184,10 +184,10 @@ Come prepared to present/provide constructive critique of classmates' work.
 
 Legal Tech Assessment is due.
 
-## May 7th, 5 PM
+## May 7th, 11:59 PM
 
 Final project is due.
 
 [Use this
-link]
+link](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUN0hERFJaTk5ZNkIyMDM1SEE2OFBYQ1E0WS4u)
 to turn in your final project.
