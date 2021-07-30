@@ -154,10 +154,20 @@ module.exports = {
           type: 'category',
           label: 'Legal Tech for Small Firms',
           items: [
-            'classes/small-firms/2020-legal-tech-small-firms',
-            'classes/small-firms/2020-legal-tech-small-firms-syllabus',
-            'classes/small-firms/2020-legal-tech-small-firms-assignments',
-            'classes/small-firms/2020-legal-tech-small-firms-rubric'
+            {
+              type: 'category',
+              label: 'Fall 2020 (archived)',
+              items: [
+                'classes/small-firms/2020/2020-legal-tech-small-firms',
+                'classes/small-firms/2020/2020-legal-tech-small-firms-syllabus',
+                'classes/small-firms/2020/2020-legal-tech-small-firms-assignments',
+                'classes/small-firms/2020/2020-legal-tech-small-firms-rubric'    
+              ]
+            },
+            'classes/small-firms/2021-legal-tech-small-firms',
+            'classes/small-firms/2021-legal-tech-small-firms-syllabus',
+            'classes/small-firms/2021-legal-tech-small-firms-assignments',
+            'classes/small-firms/2021-legal-tech-small-firms-rubric'
           ]
         },
         {
