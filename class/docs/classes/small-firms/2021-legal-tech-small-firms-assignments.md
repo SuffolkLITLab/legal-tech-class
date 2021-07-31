@@ -16,13 +16,58 @@ Before class:
    (https://www.artificiallawyer.com/2018/06/11/law-firms-are-inefficiency-factories-automation-is-the-cure/), [perma.cc](https://perma.cc/3S2F-R3Q3).
    Be prepared to discuss it.
 
+3. Read the [2021 Clio Legal Trends
+   Report](https://www.clio.com/wp-content/uploads/2020/08/2020-Legal-Trends-Report.pdf),
+   [perma.cc](https://perma.cc/3G2V-CU4S)
+
+### Dicussion topics for Troman:
+
+* What is the author's main point?
+* What do you think of the author's main point? How different is a 
+  law firm from a restaurant?
+* Can you think of a better metaphor than "inefficiency factory"?
+* Do you agree that automation will cost law firms money?
+    * How much room is there for law firms to expand business?
+* Why do people outsource things anyway?
+* Do people hire lawyers for the same reasons that they hire a painter or go to a restaurant?
+* How has automation shaped the rest of society?
+
+
 After class:
 
 3. Write a [brief
    reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQUQzWDBYVllDMVJSVUk3Q01FV0NZSlBOMy4u)
    about the readings and class discussion.
 
-## Week 2, 8/30: (Remote class)
+## Week 2, 8/30: (Remote class) Hello, World in Docassemble
+
+Before class: Make sure you have an account on the Suffolk LIT Lab Docassemble server,
+https://apps-dev.suffolklitlab.org. NOTE: this server is for Suffolk Law
+Students, only.
+
+Follow-along with the training from this year's Docacon below. **You only need
+to listen until about 1:45**, which covers the Hello, World exercise and the
+logic section. You can skip the Docx example which takes place in the second
+half of the training.
+
+The video includes breaks, questions, and introduction which you do not need to
+watch. Feel free to watch at a higher speed as well.
+
+Also see the training materials, which are hosted as part of this [legal tech
+text book](classes/docacon-2020/hello-world.md).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lsh_2qmTSAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+After class: do the stretch goals for both the [Hello,
+World](https://suffolklitlab.org/legal-tech-class/docs/classes/docacon-2020/hello-world#your-assignment)
+and the
+[Logic](https://suffolklitlab.org/legal-tech-class/docs/classes/docacon-2020/logic#your-assignment)
+sections of the training.
+
+Turn in a hello_world.yml and logic.yml file via [the Microsoft
+Form](https://forms.office.com/Pages/ShareFormPage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFURUJIQ1NYUFNXM1pMWlhIS0hTOVRCUzJaQy4u&sharetoken=O1ZBtGGZvuhPGE84Bhse).
+
+
 
 **During class**: Start working on the Clio University (16 mini "courses",
 CPE01-16). The completed Clio coursework is due by the end of the semester. It
@@ -55,13 +100,7 @@ final day of class.
 Expect to spend a few days working through the training and assessment portions.
 You can retake the assessment portion as needed.
 
-## Week 3 9/13: Guest Speaker: Diego Alcala. Assessing legal technology
-
-We will spend the first 1/2 of class talking with Diego Alcala, a small firm and
-technology-oriented lawyer in Puerto Rico.
-
-The second half we will discuss assessing legal software and software quality
-issues.
+## Week 3 9/13: Guest Speaker: Jared Jasko, Yo Tengo Bot
 
 Before class:
 
@@ -71,14 +110,6 @@ Before class:
   and Standard Measures of Quality and Value
   ](https://www.legaltechlever.com/2020/03/evaluating-legal-services-the-need-for-a-quality-movement-and-standard-measures-of-quality-and-value-chapter-in-research-handbook-on-big-data-law/),
   [perma.cc](https://perma.cc/7K9D-KBK3)
-* Read Diego's website, [Defensoria
-  Legal](https://www.defensorialegal.com/about)
-
-Come prepared with at least 3 questions. [Submit your questions in advance of
-class](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQVMwWFdMS1pOSDUxS1BTVDRTWFI4UTQ3SS4u).
-
-[View the questions others have
-submitted](https://forms.office.com/Pages/AnalysisPage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQVMwWFdMS1pOSDUxS1BTVDRTWFI4UTQ3SS4u&AnalyzerToken=vWYAdv2BDIzd38dz7cyjYlccWKVzFQ5A)
 
 After class: [write a brief
 reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUOFNUUDRDQkw2UlQ3VzZLQVFDT0lPV1lRQS4u)
@@ -103,54 +134,19 @@ slack](https://community-lawyer.slack.com/join/shared_invite/zt-6b0n85g3-ieW_bJ3
 After class: [write a brief
 reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUREZGN0g1VzQ0QUg5Sk0wT0lFUjlUTTRJSC4u).
 
-## Week 5 9/27: Hello, World in Docassemble
+## Week 5 9/27: Plain language
 
-Please make sure to allocate plenty of time before class to complete the exercises!
+[Slides](https://docs.google.com/presentation/d/e/2PACX-1vQUx-VLWX0ERfaEAUMN02mw6J5WT6xfYG019vbA1jJzTWi4H5rvfCbz4cDiW1ARntTsv4T1vA7ETXAW/pub?start=false&loop=false&delayms=3000)
 
-* Try it at least a few days in advance
-* Ask for help on Slack when you get stuck (follow the "30 minute" rule). Keep
-  in mind I will be more available to help 9-5, during the week.
+Before class:
+* Visit [PlainLanguage.gov](https://www.plainlanguage.gov/about/definitions/). Read sections about Plain Language. 
+* Watch [Using Plain Language for the Web](https://digital.gov/2015/09/16/using-plain-language-to-write-for-the-web/) (video at bottom of page or [here](https://www.youtube.com/watch?v=BB7oznnz3lQ))
 
-**Before class**:
-
-[Docassemble](https://docassemble.org) is the foundation for Community.Lawyer,
-and allows much more advanced automations. It is also completely free and
-customizable, but takes more time and experience to develop in and to host.
-
-Make sure you have an account on the Suffolk LIT Lab Docassemble server,
-https://apps-dev.suffolklitlab.org. NOTE: this server is for Suffolk Law
-Students, only.
-
-Follow-along with the training from this year's Docacon below. **You only need
-to listen until about 1:45**, which covers the Hello, World exercise and the
-logic section. You can skip the Docx example which takes place in the second
-half of the training.
-
-The video includes breaks, questions, and introduction which you do not need to
-watch. Feel free to watch at a higher speed as well.
-
-Also see the training materials, which are hosted as part of this [legal tech
-text book](classes/docacon-2020/hello-world.md).
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Lsh_2qmTSAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-We will meet for a shorter period, 60 minutes, this week to answer your questions about
-the Hello, World exercise.
-
-After class: do the stretch goals for both the [Hello,
-World](https://suffolklitlab.org/legal-tech-class/docs/classes/docacon-2020/hello-world#your-assignment)
-and the
-[Logic](https://suffolklitlab.org/legal-tech-class/docs/classes/docacon-2020/logic#your-assignment)
-sections of the training.
-
-Turn in a hello_world.yml and logic.yml file via [the Microsoft
-Form](https://forms.office.com/Pages/ShareFormPage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFURUJIQ1NYUFNXM1pMWlhIS0hTOVRCUzJaQy4u&sharetoken=O1ZBtGGZvuhPGE84Bhse).
-
-## Week 6 10/4: Docassemble continued -- more questions and practice ~Introduction to Microsoft Forms and Power Automate; Discussion about billing, accounting, and business aspects of running a law firm~
+## Week 6 10/4: Docassemble continued -- more questions and practice
 
 We will spend this week practicing some of the docassemble skills from week 5.
 
-## Week 7 10/12: Class meets at regular time on Tuesday
+## Week 7 10/12: Class meets at regular time on Tuesday, Ivy Grey, Wordrake?
 
 **Monday schedule, class meets at regular time on Tuesday**
 
@@ -188,37 +184,17 @@ but please expand your search!
 2. Turn in a [brief
    reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUQ0NIOVBWQTZFT1VRMzJGNzhWWkk4RDlZWi4u).
 
-## Week 9 10/25: Community Lawyer, Advanced Skills
+## Week 9 10/25: 
 
-For many students, using Community.lawyer will make sense for their final
-project.  To prepare for this meeting, spend some time looking at
-[Community.lawyer's documentation](https://community.lawyer/help-guide) for a sense of what questions you might have
-about how to build conditional logic into your app.
+## Week 10  11/1: The Intersection of Design Thinking and Legal Work [guest TBD]
 
-You should feel to reach out to the Community.lawyer team directly (there are buttons to schedule a call with Community.lawyer all over their website). They are available to help you think through how to structure your automation. 
-
-Turn in a [brief
-reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUNVRFN0QxTVJJU1BMOEZYTVJPRVBTSzNQOS4u).
-
-## Week 10  11/1: Guest Speaker: Nora Al Haider, Stanford Legal Design Lab: The Intersection of Design Thinking and Legal Work
-
-Nora Al Haider of the Stanford [Legal Design
-Lab](https://law.stanford.edu/organizations/pages/legal-design-lab/) will share some of the lab's
-work and answer your questions in the first 1/2 of class. Come prepared with
-questions about legal design.
 
 Before class:
 
 * Read chapter 1 of [Law by Design](https://www.lawbydesign.co/legal-design/), by Margaret Hagan, [Perma.cc](https://perma.cc/PEF8-6Z8Y)
 
-Listen to this
-[interview](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy50cmFuc2lzdG9yLmZtL2RhaWx5LW1hdHRlcnMtdGhlLWNoYW5naW5nLWZhY2Utb2YtdGhlLWxlZ2FsLWluZHVzdHJ5/episode/ZGY5MDAxYTEtMDdkMS00MmU2LThmZDAtMDVlZjA3MmU1MjQ3?hl=en&ved=2ahUKEwiL3tiV6ITrAhWImHIEHWC4DJUQjrkEegQIChAE&ep=6)
-of Nicole Bradick of Theory & Principle.
 
-After class: [write a brief
-reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE7rY0EvfCmbvxns1Fu0wRF1ZKxuFUNVhBT05XUVcwWVoxNEIxWEQwODI5OTBMNy4u).
-
-## Week 11: 11/8: Guest speaker: Mike Whelan, Alternative Legal Research Tools; use of AI in legal work
+## Week 11: 11/8: 
 
 Discussion with guest, Mike Whelan and author of [Lawyer
 Forward](https://www.lawyerforward.com/) and a new e-book with Clio, "Designing your Law Firm's New Normal".

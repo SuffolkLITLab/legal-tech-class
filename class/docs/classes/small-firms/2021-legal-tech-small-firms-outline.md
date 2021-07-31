@@ -1,5 +1,5 @@
 ---
-slug: 2020-legal-tech-small-firms-outline
+slug: 2021-legal-tech-small-firms-outline
 title: Class Outline
 sidebar_label: Class Outline
 ---
