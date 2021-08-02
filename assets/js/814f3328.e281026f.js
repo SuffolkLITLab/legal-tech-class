@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopen_class=self.webpackChunkopen_class||[]).push([[2535],{6353:function(l){l.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/legal-tech-class/blog/welcome"},{"title":"Hello","permalink":"/legal-tech-class/blog/hello-world"},{"title":"Hola","permalink":"/legal-tech-class/blog/hola"}]}')}}]);
