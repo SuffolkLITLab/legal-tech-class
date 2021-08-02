@@ -26,7 +26,7 @@ Prerequisites: None
 
 You do not need to purchase any materials.
 
-The [class website](classes/small-firms/2021-legal-tech-small-firms.md)
+Microsoft Teams
 is the "home base" for this class. Links to readings and required videos
 will be posted there in advance of each class.
 

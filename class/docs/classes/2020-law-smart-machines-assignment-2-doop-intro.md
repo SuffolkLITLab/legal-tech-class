@@ -1,5 +1,5 @@
 ---
-slug: 2020-law-smart-machines-assignment-2-doop-intro
+id: 2020-law-smart-machines-assignment-2-doop-intro
 title: Object Oriented Programming
 sidebar_label: Assignment 2
 ---

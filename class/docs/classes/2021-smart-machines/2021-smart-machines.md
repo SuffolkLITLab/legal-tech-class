@@ -1,4 +1,5 @@
 ---
+id: 2021-smart-machines
 slug: 2021-smart-machines
 title: Lawyering in the Age of Smart Machines
 sidebar_label: |

@@ -1,7 +1,7 @@
 ---
 slug: editing-docusaurus
-title: 
-sidebar_label: 
+title: Editing
+sidebar_label: Editing 
 ---
 
 

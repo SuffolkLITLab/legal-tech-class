@@ -1,4 +1,5 @@
 ---
+id: 2020-law-smart-machines
 slug: 2020-law-smart-machines
 title: Spring 2020, Lawyering in the Age of Smart Machines
 sidebar_label: |

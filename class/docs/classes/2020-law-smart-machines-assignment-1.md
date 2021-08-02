@@ -1,4 +1,5 @@
 ---
+id: 2020-law-smart-machines-assignment-1
 slug: 2020-law-smart-machines-assignment-1
 title: Assignment 1
 sidebar_label: Assignment 1

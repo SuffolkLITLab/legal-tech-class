@@ -1,4 +1,5 @@
 ---
+id: 2021-smart-machines-assignments
 slug: 2021-smart-machines-assignments
 title: |
   Assignments: Lawyering in the Age of Smart Machines
