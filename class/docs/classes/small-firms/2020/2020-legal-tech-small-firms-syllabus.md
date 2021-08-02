@@ -23,7 +23,7 @@ Prerequisites: None
 
 You do not need to purchase any materials.
 
-The [class website](classes/small-firms/2020-legal-tech-small-firms.md)
+The [class website](classes/small-firms/2020/2020-legal-tech-small-firms.md)
 is the "home base" for this class. Links to readings and required videos
 will be posted there in advance of each class.
 
