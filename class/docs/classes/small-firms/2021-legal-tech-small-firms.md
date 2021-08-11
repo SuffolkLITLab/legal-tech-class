@@ -15,7 +15,7 @@ Quinten Steenhuis, QSteenhuis@suffolk.edu
 [Twitter](https://twitter.com/qsteenhuis)
 [Website](https://nonprofittechy.com)
 
-Meeting time: 2 PM - 3:50 PM, Mondays, Fall 2021
+Meeting time: 2 PM - 3:50 PM, Mondays, Fall 2021, Sargent Hall Room 305
 
 The practice of law is increasingly built around digital tools. Lawyers who
 understand technology have an advantage in the marketplace, both to reduce their
