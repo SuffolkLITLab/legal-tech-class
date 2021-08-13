@@ -3,9 +3,22 @@ slug: 2021-legal-tech-small-firms-rubric
 title: Final Project Rubric
 sidebar_label: Final Project Rubric
 ---
-
+## Final Project
 Your final project should use some of the technologies that we learned about
 throughout the semester.
+
+We will spend significant class time learning, troubleshooting, and exploring
+the Assembly Line Weaver and Docassemble. Therefore, most students should
+default to doing a Docassemble-based project that is part of the Court Forms
+Online Assembly Line, but you are not required! Every year students come in with
+ideas for exciting, meaningful projects that use a different technology or that
+do not fit the Assembly Line format.
+
+Alternative tools could include:
+* [LawDroid](https://lawdroid.com/get-lawdroid-free/)
+* [Documate](https://documate.org)
+* [AfterPattern](https://afterpattern.com)
+* [A2J Author](https://www.a2jauthor.org)
 
 Class projects may range from the proof of concept stage to real, working
 products. For purposes of this class, you should aim at a minimum for the
@@ -18,7 +31,7 @@ grade for the final project will be shared between all members of the group.
 Expectations for the complexity and scope of your project will be higher if you
 work in a group. You are free to divide the work as you choose.
 
-## Final project ideas
+### Final project ideas
 
 * Triage tools -- direct someone to an outcome or resource
 * Advice tools -- evaluate whether someone's case meets a legal standard
@@ -29,7 +42,66 @@ If you are not sure what project you want to work on, you can select a form
 from the [Doc Assembly Line](https://suffolklitlab.org/doc-assembly-line/)
 project.
 
-## Final presentation
+### Summary of Grading
+
+Your grade for your final project will reflect:
+
+Category | Summary | Due date| Percent of grade 
+---------|---------|---------|-------------
+Initial outline | Draft of questions and instructions | Week 7 | 15%
+Research | Document the work done to understand the form's purpose and meaning | Graded at end | 10%
+Final presentation | Present your work in progress | Week 13 | 10%
+Completeness | How well does the project solve the problem? | Graded at end | 20%
+Polish and refinement | How refined is the user experience, including use of language, input types, and question order? | Graded at end | 20%
+Iteration and use of feedback | How well did the student solicit and incorporate feedback | Graded at end | 10%
+Final project description | How well did the student document the process of development? | Graded at end | 10%
+Preparing for handoff | How well did the student document the next steps to continue refining the project? | Graded at end | 5%
+
+#### Research
+
+Use your research skills to identify the relevant statutes, rules, and context
+that your user would need to navigate your app.
+
+Document the location and sources that supports your work.
+
+For example: https://masslegalhelp.org; https://mass.gov.
+
+#### Initial outline
+
+A 2-3 page paper draft of your final project, plus a 1-2 page draft set of
+instructions for a user to follow after they walk away from your app.
+
+This is only a draft, and at this early stage, you may still have a lot
+of unanswered questions. That's OK. Do your best to be complete and to identify
+sources for unanswered questions.
+
+###### Draft of project
+
+Write out an outline or draft of the following. If you are not sure yet, identify
+sources that you can use to fill in the missing details. Do your best to be complete.
+
+1. Review your final project's output document.
+1. Put yourself in the position of an attorney sitting across the table from
+   your client and filling in the form or providing advice.
+1. Who is your client? What goal do they have?
+1. What stage of their legal problem are you intervening at?   
+1. What information would you need? Write a brief list.
+1. What would your client need to know **before** they meet with you? What
+   documents might they bring? What might they need to look up in a third-party
+   source?
+1. What questions would you want to ask? Write down a summary of the questions.
+1. What information and context would your client need? Write down an outline of
+   the information your user would need.
+##### Draft of instructions
+
+Write out an outline or draft of the following. If you are not sure yet, identify
+sources that you can use to fill in the missing details. Do your best to be complete.
+
+1. Put yourself in the position of an attorney again.
+1. What steps would your client need to follow after they meet with you?
+1. What real-world actions might happen in response to your advice or filing the form?
+1. When and how will the client receive a result from the form or advice?
+#### Final presentation
 
 You will be asked to present your work to the class during our last class
 session. This does not need to be a completed project. You will still have 2
@@ -45,30 +117,143 @@ You are welcome but not required to incorporate slides and a live demo. It's
 okay if you only demo a few screens. Errors are to be expected but your final
 product that you turn in should run through to the end.
 
-## Grading
+#### Completeness, polish and refinement
 
-The final project can earn a total of 100 points, which
-will represent 50% of your grade.
+Most of your grade for the final project will be about how complete, polished,
+and refined it is.
 
-### Process (35%)
+However: we all come to this work from different places. Technical barriers and
+glitches will not be the foundation of your grade. Focus on:
 
-Category | Exceeds expectations | Meets expectations | Below expectations | Score
------|-----|-----|-----|-----
-**Framing**: how well does the student define the problem? | Enough detail for highly tailored solution | Enough detail for a well-tailored solution | Does not fully describe the problem | 8
-**Research**: how well are existing solutions reviewed? |  Substantial review of existing solutions, including relevant technical and content-based solutions (e.g., form banks) and involving consultation with practitioners | Substantial but no-exhaustive review of existing solutions, including relevant technical and content-based solutions (e.g., form banks). May involve consultation with practitioners. | Cursory or no review of existing solutions, far below that done for other projects. | 5
-**Ideation and Prototyping**: How well does the student explore the available space of potential solutions? | Considers and weighs the costs & benefits of multiple technical solutions or design configurations. Creates prototype only after considering at least three alternatives. These may be the subject of A-B testing below. | Considers and weighs the costs & benefits of multiple technical solutions or design configurations. These may be the subject of A-B testing below. | Fails to consider and weigh the costs & benefits of multiple technical solutions and design configurations. | 4
-**User Testing**: How rigorously does the student engage in user testing, and how realistic are such tests? | Makes use of two or more of the following in close to real-world conditions: A-B testing, multiple testers other than themselves for each type of user, potential real-world user(s). Captures user feedback in a uniform comparable manner. Student provides copy of user feedback. | Makes use of at least one tester other than themselves for each type of user in close to real-world conditions. Captures user feedback in a uniform comparable manner. Student provides copy of user feedback. | Fails to make use of a tester other than themselves; or fails to replicate close to real-world conditions; or fails to capture user feedback in a uniform manner. | 8
-**Refinement**: How well does the student integrate feedback from user testing into subsequent versions of their solution? | User feedback is thoughtfully integrated into the final version of the solution (where the solution includes both the technical product and any documentation). At least two rounds of user testing were conducted with iterative improvements to the solution after each round. Use of multiple tests amount to more than testing for testing's sake. | User feedback is seriously considered and used to inform the final version of the solution (where the solution includes both the technical product and any documentation). The final version is not the same as the original version (i.e., there are at least two versions). | Fails to seriously consider user feedback in final version of solution or fails to create multiple iterations of the solution. | 10
+1. Logically ordered and constructed questions.
+1. Use of appropriate inputs (e.g., area fields, radio buttons), at least
+   noting where you wanted to use a different input but were stuck.
+1. Grouping fields together logically and making thoughtful choices about the
+   length of screens.
+1. Use of clear, readable language.
+1. Provision of helpful information and context to your user.
+1. Creation of an appropriate set of "next steps" instructions for your user to
+   take with them after they finish using your app.
+
+Most of these steps can be documented in a Word document or in a series of
+wireframe mock-ups even if you run into issues with code. Focus on the
+substance, not the code, and ask for help when you are stuck.
+
+#### Iteration and incorporation of feedback
+
+Few project plans survive contact with real world needs. An important step of
+development is reaching a prototype quickly so that you can demonstrate it to
+clients, subject matter experts, and peers and solicit feedback.
+
+You are expected to:
+
+1. Send a prototype of your app, or app outline, to an expert early to get
+   advice and feedback. (If an expert is available).
+1. Send out your app for feedback from members representing your potential
+   clients. These can be friends, family, or peers.
+
+Most forms should have experts available, either inside the university or
+the Court Forms Online volunteer project. If there is no expert for your 
+form, it may not be the right form for you.
+
+You should document all feedback but not all feedback will be actionable. 
+Be thoughtful about what feedback you decide to implement and which you 
+decide against. You may also have feedback that is a good idea but is too
+advanced to reach in the context of this class. Write that down, too.
+
+Documenting feedback is not all you should do: use the feedback to 
+revise, improve, and extend your app's capabilities. You may choose
+to document this process with screenshots along the way, or with the 
+GitHub commit log.
+
+A model app will have at least 3-4 revisions and feedback from 3-4 individuals,
+although not each revision will get its own round of feedback.
+
+#### Final project description
+
+Your final project description is my best way to know how you did with 
+each of the separate graded components above.
+
+Describe your work process, the form itself, and reflect on how well you
+achieved each of the gradeable components of the project.
+
+A model project description will be at least 2 pages, but may extend longer
+if it includes excerpts from user feedback or next steps.
+
+#### Preparing for handoff
+
+Many student projects live only in the classroom. For example, an engineering
+student's model of a bridge will never get built: And that's OK.
+
+Code-based projects, however, can always be extended, improved, and refined. If
+you chose a form on the Court Forms Online Assembly Line, your form may be
+picked up by a student in the next months or years. Even if you did not, part of
+your grade includes:
+
+1. Identifying work that you did not complete but that would meaningfully
+   improve the form.
+1. Identifying feedack from an expert that you ran out of time to implement or
+   that was outside of the scope.
+
+If possible, your next-step action items should be recorded as issues in GitHub.
+If you are not using GitHub for your project, you can include the action items
+in a more detailed way in your final project description.
+
+## App Teardown and Review
+
+The app "teardown" or review is your chance to put yourself back in the mind
+of a client or attorney.
+
+Please turn in a **2-3 page** review of an app following the guidelines below.
+
+Be kind and provide constructive feedback. "Teardown" does not mean insult. Do
+your best to provide feedback that you think would help you improve if the
+project was your own work.
+
+### Picking an app to review
+
+Some collections of expert systems that I know:
+
+* [MADE](https://www.gbls.org/MADE) and [UpToCode](https://interviews.gbls.org/start/uptocode)
+* [Court Forms Online](https://courtformsonline.org)
+* [LawHelpInteractive](https://lawhelpinteractive.org/)
+* [DoNotPay](https://donotpay.com/) (Warning: asks for credit card)
+* Lagniappe Law
+    * [Divorce Navigator](https://app.louisianalegalnavigator.org/-louisiana-divorce-navigator---final)
+    * [Landlord Tenant Navigator](https://app.louisianalegalnavigator.org/louisiana-landlord-tenant-navigator---for-final-review)
+* [Apps built with AfterPattern](https://afterpattern.com/category/law-and-government)
 
 
-### Deliverable (65%)
-Category | Exceeds expectations | Meets expectations | Below expectations | Score
-------|-----|-----|-----|-----
-**Final Presentation**: A five-minute presentation, with slide deck, that introduces the problem the student aims to address and a close to complete draft of a solution. | Clearly presents a problem facing legal practitioners or consumers, including: (1) a definition of relevant stakeholders / users; (2) options currently available to users, remember doing nothing is an option; (3) an introduction to their partner; and (4) a clear explanation and walk through of how the draft addresses the problem. Quality, clarity, and focus of presentation and slide deck greatly exceed that of other presentations. | Clearly presents a problem facing legal practitioners or consumers, including: (1) a definition of relevant stakeholders / users; (2) options currently available to users, remember doing nothing is an option; (3) an introduction to their partner; and (4) a clear explanation and walk through of how the draft addresses the problem. | Fails to clearly present a problem facing legal practitioners or consumers, including: (1) a definition of relevant stakeholders / users; (2) options currently available to users, remember doing nothing is an option; (3) an introduction to their partner; or (4) a clear explanation and walk through of how the draft addresses the problem. | 8
-**Complexity/Robustness**. To what extent is the project taking on a substantial process?  | Involves non-trivial use of at least two of the technologies we learned in class. | Involves non-trivial use of  at least one of the technologies we learned in class. | Fails to make a non-trivial use of any of the technologies learned in class. | 14
-**Impact & Efficiencies**: Does the project offer the prospect of greatly increasing the efficiency or expanding the reach of existing practice? | Expands the reach of a single practitioner by more than 100 or decreases the amount of time expended on the automated task by more than 50%. Note: expanded reach must account for all work flowing from the solution such that this work will not result in new work for a practitioner. That is, it assumes the practitioner is already working at full capacity. So increased lead generation doesn't count. More efficient selection of high-value clients, however, can count when this is reasonably projected to lead to a more than 5% increase in revenue. | Expands the reach of a single practitioner by more than 10 or decreases the amount of time expended on the automated task by more than 10%. Same reach considerations as Exceeds Expectations. More efficient selection of high-value clients, however, can count when this is reasonably projected to lead to a more than 2% increase in revenue. | Fails to expands the reach of a single practitioner by more than 10, fails to decreases the amount of time expended on the automated task by more than 10% and fails to improve selection of high-value clients. Same reach considerations as Exceeds Expectations. | 7
-**Fit/Completeness.** How well does the project address the stated problem and known needs of the identified users? Does it do what it was designed for? | Produces viable output. UI is intuitive / well-documented. Directly addresses the stated problem for the stated user types such that it is reasonable to assume almost all users of any user type would find the solution a great improvement over the status quo in nearly all conceivable use cases. | Produces viable output. UI is intuitive / well-documented. In broad terms, the solution address the stated problem for the stated user types such that it is reasonable to assume most users of any user type would find the solution an improvement over the status quo except for a small set of edge cases. | The solution as executed would reasonably be expected to create confusion or frustration when used through poor design or incompleteness.  | 18
-**Real-world viability**: How far is the project from production? | Ready for real-world use as is. This includes a working technical solution and all supporting documentation. It need not include placement on a server or user authentication. | Identifies what steps are needed before real-world use, and such steps are estimated by the instructors to be less than two days' work, excluding placement on a server or user authentication.  | Fails to identify what steps are needed before real-world use, or such steps are estimated by the instructors to be more than two days' work, excluding placement on a server or user authentication. | 8
-**Project description**: A short written description of the project's development, structured to address each of the enumerated categories in this rubric, minus this one. May also include a video presentation (if aiming to exceed expectations).  | Sufficiently descriptive to answer almost all instructor questions regarding the above categories when combined with a copy of your working solution, user documentation and user feedback. These materials alone would be sufficient to grade the project on the preceding categories. | Sufficiently descriptive to answer the majority of instructor questions regarding the above categories when combined with a copy of your working solution, user documentation, and user feedback. Only a few follow-up questions are needed in addition to these materials to grade the project on the preceding categories. | Insufficiently descriptive to answer the majority of instructor questions regarding the above categories when combined with a copy of your working solution, user documentation, and user feedback. | 10
+:::info 
+* Find an app that appears to be finished--i.e., probably not a student project, experiment, or demo.
+* Find an app that is long and polished enough to justify a 2-3 page review.
+:::
 
-[Sample grading sheet](https://docs.google.com/document/d/1rfrClUIuNnk3BK5hywiLsjm2jFhdB7eqYoz9k9fVwHU/edit?usp=sharing)
+### What to focus on in your review
+
+When reviewing the app, place yourself in the mind of a potential user with a
+real world need that the app is meeting.
+
+Below is a list of prompts that your review should address. You may choose to
+answer these questions one at a time, or to give your review more holistically.
+Include an introduction that frames the app and a conclusion that summarizes
+your impressions.
+
+1. What is your overall impression of the app?
+1. What do you think the app's goal is?
+1. Who is its target audience?
+1. How well does the app communicate who it is for?
+1. How usable was the app? How complete?
+1. How important or useful were the features that the app included? What features were missing?
+1. How easily could you understand the substance of the app? I.e., the legal
+   information and context it provided?
+1. How well or poorly did the app include an appropriate use of language,
+   including tone, formality, and readability?   
+1. How well did you think your goal would be met if you had to use this app?
+1. What mistakes do you think the author made?
+1. What steps would you have taken differently if you were the author?
+1. How did the app use elements of visual design?
+1. You have had a chance to explore various app platforms in this course. To
+   what extent do you think that the author chose the right platform for this
+   app? What limitations and features do you think came from the platform rather
+   than the author's individual work?

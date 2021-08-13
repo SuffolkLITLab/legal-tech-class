@@ -46,7 +46,6 @@ complete weekly short reflections on the nightly reading.
   session](https://sumail-my.sharepoint.com/:w:/g/personal/qsteenhuis_adm_suffolk_edu/EXqiagBAmUVDgsfJD-VGzRMBGNyQe45bZ7AMhpfPBL2gNw?e=iyfWTc)
   (Must be logged in with Suffolk University account to view)
 * [Class Notebook](https://sumail-my.sharepoint.com/:o:/g/personal/qsteenhuis_adm_suffolk_edu/Eh87_fq9XfpItNZonOuSA7gBv-7xNlePabE_CihbzmcCuw?e=GNAtgS)
-* [Slack](https://suffolklitlab.slack.com/) (Join the channel `#2021-legal-tech-small-firm-practice`)
 * [Textbook](about-legal-tech-class.md)
 
 ## Resources

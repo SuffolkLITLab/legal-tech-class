@@ -7,7 +7,7 @@ sidebar_label: |
 ---
 
 ## Fall 2021
-### Instructor
+### Professor
 Quinten Steenhuis, QSteenhuis@suffolk.edu
 
 Twitter: [https://twitter.com/qsteenhuis](https://twitter.com/qsteenhuis)
@@ -15,9 +15,9 @@ Website: [https://nonprofittechy.com](https://nonprofittechy.com)
 
 ### Course Information
 
-Meetings: Mondays, 2:00-3:50 Sargent Hall Room 305
+Regular Meetings: Mondays, 2:00-3:50 Sargent Hall Room 305
 
-Additional classes via Zoom
+Some classes via Zoom
  [Zoom
   ](https://sumail-my.sharepoint.com/:w:/g/personal/qsteenhuis_adm_suffolk_edu/EXqiagBAmUVDgsfJD-VGzRMBGNyQe45bZ7AMhpfPBL2gNw?e=iyfWTc)  
 Prerequisites: None
@@ -114,9 +114,6 @@ else while the class is on in the background. Please come prepared to engage in
 each class.
 
 * Attend every real-time class, all semester long, except for excused absences.
-  I will make use of a "flipped" classroom at times throughout the semester to
-  reduce "Zoom fatigue." I may replace some regular meetings with one-on-one
-  check-ins.
 * **Join with video camera on.** I encourage you to select an appropriate virtual
   background to protect your privacy.
 * Be an active participant in discussions. If your home situation makes it more
@@ -164,9 +161,15 @@ You will be evaluated in the following areas:
 The grade breakdown is as follows: 
 
 * 50% on progress/completion of final project;
-* 10% Legal Tech Assessment (advanced Microsoft Office and Acrobat skills);
-* 20% on participation;
-* 20% on weekly journal entries.
+* 20% on app "teardown";
+* 10% on Clio Learning Modules (pass/fail)
+* 10% Legal Tech Assessment (advanced Microsoft Office skills);
+    * Full marks for "Intermediate"; Extra credit for "Qualified" or "Expert"
+* 10% on weekly journal entries (pass/fail)
+* Feedback but ungraded small exercises, in and out of class
+
+You may receive up to a 10% adjustment in your final grade based on in-class
+participation.
 
 Attendance and punctuality are basic requirements for an effective discussion-
 and project-based course. Your frequency and quality of contribution to
@@ -202,9 +205,9 @@ anticipated! This online version will be the most "up to date," so if you print
 this, just be aware that the "official" version will be the digital version
 available at this web page.
 
-### Weekly Assignments
+### Weekly Reading List
 
-[Assignments](2021-legal-tech-small-firms-assignments.md)
+[Weekly Readings](2021-legal-tech-small-firms-assignments.md)
 
 ### Final project
 
