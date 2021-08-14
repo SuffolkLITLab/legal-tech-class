@@ -104,9 +104,6 @@ You can retake the assessment portion as needed.
 
 ## Week 3 9/13: Legal Tech Quality Issues; Guest Speaker: Jared Jaskot, Yo Tengo Bot (remote guest)
 
-Tentative:
-* Review of your Docassemble questions
-
 Before class:
 
 Explore:
@@ -122,6 +119,8 @@ Explore:
   and Standard Measures of Quality and Value
   ](https://www.legaltechlever.com/2020/03/evaluating-legal-services-the-need-for-a-quality-movement-and-standard-measures-of-quality-and-value-chapter-in-research-handbook-on-big-data-law/),
   [perma.cc](https://perma.cc/7K9D-KBK3)
+* Explore [Yo Tengo Bot](https://yotengo.bot/)
+* Come prepared with questions for Jared Jaskot, technology-enabled immigration firm owner and CEO of Yo Tengo Bot.
 
 ### Focus questions
 
@@ -180,10 +179,12 @@ Before class:
 Before class, read
 * [The Ins and Outs of Practice Management Systems](https://www.abajournal.com/news/article/the-ins-and-outs-of-law-practice-management-software), [perma.cc](https://perma.cc/2Z9W-R478)
 * [10 Reasons to Use Practice Management Software](https://abovethelaw.com/2016/10/this-week-in-legal-tech-10-reasons-you-should-use-practice-management-software/), [perma.cc](https://perma.cc/3ERH-8E48)
+* Come prepared with questions for Joshua Lenon, Laywer in Residence at Clio
 
 :::info Milestone
-If you haven't yet, start outlining your final project. Start thinking of a natural way to ask the questions, information that your
-user will need to complete the interaction, and follow-up steps that they will need to take.
+If you haven't yet, start outlining your final project. Start thinking of a
+natural way to ask the questions, information that your user will need to
+complete the interaction, and follow-up steps that they will need to take.
 :::
 
 :::info Form groups
@@ -193,13 +194,21 @@ Form groups for week 8's Free Tool Fiesta
 
 Before class:
 * Accept the invitation to join the Assembly Line Trello
-* Read [What is Kanban?](https://www.digite.com/kanban/what-is-kanban/), [perma.cc](https://perma.cc/4DSX-DN59)
+* Read [What is Kanban?](https://www.digite.com/kanban/what-is-kanban/),
+  [perma.cc](https://perma.cc/4DSX-DN59)
+* [Why should lawyers learn project management?](https://lawyerist.com/management/project/#h-why-should-law-firms-learn-workflows-project-management), [perma.cc](https://perma.cc/J79V-U2X8)
+* Explore https://www.wordrake.com/
+* Come prepared with questions for Wordrake Director of Business Strategy Ivy
+  Grey
 
 **Monday schedule, class meets at regular time on Tuesday**
 
 :::caution Due
 * draft question order and user instructions for your form. (15% of final project grade)
 :::
+
+Recommended further reading for those interested, only:
+* [The Phoenix Project](https://www.amazon.com/gp/product/0988262592/)
 
 ## Week 8 10/18: Free Tool Fiesta
 
@@ -282,6 +291,7 @@ Before class:
 
 * Read:  Design Practices: [Nothing about Us without Us.](https://design-justice.pubpub.org/pub/cfohnud7) (2020). In Design Justice (1st ed.). Retrieved from https://design-justice.pubpub.org/pub/cfohnud7, [perma.cc](https://perma.cc/5MME-R547)
 * Read chapter 1 of [Law by Design](https://www.lawbydesign.co/legal-design/), by Margaret Hagan, [Perma.cc](https://perma.cc/PEF8-6Z8Y)
+* Come prepared with questions for guest Nicole Bradick, CEO of Theory and Principle
 
 :::info Milestone
 Your form should be a package in your Docassemble playground. You should be able to start editing question text and adding refinements.
@@ -328,27 +338,28 @@ Before class, read
 :::
 
 Please come prepared to deliver a 5 minute presentation of your work. See [final
-project guidelines](2021-legal-tech-small-firms-rubric.md) for more information about how to structure your
-presentation. Slides are welcome, but not required.
+project guidelines](2021-legal-tech-small-firms-rubric.md) for more information
+about how to structure your presentation. Slides are welcome, but not required.
 
-You do not need to have your final project finished. Be ready to demonstrate what
-you have, explain your process, and tell us about the work that is still to come.
-A working prototype will be able to get more constructive feedback, but your
-grade will not be based on how complete the work is, but rather the quality of
-the presentation.
+You do not need to have your final project finished. Be ready to demonstrate
+what you have, explain your process, and tell us about the work that is still to
+come. A working prototype will be able to get more constructive feedback, but
+your grade will not be based on how complete the work is, but rather the quality
+of the presentation.
 
 Come prepared to present/provide constructive critique of classmates' work.
 
 :::info Milestone
-Your form should be in the final refinement stage now. Questions should be in roughly the right order.
-You should be ready to send it to a peer or a subject matter expert for feedback.
+Your form should be in the final refinement stage now. Questions should be in
+roughly the right order. You should be ready to send it to a peer or a subject
+matter expert for feedback.
 :::
 
 ## November 29th: No class, Thursday Schedule.
 
 :::info Milestone
-You should have feedback from 2-3 peers or at least one subject matter expert to triage
-and start implementing.
+You should have feedback from 2-3 peers or at least one subject matter expert to
+triage and start implementing.
 :::
 
 During the week, get started incorporating feedback on your final project.
@@ -360,6 +371,7 @@ Final project is due. Turn in through link in Teams.
 :::
 
 :::info Milestone
-Your form should meet at least a "useful prototype" by this stage. Write down any goals
-that you did not have time to implement, especially feedback from a subject matter expert.
+Your form should meet at least a "useful prototype" by this stage. Write down
+any goals that you did not have time to implement, especially feedback from a
+subject matter expert.
 :::

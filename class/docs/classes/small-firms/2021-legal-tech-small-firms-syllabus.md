@@ -168,13 +168,9 @@ The grade breakdown is as follows:
 * 10% on weekly journal entries (pass/fail)
 * Feedback but ungraded small exercises, in and out of class
 
-You may receive up to a 10% adjustment in your final grade based on in-class
-participation.
-
 Attendance and punctuality are basic requirements for an effective discussion-
-and project-based course. Your frequency and quality of contribution to
-discussions will be assessed and reflected in your grade. If you cannot attend a
-class please inform me in advance.  We will be keeping records of attendance.
+and project-based course. If you cannot attend a class please inform me in
+advance.  We will be keeping records of attendance.
 
 I measure class participation based on the following criteria: arriving on time;
 paying attention to presentations and discussions; respectfully listening when
