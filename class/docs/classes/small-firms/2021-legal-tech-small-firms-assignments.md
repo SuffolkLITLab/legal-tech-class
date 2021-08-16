@@ -178,7 +178,9 @@ Before class:
 
 Before class, read
 * [The Ins and Outs of Practice Management Systems](https://www.abajournal.com/news/article/the-ins-and-outs-of-law-practice-management-software), [perma.cc](https://perma.cc/2Z9W-R478)
-* [10 Reasons to Use Practice Management Software](https://abovethelaw.com/2016/10/this-week-in-legal-tech-10-reasons-you-should-use-practice-management-software/), [perma.cc](https://perma.cc/3ERH-8E48)
+* [10 Reasons to Use Practice Management Software](https://abovethelaw.com/2016/10/
+this-week-in-legal-tech-10-reasons-you-should-use-practice-management-software/), [perma.cc](https://perma.cc/3ERH-8E48)
+* Hadfield, G. [Legal Markets](https://works.bepress.com/ghadfield/71/), Journal of Economic Literature, [perma.cc](https://perma.cc/PEC8-WETX).
 * Come prepared with questions for Joshua Lenon, Laywer in Residence at Clio
 
 :::info Milestone
