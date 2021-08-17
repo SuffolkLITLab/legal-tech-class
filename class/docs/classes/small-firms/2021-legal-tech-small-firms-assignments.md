@@ -132,34 +132,7 @@ Explore:
 Turn in Docassemble exercise from week 2
 :::
 
-## Week 4 9/20: Making a legal problem flowchart; QnAMarkup; Guest David Colarusso
-
-Before class:
-* Read Atul Gawande, [The Checklist](http://www.newyorker.com/magazine/2007/12/10/the-checklist), The New Yorker (Dec. 19, 2007), [perma.cc](https://perma.cc/NA3H-JK8G)
-* Go to [qnamarkup.org](https://qnamarkup.org).  Read the syntax and watch the
-  video intro.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RVhzQ1JVi3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Take 20 min to review the [Syntax page](https://www.qnamarkup.org/syntax/) and
-work through a few of the examples found in the [Quick Start
-Guide](https://www.qnamarkup.org/syntax/QnA_Quick_Start.pdf).
-
-Open [THIS
-file](https://docs.google.com/document/d/1Iz8ZOwNa3ORm9APnHYvyXV21ESLTwzJmAjevT_Wgu-4/edit?usp=sharing)
-for our class activity.
-
-
-:::caution Due
-* Schedule a one-on-one meeting with Professor Steenhuis
-:::
-
-:::info Milestone
-Narrow down ideas for your final project.
-
-See guidance [here](2021-legal-tech-small-firms-rubric.md).
-:::
-## Week 5 9/27: Plain language, Guest Caroline Robinson
+## Week 4 9/20: Plain language, Guest Caroline Robinson
 
 :::caution Due
 * Clio University learning modules
@@ -175,6 +148,32 @@ Before class:
 
 * In class exercise: reviewing plain language on mass.gov
 * Getting started on the final project. Review of rubric, suggestions on outlining
+
+:::caution Due
+* Schedule a one-on-one meeting with Professor Steenhuis
+:::
+
+:::info Milestone
+Narrow down ideas for your final project.
+
+See guidance [here](2021-legal-tech-small-firms-rubric.md).
+:::
+## Week 5 9/27: Making a legal problem flowchart; QnAMarkup; Guest David Colarusso
+
+Before class:
+* Read Atul Gawande, [The Checklist](http://www.newyorker.com/magazine/2007/12/10/the-checklist), The New Yorker (Dec. 19, 2007), [perma.cc](https://perma.cc/NA3H-JK8G)
+* Go to [qnamarkup.org](https://qnamarkup.org).  Read the syntax and watch the
+  video intro.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RVhzQ1JVi3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Take 20 min to review the [Syntax page](https://www.qnamarkup.org/syntax/) and
+work through a few of the examples found in the [Quick Start
+Guide](https://www.qnamarkup.org/syntax/QnA_Quick_Start.pdf).
+
+Open [THIS
+file](https://docs.google.com/document/d/1Iz8ZOwNa3ORm9APnHYvyXV21ESLTwzJmAjevT_Wgu-4/edit?usp=sharing)
+for our class activity.
 
 ## Week 6 10/4: (Remote class) Introduction to ALWeaver; Guest Joshua Lenon, Lawyer in Residence at Clio
 
