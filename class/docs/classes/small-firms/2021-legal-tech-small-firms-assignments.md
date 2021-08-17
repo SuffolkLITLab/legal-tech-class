@@ -57,6 +57,7 @@ Before class, read:
 * Make sure you have an account on the Suffolk LIT Lab Docassemble server,
   https://apps-dev.suffolklitlab.org. NOTE: this server is for Suffolk Law
   Students, only.
+* [Building your first expert system](interview-structure/building-an-app-outline.md)
 * Lauritsen & Soudakoff, [Keys to a Successful Document Assembly
   Project](https://static1.squarespace.com/static/571acb59e707ebff3074f461/t/5946f745725e25bf7ad93c9b/1497823045990/keys.pdf)
 
@@ -115,6 +116,7 @@ Explore:
 
 * Listen to [Evaluating Legal Technology Applications
   (podcast)](https://legaltalknetwork.com/podcasts/law-technology-now/2020/03/evaluating-legal-technology-applications/)
+  or read Lauritsen and Steenhuis, [Substantive Legal Software Quality: A Gathering Storm?](http://www.capstonepractice.com/s/Substantive-Legal-Software-Quality-A-Gathering-Storm.pdf), International Conference on AI and Law.
 * Read Dan Linna: [Evaluating Legal Services: The Need for a Quality Movement
   and Standard Measures of Quality and Value
   ](https://www.legaltechlever.com/2020/03/evaluating-legal-services-the-need-for-a-quality-movement-and-standard-measures-of-quality-and-value-chapter-in-research-handbook-on-big-data-law/),

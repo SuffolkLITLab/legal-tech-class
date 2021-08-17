@@ -48,12 +48,15 @@ module.exports = {
       type: 'category',
       label: 'Building Things',
       items: [
-          {
+            'avoiding-failure/avoiding-failure',
+          /*{
             type: 'category',
             label: 'Avoiding Failure',
             items: ['avoiding-failure/avoiding-failure']
           },
-          {
+          */
+          'interview-structure/building-an-app-outline',
+          /*{
             type: 'category',
             label: 'Forming a Team',
             items: ['forming-team/forming-team']
@@ -63,26 +66,38 @@ module.exports = {
             label: 'Assessing User Needs',
             items: ['user-needs/user-needs']
           },
-          {
+          */
+          'choosing-project/choosing-project',
+          /*{
             type: 'category',
             label: 'Choosing the Right Project',
             items: ['choosing-project/choosing-project']
-          },    
+          },
+          */
+          'user-centered-design/user-centered-design',    
+          /*
           {
             type: 'category',
             label: 'User Centered Design',
             items: ['user-centered-design/user-centered-design']
           },
+          */
+          /*
           {
             type: 'category',
             label: 'Preparing Your Project',
             items: ['project-planning/project-planning']
           },
+          */
+          'speaking-right-language/speaking-right-language',
+          /*
           {
             type: 'category',
             label: 'Speaking the Right Language',
             items: ['speaking-right-language/speaking-right-language']
           },
+          */
+          /*
           {
             type: 'category',
             label: 'The Prototyping Phase',
@@ -97,14 +112,16 @@ module.exports = {
             type: 'category',
             label: 'Getting Useful Feedback',
             items: ['feedback/feedback']
-          },      
+          },
+          */      
           {
             type: 'category',
             label: 'Testing',
             items: ['testing/testing',
                     'testing/testing-scenarios',
                     'testing/lorem-ipsum']
-          },      
+          },
+          /*      
           {
             type: 'category',
             label: 'Driving User Acceptance',
@@ -115,6 +132,7 @@ module.exports = {
             label: 'Maintenance',
             items: ['maintenance/maintenance']
           },           
+          */
     
         ]
     },
