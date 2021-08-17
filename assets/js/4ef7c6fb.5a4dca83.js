@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopen_class=self.webpackChunkopen_class||[]).push([[1097],{3931:function(a){a.exports=JSON.parse('{"allTagsPath":"/legal-tech-class/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/legal-tech-class/blog/tags/hola"}')}}]);
