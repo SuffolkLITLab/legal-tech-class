@@ -1,7 +1,7 @@
 ---
 slug: 2021-legal-tech-small-firms-rubric
-title: Final Project Rubric
-sidebar_label: Final Project Rubric
+title: Longer Projects Rubric
+sidebar_label: Rubric for projects
 ---
 ## Final Project
 Your final project should use some of the technologies that we learned about
@@ -198,6 +198,46 @@ your grade includes:
 If possible, your next-step action items should be recorded as issues in GitHub.
 If you are not using GitHub for your project, you can include the action items
 in a more detailed way in your final project description.
+
+## Free Tool Fiesta
+
+"Free tool fiesta" is a chance to play the role of a law firm practice manager
+and act to select a product that fits your firms needs.
+
+Feel free to start with an interesting tool and then work backwards to justify
+it for purposes of this assignment! In real life, you would have a need first
+and then work to find the right product.
+
+Before getting started, please read:
+
+* https://blog.itil.org/2012/07/six-steps-for-a-successful-vendor-selection/, https://perma.cc/Z7GZ-99WX
+* https://www.smartsheet.com/content/vendor-assessment-evaluation, https://perma.cc/Y7ZP-N6GE
+* Briefly explore [Gartner's magic quadrant](https://www.gartner.com/en/research/methodologies/magic-quadrants-research)
+
+In groups of 2 (or 3 if necessary) students will demonstrate a FREE or low cost
+tool they have identified that would be useful to small firms/solos.  Be able to
+show off how it works and answer questions about its features and the costs
+associated with it.
+
+Your deliverables will be:
+
+1. A brief written description of how you selected your tool.
+1. Answer the following questions:
+      - In a summary sentence, what does this tool do?
+      - How did you locate the tool?
+      - What needs that a small firm has would this tool solve?
+      - What needs do you think that this tool would NOT meet?
+      - Who are this tool's main competitors?
+      - Why would you select this tool over its competition?
+1. Prepare an interactive presentation or product demo to demonstrate the tool. You 
+may highlight some specific features or present your answers to the questions
+above.
+
+You may find the following websites a good resource for identifying free tools,
+but please expand your search!
+
+* https://techindex.law.stanford.edu/ 
+* https://www.lawsitesblog.com/ 
 
 ## App Teardown and Review
 

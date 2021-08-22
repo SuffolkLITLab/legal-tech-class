@@ -191,7 +191,7 @@ complete the interaction, and follow-up steps that they will need to take.
 :::
 
 :::info Form groups
-Form groups for week 8's Free Tool Fiesta
+Form groups for week 8's [Free Tool Fiesta](2021-legal-tech-small-firms-rubric.md#free-tool-fiesta)
 :::
 ## Week 7 10/12: (Remote class? TBD) Project Management / Trello; Class meets at regular time on Tuesday,  Guest Ivy Grey, Wordrake
 
@@ -219,16 +219,7 @@ Recommended further reading for those interested, only:
 Presentations for Free Tool Fiesta
 :::
 
-In groups of 2 (or 3 if necessary) students will demonstrate a FREE or low cost
-tool they have identified that would be useful to small firms/solos.  Be able to
-show off how it works and answer questions about its features and the costs
-associated with it.
-
-You may find the following websites a good resource for identifying free tools,
-but please expand your search!
-
-* https://techindex.law.stanford.edu/ 
-* https://www.lawsitesblog.com/ 
+See instructions [here](2021-legal-tech-small-firms-rubric.md#free-tool-fiesta)
 
 :::info Milestone
 Your form (if using a form) should be properly labeled. You should request a review from another student to ensure labeling is correct.
