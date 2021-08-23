@@ -39,16 +39,27 @@ Before class:
 
 ### Discussion questions for Clio report:
 
+* The Clio report introduces several frameworks for thinking about business growth:
+    * VUCA
+    * Marginal gains
+    * MAXDIFF
+    * Which of these were helpful?
+* The report states that "legal services have been delivered in a way that's
+  been unaffordable, inconvenient, and difficult for potential clients to know
+  whether they have a legal problem worth pursuing in the first place— all of
+  which function as critical barriers to hiring a lawyer." Do you agree? Why or why not?
+* Why do lawyers only earn 15% of their day?
+* What is the product-market fit problem?
+* Do you agree that there is a vast latent legal market?
+    * What are some reasons why that market may or may not exist that
+      are not explored in the report?
 * What aspects of technology did the report say are most underused by lawyers?
    * Did anything surprise you in this list?
    * What do you think would be the biggest advantage for a lawyer to learn?
-* What is the lawyer's funnel?
 * What surprised you about how lawyers spend their day?
 * Based on what you learned from the report, how would you work to get clients?
 
-## Week 2, 8/30: (Remote class) Hello, World in Docassemble
-[Zoom
-  ](https://sumail-my.sharepoint.com/:w:/g/personal/qsteenhuis_adm_suffolk_edu/EXqiagBAmUVDgsfJD-VGzRMBGNyQe45bZ7AMhpfPBL2gNw?e=iyfWTc)
+## Week 2, 8/30: (In person) Hello, World in Docassemble
 
 Before class, read:
 * [An Introduction to
@@ -58,7 +69,7 @@ Before class, read:
   https://apps-dev.suffolklitlab.org. NOTE: this server is for Suffolk Law
   Students, only.
 * [Building your first expert system](interview-structure/building-an-app-outline.md)
-* Lauritsen & Soudakoff, [Keys to a Successful Document Assembly
+* Skim Lauritsen & Soudakoff, [Keys to a Successful Document Assembly
   Project](https://static1.squarespace.com/static/571acb59e707ebff3074f461/t/5946f745725e25bf7ad93c9b/1497823045990/keys.pdf)
 
 Optional viewing:
@@ -177,6 +188,10 @@ for our class activity.
 
 ## Week 6 10/4: (Remote class) Introduction to ALWeaver; Guest Joshua Lenon, Lawyer in Residence at Clio
 
+[Zoom
+  ](https://sumail-my.sharepoint.com/:w:/g/personal/qsteenhuis_adm_suffolk_edu/EXqiagBAmUVDgsfJD-VGzRMBGNyQe45bZ7AMhpfPBL2gNw?e=iyfWTc)
+
+
 Before class, read
 * [The Ins and Outs of Practice Management Systems](https://www.abajournal.com/news/article/the-ins-and-outs-of-law-practice-management-software), [perma.cc](https://perma.cc/2Z9W-R478)
 * [10 Reasons to Use Practice Management Software](https://abovethelaw.com/2016/10/
@@ -194,6 +209,9 @@ complete the interaction, and follow-up steps that they will need to take.
 Form groups for week 8's [Free Tool Fiesta](2021-legal-tech-small-firms-rubric.md#free-tool-fiesta)
 :::
 ## Week 7 10/12: (Remote class? TBD) Project Management / Trello; Class meets at regular time on Tuesday,  Guest Ivy Grey, Wordrake
+
+[Zoom
+  ](https://sumail-my.sharepoint.com/:w:/g/personal/qsteenhuis_adm_suffolk_edu/EXqiagBAmUVDgsfJD-VGzRMBGNyQe45bZ7AMhpfPBL2gNw?e=iyfWTc)
 
 Before class:
 * Accept the invitation to join the Assembly Line Trello
