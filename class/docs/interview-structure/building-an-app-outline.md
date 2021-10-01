@@ -4,6 +4,8 @@ title: Planning and building your first expert system
 sidebar_label: Building your first expert system
 ---
 
+Quinten Steenhuis, August 2021
+
 When you read the outline below, you should have a better understanding of the
 different phases of building a successful expert system or document assembly
 app.

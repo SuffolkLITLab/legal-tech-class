@@ -186,13 +186,14 @@ Open [THIS
 file](https://docs.google.com/document/d/1Iz8ZOwNa3ORm9APnHYvyXV21ESLTwzJmAjevT_Wgu-4/edit?usp=sharing)
 for our class activity.
 
-## Week 6 10/4: (Remote class) Introduction to ALWeaver; Guest Joshua Lenon, Lawyer in Residence at Clio
+## Week 6 10/4: (CHANGE to In person class) Introduction to ALWeaver; Guest Joshua Lenon, Lawyer in Residence at Clio
 
 [Zoom
   ](https://sumail-my.sharepoint.com/:w:/g/personal/qsteenhuis_adm_suffolk_edu/EXqiagBAmUVDgsfJD-VGzRMBGNyQe45bZ7AMhpfPBL2gNw?e=iyfWTc)
 
 
 Before class, read
+* Steenhuis and Colarusso, [Digital Curb Cuts: Towards an Inclusive Open Forms Ecosystem](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3911381) (2021), Akron Law Review
 * [The Ins and Outs of Practice Management Systems](https://www.abajournal.com/news/article/the-ins-and-outs-of-law-practice-management-software), [perma.cc](https://perma.cc/2Z9W-R478)
 * [10 Reasons to Use Practice Management Software](https://abovethelaw.com/2016/10/
 this-week-in-legal-tech-10-reasons-you-should-use-practice-management-software/), [perma.cc](https://perma.cc/3ERH-8E48)
