@@ -232,38 +232,10 @@ Before class:
 Recommended further reading for those interested, only:
 * [The Phoenix Project](https://www.amazon.com/gp/product/0988262592/)
 
-## Week 8 10/18: Free Tool Fiesta
-
-:::caution Due
-Presentations for Free Tool Fiesta
-:::
-
-See instructions [here](2021-legal-tech-small-firms-rubric.md#free-tool-fiesta)
-
-:::info Milestone
-Your form (if using a form) should be properly labeled. You should request a review from another student to ensure labeling is correct.
-:::
-
-:::info Start work
-Choose an app for the "app teardown" exercise due Week 10. See 
-[description here](2021-legal-tech-small-firms-rubric.md#app-teardown-and-review).
-
-Potential starting places:
-
-* [Court Forms Online](https://courtformsonline.org)
-* [LawHelpInteractive](https://lawhelpinteractive.org/)
-* [DoNotPay](https://donotpay.com/) (Warning: asks for credit card)
-* Lagniappe Law
-    * [Divorce Navigator](https://app.louisianalegalnavigator.org/-louisiana-divorce-navigator---final)
-    * [Landlord Tenant Navigator](https://app.louisianalegalnavigator.org/louisiana-landlord-tenant-navigator---for-final-review)
-* [Apps built with AfterPattern](https://afterpattern.com/category/law-and-government)
-:::
-
-## Week 9 10/25: Introduction to GitHub; Microsoft Office 365 for small firm practice
+## Week 8 10/18: Introduction to GitHub; Microsoft Office 365 for small firm practice
 
 Before class,
 * Create an account at https://www.github.com
-* Complete the exercise at https://guides.github.com/activities/hello-world/
 
 * Read ["Five ways to automate workflows"](https://www.attorneyatwork.com/five-ways-to-automate-workflows/)
 * ["Codeless Automation: IFTT vs Zapier vs Microsoft
@@ -287,6 +259,35 @@ After class:
   Automate"](https://docs.microsoft.com/en-us/learn/modules/get-started-flows/).
   (11 modules, about 1.5 hours)
 
+
+:::info Milestone
+Your form (if using a form) should be properly labeled. You should request a review from another student to ensure labeling is correct.
+:::
+
+:::info Start work
+Choose an app for the "app teardown" exercise due Week 10. See 
+[description here](2021-legal-tech-small-firms-rubric.md#app-teardown-and-review).
+
+Potential starting places:
+
+* [Court Forms Online](https://courtformsonline.org)
+* [LawHelpInteractive](https://lawhelpinteractive.org/)
+* [DoNotPay](https://donotpay.com/) (Warning: asks for credit card)
+* Lagniappe Law
+    * [Divorce Navigator](https://app.louisianalegalnavigator.org/-louisiana-divorce-navigator---final)
+    * [Landlord Tenant Navigator](https://app.louisianalegalnavigator.org/louisiana-landlord-tenant-navigator---for-final-review)
+* [Apps built with AfterPattern](https://afterpattern.com/category/law-and-government)
+:::
+
+## Week 9 10/25: Free Tool Fiesta
+
+:::caution Due
+Presentations for Free Tool Fiesta
+:::
+
+See instructions [here](2021-legal-tech-small-firms-rubric.md#free-tool-fiesta)
+
+
 :::info Milestone
 You should be able to run your form through the Weaver at least once. Correct any form errors or mislabeled variables.
 :::
@@ -294,7 +295,7 @@ You should be able to run your form through the Weaver at least once. Correct an
 :::caution Due
 * Schedule a second one-on-one meeting with Professor Steenhuis
 :::
-## Week 10  11/1: (Remote class? TBD) The Intersection of Design Thinking and Legal Work (Guest Nicole Bradick)
+## Week 10  11/1: The Intersection of Design Thinking and Legal Work (Guest Nicole Bradick)
 
 :::caution Due
 * App "teardown" and extended reflection

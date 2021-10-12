@@ -187,8 +187,6 @@ For most developers, the best place to put these ideas is as issues in GitHub.
 If you are using Trello, it could be a good place to store notes and research,
 saving GitHub for actionable items.
 
-- Quinten Steenhuis, August 2021
-
 ## Further reading
 
 * Lauritsen & Soudakoff, [Keys to a Successful Document Assembly
