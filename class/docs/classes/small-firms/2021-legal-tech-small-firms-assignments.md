@@ -292,9 +292,6 @@ See instructions [here](2021-legal-tech-small-firms-rubric.md#free-tool-fiesta)
 You should be able to run your form through the Weaver at least once. Correct any form errors or mislabeled variables.
 :::
 
-:::caution Due
-* Schedule a second one-on-one meeting with Professor Steenhuis
-:::
 ## Week 10  11/1: The Intersection of Design Thinking and Legal Work (Guest Nicole Bradick)
 
 :::caution Due
@@ -307,28 +304,79 @@ Before class:
 * Read chapter 1 of [Law by Design](https://www.lawbydesign.co/legal-design/), by Margaret Hagan, [Perma.cc](https://perma.cc/PEF8-6Z8Y)
 * Come prepared with questions for guest Nicole Bradick, CEO of Theory and Principle
 
+### Discussion prompts for "Nothing About Us Without Us"
+
+Think through the following excerpts and paraphrases from the primary source.
+
+> There is nothing wrong with making things people want. It's just that too little
+> attention is being paid to the things people need. 
+> 
+> Yet if, for broader reasons of structural inequality, the universe of real-world
+> users falls within a limited range compared to the full breadth of potential
+> users, then UCD reproduces exclusion by centering their needs. 
+> 
+> Designers tend to unconsciously default to imagined users whose experiences are
+> similar to their own. 
+
+1. What are some ways that lack of user input can harm product quality? 
+ 
+2. What are some ways that it can harm users? 
+
+> Information asymmetry between manufacturers and users is one of the underlying
+> forces that supports lead user innovation. In a nutshell, when the cost (in
+> time and energy) of communicating a specific kind of user need to the
+> manufacturer is high, it often makes more sense for users to modify products
+> on their own than to attempt to convince manufacturers to do so. 
+
+1. Do you think that user-led innovation of the kind described above is positive or negative? What does it signal about a product? 
+ 
+
+> Many design approaches that are supposedly more inclusive, participatory, and democratic actually serve an extractive function. 
+
+4. What do you think the author meant? How do you think designers can avoid an "extractive" relationship with users? What alternative models can still include users? 
+
+> We funded an earned income tax credit tool [because] … unfortunately billions of dollars each year go unclaimed by the working poor because they don't know they're entitled to it. So, we built a system like that, and it got a lot of usage in English, but when we built it in Spanish and Vietnamese almost nobody used it. … So either we don't understand how to deliver technology to these special language groups, or we're not doing the right outreach, or it's not culturally appropriate, I don't know.
+
+5. What are some ways the EITC designers could have avoided the problem? 
+
 :::info Milestone
 Your form should be a package in your Docassemble playground. You should be able to start editing question text and adding refinements.
 :::
 
-## Week 11: 11/8:  GitHub review; Ethics; Alternative Legal Research
+## Week 11: 11/8:  Ethical and regulatory considerations in legal technology
 
 * Read [M.R.P.C. 5.5](https://www.mass.gov/supreme-judicial-court-rules/rules-of-professional-conduct-rule-55-unauthorized-practice-of-law)
+* Skim [Florida Bar v. TIKD Services
+  Limited](https://www.floridasupremecourt.org/content/download/795189/opinion/sc18-149.pdf),
+  No. SC18-149, Fl. Sup. Ct., Oct. 14 2021 and review one or more news articles
+  of your choice discussing the opinion. Try searching for "TIKD decision".
 * https://www.abajournal.com/news/article/5th-circuit-warns-of-cautionary-tale-for-every-attorney-as-it-refuses-to-revive-lawsuit
 * [The Face of Legal Technology in 2018 (and What it Means for the Future of Access to Justice)](https://www.abajournal.com/files/LegalTech_Demographic_Article_5-8.pdf). Kristen Sonday, May 8, 2018, [perma.cc](https://perma.cc/48VG-LB89)
 * Lauritsen, [Liberty, Justice, & Legal
   Automata](http://scholarship.kentlaw.iit.edu/cgi/viewcontent.cgi?article=3983&context=cklawreview), [perma.cc](https://perma.cc/K75H-CV6P)
+* Read [American Immigration Lawyer's Association website](https://www.aila.org/practice/consumer-protection/stop-notario-fraud) and watch the short (4 minute) video about notario fraud.
 
+### Dicussion questions for legal ethics
 
-Check out this post on [alternative legal research
-tools](https://guides.library.harvard.edu/alternatelegaldatabases) and click the
-links/watch the embedded videos.
+There are a number of ethical concerns that center around the use, misuse, and
+lack of use of legal technology. Which threads do you feel are the most central?
+How if at all do they conflict?
 
-After class: run a search for Plessy v. Ferguson, Roe v. Wade, or any other
-landmark constitutional law cases that interest you in at least 2 search tools
-that are new to you, and one that you know well (such as Lexis/Westlaw).
+Reflect on the primary sources and articles linked above. You may also want to think back to the Gillian
+Hadfield "Legal Markets" journal article, Lauritsen and Steenhuis "Substantive
+Legal Software Quality A Gathering Storm, and "Nothing About Us Without Us".
 
-What do you like about the alternative tool? What is missing?
+1. Closing the access to justice gap.
+1. Protecting consumers from fraud and incompetent service providers.
+1. Technology competency.
+1. Risk of technology failure or misleading information.
+1. Inclusion and representation.
+1. Free speech.
+1. Competition and the protection of legal monopolies.
+
+What arguments are there for the lack or excess of legal regulation addressing
+each of the topics listed above? Draw from the articles and sources shared in
+class.
 
 :::info Milestone
 Your form should run through to the end, although it may not have a logical question order and a lot of information may still be missing.
