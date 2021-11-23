@@ -37,13 +37,22 @@ module.exports = {
     {
       type: 'category',
       label: 'The Access to Justice Problem',
-      items: ['a2j/a2j'],
+      items: [
+        'a2j/a2j',
+        'a2j/a2j-approaches',
+        'a2j/a2j-technology',
+      ],
     },
     {
       type: 'category',
       label: 'The Changing Legal Profession',
       items: ['changing-legal-profession/changing-legal-profession']
-    },    
+    },
+    {
+      type: 'category',
+      label: 'Ethical Issues',
+      items: ['ethical-issues/ethical-issues']
+    },              
     {
       type: 'category',
       label: 'Building Things',
@@ -163,11 +172,6 @@ module.exports = {
         },    
         ]
     },      
-    {
-      type: 'category',
-      label: 'Ethical Issues',
-      items: ['ethical-issues/ethical-issues']
-    },              
     {
       type: 'category',
       label: 'Tutorials',
