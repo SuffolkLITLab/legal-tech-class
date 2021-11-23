@@ -1,0 +1,1 @@
+* Lauritsen, [Liberty, Justice, & Legal Automata](http://scholarship.kentlaw.iit.edu/cgi/viewcontent.cgi?article=3983&context=cklawreview)
