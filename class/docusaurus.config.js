@@ -10,6 +10,10 @@ module.exports = {
   organizationName: 'suffolklitlab', // Usually your GitHub org/user name.
   projectName: 'legal-tech-class', // Usually your repo name.
   themeConfig: {
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 5,
+    },    
     navbar: {
       title: 'Legal Tech Class',
       logo: {

@@ -204,9 +204,10 @@ module.exports = {
             'classes/small-firms/legal-tech-small-firms-rubric'
           ]
         },
+        'classes/smart-machines/2022-smart-machines',
         {
           type: 'category',
-          label: 'Spring 2021 - Lawyering in the Age of Smart Machines',
+          label: '(Archived) Spring 2021 - Lawyering in the Age of Smart Machines',
           items: [
             'classes/smart-machines/2021-smart-machines',
             'classes/smart-machines/smart-machines-syllabus',
