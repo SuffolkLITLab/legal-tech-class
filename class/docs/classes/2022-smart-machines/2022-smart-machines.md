@@ -1,13 +1,35 @@
 ---
 id: 2022-smart-machines
 slug: 2022-smart-machines
-title: Lawyering in the Age of Smart Machines
+title: Lawyering in the Age of Smart Machines (Spring 2022)
 sidebar_label: |
     Lawyering in the Age of Smart Machines (2022)
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img src={useBaseUrl('/img/248-Robot-in-logistics.png')} />
+
 ## About the Instructor
 Quinten Steenhuis, QSteenhuis@suffolk.edu
+
+Quinten Steenhuis is a member of the [Legal Innovation and Technology
+Lab](https://suffolklitlab.org) at Suffolk where he is the technical lead of the
+[Court Forms Online](https://courtformsonline.org) project. Before joining
+Suffolk Law School, Quinten was a legal aid attorney, systems administrator, and
+software developer at [Greater Boston Legal Services](https://www.gbls.org) for
+12 years.
+
+Quinten is also the owner of [Lemma Legal Consulting](https://lemmalegal.com)
+and builds apps using legal technology for law firms around the world, including
+[MADE](https://gbls.org/MADE) and [UpToCode](https://madeuptocode.org). He
+received his B.Sc. in Logic and Computation with an additional B.Sc. in
+Political Science from Carnegie Mellon University and J.D. (cum laude) from
+Cornell Law School.
+
+In 2021, Quinten was named a "[Legal
+Rebel](https://www.abajournal.com/legalrebels/article/quinten-steenhuis-used-tech-expertise-and-passion-for-social-justice-to-create-tools-for-legal-needs)"
+by the American Bar Association Journal.
 
 [Twitter](https://twitter.com/qsteenhuis)
 [Website](https://nonprofittechy.com)
@@ -172,7 +194,7 @@ this, just be aware that the "official" version will be the digital version
 available at this web page.
 
 
-## Assignments
+## Class Schedule and Assignments
 
 You will all receive a login to the [Procertas Legal Tech Assessment](https://learn.procertas.com/).
 This is a self-paced learning module that should take between 5-15 hours
@@ -189,34 +211,83 @@ delivering legal services in an affordable and accessible manner to the majority
 the country.
 :::
 
-#### Class 1: January 18th Intro and class overview
+#### Class 1: January 25 Intro to the access to justice problem
 
-#### Class 2: January 25th Guest Jared Jaskot
+:::tip Readings 
+* [The Access to Justice Problem](a2j/a2j.md) (continue on to read [Approaches to solving the access to justice gap](a2j/a2j-approaches.md) and [Technology to solve the access to justice gap](a2j/a2j-technology.md))
+* ["The Justice Gap: Measuring the Unmet Civil Legal Needs of Low-income Americans"](https://www.lsc.gov/sites/default/files/images/TheJusticeGap-FullReport.pdf). Legal Services Corporation, June 2017, [perma.cc](https://perma.cc/C9EP-7KL8). (skim)
+* Merken, Sara. ["Why Clio's Jack Newton sees profits and progress in the 'latent legal market'"](https://www.reuters.com/legal/legalindustry/why-clios-jack-newton-sees-profits-progress-latent-legal-market-2021-08-12/), Reuters, August 12, 2021, [perma.cc](https://perma.cc/W99F-J8FV)
+:::
 
+#### Class 2: February 1 Docassemble Hello, World; Guest Jared Jaskot
+:::tip Readings
+* [An Introduction to
+  Docassemble](practical-guide-docassemble/practical-guide-docassemble.md)
+* John O. McGinnis & Russell G. Pearce, [The Great Disruption: How Machine Intelligence Will Transform the Role of Lawyers in the Delivery of Legal Services](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2436937)
+* Explore [Yo Tengo Bot](https://yotengo.bot/)
+* Come prepared with questions for Jared Jaskot, technology-enabled immigration firm owner and CEO of Yo Tengo Bot.
+:::
 
 ### Module 2: Speaking the right language: breaking down the law into a language that your clients and a computer can understand
 
 :::info Learning objectives
 In this module, you will learn to translate a legal problem into a form that can be 
-understood by an average person as well as a computer.
+understood by an average person as well as a computer. By the end of this module
+you should be able to create a flowchart representing a legal problem and translate
+it into a QnAMarkup chatbot.
 :::
 
+#### Class 3: February 8 QnAMarkup; Guest David Colarusso
+:::caution Due: Hello, World stretch goals (ungraded)
+:::
 
-#### Class 3: February 1
+:::caution Due: set up a meeting with Professor Steenhuis
+:::
 
-#### Class 4: February 8
+:::tip Readings
+* Read Atul Gawande, [The Checklist](http://www.newyorker.com/magazine/2007/12/10/the-checklist), The New Yorker (Dec. 19, 2007), [perma.cc](https://perma.cc/NA3H-JK8G)
+* Go to [qnamarkup.org](https://qnamarkup.org).  Read the syntax and watch the
+  video intro.
+:::  
 
+#### Class 4: February 15 Plain language, Guest Caroline Robinson
+:::caution Due: Legal Tech Assessment
+:::
+
+:::tip Readings
+* Visit [PlainLanguage.gov](https://www.plainlanguage.gov/about/definitions/). Read sections about Plain Language. 
+* [Plain Language is For Everyone, Even Experts](https://www.nngroup.com/articles/plain-language-experts/), [perma.cc](https://perma.cc/34V5-7BLM)
+:::
 
 ### Module 3: Do it right, do it 1000 times: using software to automate legal documents
 
 :::info Learning objectives
-In this module, we wil take a closer look at document automation and legal process automation
+In this module, we will take a closer look at document automation and legal process automation
 more broadly.
 :::
 
-#### Class 5: February 15
+#### Class 5: February 22 Law firm process automation
+:::caution Due: Plain language exercise
+:::
 
-#### Class 6: February 22
+:::tip Readings
+* ["Five ways to automate workflows"](https://www.attorneyatwork.com/five-ways-to-automate-workflows/)
+* ["Codeless Automation: IFTT vs Zapier vs Microsoft
+  Flow"](https://medium.com/better-programming/codeless-automation-ifttt-vs-zapier-vs-microsoft-flow-57d5bc56fc0e)
+* In class: create a [Calendly](https://calendly.com) booking page
+* In class: complete the exercise at ["Create a form with Microsoft
+  Forms"](https://support.microsoft.com/en-us/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d)
+  (about 15 minutes)
+:::
+
+#### Class 6: March 1 Using the Assembly Line Weaver
+
+:::tip Readings
+
+* Review all sections under ["Authoring your interview"](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/planning) (skip the "Appendix: Understanding the YAML code")
+
+:::
+
 
 ### Module 4: "Lean" in to Project Management
 
@@ -225,12 +296,18 @@ In this module, we will learn the basics of project management as a technique to
 manage work.
 :::
 
-#### Class 7: March 1
 
-#### Class 8: March 8
+#### Class 7: March 8 Kanban, Trello, and GitHub
+:::caution Due: Final project outline
+:::
 
+:::tip Readings
+* [What is Kanban?](https://www.digite.com/kanban/what-is-kanban/),
+  [perma.cc](https://perma.cc/4DSX-DN59)
+* [Why should lawyers learn project management?](https://lawyerist.com/management/project/#h-why-should-law-firms-learn-workflows-project-management), [perma.cc](https://perma.cc/J79V-U2X8)
+:::
 
-### Module 5: Not every problem is a nail: choosing the right tool
+### Module 5: Not every problem is a nail: choosing the right tool for the job
 :::info Learning objectives
 In this module, we will learn about choosing the right tool for the right job and how
 to evaluate legal products.
@@ -238,9 +315,22 @@ to evaluate legal products.
 
 #### March 15 (No class)
 
-#### Class 9: March 22
+#### Class 8: March 22 Product evaluation framework and canvas; Guest Grace Barlow-Enchil
 
-#### Class 10: March 29
+:::tip Readings
+* [Six Steps for a Successful Vendor Selection](https://blog.itil.org/2012/07/six-steps-for-a-successful-vendor-selection/), https://perma.cc/Z7GZ-99WX
+* [Vendor Assessment Evaluation](https://www.smartsheet.com/content/vendor-assessment-evaluation), https://perma.cc/Y7ZP-N6GE
+* [Gartner's magic quadrant](https://www.gartner.com/en/research/methodologies/magic-quadrants-research)
+* Lauritsen and Steenhuis, [Substantive Legal Software Quality: A Gathering Storm?](http://www.capstonepractice.com/s/Substantive-Legal-Software-Quality-A-Gathering-Storm.pdf), International Conference on AI and Law.
+* Skim Dan Linna: [Evaluating Legal Services: The Need for a Quality Movement
+  and Standard Measures of Quality and Value
+  ](https://www.legaltechlever.com/2020/03/evaluating-legal-services-the-need-for-a-quality-movement-and-standard-measures-of-quality-and-value-chapter-in-research-handbook-on-big-data-law/),
+  [perma.cc](https://perma.cc/7K9D-KBK3)
+:::
+
+#### Class 9: March 29 Free Tool Fiesta
+:::caution Due: Free Tool Fiesta product evaluation
+:::
 
 ### Module 6: Designing for justice with legal technology
 :::info Learning objectives
@@ -248,9 +338,24 @@ In this module, we will learn about user-centered and legal design. We will also
 consider the ethical implications and limits of traditional user-centered design.
 :::
 
-#### Class 11: April 5
+#### Class 10: April 5: Guest Nicole Bradick
 
-#### Class 12: April 12
+:::caution Due: App "teardown"
+:::
+
+:::caution Due: set up a meeting with Professor Steenhuis
+:::
+
+:::tip Readings
+* Design Practices: [Nothing about Us without Us.](https://design-justice.pubpub.org/pub/cfohnud7) (2020). In Design Justice (1st ed.). Retrieved from https://design-justice.pubpub.org/pub/cfohnud7, [perma.cc](https://perma.cc/5MME-R547)
+* Chapter 1 of [Law by Design](https://www.lawbydesign.co/legal-design/), by Margaret Hagan, [Perma.cc](https://perma.cc/PEF8-6Z8Y)
+* [The Face of Legal Technology in 2018 (and What it Means for the Future of Access to Justice)](https://www.abajournal.com/files/LegalTech_Demographic_Article_5-8.pdf). Kristen Sonday, May 8, 2018, [perma.cc](https://perma.cc/48VG-LB89)
+* Come prepared with questions for guest Nicole Bradick, CEO of Theory and Principle
+:::
+
+#### Class 11: April 12 Advanced Docassemble skills
+
+
 
 ### Module 7: Should software eat the legal world? How legal regulation can crash into a vision of a self-help world
 :::info Learning objectives
@@ -258,10 +363,19 @@ In this module, we will reflect on the ethical considerations that are raised by
 legal technology.
 :::
 
-#### Class 13: April 19
+#### Class 12: April 19 Ethics exercise; Guest Colin Levy
 
-#### Class 14: April 26
+:::tip Readings
+* Read [M.R.P.C. 5.5](https://www.mass.gov/supreme-judicial-court-rules/rules-of-professional-conduct-rule-55-unauthorized-practice-of-law)
+* Skim [Florida Bar v. TIKD Services
+  Limited](https://www.floridasupremecourt.org/content/download/795189/opinion/sc18-149.pdf),
+  No. SC18-149, Fl. Sup. Ct., Oct. 14 2021 and review one or more news articles
+  of your choice discussing the opinion. Try searching for "TIKD decision".
+* Lauritsen, [Liberty, Justice, & Legal
+  Automata](http://scholarship.kentlaw.iit.edu/cgi/viewcontent.cgi?article=3983&context=cklawreview), [perma.cc](https://perma.cc/K75H-CV6P)
+:::
 
+#### Class 13: April 26 **Final project presentations**
 
 ## Final project
 
@@ -274,10 +388,15 @@ either does:
 An excellent project will have 10-20 screens and complete a 1-2 page form. I expect you to
 spend about 40 hours on your final project, including research, testing, and planning.
 
-In most cases, you should default to choosing an existing form that can fit with the LIT 
+Many students will choose to work on a simple court form, application, or intake tool that can use
+the LIT 
 Lab's [Document Assembly Line project](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/), 
-but you are not required to do so. Please feel free to come to me with an idea for an app
+framework that we will spend time with in class. 
+This framework will give you a lot of autonomy to find something related to a legal problem that is
+of special interest to you. If you prefer to use a different tool, please feel free to come to me with an idea for an app
 that does not fall within the parameters above.
+
+### May 13 **Final project due at 5 PM**
 
 ### Grading rubric
 

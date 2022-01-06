@@ -8,6 +8,7 @@ sidebar_label: Approaches to closing the access to justice gap
 There are many approaches to solving the access to justice problem,
 both with and without the use of direct representation by attorneys:
 
+* Pro bono representation
 * Legal aid for people earn a small enough amount
 * The right to an attorney, or Civil Gideon
 * System redesign for pro se litigants
@@ -27,11 +28,10 @@ that only 1% of legal help is provided in the form of pro bono representation.
 
 ### Limitations
 
-A problem with relying on pro bono representation is that there are simply not
-enough volunteer hours available to represent everyone who needs meaningful
-legal help.
-
-https://www.levelset.com/blog/pro-bono-not-answer-legal-system/
+A problem with relying on pro bono representation is that there are simply [not
+enough volunteer hours
+available](https://www.levelset.com/blog/pro-bono-not-answer-legal-system/) to
+represent everyone who needs meaningful legal help.
 
 ## Legal aid
 
@@ -131,4 +131,4 @@ doing the same work.
 
 ## Technology-aided delivery of legal help
 
-[Learn more about technology-enabled legal help](a2j/a2j-technology.md)
+In the next section, we discuss using [technology to deliver legal help](a2j/a2j-technology.md).
