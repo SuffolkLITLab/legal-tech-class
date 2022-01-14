@@ -273,10 +273,17 @@ question: |
 fields:
   - Street address: user.address.address
   - City: user.address.city
+---
+id: user's name
+question: |
+  What is your name?
+fields:
+  - First: user.name.first
+  - Last: user.name.last
 ```
 
 In the example above, triggering `user.address.address` will run the
-`id: user's address` block before asking for the user's address.
+`id: user's name` block before asking for the user's address.
 That is because the user's name is displayed on the `id: user's address`
 block.
 
