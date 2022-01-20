@@ -285,7 +285,8 @@ more broadly.
 :::tip Readings
 
 * Review all sections under ["Authoring your interview"](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/planning) (skip the "Appendix: Understanding the YAML code")
-
+* Read [Building your first expert system](interview-structure/building-an-app-outline.md)
+* Steenhuis and Colarusso, [Digital Curb Cuts: Towards an Inclusive Open Forms Ecosystem](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3911381) (2021), Akron Law Review
 :::
 
 
@@ -354,8 +355,10 @@ consider the ethical implications and limits of traditional user-centered design
 :::
 
 #### Class 11: April 12 Advanced Docassemble skills
-
-
+:::tip Readings
+* Henrik Kniberg, [Making sense of MVP (Minimum Viable Product) - and why I prefer Earliest Testable/Usable/Lovable](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp), [perma.cc](https://perma.cc/DA34-XMGV) (2016).
+* [Legal app maturity model](legal-tech-overview/maturity-model.md).
+:::
 
 ### Module 7: Should software eat the legal world? How legal regulation can crash into a vision of a self-help world
 :::info Learning objectives
@@ -396,7 +399,7 @@ This framework will give you a lot of autonomy to find something related to a le
 of special interest to you. If you prefer to use a different tool, please feel free to come to me with an idea for an app
 that does not fall within the parameters above.
 
-### May 13 **Final project due at 5 PM**
+### May 6 **Final project due at 5 PM**
 
 ### Grading rubric
 
