@@ -102,7 +102,8 @@ Peer review               | 5%
 "Free tool fiesta"        | 10% (potential group project)
 App "teardown"            | 10%
 Final project outline     | 10%
-Final project             | 40% (potential group project)
+Final project presentation | 5%
+Final project             | 35% (potential group project)
 
 My goal is to give you a chance to demonstrate your mastery of the
 material in multiple ways over the course of the semester and to avoid
@@ -406,13 +407,14 @@ that does not fall within the parameters above.
 The initial project outline is due separately (in week 7) and will be 10% of your final
 grade.
 
+Your final presentation will be worth 5% of your final grade.
+
 Category | Summary | Due date| Percent of final project grade 
 ---------|---------|---------|-------------
 Research | Document the work done to understand the form's purpose and meaning | Graded at end | 15%
-Final presentation | Present your work in progress | Week 13 | 10%
-Completeness | How well does the project solve the problem? | Graded at end | 25%
-Polish and refinement | How refined is the user experience, including use of language, input types, and question order? | Graded at end | 25%
-Iteration and use of feedback | How well did the student solicit and incorporate feedback | Graded at end | 10%
+Completeness | How well does the project solve the problem? | Graded at end | 27%
+Polish and refinement | How refined is the user experience, including use of language, input types, and question order? | Graded at end | 27%
+Iteration and use of feedback | How well did the student solicit and incorporate feedback | Graded at end | 16%
 Final project description | How well did the student document the process of development? | Graded at end | 10%
 Preparing for handoff | How well did the student document the next steps to continue refining the project? | Graded at end | 5%
 
