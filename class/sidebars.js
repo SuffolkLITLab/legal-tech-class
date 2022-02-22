@@ -157,6 +157,7 @@ module.exports = {
         'introduction-to-docassemble',
         'practical-guide-docassemble/practical-guide-docassemble',
         'practical-guide-docassemble/controlling-interview-order',
+        'practical-guide-docassemble/combining-interviews',
          'practical-guide-docassemble/object-oriented-programming',
          'repeated-information',
          {
