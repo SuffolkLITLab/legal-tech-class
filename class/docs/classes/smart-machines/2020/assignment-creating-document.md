@@ -14,7 +14,7 @@ _Photo by Cytonn Photography on Unsplash_
 ## Something from Nothing: Assembling Your First Documents with Docassemble
 
 We have already explored ways to show text to the user, from our very first
-[Hello, World exercise](classes/2020-law-smart-machines-assignment-1.md).
+[Hello, World exercise](2020-law-smart-machines-assignment-1.md).
 
 We can create documents using the same method. We need to learn about a new `specifier` first:
 the `attachment` specifier. You can read more about `attachments` here, or check out the [official documentation](https://docassemble.org/docs/documents.html#oview).

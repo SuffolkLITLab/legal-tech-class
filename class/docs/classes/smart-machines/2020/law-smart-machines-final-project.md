@@ -16,7 +16,7 @@ You may find it helpful to take a look at [What Should You Use Docassemble For?]
 
 You must select a project and a partner by week 4.
 
-See [Project ideas](classes/project-ideas.md) for some possible project ideas and partners. You do not have to have a project idea before approaching a partner, but think about the technologies that we discuss in class and how they might address your partner's needs.
+See [Project ideas](project-ideas.md) for some possible project ideas and partners. You do not have to have a project idea before approaching a partner, but think about the technologies that we discuss in class and how they might address your partner's needs.
 
 One source of project ideas might be your employer, a substantive clinic, or a need that you have encountered through a family or friend. I can help you approach a partner if you have an idea but are not sure which partner would make the best fit.
 

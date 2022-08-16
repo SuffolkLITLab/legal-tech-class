@@ -93,14 +93,12 @@ an "A" grade.
 * Jarrett, Caroline and Gaffney, Gerry. "[Forms that Work: Designing Web Forms
   for
 Usability](https://www.amazon.com/Forms-that-Work-Interactive-Technologies/dp/1558607102/)".
-More than perhaps anyone else, Caroline Jarrett has thought deeply about forms
-and how we interact with them on the web for decades. She helped write
-definitive style guides for [gov.uk](https://www.gov.uk/guidance/style-guide)
-and [Australia](https://www.stylemanual.gov.au/). This readable and
-straightforward guide will help you improve your own forms, including the
-interactive guided interviews we will focus on in class.
+Caroline Jarrett is a deep thinker about forms, and key to style manuals written
+for [gov.uk](https://www.gov.uk/guidance/style-guide) and
+[Australia](https://www.stylemanual.gov.au/). This readable and by the numbers
+text gives you the rules to write your own forms with confidence.
 * [Krug, Steve](https://sensible.com). "[Don't Make Me Think
-  Revisited]https://sensible.com/dont-make-me-think/". New Rider's Press,
+  Revisited](https://sensible.com/dont-make-me-think/)". New Rider's Press,
   (2014). The software industry "bible" of usability, this is a short,
   accessible read with fun cartoons and simple, concrete examples that help make
   usability feel effortless.
@@ -335,6 +333,12 @@ more broadly.
 * Steenhuis and Colarusso, [Digital Curb Cuts: Towards an Inclusive Open Forms Ecosystem](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3911381) (2021), Akron Law Review
 :::
 
+### Module 4: Not every problem is a nail: choosing the right tool for the job
+:::info Learning objectives
+In this module, we will learn about choosing the right tool for the right job and how
+to evaluate legal products.
+:::
+
 #### Class 7: October 17th Product evaluation and software quality
 
 :::caution Due: Final project outline
@@ -349,12 +353,6 @@ more broadly.
   and Standard Measures of Quality and Value
   ](https://www.legaltechlever.com/2020/03/evaluating-legal-services-the-need-for-a-quality-movement-and-standard-measures-of-quality-and-value-chapter-in-research-handbook-on-big-data-law/),
   [perma.cc](https://perma.cc/7K9D-KBK3)
-:::
-
-### Module 4: Not every problem is a nail: choosing the right tool for the job
-:::info Learning objectives
-In this module, we will learn about choosing the right tool for the right job and how
-to evaluate legal products.
 :::
 
 #### Class 8: October 24th Free Tool Fiesta
