@@ -199,33 +199,46 @@ module.exports = {
                 'classes/small-firms/2020/legal-tech-small-firms-rubric'    
               ]
             },
-            'classes/small-firms/legal-tech-small-firms',
-            'classes/small-firms/legal-tech-small-firms-syllabus',
-            'classes/small-firms/legal-tech-small-firms-assignments',
-            'classes/small-firms/legal-tech-small-firms-rubric'
+            {
+              type: 'category',
+              label: 'Fall 2021 (archived)',
+              items: [
+                'classes/small-firms/2021/legal-tech-small-firms',
+                'classes/small-firms/2021/legal-tech-small-firms-syllabus',
+                'classes/small-firms/2021/legal-tech-small-firms-assignments',
+                'classes/small-firms/2021/legal-tech-small-firms-rubric'    
+              ]
+            },
+            'classes/small-firms/2022-legal-tech',
           ]
         },
-        'classes/smart-machines/2022-smart-machines',
         {
           type: 'category',
-          label: '(Archived) Spring 2021 - Lawyering in the Age of Smart Machines',
+          label: 'Lawyering in the Age of Smart Machines',
           items: [
-            'classes/smart-machines/2021-smart-machines',
-            'classes/smart-machines/smart-machines-syllabus',
-            'classes/smart-machines/2021-smart-machines-assignments',
-            'classes/smart-machines/smart-machines-rubric'      
+            {
+              type: 'category',
+              label: 'Spring 2020 (Archived)',
+              items: ['classes/smart-machines/2020/2020-law-smart-machines',
+                'classes/smart-machines/2020/law-smart-machines-final-project',
+                'classes/smart-machines/2020/project-ideas',
+                'classes/smart-machines/2020/2020-law-smart-machines-assignment-1',
+                'classes/smart-machines/2020/2020-law-smart-machines-assignment-2',
+                'classes/smart-machines/2020/assignment-branch-logic',
+                'classes/smart-machines/2020/assignment-creating-document']
+            },            
+            {
+              type: 'category',
+              label: 'Spring 2021 (Archived)',
+              items: [
+                'classes/smart-machines/2021/2021-smart-machines',
+                'classes/smart-machines/2021/smart-machines-syllabus',
+                'classes/smart-machines/2021/2021-smart-machines-assignments',
+                'classes/smart-machines/2021/smart-machines-rubric'      
+              ]
+            },
+            'classes/smart-machines/2022-smart-machines',
           ]
-        },
-        {
-          type: 'category',
-          label: '(Archived) Spring 2020 - Lawyering in the Age of Smart Machines',
-          items: ['classes/2020-law-smart-machines',
-            'classes/law-smart-machines-final-project',
-            'classes/project-ideas',
-            'classes/2020-law-smart-machines-assignment-1',
-            'classes/2020-law-smart-machines-assignment-2',
-            'classes/assignment-branch-logic',
-            'classes/assignment-creating-document']
         },
         {
           type: 'category',
