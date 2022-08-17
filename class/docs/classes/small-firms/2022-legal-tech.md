@@ -402,6 +402,8 @@ consider the ethical implications and limits of traditional user-centered design
 :::tip Readings
 * Henrik Kniberg, [Making sense of MVP (Minimum Viable Product) - and why I prefer Earliest Testable/Usable/Lovable](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp), [perma.cc](https://perma.cc/DA34-XMGV) (2016).
 * [Legal app maturity model](legal-tech-overview/maturity-model.md).
+* [Testing your form](testing/testing.md) and [Scenario-based testing](testing/testing-scenarios.md)
+* [Usability Test Demo by Steve Krug](https://www.youtube.com/watch?v=1UCDUOB_aS8), 25 minutes
 :::
 
 In class usability test exercise.
