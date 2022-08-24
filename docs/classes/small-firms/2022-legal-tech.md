@@ -295,6 +295,7 @@ it into a QnAMarkup chatbot.
 
 :::tip Readings
 * Visit [PlainLanguage.gov](https://www.plainlanguage.gov/about/definitions/). Read sections about Plain Language. 
+* Read [Use plain language](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/style_guide/readability) and [Format text for legibility](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/style_guide/formatting)
 * [Plain Language is For Everyone, Even Experts](https://www.nngroup.com/articles/plain-language-experts/), [perma.cc](https://perma.cc/34V5-7BLM)
 :::
 
@@ -393,9 +394,10 @@ consider the ethical implications and limits of traditional user-centered design
 :::
 
 :::tip Readings
+* [20 Quotes from "Don't Make Me Think"](https://blog.tubikstudio.com/dont-make-me-think-20-thoughts-on-usability-by-steve-krug/) by [Steve Krug](https://sensible.com/), [perma.cc](https://perma.cc/W9RG-BR8A)
+* Read the whole chapter [How to write good questions](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/style_guide/question_overview) (include "Writing good questions" through the last section, which as of this writing is "Use input validation carefully") (This is your second read of the plain language and formatting text for legibility sections)
 * Design Practices: [Nothing about Us without Us.](https://design-justice.pubpub.org/pub/cfohnud7) (2020). In Design Justice (1st ed.). Retrieved from https://design-justice.pubpub.org/pub/cfohnud7, [perma.cc](https://perma.cc/5MME-R547)
 * Chapter 1 of [Law by Design](https://www.lawbydesign.co/legal-design/), by Margaret Hagan, [Perma.cc](https://perma.cc/PEF8-6Z8Y)
-* [20 Quotes from "Don't Make Me Think"](https://blog.tubikstudio.com/dont-make-me-think-20-thoughts-on-usability-by-steve-krug/) by [Steve Krug](https://sensible.com/), [perma.cc](https://perma.cc/W9RG-BR8A)
 :::
 
 #### Class 11: November 14th Agile development; Advanced Docassemble skills
