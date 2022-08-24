@@ -1,0 +1,23 @@
+# Based on https://docusaurus.io/docs/deployment#triggering-deployment-with-github-actions
+# At times doesn't fail, even when deployment is broken
+name: Test deployment of documentation
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test-deploy:
+    name: Test deployment
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+          cache: npm
+      - name: Test build
+        run: |
+          npm ci
+          npm run build

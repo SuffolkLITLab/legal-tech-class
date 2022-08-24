@@ -1,4 +1,4 @@
-const mermaid = require('remark-mermaid');
+//const mermaid = require('remark-mermaid');
 const admonitions = require('@lebalz/remark-admonitions');
 // var vfile = require('to-vfile');
 
@@ -114,7 +114,6 @@ module.exports = {
           editUrl:
             'https://github.com/suffolklitlab/legal-tech-class/edit/master/class/',
           remarkPlugins: [
-            [mermaid,{ simple: true }],
             [admonitions, {
               customTypes: {
                 custom: {
@@ -133,7 +132,7 @@ module.exports = {
   ],
   scripts: [
     // String format.
-    'https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.4/mermaid.min.js',
+    //'https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.4/mermaid.min.js',
     // Object format.
     // {
     //   src:
