@@ -12,6 +12,7 @@ sidebar_label: Tutorials
 
 ### Videos
 * [Sam Harden's Youtube Channel](https://www.youtube.com/channel/UCCFR4rpeXQIv2KwcvaPwweQ)
+* [Assembly Line Teaching Tuesdays](https://www.youtube.com/playlist?list=PLy6i9GFGw5GzXmwApG1UDSY6C3hV8TqH1)
 
 ## Annotated Examples
 * [6 sample projects](https://www.nonprofittechy.com/2019/02/26/a-legal-hackathon-toolkit/)

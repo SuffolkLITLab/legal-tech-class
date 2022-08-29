@@ -31,7 +31,7 @@ module.exports = {
       label: 'Legal Technology Overview',
       items: ['legal-tech-overview/legal-tech-overview',
               'legal-tech-overview/substantive-vs-non-substantive',
-              'legal-tech-overview/examples',
+              // 'legal-tech-overview/examples',
               'legal-tech-overview/maturity-model'],
     },
     {
@@ -43,16 +43,16 @@ module.exports = {
         'a2j/a2j-technology',
       ],
     },
-    {
-      type: 'category',
-      label: 'The Changing Legal Profession',
-      items: ['changing-legal-profession/changing-legal-profession']
-    },
-    {
-      type: 'category',
-      label: 'Ethical Issues',
-      items: ['ethical-issues/ethical-issues']
-    },              
+    // {
+    //   type: 'category',
+    //   label: 'The Changing Legal Profession',
+    //   items: ['changing-legal-profession/changing-legal-profession']
+    // },
+    // {
+    //   type: 'category',
+    //   label: 'Ethical Issues',
+    //   items: ['ethical-issues/ethical-issues']
+    // },              
     {
       type: 'category',
       label: 'Building Things',
@@ -83,7 +83,7 @@ module.exports = {
             items: ['choosing-project/choosing-project']
           },
           */
-          'user-centered-design/user-centered-design',    
+          // 'user-centered-design/user-centered-design',    
           /*
           {
             type: 'category',
@@ -123,13 +123,6 @@ module.exports = {
             items: ['feedback/feedback']
           },
           */      
-          {
-            type: 'category',
-            label: 'Testing',
-            items: ['testing/testing',
-                    'testing/testing-scenarios',
-                    'testing/lorem-ipsum']
-          },
           /*      
           {
             type: 'category',
@@ -147,9 +140,16 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Representing Rules in Code',
-      items: ['representing-rules/representing-rules']
-    },  
+      label: 'Testing',
+      items: ['testing/testing',
+              'testing/testing-scenarios',
+              'testing/lorem-ipsum']
+    },    
+    // {
+    //   type: 'category',
+    //   label: 'Representing Rules in Code',
+    //   items: ['representing-rules/representing-rules']
+    // },  
     {
       type: 'category',
       label: 'A Practical Guide to Docassemble Development',
@@ -180,6 +180,13 @@ module.exports = {
           ]
         },
         {
+          type: "category",
+          label: "Customizing Docassemble",
+          items: [
+            'practical-guide-docassemble/theming-docassemble',
+          ]
+        },
+        {
           type: 'category',
           label: 'Administering Docassemble',
           items: [
@@ -192,12 +199,7 @@ module.exports = {
     },      
     {
       type: 'category',
-      label: 'Tutorials',
-      items: ['tutorials']
-    },
-    {
-      type: 'category',
-      label: 'Classes',
+      label: 'Classes and tutorials',
       items: [
         'classes/class-overview',
         'classes/other-classes',
@@ -275,7 +277,12 @@ module.exports = {
             'classes/docacon-2020/customizing-appearance',
             'classes/docacon-2020/working-with-docx',
           ]
-        },        
+        },
+        {
+          type: 'category',
+          label: 'Other tutorials',
+          items: ['tutorials']
+        },             
       ]
     },
     {
