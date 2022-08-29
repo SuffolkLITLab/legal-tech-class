@@ -156,22 +156,39 @@ module.exports = {
       items: [
         'introduction-to-docassemble',
         'practical-guide-docassemble/practical-guide-docassemble',
+        'classes/docacon-2020/hello-world',
+        'classes/docacon-2020/logic',
+        'classes/docacon-2020/working-with-docx',
         'practical-guide-docassemble/controlling-interview-order',
-        'practical-guide-docassemble/combining-interviews',
-         'practical-guide-docassemble/object-oriented-programming',
-         'repeated-information',
-         {
-          type: 'category',
-          label: 'References',
-          items: ['yaml',
+        {
+          type: "category",
+          label: "Docassemble syntax",
+          items: [
+            'yaml',
             'markdown',
             'mako',
             'python',
             'jinja2',
+          ]
+        },
+        {
+          type: "category",
+          label: "Working with lists and objects",
+          items: [
+            'practical-guide-docassemble/object-oriented-programming',
+            'repeated-information',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Administering Docassemble',
+          items: [
+            'practical-guide-docassemble/setup-server',
+            //'practical-guide-docassemble/combining-interviews',
             'practical-guide-docassemble/installing-production-app',
-            'practical-guide-docassemble/setup-server'],
+          ],
         },    
-        ]
+      ]
     },      
     {
       type: 'category',

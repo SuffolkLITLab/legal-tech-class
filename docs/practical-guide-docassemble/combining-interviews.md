@@ -36,8 +36,7 @@ Example:
 1. add the new `variable name` to the download screen using `attachment code` or
    `ALDocumentBundle`
 
-### 
-
 ## Read more
 
 1. https://docassemble.org/docs/logic.html#multiple%20interviews
+1. [Naming your modular interview files](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/coding_style_guide/yaml#use-clear-filenames-for-modular-interview-files)

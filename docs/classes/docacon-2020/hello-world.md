@@ -5,15 +5,25 @@ sidebar_label: Hello, World
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+
+Let's begin our Docassemble journey by trying a simple coding exercise: the classic
+Hello, World exercise that is the traditional first exercise in a new programming
+language.
+
 ## What is Docassemble?
 
 Docassemble is a system for running interactive questionnaires. It uses several
-open source technologies, including Python, Markdown, YAML and docx-template to
+open source technologies, including [Python](/docs/python.md), [Markdown](/docs/markdown.md), [YAML](/docs/yaml.md) and docx-template to
 let you concentrate on writing your interviews and writing very little code.
 Yet, it's flexible enough to allow you to use advanced coding techniques when
 you need to do so.
 
-### Recording from June 2020 Live Training
+### Video version of this training
+
+This training was conducted live in June, 2020. You can follow
+along with the video if you want, or if you prefer just follow the 
+written instructions.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lsh_2qmTSAw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Introduction to the Docassemble Playground

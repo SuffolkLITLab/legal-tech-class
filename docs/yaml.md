@@ -1,7 +1,7 @@
 ---
 slug: yaml
 title: The YAML file Format
-sidebar_label: Understanding YAML
+sidebar_label: YAML
 ---
 
 When Jonathan Pyle created Docassemble, he chose to use the [YAML](https://en.wikipedia.org/wiki/YAML) file format as the main way to represent the contents of an interview. When writing a Docassemble interview, it can be helpful to understand what YAML is, which conventions are Docassemble standards that overlay YAML, and how the different components of a Docassemble interview are represented in YAML.

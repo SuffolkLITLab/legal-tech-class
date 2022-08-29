@@ -49,16 +49,16 @@ Interview authors need to think about three key components when creating a Docas
 1. The _underlying logic_ of the problem that the application is addressing. For example, a legal rule that exists in the real world. A name for these that is useful in many domains is _business rules._
 
 ### Interview Files
-Interview files are written in plain text, using a combination of the YAML file format, Markdown, and Mako.
+Interview files are written in plain text, using a combination of the [YAML](yaml.md) file format, [Markdown](markdown.md), and [Mako](mako.md).
 
 ### Templates
 Templates are normally one of three choices, each with different systems of logic:
 
-1. A plain text template, using the same Markdown and Mako syntax as is used to write interviews.
-1. Microsoft Word (.docx) files, using Jinja2 syntax
+1. A plain text template, using the same [Markdown](markdown.md) and [Mako](mako.md) syntax as is used to write interviews.
+1. Microsoft Word (.docx) files, using [Jinja2](jinja2.md) syntax
 1. Adobe PDF formatted documents, using Acrobat's field editor
 
-The plain text format can be downloaded by the end user as an RTF, Word or PDF file, and Microsoft Word templates can also be downloaded as PDF files.
+The plain text format can be downloaded by the end user as an RTF, Word or PDF file, and Microsoft Word templates can be downloaded as Word files or automatically converted to PDFs.
 
 ### Logic
 Docassemble runs on Python, a popular and easy to use computer programming logic. It's typical to write business rules in Python. There are slight variations on Python used for logic inside templates.

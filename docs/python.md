@@ -1,7 +1,7 @@
 ---
 slug: python
-title: The Python programming language
-sidebar_label: Understanding Python
+title: Basics of the Python programming language
+sidebar_label: Python basics
 ---
 
 ## About Python
