@@ -31,7 +31,6 @@ module.exports = {
       label: 'Legal Technology Overview',
       items: ['legal-tech-overview/legal-tech-overview',
               'legal-tech-overview/substantive-vs-non-substantive',
-              // 'legal-tech-overview/examples',
               'legal-tech-overview/maturity-model'],
     },
     {
@@ -42,99 +41,15 @@ module.exports = {
         'a2j/a2j-approaches',
         'a2j/a2j-technology',
       ],
-    },
-    // {
-    //   type: 'category',
-    //   label: 'The Changing Legal Profession',
-    //   items: ['changing-legal-profession/changing-legal-profession']
-    // },
-    // {
-    //   type: 'category',
-    //   label: 'Ethical Issues',
-    //   items: ['ethical-issues/ethical-issues']
-    // },              
+    },       
     {
       type: 'category',
       label: 'Building Things',
       items: [
             'avoiding-failure/avoiding-failure',
-          /*{
-            type: 'category',
-            label: 'Avoiding Failure',
-            items: ['avoiding-failure/avoiding-failure']
-          },
-          */
           'interview-structure/building-an-app-outline',
-          /*{
-            type: 'category',
-            label: 'Forming a Team',
-            items: ['forming-team/forming-team']
-          },
-          {
-            type: 'category',
-            label: 'Assessing User Needs',
-            items: ['user-needs/user-needs']
-          },
-          */
           'choosing-project/choosing-project',
-          /*{
-            type: 'category',
-            label: 'Choosing the Right Project',
-            items: ['choosing-project/choosing-project']
-          },
-          */
-          // 'user-centered-design/user-centered-design',    
-          /*
-          {
-            type: 'category',
-            label: 'User Centered Design',
-            items: ['user-centered-design/user-centered-design']
-          },
-          */
-          /*
-          {
-            type: 'category',
-            label: 'Preparing Your Project',
-            items: ['project-planning/project-planning']
-          },
-          */
           'speaking-right-language/speaking-right-language',
-          /*
-          {
-            type: 'category',
-            label: 'Speaking the Right Language',
-            items: ['speaking-right-language/speaking-right-language']
-          },
-          */
-          /*
-          {
-            type: 'category',
-            label: 'The Prototyping Phase',
-            items: ['prototyping/prototyping']
-          },      
-          {
-            type: 'category',
-            label: 'Verifying Your Work',
-            items: ['verification/verification']
-          },      
-          {
-            type: 'category',
-            label: 'Getting Useful Feedback',
-            items: ['feedback/feedback']
-          },
-          */      
-          /*      
-          {
-            type: 'category',
-            label: 'Driving User Acceptance',
-            items: ['gaining-audience/gaining-audience']
-          },                                                
-          {
-            type: 'category',
-            label: 'Maintenance',
-            items: ['maintenance/maintenance']
-          },           
-          */
     
         ]
     },
@@ -193,6 +108,7 @@ module.exports = {
             'practical-guide-docassemble/setup-server',
             //'practical-guide-docassemble/combining-interviews',
             'practical-guide-docassemble/installing-production-app',
+            'practical-guide-docassemble/updates-and-maintenance',
           ],
         },    
       ]
