@@ -140,8 +140,8 @@ Here is the upgrade process:
 
 ```bash
 docker stop -t 600 $(docker ps -a -q)
-docker pull docassemble-os
-docker pull docassemble
+docker pull jhpyle/docassemble-os
+docker pull jhpyle/docassemble
 docker run -d -p 443:443 -p 80:80 --restart always --env-file env.list jhpyle/docassemble
 ```
 
