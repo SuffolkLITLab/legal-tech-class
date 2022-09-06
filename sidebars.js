@@ -75,6 +75,7 @@ module.exports = {
         'classes/docacon-2020/logic',
         'classes/docacon-2020/working-with-docx',
         'practical-guide-docassemble/controlling-interview-order',
+        'practical-guide-docassemble/basic-troubleshooting',
         {
           type: "category",
           label: "Docassemble syntax",
