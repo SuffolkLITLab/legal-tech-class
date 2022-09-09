@@ -1,7 +1,7 @@
 ---
 slug: mako
 title: The Mako templating language
-sidebar_label: Overview of Mako
+sidebar_label: Mako
 ---
 
 Docassemble uses Mako for formatting throughout the interview file. Mako is also used inside [Markdown](markdown.md) templates.

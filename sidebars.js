@@ -31,7 +31,6 @@ module.exports = {
       label: 'Legal Technology Overview',
       items: ['legal-tech-overview/legal-tech-overview',
               'legal-tech-overview/substantive-vs-non-substantive',
-              'legal-tech-overview/examples',
               'legal-tech-overview/maturity-model'],
     },
     {
@@ -42,145 +41,82 @@ module.exports = {
         'a2j/a2j-approaches',
         'a2j/a2j-technology',
       ],
-    },
-    {
-      type: 'category',
-      label: 'The Changing Legal Profession',
-      items: ['changing-legal-profession/changing-legal-profession']
-    },
-    {
-      type: 'category',
-      label: 'Ethical Issues',
-      items: ['ethical-issues/ethical-issues']
-    },              
+    },       
     {
       type: 'category',
       label: 'Building Things',
       items: [
             'avoiding-failure/avoiding-failure',
-          /*{
-            type: 'category',
-            label: 'Avoiding Failure',
-            items: ['avoiding-failure/avoiding-failure']
-          },
-          */
           'interview-structure/building-an-app-outline',
-          /*{
-            type: 'category',
-            label: 'Forming a Team',
-            items: ['forming-team/forming-team']
-          },
-          {
-            type: 'category',
-            label: 'Assessing User Needs',
-            items: ['user-needs/user-needs']
-          },
-          */
           'choosing-project/choosing-project',
-          /*{
-            type: 'category',
-            label: 'Choosing the Right Project',
-            items: ['choosing-project/choosing-project']
-          },
-          */
-          'user-centered-design/user-centered-design',    
-          /*
-          {
-            type: 'category',
-            label: 'User Centered Design',
-            items: ['user-centered-design/user-centered-design']
-          },
-          */
-          /*
-          {
-            type: 'category',
-            label: 'Preparing Your Project',
-            items: ['project-planning/project-planning']
-          },
-          */
           'speaking-right-language/speaking-right-language',
-          /*
-          {
-            type: 'category',
-            label: 'Speaking the Right Language',
-            items: ['speaking-right-language/speaking-right-language']
-          },
-          */
-          /*
-          {
-            type: 'category',
-            label: 'The Prototyping Phase',
-            items: ['prototyping/prototyping']
-          },      
-          {
-            type: 'category',
-            label: 'Verifying Your Work',
-            items: ['verification/verification']
-          },      
-          {
-            type: 'category',
-            label: 'Getting Useful Feedback',
-            items: ['feedback/feedback']
-          },
-          */      
-          {
-            type: 'category',
-            label: 'Testing',
-            items: ['testing/testing',
-                    'testing/testing-scenarios',
-                    'testing/lorem-ipsum']
-          },
-          /*      
-          {
-            type: 'category',
-            label: 'Driving User Acceptance',
-            items: ['gaining-audience/gaining-audience']
-          },                                                
-          {
-            type: 'category',
-            label: 'Maintenance',
-            items: ['maintenance/maintenance']
-          },           
-          */
     
         ]
     },
     {
       type: 'category',
-      label: 'Representing Rules in Code',
-      items: ['representing-rules/representing-rules']
-    },  
+      label: 'Testing',
+      items: ['testing/testing',
+              'testing/testing-scenarios',
+              'testing/lorem-ipsum']
+    },    
+    // {
+    //   type: 'category',
+    //   label: 'Representing Rules in Code',
+    //   items: ['representing-rules/representing-rules']
+    // },  
     {
       type: 'category',
       label: 'A Practical Guide to Docassemble Development',
       items: [
         'introduction-to-docassemble',
         'practical-guide-docassemble/practical-guide-docassemble',
+        'classes/docacon-2020/hello-world',
+        'classes/docacon-2020/logic',
+        'classes/docacon-2020/working-with-docx',
         'practical-guide-docassemble/controlling-interview-order',
-        'practical-guide-docassemble/combining-interviews',
-         'practical-guide-docassemble/object-oriented-programming',
-         'repeated-information',
-         {
-          type: 'category',
-          label: 'References',
-          items: ['yaml',
+        'practical-guide-docassemble/basic-troubleshooting',
+        {
+          type: "category",
+          label: "Docassemble syntax",
+          items: [
+            'yaml',
             'markdown',
             'mako',
             'python',
             'jinja2',
+          ]
+        },
+        {
+          type: "category",
+          label: "Working with lists and objects",
+          items: [
+            'practical-guide-docassemble/object-oriented-programming',
+            'repeated-information',
+          ]
+        },
+        {
+          type: "category",
+          label: "Customizing Docassemble",
+          items: [
+            'practical-guide-docassemble/theming-docassemble',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Administering Docassemble',
+          items: [
+            'practical-guide-docassemble/setup-server',
+            //'practical-guide-docassemble/combining-interviews',
             'practical-guide-docassemble/installing-production-app',
-            'practical-guide-docassemble/setup-server'],
+            'practical-guide-docassemble/updates-and-maintenance',
+          ],
         },    
-        ]
+      ]
     },      
     {
       type: 'category',
-      label: 'Tutorials',
-      items: ['tutorials']
-    },
-    {
-      type: 'category',
-      label: 'Classes',
+      label: 'Classes and tutorials',
       items: [
         'classes/class-overview',
         'classes/other-classes',
@@ -258,7 +194,12 @@ module.exports = {
             'classes/docacon-2020/customizing-appearance',
             'classes/docacon-2020/working-with-docx',
           ]
-        },        
+        },
+        {
+          type: 'category',
+          label: 'Other tutorials',
+          items: ['tutorials']
+        },             
       ]
     },
     {

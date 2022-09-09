@@ -1,7 +1,7 @@
 ---
 slug: testing
-title: Testing
-sidebar_label: Testing 
+title: Usability testing and focus groups
+sidebar_label: Usability testing and focus groups 
 ---
 
 Quinten Steenhuis, updated August 2022
@@ -185,8 +185,4 @@ catch these late bugs.
 
 ## Further reading
 
-* [Unit tests](https://www.guru99.com/unit-testing-guide.html)
-* [End to end tests](https://circleci.com/blog/what-is-end-to-end-testing/)
 * [Usability test script](https://methods.18f.gov/usability-test-script/)
-* Jonathan Pyle, [Ensuring
-  Quality](https://docassemble.org/docs/development.html#quality)

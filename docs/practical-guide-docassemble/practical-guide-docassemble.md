@@ -21,55 +21,10 @@ Docassemble's main metaphor is a linear series of step-by-step questions. Many o
 
 ## Examples
 
-### Expert systems and form-filling tools
-
 Most expert systems built-on Docassemble also include filling forms and templates, but they don't need to.
 
-#### Demos
-
-* [Pizza chooser demo](https://interviews-dev.gbls.org/interview?i=docassemble.GBLSDemos%3Adata%2Fquestions%2Fchatbot.yml) ([view code](https://github.com/GBLS/docassemble-workinggroup/blob/master/skeletons/chatbot.yml))
-* [Consumer demand letter demo](https://interviews-dev.gbls.org/interview?i=docassemble.GBLSDemos%3Adata%2Fquestions%2Fdemand_letter.yml) ([view code](https://github.com/GBLS/docassemble-workinggroup/blob/master/skeletons/demand_letter.yml))
-
-#### Real-world systems
-
-* [UpSolve](https://upsolve.org/) - Helps file bankruptcy
-* [MADE](https://www.gbls.org/MADE) - Helps fight eviction
-
-### Referral and triage tools
-
-#### Demos
-
-#### Real-world systems
-
-* [Houston Volunteer Lawyers Project](https://docassemble.makejusticehappen.org/interview?i=docassemble.TXProSeDivorceScreening%3Adata%2Fquestions%2FInterview.yml&new_session=1)
-
-### Intake tools
-
-#### Demos
-
-#### Real-world systems
-
-### Tickler/reminder systems
-
-#### Demos
-
-* [Court date reminder](https://interviews-dev.gbls.org/interview?i=docassemble.GBLSDemos%3Adata%2Fquestions%2Fsms_scheduled.yml) ([code](https://github.com/GBLS/docassemble-workinggroup/blob/master/skeletons/sms_scheduled.yml))
-
-#### Real-world systems
-
-* [Houston Volunteer Lawyers Project](https://docassemble.makejusticehappen.org/interview?i=docassemble.ProSeTextReminder%3Adata%2Fquestions%2FProSeTextReminder.yml&new_session=1)
-
-### Information gathering tools
-
-#### Demos
-
-#### Real-world systems
-
-### Database frontends
-
-#### Demos
-
-#### Real-world systems
+The [Court Forms Online](https://courtformsonline.org) site contains many examples
+of Docassemble interviews for use in Massachusetts.
 
 ## What are Docassemble's unique strengths?
 
@@ -99,6 +54,3 @@ Docassemble's built-in features could easily be dedicated tools in their own rig
 * Scheduled tasks that can run without your user being present, for things such as court date reminders
 * Integration with SMS and email
 
-## Other lists of apps built with Docassemble
-
-* https://afterpattern.com/search

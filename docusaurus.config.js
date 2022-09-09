@@ -139,5 +139,21 @@ module.exports = {
     //     'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
     //   async: true,
     // },
-  ],  
+  ],
+  themes: [
+    // ... Your other themes.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+      },
+    ],
+  ],
+
 };

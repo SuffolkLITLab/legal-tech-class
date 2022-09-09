@@ -1,8 +1,61 @@
 ---
 slug: testing-scenarios
-title: Testing using scenarios
-sidebar_label: Testing using scenarios
+title: Testing for correctness
+sidebar_label: Testing for correctness
 ---
+## Testing for correctness
+
+Testing for correctness usually means:
+
+* Ensuring that your user can download a completed form, or otherwise reach an
+  end screen
+* Ensuring that invalid input (however you define it) is not submitted
+* Ensuring that the user does not see an error screen
+* Ensuring that your form is "legally" correct--that is, that the business rules
+  of your form are correctly implemented
+
+Testing for correctness is important throughout the form development process.
+Errors can creep in at any stage. Errors may also be "regressions". A regression
+is a bug that comes back after being fixed. A feature might be complete and work
+one day, and a change that you make to seemingly unrelated code can reintroduce
+an error. That means you will want a plan to run and re-run your tests multiple
+times. Automated tests can help make the re-running step realistic.
+
+Keep in mind that reaching the state of "zero" bugs is almost impossible.
+Instead, think about testing the most common situations and provide a way for
+your user to let you know about bugs you didn't discover in advance so that you
+can quickly resolve them.
+
+Software tests usually come in two varieties:
+
+1. [Unit tests](https://www.guru99.com/unit-testing-guide.html), in which a
+   specific function or method is tested in isolation
+1. [End to end tests](https://circleci.com/blog/what-is-end-to-end-testing/), in
+   which multiple full "paths" through your tool are tested to ensure that the
+   different components work in combination.
+
+Unit tests can be very helpful for testing Python code, but less useful in the
+most common kinds of guided interviews which involve little code. Instead, you
+will mostly rely on end-to-end tests of the entire form. End-to-end testing can
+be tedious, but it's important to release software into the world that is
+relatively free of bugs. Bugs will reduce user confidence in your tool.
+
+The [ALKiln](https://github.com/suffolkLITLab/ALKiln) framework, developed by
+the Document Assembly Line Project, provides a method for automating end-to-end
+tests in a relatively flexible way. However, setting up an ALKiln test is still
+an advanced task. Most users will get by with a series of manual end-to-end
+tests that concentrate on getting good "coverage" of the most common paths
+through your guided interview.
+
+The next section discusses a simple manual method of conducting end-to-end tests
+by developing realistic user scenarios.
+
+## When is testing complete?
+
+No software has finished testing before it is in the hand of real-world users.
+Your users will find bugs that the most carefully planned testing will miss. You
+need a plan to gather feedback from your app once it is released in order to
+catch these late bugs.
 
 ## What is scenario-based testing?
 
@@ -182,6 +235,10 @@ with new scenarios.
 The links below describe some more details about what scenario-based testing is
 and how to use it.
 
+* [Unit tests](https://www.guru99.com/unit-testing-guide.html)
+* [End to end tests](https://circleci.com/blog/what-is-end-to-end-testing/)
+* Jonathan Pyle, [Ensuring
+  Quality](https://docassemble.org/docs/development.html#quality)
 1. [Wikipedia](https://en.wikipedia.org/wiki/Scenario_testing)
 1. [Geeks for Geeks](https://www.geeksforgeeks.org/software-testing-scenario-testing/)
 1. [Guru99](https://www.guru99.com/test-scenario.html)

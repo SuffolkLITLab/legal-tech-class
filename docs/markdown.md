@@ -1,7 +1,7 @@
 ---
 slug: markdown
 title: The Markdown formatting language
-sidebar_label: Understanding Markdown
+sidebar_label: Markdown
 ---
 
 ## The Markdown formatting language
