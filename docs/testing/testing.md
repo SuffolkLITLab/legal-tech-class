@@ -106,6 +106,29 @@ priority usability issues that you can fix.
 Keep usability tests simple so that you can conduct them regularly. A good
 cadence is once a month.
 
+#### Sample prompts for a usability test
+
+While there is a lot of information about testing websites for usability,
+a test for a guided interview is a little different. Primarily because the
+process is much more linear.
+
+Here are some questions that [Jarret and Gaffney](https://www.amazon.com/Forms-that-Work-Interactive-Technologies/dp/1558607102/)
+suggest you use when testing a form:
+
+1. Could you tell me what that question is asking you? 
+1. What kind of information do you think that question is asking for?
+
+1. Did you expect to be asked that question?
+1. Does it explain why it asked that question?
+1. Did it leave out a question you expected?
+
+1. How would you figure out how to answer that question?
+1. Where would you look to answer that question?
+
+1. Is it OK for the website to ask that question?
+1. Is that the kind of information you'd be willing to provide?
+
+
 ### Testing for correctness
 
 Testing for correctness usually means:
