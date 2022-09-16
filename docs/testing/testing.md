@@ -106,6 +106,42 @@ priority usability issues that you can fix.
 Keep usability tests simple so that you can conduct them regularly. A good
 cadence is once a month.
 
+#### Recruiting and scheduling participants for a usability test
+
+Don't waste time coordinating individual appointments with participants. Instead, make the times
+that work for your team and invite participants to choose from one of the open slots.
+
+1. Coordinate the availability of your team. Choose 2 time blocks, each about 2-3 hours long. Give yourself a little breathing room by scheduling them at least a day apart.
+1. Create 1 hour "slots" for participants to select from. It may be helpful to use a tool like [Signup Genius](https://signupgenius.com) for this task.
+1. Send an email to a large pool of potential volunteers, and invite them to choose one of the slots.
+
+Sample email invitation:
+
+```
+Hello! We are looking for volunteers to help us test [a new tool that helps tenants
+report problems in their home].
+
+If you choose to participate, you will be paid [$100] for 1 hour of your time.
+You can participate remotely on your Android, iPhone or desktop computer. You will use 
+the free Zoom app to share your screen and participate remotely.
+
+During the test, we will show you a website and ask you questions about it. Then 
+you will be given some short tasks to complete. We will ask you to narrate your
+experience aloud as you work on the task.
+
+What you tell us will be used to help us find parts of the website that are 
+hard to understand and can be improved. We are testing our website--not you!
+
+This is your chance to improve an important tool that will help [tenants around the
+state]. We're looking forward to your signup!
+
+Please click this link to pick an open time: [https://signup.example.com/my-signup]
+
+Yours,
+
+[Quinten Steenhuis and the app team]
+```
+
 #### Sample prompts for a usability test
 
 While there is a lot of information about testing websites for usability,
