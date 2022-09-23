@@ -142,6 +142,42 @@ Yours,
 [Quinten Steenhuis and the app team]
 ```
 
+Sample welcome email:
+
+```
+Dear [Jane],
+
+We are looking forward to seeing you at [11:00 AM on Wednesday September 28]!
+
+How to join the meeting
+The usability test will be on Zoom. Please use this link: [https://us02web.zoom.us/j/1234]
+
+We will ask you to share the screen on your phone or computer while you meet with us. There is a screen sharing feature built-in to Zoom.
+
+What to expect
+The goal of this meeting is to help us improve a new website that [helps tenants get repairs made in their home].
+
+We will ask you to talk out loud as you use the site. What you tell us will be used to help us find parts of the website that are hard to understand and can be improved. We are testing our website--not you!
+
+We will not be able to give you specific legal advice during the meeting.
+
+Our meeting will take about 1 hour.
+
+What to plan before you join
+Please make sure you have a steady Wi-Fi or data connection while you meet with us. Try to find a place where we can hear you clearly while you talk out loud, such as a quiet room.
+
+Compensation
+We will give you a $25 gift card to Market Basket as our thank you for taking the test.
+
+Please let us know the best way to get you the gift card. We are happy to send it to you by mail if you share your address.
+
+Thank you so much for agreeing to help us!
+
+Yours,
+
+[Quinten Steenhuis, Lemma Legal Consulting and the website team]
+```
+
 #### Sample prompts for a usability test
 
 While there is a lot of information about testing websites for usability,
