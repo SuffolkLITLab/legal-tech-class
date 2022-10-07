@@ -107,6 +107,7 @@ module.exports = {
           label: 'Administering Docassemble',
           items: [
             'practical-guide-docassemble/setup-server',
+            'practical-guide-docassemble/run-docassemble-docker-vscode',
             //'practical-guide-docassemble/combining-interviews',
             'practical-guide-docassemble/installing-production-app',
             'practical-guide-docassemble/updates-and-maintenance',

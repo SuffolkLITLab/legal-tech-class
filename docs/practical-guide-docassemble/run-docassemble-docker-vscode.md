@@ -1,8 +1,10 @@
 ---
-# slug: run-docassemble-docker-vscode
-# title: Setup & Run Docassemble with Docker and VS Code
-# sidebar_label: Docassemble with Docker and VS Code
+slug: run-docassemble-docker-vscode
+title: Setup & Run Docassemble with Docker and VS Code
+sidebar_label: Docassemble with Docker and VS Code
 ---
+
+Author: [Dele Omotosho](https://github.com/deletosh)
 
 In this section, we will setup our system to write and run docassemble without using the playground or a server.
 
