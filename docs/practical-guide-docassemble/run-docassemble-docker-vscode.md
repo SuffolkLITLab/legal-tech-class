@@ -89,6 +89,8 @@ When that completed, it brings us back to the Git configuration screen:
 -   Open the downloaded file and follow through there instructions. Here's a
     step-by-step for [in-depth guide on configuring VS Code for legal
     automation](https://deletosh.com/connect-vscode-github)
+    
+-   In MacOS, there is an additional step to get `code` working from the command line. Per [Visual Studio's Documentation](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line), Open the **Command Palette** (`Cmd+Shift+P`) and type `shell command` to find the `Shell Commmand: Install 'code' command in PATH`. Run this command.   
 
 ### Configure VS Code to use WSL 2
 -   Open VS Code's preferences ![](https://i.imgur.com/oHuFEuT.gif)
