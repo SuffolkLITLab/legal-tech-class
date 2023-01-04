@@ -174,7 +174,14 @@ module.exports = {
                 'classes/smart-machines/2021/smart-machines-rubric'      
               ]
             },
-            'classes/smart-machines/2022-smart-machines',
+            {
+              type: 'category',
+              label: 'Fall 2022 (Archived)',
+              items: [
+                'classes/smart-machines/2022-smart-machines',
+              ],
+            },
+            'classes/smart-machines/2023-smart-machines',
           ]
         },
         {
