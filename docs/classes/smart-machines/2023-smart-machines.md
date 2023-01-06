@@ -8,7 +8,10 @@ sidebar_label: |
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/248-Robot-in-logistics.png')} />
+<figure>
+<img src={ useBaseUrl("/img/judge_with_computer.jpg") } alt="Illustration of Judge in front of stack of files and computer (created by Stable Diffusion AI)"/>
+<figcaption>Credit: Image created using the stable diffusion AI</figcaption>
+</figure>
 
 ## About the Instructor
 Quinten Steenhuis, QSteenhuis@suffolk.edu
@@ -239,19 +242,11 @@ the country.
 
 :::tip Readings 
 * [The Access to Justice Problem](a2j/a2j.md) (continue on to read [Approaches to solving the access to justice gap](a2j/a2j-approaches.md) and [Technology to solve the access to justice gap](a2j/a2j-technology.md))
-* ["The Justice Gap: Measuring the Unmet Civil Legal Needs of Low-income Americans"](https://justicegap.lsc.gov/the-report/). Legal Services Corporation, April 2022, [perma.cc](https://perma.cc/K6KN-GXTF). (focus on executive summary, charts, and skim remainder)
+* John O. McGinnis & Russell G. Pearce, [The Great Disruption: How Machine Intelligence Will Transform the Role of Lawyers in the Delivery of Legal Services](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2436937)
 * Merken, Sara. ["Why Clio's Jack Newton sees profits and progress in the 'latent legal market'"](https://www.reuters.com/legal/legalindustry/why-clios-jack-newton-sees-profits-progress-latent-legal-market-2021-08-12/), Reuters, August 12, 2021, [perma.cc](https://perma.cc/W99F-J8FV)
 :::
 
-#### Class 2: January 31 Docassemble Hello, World
-:::tip Readings
-* [An Introduction to
-  Docassemble](practical-guide-docassemble/practical-guide-docassemble.md)
-* John O. McGinnis & Russell G. Pearce, [The Great Disruption: How Machine Intelligence Will Transform the Role of Lawyers in the Delivery of Legal Services](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2436937)
-
-:::
-
-### Module 2: Speaking the right language: breaking down the law into a language that your clients and a computer can understand
+### Module 2: Introduction to computer-aided decision systems
 
 :::info Learning objectives
 In this module, you will learn to translate a legal problem into a form that can be 
@@ -260,16 +255,33 @@ you should be able to create a flowchart representing a legal problem and transl
 it into a QnAMarkup chatbot.
 :::
 
-#### Class 3: February 7 Documate; Guest Dorna Moini
 
-:::caution Due: set up a meeting with Professor Steenhuis
-:::
-
+#### Class 2: January 31 Introduction to programming with QnAMarkup
 :::tip Readings
 * Read Atul Gawande, [The Checklist](http://www.newyorker.com/magazine/2007/12/10/the-checklist), The New Yorker (Dec. 19, 2007), [perma.cc](https://perma.cc/NA3H-JK8G)
 * Go to [qnamarkup.org](https://qnamarkup.org).  Read the syntax and watch the
   video intro.
 :::  
+
+::: tip Readings
+* [An Introduction to
+  Docassemble](practical-guide-docassemble/practical-guide-docassemble.md)
+:::
+
+
+#### Class 3: February 7 Guest Dorna Moini of Documate
+
+:::caution Due: set up a meeting with Professor Steenhuis to discuss your final project ideas
+:::
+
+### Module 3: Speaking the right language
+
+:::info Learning objectives
+Tools that help consumers and self-represented litigants must be easy to understand and use. But writing 
+with plain language in mind is not easy. By the end of this module, you should be able to recognize
+common problems with writing that make it difficult to read and be able to make simple changes to writing
+to improve it.
+:::
 
 #### Class 4: February 14 Plain language
 :::caution Due: Legal Tech Assessment
@@ -281,7 +293,7 @@ it into a QnAMarkup chatbot.
 * [Plain Language is For Everyone, Even Experts](https://www.nngroup.com/articles/plain-language-experts/), [perma.cc](https://perma.cc/34V5-7BLM)
 :::
 
-### Module 3: Do it right, do it 1000 times: using software to automate legal documents
+### Module 4: Do it right, do it 1000 times: using software to automate legal documents
 
 :::info Learning objectives
 In this module, we will take a closer look at document automation and legal process automation
@@ -312,7 +324,7 @@ more broadly.
 :::
 
 
-### Module 4: "Lean" in to Project Management
+### Module 5: "Lean" in to Project Management
 
 :::info Learning objectives
 In this module, we will learn the basics of project management as a technique to 
@@ -332,7 +344,7 @@ manage work.
 
 In class exercise: "penny game."
 
-### Module 5: Not every problem is a nail: choosing the right tool for the job
+### Module 6: Not every problem is a nail: choosing the right tool for the job
 :::info Learning objectives
 In this module, we will learn about choosing the right tool for the right job and how
 to evaluate legal products.
@@ -357,7 +369,7 @@ to evaluate legal products.
 :::caution Due: Free Tool Fiesta product evaluation
 :::
 
-### Module 6: Designing for justice with legal technology
+### Module 7: Designing for justice with legal technology
 :::info Learning objectives
 In this module, we will learn about user-centered and legal design. We will also
 consider the ethical implications and limits of traditional user-centered design.
@@ -384,13 +396,13 @@ consider the ethical implications and limits of traditional user-centered design
 * [Legal app maturity model](legal-tech-overview/maturity-model.md).
 :::
 
-### Module 7: Should software eat the legal world? How legal regulation can crash into a vision of a self-help world
+### Module 8: Should software eat the legal world? How legal regulation can crash into a vision of a self-help world
 :::info Learning objectives
 In this module, we will reflect on the ethical considerations that are raised by 
 legal technology.
 :::
 
-#### Class 12: April 18 Ethics exercise; Guest Colin Levy
+#### Class 12: April 18 In-class legal ethics exercise; Guest Colin Levy
 
 :::tip Readings
 * Read [M.R.P.C. 5.5](https://www.mass.gov/supreme-judicial-court-rules/rules-of-professional-conduct-rule-55-unauthorized-practice-of-law)
