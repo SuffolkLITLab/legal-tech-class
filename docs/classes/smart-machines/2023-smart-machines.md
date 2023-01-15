@@ -9,12 +9,14 @@ sidebar_label: |
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <figure>
-<img src={ useBaseUrl("/img/judge_with_computer.jpg") } alt="Illustration of Judge in front of stack of files and computer (created by Stable Diffusion AI)"/>
+<img src={ useBaseUrl( "/img/judge_with_computer.jpg" ) } alt="Illustration of Judge in front of stack of files and computer (created by Stable Diffusion AI)"/>
 <figcaption>Credit: Image created using the stable diffusion AI</figcaption>
 </figure>
 
-## About the Instructor
+## About Professor Steenhuis
 Quinten Steenhuis, QSteenhuis@suffolk.edu
+
+Pronounced: STAIN-house
 
 Quinten Steenhuis is a member of the [Legal Innovation and Technology
 Lab](https://suffolklitlab.org) at Suffolk where he is the technical lead of the
@@ -87,7 +89,7 @@ There are no required textbooks for this class. All readings will be available o
 GOALS |	OBJECTIVES |	ASSESSMENTS
 ------|------------|------------------
 Upon successful completion of this course, students should be able to know/understand:	| Upon successful completion of this course, students should be able to:	| How the student will be assessed on these learning objectives:
-Students will know what technologies are being used by lawyers and others to assist with distinctly legal work, and understand the possibilities and fit of different legal technologies	| Identify different kinds of legal technology, and compare the benefits and disadvantages of different tools for differerent scenarios | In-class discussion, presentations
+Students will know what technologies are being used by lawyers and others to assist with distinctly legal work, and understand the possibilities and fit of different legal technologies	| Identify different kinds of legal technology, and compare the benefits and disadvantages of different tools for different scenarios | In-class discussion, presentations
 What ethical and regulatory issues are presented by legal technology | Describe the current regulatory landscape and challenges posed by ethical rules for additional legal technology, as well as the potential moral considerations in both additional automation and potentially failure to automate routine work |	In-class discussion
 Know how to break down a process analytically into component parts |	Map a process and identify inefficiencies and potential improvements	|Demonstrated through project work
 How to build a software application that does useful legal work |	Identify a legal technology need, work with clients to create a project scope, develop software requirements and automate a single process from start to finish |	Final project; interim assignments
@@ -246,6 +248,13 @@ the country.
 * Merken, Sara. ["Why Clio's Jack Newton sees profits and progress in the 'latent legal market'"](https://www.reuters.com/legal/legalindustry/why-clios-jack-newton-sees-profits-progress-latent-legal-market-2021-08-12/), Reuters, August 12, 2021, [perma.cc](https://perma.cc/W99F-J8FV)
 :::
 
+In-class topics:
+
+* Class overview, policies
+* Growth mindset
+* What is access to justice?
+* Case study: MADE
+
 ### Module 2: Introduction to computer-aided decision systems
 
 :::info Learning objectives
@@ -263,16 +272,35 @@ it into a QnAMarkup chatbot.
   video intro.
 :::  
 
-::: tip Readings
-* [An Introduction to
-  Docassemble](practical-guide-docassemble/practical-guide-docassemble.md)
-:::
+In-class topics:
 
+* Applying QnAMarkup to DACA
+* Short QnAMarkup example exercises
+* Practice time with QnAMarkup
 
 #### Class 3: February 7 Guest Dorna Moini of Documate
 
-:::caution Due: set up a meeting with Professor Steenhuis to discuss your final project ideas
+Our guest will join for the second hour of class.
+
+:::tip Readings
+* [Building your first expert system](interview-structure/building-an-app-outline.md)
+* [TODO: reading about Hello, Divorce]
+* Skim Lauritsen & Soudakoff, [Keys to a Successful Document Assembly
+  Project](https://static1.squarespace.com/static/571acb59e707ebff3074f461/t/5946f745725e25bf7ad93c9b/1497823045990/keys.pdf)
 :::
+
+In-class topics:
+
+* What is document automation?
+* What is document automation good for?
+* What is the difference between:
+    * A triage tool
+    * A basic "fill in the blank" form tool
+    * An expert system
+* Legal product case studies:
+    * Hello, Divorce
+    * Scholar Shield
+* Discussion: what topics can be automated? What would you need to make an automation useful?
 
 ### Module 3: Speaking the right language
 
@@ -283,15 +311,24 @@ common problems with writing that make it difficult to read and be able to make 
 to improve it.
 :::
 
-#### Class 4: February 14 Plain language
+#### Class 4: February 14 Plain language, guest Maria Mindlin of Transcend
 :::caution Due: Legal Tech Assessment
 :::
 
-:::tip Readings
-* Visit [PlainLanguage.gov](https://www.plainlanguage.gov/about/definitions/). Read sections about Plain Language. 
-* Read [Use plain language](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/style_guide/readability) and [Format text for legibility](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/style_guide/formatting)
-* [Plain Language is For Everyone, Even Experts](https://www.nngroup.com/articles/plain-language-experts/), [perma.cc](https://perma.cc/34V5-7BLM)
+:::caution Due
+Set up a meeting with Professor Steenhuis to discuss your final project ideas
 :::
+
+:::tip Readings
+* Read [Use plain language](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/style_guide/readability) and [Format text for legibility](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/style_guide/formatting)
+* Read [Plain Language is For Everyone, Even Experts](https://www.nngroup.com/articles/plain-language-experts/), [perma.cc](https://perma.cc/34V5-7BLM)
+* Resource: [PlainLanguage.gov](https://www.plainlanguage.gov/about/definitions/). Skim sections about Plain Language.
+:::
+
+In class topics:
+
+* Learn about plain language basics with Maria Mindlin (hour 1)
+* Go through examples and exercises in second half of class
 
 ### Module 4: Do it right, do it 1000 times: using software to automate legal documents
 
@@ -300,21 +337,28 @@ In this module, we will take a closer look at document automation and legal proc
 more broadly.
 :::
 
-#### Class 5: February 21 Law firm process automation (Law school midterms start)
-:::caution Due: Plain language exercise
-:::
+#### Class 5: February 21 Docassemble Hello, World exercise
 
 :::tip Readings
-* ["Five ways to automate workflows"](https://www.attorneyatwork.com/five-ways-to-automate-workflows/)
-* ["Codeless Automation: IFTT vs Zapier vs Microsoft
-  Flow"](https://medium.com/better-programming/codeless-automation-ifttt-vs-zapier-vs-microsoft-flow-57d5bc56fc0e)
-* In class: create a [Calendly](https://calendly.com) booking page
-* In class: complete the exercise at ["Create a form with Microsoft
-  Forms"](https://support.microsoft.com/en-us/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d)
-  (about 15 minutes)
+* [An Introduction to
+  Docassemble](practical-guide-docassemble/practical-guide-docassemble.md)
+* Explore the [Docassemble.org](https://docassemble.org) website.
+* Make sure you have an account on the Suffolk LIT Lab Docassemble server,
+  https://apps-dev.suffolklitlab.org.
+* [Building your first expert system](interview-structure/building-an-app-outline.md)
+* Skim Lauritsen & Soudakoff, [Keys to a Successful Document Assembly
+  Project](https://static1.squarespace.com/static/571acb59e707ebff3074f461/t/5946f745725e25bf7ad93c9b/1497823045990/keys.pdf)
 :::
 
+In-class topics:
+
+* Docassemble Hello, World
+* Basics of logic
+
 #### Class 6: February 28 Using the Assembly Line Weaver
+
+:::caution Due: Plain language exercise
+:::
 
 :::tip Readings
 
@@ -322,6 +366,10 @@ more broadly.
 * Read [Building your first expert system](interview-structure/building-an-app-outline.md)
 * Steenhuis and Colarusso, [Digital Curb Cuts: Towards an Inclusive Open Forms Ecosystem](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3911381) (2021), Akron Law Review
 :::
+
+In-class topics:
+
+* Starting with a form
 
 
 ### Module 5: "Lean" in to Project Management
@@ -332,7 +380,7 @@ manage work.
 :::
 
 
-#### Class 7: March 7 Kanban, Trello, and GitHub
+#### Class 7: March 7 Process automation and project management
 :::caution Due: Final project outline
 :::
 
@@ -340,9 +388,19 @@ manage work.
 * [What is Kanban?](https://www.digite.com/kanban/what-is-kanban/),
   [perma.cc](https://perma.cc/4DSX-DN59)
 * [Why should lawyers learn project management?](https://lawyerist.com/management/project/#h-why-should-law-firms-learn-workflows-project-management), [perma.cc](https://perma.cc/J79V-U2X8)
+* ["Five ways to automate workflows"](https://www.attorneyatwork.com/five-ways-to-automate-workflows/)
+* ["Codeless Automation: IFTT vs Zapier vs Microsoft
+  Flow"](https://medium.com/better-programming/codeless-automation-ifttt-vs-zapier-vs-microsoft-flow-57d5bc56fc0e)
 :::
 
-In class exercise: "penny game."
+In-class topics:
+* Create a [Calendly](https://calendly.com) booking page
+* Complete the exercise at ["Create a form with Microsoft
+  Forms"](https://support.microsoft.com/en-us/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d)
+  (about 15 minutes)
+* [TODO: introduction to Power Automate]
+* Exercise: "penny game"
+* Exercise: how can a law firm break its work into smaller units?
 
 ### Module 6: Not every problem is a nail: choosing the right tool for the job
 :::info Learning objectives
@@ -359,11 +417,17 @@ to evaluate legal products.
 * [Vendor Assessment Evaluation](https://www.smartsheet.com/content/vendor-assessment-evaluation), https://perma.cc/Y7ZP-N6GE
 * [Gartner's magic quadrant](https://www.gartner.com/en/research/methodologies/magic-quadrants-research)
 * Lauritsen and Steenhuis, [Substantive Legal Software Quality: A Gathering Storm?](http://www.capstonepractice.com/s/Substantive-Legal-Software-Quality-A-Gathering-Storm.pdf), International Conference on AI and Law.
-* Skim Dan Linna: [Evaluating Legal Services: The Need for a Quality Movement
-  and Standard Measures of Quality and Value
-  ](https://www.legaltechlever.com/2020/03/evaluating-legal-services-the-need-for-a-quality-movement-and-standard-measures-of-quality-and-value-chapter-in-research-handbook-on-big-data-law/),
-  [perma.cc](https://perma.cc/7K9D-KBK3)
 :::
+
+In-class topics:
+
+* Discussion of different methods of evaluation
+* What are some products that a small firm might need?
+    * Zero in on one kind of product. What features would you consider important?
+* Use the framework to evaluate a product you are familiar with (e.g., Microsoft Teams or Blackboard)
+
+Second half of class, independent work time with your final project
+
 
 #### Class 9: March 28 Free Tool Fiesta
 :::caution Due: Free Tool Fiesta product evaluation
@@ -377,24 +441,51 @@ consider the ethical implications and limits of traditional user-centered design
 
 #### Class 10: April 4: Legal design
 
-:::caution Due: App "teardown"
-:::
 
 :::caution Due: set up a meeting with Professor Steenhuis
 :::
 
 :::tip Readings
-* [20 Quotes from "Don't Make Me Think"](https://blog.tubikstudio.com/dont-make-me-think-20-thoughts-on-usability-by-steve-krug/) by [Steve Krug](https://sensible.com/), [perma.cc](https://perma.cc/W9RG-BR8A)
-* Read the whole chapter [How to write good questions](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/style_guide/question_overview) (include "Writing good questions" through the last section, which as of this writing is "Use input validation carefully") (This is your second read of the plain language and formatting text for legibility sections)
-* Design Practices: [Nothing about Us without Us.](https://design-justice.pubpub.org/pub/cfohnud7) (2020). In Design Justice (1st ed.). Retrieved from https://design-justice.pubpub.org/pub/cfohnud7, [perma.cc](https://perma.cc/5MME-R547)
 * Chapter 1 of [Law by Design](https://www.lawbydesign.co/legal-design/), by Margaret Hagan, [Perma.cc](https://perma.cc/PEF8-6Z8Y)
+* [20 Quotes from "Don't Make Me Think"](https://blog.tubikstudio.com/dont-make-me-think-20-thoughts-on-usability-by-steve-krug/) by [Steve Krug](https://sensible.com/), [perma.cc](https://perma.cc/W9RG-BR8A)
+* Read the whole chapter [How to write good questions](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/style_guide/question_overview)
+* [TODO: overview of CRAP principles]
 :::
 
-#### Class 11: April 11 Advanced Docassemble skills
+In-class topics:
+
+* Design is everywhere:
+    * Visual design
+    * Process design
+    * Usability and user experience
+* What is legal design?
+* Just remember "CRAP":
+    * Contrast
+    * Repetition
+    * Alignment
+    * Proximity
+* Exercise: critique a short interview with specific evidence
+* Exercise: use CRAP principles to reformat a short instructions page
+
+#### Class 11: April 11 "Finishing" our work, getting feedback, advanced Docassemble skills
+:::caution Due: App "teardown"
+:::
+
 :::tip Readings
 * Henrik Kniberg, [Making sense of MVP (Minimum Viable Product) - and why I prefer Earliest Testable/Usable/Lovable](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp), [perma.cc](https://perma.cc/DA34-XMGV) (2016).
 * [Legal app maturity model](legal-tech-overview/maturity-model.md).
+* [Testing your form](testing/testing.md) and [Scenario-based testing](testing/testing-scenarios.md)
+* [Usability Test Demo by Steve Krug](https://www.youtube.com/watch?v=1UCDUOB_aS8), 25 minutes
 :::
+
+In-class topics:
+
+* When is our work "done"?
+* Expert review vs usability testing
+* Demo of usability test
+* Perform a simulated usability test of a classmate's form
+
+In-class work time on your final project
 
 ### Module 8: Should software eat the legal world? How legal regulation can crash into a vision of a self-help world
 :::info Learning objectives
@@ -406,12 +497,26 @@ legal technology.
 
 :::tip Readings
 * Read [M.R.P.C. 5.5](https://www.mass.gov/supreme-judicial-court-rules/rules-of-professional-conduct-rule-55-unauthorized-practice-of-law)
-
 * Lauritsen, [Liberty, Justice, & Legal
   Automata](http://scholarship.kentlaw.iit.edu/cgi/viewcontent.cgi?article=3983&context=cklawreview), [perma.cc](https://perma.cc/K75H-CV6P)
 :::
 
+In-class topics:
+
+* What is the line between legal information and advice?
+* What is "unauthorized practice of law"
+* Are legal apps performing "law" or "literature"?
+* What happens if only lawyers can help people with law?
+* Guest Colin Levy will join for the second hour
+
 #### Class 13: April 25 **Final project presentations**
+
+:::caution Due: presentation outline or slides
+:::
+
+In-class topics:
+
+* Class is reserved for YOUR 5 minute presentations and brief feedback from peers
 
 ## Final project
 
