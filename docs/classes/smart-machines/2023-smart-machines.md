@@ -265,7 +265,7 @@ it into a QnAMarkup chatbot.
 :::
 
 
-#### Class 2: January 31 Introduction to programming with QnAMarkup
+#### Class 2: January 31 Introduction to programming with QnAMarkup, guest David Colarusso
 :::tip Readings
 * Read Atul Gawande, [The Checklist](http://www.newyorker.com/magazine/2007/12/10/the-checklist), The New Yorker (Dec. 19, 2007), [perma.cc](https://perma.cc/NA3H-JK8G)
 * Go to [qnamarkup.org](https://qnamarkup.org).  Read the syntax and watch the
@@ -278,7 +278,7 @@ In-class topics:
 * Short QnAMarkup example exercises
 * Practice time with QnAMarkup
 
-#### Class 3: February 7 Guest Dorna Moini of Documate
+#### Class 3: February 7 Overview of document automation, Guest Dorna Moini of Documate
 
 Our guest will join for the second hour of class.
 
@@ -311,7 +311,7 @@ common problems with writing that make it difficult to read and be able to make 
 to improve it.
 :::
 
-#### Class 4: February 14 Plain language, guest Maria Mindlin of Transcend
+#### Class 4: February 14 Fall in love with plain language, guest Maria Mindlin of Transcend
 :::caution Due: Legal Tech Assessment
 :::
 
@@ -380,7 +380,7 @@ manage work.
 :::
 
 
-#### Class 7: March 7 Process automation and project management
+#### Class 7: March 7 Process automation and project management, guest Jared Jaskot
 :::caution Due: Final project outline
 :::
 
@@ -398,9 +398,8 @@ In-class topics:
 * Complete the exercise at ["Create a form with Microsoft
   Forms"](https://support.microsoft.com/en-us/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d)
   (about 15 minutes)
-* [TODO: introduction to Power Automate]
-* Exercise: "penny game"
-* Exercise: how can a law firm break its work into smaller units?
+
+Second half of class: guest Jared Jaskot
 
 ### Module 6: Not every problem is a nail: choosing the right tool for the job
 :::info Learning objectives
@@ -410,7 +409,7 @@ to evaluate legal products.
 
 #### March 14 (No class, Spring Recess)
 
-#### Class 8: March 21 Legal product evaluation and vendor selection
+#### Class 8: March 21 Legal product evaluation and vendor selection, project work time
 
 :::tip Readings
 * [Six Steps for a Successful Vendor Selection](https://blog.itil.org/2012/07/six-steps-for-a-successful-vendor-selection/), https://perma.cc/Z7GZ-99WX
@@ -433,23 +432,24 @@ Second half of class, independent work time with your final project
 :::caution Due: Free Tool Fiesta product evaluation
 :::
 
+In-class time is devoted to **your** 5 minute presentations of a legal technology tool
+that might be adopted by a small firm.
+
 ### Module 7: Designing for justice with legal technology
 :::info Learning objectives
 In this module, we will learn about user-centered and legal design. We will also
 consider the ethical implications and limits of traditional user-centered design.
 :::
 
-#### Class 10: April 4: Legal design
-
+#### Class 10: April 4: Legal design, guest Nicole Bradick
 
 :::caution Due: set up a meeting with Professor Steenhuis
 :::
 
 :::tip Readings
-* Chapter 1 of [Law by Design](https://www.lawbydesign.co/legal-design/), by Margaret Hagan, [Perma.cc](https://perma.cc/PEF8-6Z8Y)
 * [20 Quotes from "Don't Make Me Think"](https://blog.tubikstudio.com/dont-make-me-think-20-thoughts-on-usability-by-steve-krug/) by [Steve Krug](https://sensible.com/), [perma.cc](https://perma.cc/W9RG-BR8A)
 * Read the whole chapter [How to write good questions](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/style_guide/question_overview)
-* [TODO: overview of CRAP principles]
+* [Summary of C.R.A.P. design principles](https://watchthem.live/crap-design-principles/)
 :::
 
 In-class topics:
@@ -464,8 +464,13 @@ In-class topics:
     * Repetition
     * Alignment
     * Proximity
+
+Second half of class: guest Nicole Bradick
+
+<!--
 * Exercise: critique a short interview with specific evidence
 * Exercise: use CRAP principles to reformat a short instructions page
+-->
 
 #### Class 11: April 11 "Finishing" our work, getting feedback, advanced Docassemble skills
 :::caution Due: App "teardown"
@@ -507,7 +512,8 @@ In-class topics:
 * What is "unauthorized practice of law"
 * Are legal apps performing "law" or "literature"?
 * What happens if only lawyers can help people with law?
-* Guest Colin Levy will join for the second hour
+
+Second half of class: guest Colin Levy will join us
 
 #### Class 13: April 25 **Final project presentations**
 
@@ -516,7 +522,7 @@ In-class topics:
 
 In-class topics:
 
-* Class is reserved for YOUR 5 minute presentations and brief feedback from peers
+* Class is reserved for **your** 5 minute presentations and feedback from peers.
 
 ## Final project
 
@@ -597,7 +603,7 @@ An excellent triage project will:
 * have 20-30 screens and
 * provide structured legal information about 3-5 possible scenarios
 
-Expect to spend between 30-50 hours on your final project, including research, testing, and planning.
+**Expect to spend between 30-50 hours on your final project, including research, testing, and planning.**
 
 ### What if I can't code?
 
