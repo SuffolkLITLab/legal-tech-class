@@ -283,10 +283,8 @@ In-class topics:
 Our guest will join for the second hour of class.
 
 :::tip Readings
-* [Building your first expert system](interview-structure/building-an-app-outline.md)
-* [TODO: reading about Hello, Divorce]
-* Skim Lauritsen & Soudakoff, [Keys to a Successful Document Assembly
-  Project](https://static1.squarespace.com/static/571acb59e707ebff3074f461/t/5946f745725e25bf7ad93c9b/1497823045990/keys.pdf)
+* [Case study: Hello, Divorce](https://www.clio.com/customers/how-an-attorney-turned-entrepreneur-is-using-legal-technology-to-reshape-divorce-law/), [perma.cc](https://perma.cc/83HK-Q96F)
+* [Dorna Moini, Legal Rebel](https://12ft.io/proxy?&q=https%3A%2F%2Fwww.abajournal.com%2Flegalrebels%2Farticle%2Fdorna-moini)
 :::
 
 In-class topics:
@@ -341,7 +339,7 @@ more broadly.
 
 :::tip Readings
 * [An Introduction to
-  Docassemble](practical-guide-docassemble/practical-guide-docassemble.md)
+  Docassemble](introduction-to-docassemble.md)
 * Explore the [Docassemble.org](https://docassemble.org) website.
 * Make sure you have an account on the Suffolk LIT Lab Docassemble server,
   https://apps-dev.suffolklitlab.org.
