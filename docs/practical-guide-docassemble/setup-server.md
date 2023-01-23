@@ -156,17 +156,36 @@ a copy somewhere safe.
 
 From the SSH console, type the following commands, hitting enter after one:
 
-```
+```bash
 sudo apt update
 sudo apt upgrade -u -y
+sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
 ```
+
 
 ### Install docker
 
-Type the command below to install docker
+Type the command below to install the latest docker from the official Docker Engine repository
 
-```
-sudo apt install docker.io
+(Or follow the [latest instructions from Docker Engine](https://docs.docker.com/engine/install/ubuntu/))
+
+```bash
+sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
 ### Add your user account to the Docker group
@@ -177,6 +196,26 @@ Type the following commands in the SSH console:
 sudo usermod -aG docker $USER
 newgrp docker 
 ```
+
+### Setup a Linux swap file
+
+While the 4 GB RAM allocation is almost always enough, Docassemble can have odd
+moments where the RAM usage spikes up quickly, which can crash the server. This
+is somewhat more likely to be a problem on a development server.
+
+Quick fix: run the command below to create a 4 GB swap file. This provides
+some free, virtual breathing room.
+
+```bash
+sudo fallocate -l 4G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+```
+
+Or, follow the [more complete instructions here](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04).
+
 
 ### Create an env.list file
 
@@ -228,7 +267,7 @@ Save this env.list file locally somewhere secure. It is the one important file t
 
 Start up your new docassemble server like this:
 
-```
+```bash
 docker run -d -p 443:443 -p 80:80 --restart always --env-file env.list jhpyle/docassemble
 ```
 
