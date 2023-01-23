@@ -1,8 +1,10 @@
 ---
-# slug: run-docassemble-docker-vscode
-# title: Setup & Run Docassemble with Docker and VS Code
-# sidebar_label: Docassemble with Docker and VS Code
+slug: run-docassemble-docker-vscode
+title: Setup & Run Docassemble with Docker and VS Code
+sidebar_label: Docassemble with Docker and VS Code
 ---
+
+Author: [Dele Omotosho](https://github.com/deletosh)
 
 In this section, we will setup our system to write and run docassemble without using the playground or a server.
 
@@ -51,17 +53,19 @@ Before continuing with this, confirm your systems [meets the minimum requirement
 
 -   Run the downloaded installation (leave all the default settings)
     ![](https://i.imgur.com/HRB11zm.gif)
+    
+-   If you are on MacOS, install the appropriate version of Docker instead of the Windows version. 
 
--   Follow through the installation. When it's complete, restart your computer.
+-   Follow through the installation. When it's complete, restart your computer if you are using Windows.
 
 ### Confirm docker works with WSL 2
 
 -   Open docker and and confirm you the **Use the WSL 2 based engine** is
-    checked ![](https://i.imgur.com/BxkFGO4.gif)
+    checked. This step can be skipped on MacOS. ![](https://i.imgur.com/BxkFGO4.gif)
 
--   Open your terminal (Ubuntu 16.04) and type `docker -v`, see the proper
+-   Open your terminal (Ubuntu 16.04) or your MacOS Terminal and type `docker -v`, see the proper
     docker version in the terminal (Docker needs to be running for you to try
-    this) ![](https://i.imgur.com/wv0mNt7.png)
+    this). ![](https://i.imgur.com/wv0mNt7.png)
 
 ## Install GitHub and Git for file control and collaboration
 
@@ -87,23 +91,27 @@ When that completed, it brings us back to the Git configuration screen:
 -   Open the downloaded file and follow through there instructions. Here's a
     step-by-step for [in-depth guide on configuring VS Code for legal
     automation](https://deletosh.com/connect-vscode-github)
+    
+-   In MacOS, there is an additional step to get `code` working from the command line. Per [Visual Studio's Documentation](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line), Open the **Command Palette** (`Cmd+Shift+P`) and type `shell command` to find the `Shell Commmand: Install 'code' command in PATH`. Run this command.   
 
 ### Configure VS Code to use WSL 2
+Skip this step on MacOS
 -   Open VS Code's preferences ![](https://i.imgur.com/oHuFEuT.gif)
 -   Open the JSON settings and add the following to the last line of the existing content on that file: `"terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe"` and **File** \> **Save**  
     ![](https://i.imgur.com/LRiO87R.gif)
 
 (Notice: I added a comma before adding this line)
 
-### Test WSL 2 and docker works inside VS Code
+### Test docker works inside VS Code
 -   With VS Code still open, click **Terminal** \> **New Terminal**
--   In the terminal, type `docker -v` we should see the same result as we saw in WSL (Ubuntu 16.04) earlier. 
+-   In the terminal, type `docker -v` we should see the same result as we saw in WSL (Ubuntu 16.04) or your MacOS Terminal earlier. 
 ![](https://i.imgur.com/LRiO87R.gif)
 
 ## Install Python and docassemble command-line app
 Docassemble is written in the Python programming language. To make docassemble work offline, we need to install Python.
 
-### Install Python
+### Install Python on WSL 
+Skip this step on MacOS
 -   Open your WSL ![](https://i.imgur.com/kAmYdR7.gif)
 -   Type `sudo apt update && update` 
 ![](https://i.imgur.com/O6eThhR.gif)
@@ -113,6 +121,13 @@ Docassemble is written in the Python programming language. To make docassemble w
 -   Next, type: `echo "alias pip='/usr/bin/pip3'" >> ~/.bashrc` (you get no
     response)
 -   Close and re-open your WSL
+
+### Install Python on MacOS
+Skip if using Windows. 
+-   Browse to [https://www.python.org/downloads/](https://www.python.org/downloads/) to find the appropriate version of Python. If you are using Apple Silicon, be sure to download the appropriate version.
+-   Install the downloaded version.
+-   In a terminal window, type `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`. This will download an install file for `python3-pip`. 
+-   Then run `python3 get-pip.py`. Pip is now installed. 
 
 ### Install docassemble command line
 -   With your WSL still open, type: `pip install docassemblecli`

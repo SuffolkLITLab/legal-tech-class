@@ -107,6 +107,7 @@ module.exports = {
           label: 'Administering Docassemble',
           items: [
             'practical-guide-docassemble/setup-server',
+            'practical-guide-docassemble/run-docassemble-docker-vscode',
             //'practical-guide-docassemble/combining-interviews',
             'practical-guide-docassemble/installing-production-app',
             'practical-guide-docassemble/updates-and-maintenance',
@@ -173,7 +174,14 @@ module.exports = {
                 'classes/smart-machines/2021/smart-machines-rubric'      
               ]
             },
-            'classes/smart-machines/2022-smart-machines',
+            {
+              type: 'category',
+              label: 'Fall 2022 (Archived)',
+              items: [
+                'classes/smart-machines/2022-smart-machines',
+              ],
+            },
+            'classes/smart-machines/2023-smart-machines',
           ]
         },
         {
