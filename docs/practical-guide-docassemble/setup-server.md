@@ -159,11 +159,6 @@ From the SSH console, type the following commands, hitting enter after one:
 ```bash
 sudo apt update
 sudo apt upgrade -u -y
-sudo apt-get install \
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
 ```
 
 
