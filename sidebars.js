@@ -100,6 +100,7 @@ module.exports = {
           label: "Customizing Docassemble",
           items: [
             'practical-guide-docassemble/theming-docassemble',
+            'practical-guide-docassemble/translating-interviews',
           ]
         },
         {
