@@ -475,9 +475,8 @@ In-class topics:
 
 :::tip Readings
 :::
+* Sign up for [Clio University](https://cliouniversity.learnupon.com/users/sign_up) and for the Clio Academic Access program.
 :::
-
-Second half of class: guest Jared Jaskot
 
 ### Module 7: Designing for justice with legal technology
 :::info Learning objectives
