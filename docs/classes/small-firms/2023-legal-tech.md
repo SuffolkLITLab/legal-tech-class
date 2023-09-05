@@ -414,6 +414,7 @@ more broadly.
 #### Class 6: October 3, 2023 Docassemble Hello, World exercise
 
 :::tip Readings
+
 * [An Introduction to
   Docassemble](introduction-to-docassemble.md)
 * Explore the [Docassemble.org](https://docassemble.org) website.
@@ -423,6 +424,7 @@ more broadly.
 * Skim Lauritsen & Soudakoff, [Keys to a Successful Document Assembly
   Project](https://static1.squarespace.com/static/571acb59e707ebff3074f461/t/5946f745725e25bf7ad93c9b/1497823045990/keys.pdf)
 :::
+
 :::info Complete Legal Tech Assessment Word Brief
 :::
 
@@ -436,11 +438,13 @@ In-class topics:
 
 #### Class 7: October 17, 2023 Process automation, Guest Dorna Moini
 
-::: tip Readings
+:::tip Readings
+
 * ["Five ways to automate workflows"](https://www.attorneyatwork.com/five-ways-to-automate-workflows/)
 * ["Codeless Automation: IFTT vs Zapier vs Microsoft
   Flow"](https://medium.com/better-programming/codeless-automation-ifttt-vs-zapier-vs-microsoft-flow-57d5bc56fc0e)
 :::
+
 :::info Complete Legal Tech Assessment Word Contract
 :::
 
@@ -452,7 +456,7 @@ In-class topics:
   (about 15 minutes)
 
 
-#### Class 8: Using the Assembly Line Weaver
+#### Class 8: October 24th, 2023 Using the Assembly Line Weaver
 :::tip Readings
 
 * Review all sections under ["Authoring your interview"](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/planning) (skip the "Appendix: Understanding the YAML code")
@@ -465,7 +469,7 @@ In-class topics:
 
 ### Module 6: Case management systems
 
-#### Class 9: Hands-on with Clio, guest Jeremy Fernandes
+#### Class 9: October 31, 2023 Hands-on with Clio, guest Jeremy Fernandes
 :::caution Due: Final project outline
 :::
 
