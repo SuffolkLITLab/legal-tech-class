@@ -375,7 +375,7 @@ Set up a meeting with Professor Steenhuis to discuss your final project ideas
 
 :::tip Readings
 
-* [Is Your Law Firm Generative AI Ready?](https://www.attorneyatwork.com/generative-ai-in-law-is-your-law-firm-ready-to-use-it/), [Perma.cc](https://perma.cc/9UUT-H3DQ)
+* [A jargon-free explanation of how AI large language models work](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/), [Perma.cc](https://perma.cc/4MCP-9FMZ)
 * Generative AI in the Legal Profession (2 selected articles)
     * [The implication of ChatGPT for Legal Services and Society](https://clp.law.harvard.edu/knowledge-hub/magazine/issues/generative-ai-in-the-legal-profession/the-implications-of-chatgpt-for-legal-services-and-society/)
     * [Generative Legal Minds](https://clp.law.harvard.edu/knowledge-hub/magazine/issues/generative-ai-in-the-legal-profession/generative-legal-minds/)
