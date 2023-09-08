@@ -398,7 +398,7 @@ In class topics:
 * Generative AI in the Legal Profession (2 selected articles, registration required)
     * [Ethical Prompts](https://clp.law.harvard.edu/knowledge-hub/magazine/issues/generative-ai-in-the-legal-profession/ethical-prompts/)
     * [Assisting Legal Workers](https://clp.law.harvard.edu/knowledge-hub/magazine/issues/generative-ai-in-the-legal-profession/assisting-knowledge-workers/)
-* _Skim_ [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl.acm.org/doi/10.1145/3442188.3445922), 
+* _Skim_ Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. 2021. [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl.acm.org/doi/10.1145/3442188.3445922) In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (FAccT '21). Association for Computing Machinery, New York, NY, USA, 610–623. https://doi.org/10.1145/3442188.3445922
     * Note: this is a dense article. Read it without expecting to "get" all of the jargon but try to get a sense of the critique it is making.
 :::
 
@@ -416,6 +416,7 @@ more broadly.
 #### Class 6: October 3, 2023 Docassemble Hello, World exercise
 
 :::tip Readings
+
 * [An Introduction to
   Docassemble](introduction-to-docassemble.md)
 * Explore the [Docassemble.org](https://docassemble.org) website.
@@ -425,6 +426,7 @@ more broadly.
 * Skim Lauritsen & Soudakoff, [Keys to a Successful Document Assembly
   Project](https://static1.squarespace.com/static/571acb59e707ebff3074f461/t/5946f745725e25bf7ad93c9b/1497823045990/keys.pdf)
 :::
+
 :::info Complete Legal Tech Assessment Word Brief
 :::
 
@@ -438,11 +440,13 @@ In-class topics:
 
 #### Class 7: October 17, 2023 Process automation, Guest Dorna Moini
 
-::: tip Readings
+:::tip Readings
+
 * ["Five ways to automate workflows"](https://www.attorneyatwork.com/five-ways-to-automate-workflows/)
 * ["Codeless Automation: IFTT vs Zapier vs Microsoft
   Flow"](https://medium.com/better-programming/codeless-automation-ifttt-vs-zapier-vs-microsoft-flow-57d5bc56fc0e)
 :::
+
 :::info Complete Legal Tech Assessment Word Contract
 :::
 
@@ -454,7 +458,7 @@ In-class topics:
   (about 15 minutes)
 
 
-#### Class 8: Using the Assembly Line Weaver
+#### Class 8: October 24th, 2023 Using the Assembly Line Weaver
 :::tip Readings
 
 * Review all sections under ["Authoring your interview"](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/planning) (skip the "Appendix: Understanding the YAML code")
@@ -467,15 +471,14 @@ In-class topics:
 
 ### Module 6: Case management systems
 
-#### Class 9: Hands-on with Clio, guest Jeremy Fernandes
+#### Class 9: October 31, 2023 Hands-on with Clio, guest Jeremy Fernandes
 :::caution Due: Final project outline
 :::
 
 :::tip Readings
 :::
+* Sign up for [Clio University](https://cliouniversity.learnupon.com/users/sign_up) and for the Clio Academic Access program.
 :::
-
-Second half of class: guest Jared Jaskot
 
 ### Module 7: Designing for justice with legal technology
 :::info Learning objectives
