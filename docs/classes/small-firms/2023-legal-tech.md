@@ -376,7 +376,7 @@ Set up a meeting with Professor Steenhuis to discuss your final project ideas
 :::tip Readings
 
 * [A jargon-free explanation of how AI large language models work](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/), [Perma.cc](https://perma.cc/4MCP-9FMZ)
-* Generative AI in the Legal Profession (2 selected articles)
+* Generative AI in the Legal Profession (2 selected articles, registration required)
     * [The implication of ChatGPT for Legal Services and Society](https://clp.law.harvard.edu/knowledge-hub/magazine/issues/generative-ai-in-the-legal-profession/the-implications-of-chatgpt-for-legal-services-and-society/)
     * [Generative Legal Minds](https://clp.law.harvard.edu/knowledge-hub/magazine/issues/generative-ai-in-the-legal-profession/generative-legal-minds/)
 * Planet Money series on ChatGPT
@@ -395,10 +395,13 @@ In class topics:
 
 :::tip Readings
 
-* Generative AI in the Legal Profession (2 selected articles)
+* Generative AI in the Legal Profession (2 selected articles, registration required)
     * [Ethical Prompts](https://clp.law.harvard.edu/knowledge-hub/magazine/issues/generative-ai-in-the-legal-profession/ethical-prompts/)
     * [Assisting Legal Workers](https://clp.law.harvard.edu/knowledge-hub/magazine/issues/generative-ai-in-the-legal-profession/assisting-knowledge-workers/)
+* _Skim_ [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl.acm.org/doi/10.1145/3442188.3445922), 
+    * Note: this is a dense article. Read it without expecting to "get" all of the jargon but try to get a sense of the critique it is making.
 :::
+
 :::info Plain language assignment due
 :::
 
