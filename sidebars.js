@@ -115,7 +115,14 @@ module.exports = {
           ],
         },    
       ]
-    },      
+    },
+    {
+      type: 'category',
+      label: 'Generative AI and Law',
+      items: [
+        'ai-law/ai-law-overview',
+      ],
+    },
     {
       type: 'category',
       label: 'Classes and tutorials',
