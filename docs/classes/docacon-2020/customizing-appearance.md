@@ -66,10 +66,7 @@ docassemble documentation includes some
 One of the cool features of docassemble is the ability to natively
 access a massive set of free icons called [Font-Awesome](https://fontawesome.com/icons?d=gallery&m=free).
 
-First, you need to tell docassemble to [turn on this
-option](https://docassemble.org/docs/config.html#default%20icons).
-
-Then, to insert an icon into your interview, just reference it using the shorthand
+To insert an icon into your interview, just reference it using the shorthand
 `:icon-name:` syntax.
 
 Try running the interview below in your docassemble playground.
