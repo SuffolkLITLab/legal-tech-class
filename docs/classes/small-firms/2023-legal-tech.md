@@ -444,7 +444,7 @@ In-class topics:
 
 * ["Five ways to automate workflows"](https://www.attorneyatwork.com/five-ways-to-automate-workflows/)
 * ["Codeless Automation: IFTT vs Zapier vs Microsoft
-  Flow"](https://medium.com/better-programming/codeless-automation-ifttt-vs-zapier-vs-microsoft-flow-57d5bc56fc0e)
+  Flow"](https://web.archive.org/web/20190804001306/https://medium.com/better-programming/codeless-automation-ifttt-vs-zapier-vs-microsoft-flow-57d5bc56fc0e)
 :::
 
 :::info Complete Legal Tech Assessment Word Contract
