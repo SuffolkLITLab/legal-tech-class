@@ -121,21 +121,25 @@ You will make a new S3 bucket with these configuration options:
 
 ## Create an IAM user that has appropriate access to your S3 bucket
 
-I tend to create an S3 user with "Full Access" permissions, because the 
+I tend to create an S3 user with "Full Access" permissions because the 
 AWS account only includes S3 buckets that Docassemble is intended to access.
 
 Visit the Identity Access and Management (IAM) console in AWS. 
 Create a new user with the same name as your DNS name. E.g., 
 `apps.example.com`. 
 
-For AWS Access type, select "Programmatic access" and then click Next.
+Select "Provide user access to the AWS Management Console" and "I want to create an IAM user". The other defaults are fine to leave as is.
 
-Under Set permissions, choose "Attach existing policies directly".
+Under permission options, choose "Attach policies directly".
 
-Under "filter policies", type S3. Check the box next to AmazonS3FullAccess.
+Under "Permissions policies", type S3. Check the box next to AmazonS3FullAccess. The permissions boundary is not necessary.
 
-Click next and don't modify anything on the Tags page. Click Next: Review, and then
+Click next and don't modify anything on the Tags page. Review and then
 Create user.
+
+Now, go to Users and select the one you just created. In the Summary, select the option to "Create Access Key". 
+
+For the use case, select "Command Line Interface (CLI)". Click next and add a description if desired. Create access key.
 
 **Copy the Access key ID and Secret access key** to a safe place, such as an open
 text editor window. This is your only chance to view the secret access key.
