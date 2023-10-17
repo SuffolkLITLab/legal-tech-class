@@ -205,7 +205,7 @@ of directly using the GitHub URL.
 ## Docassemble server maintenance checklist
 On August 24, 2023, ILAO gave a presentation on Maintaining your Docassemble server as part of a Technology Innovation Grant funded by Legal Services Corporation. 
 
-[Video of presentatin on YouTube](https://www.youtube.com/watch?v=LxmxhO3dDPo)
+[Video of presentation on YouTube](https://www.youtube.com/watch?v=LxmxhO3dDPo)
 [Slides from presentation](https://docs.google.com/presentation/d/1eJf6x1SwAx4BcvC2OrVUNmg99G5zoAP1TX4ZGnvfkwY/edit?usp=sharing)
 
 Much of what was covered is found elsewhere in this and other documentation. What follows is a condensed format to serve as a checklist.
