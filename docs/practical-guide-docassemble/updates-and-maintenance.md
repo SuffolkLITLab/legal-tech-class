@@ -205,12 +205,10 @@ of directly using the GitHub URL.
 ## Docassemble server maintenance checklist
 On August 24, 2023, ILAO gave a presentation on Maintaining your Docassemble server as part of a [Technology Initiative Grant funded by the Legal Services Corporation](https://www.lsc.gov/grants/technology-initiative-grant-program/tig-program-description). 
 
-Watch the video
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=LxmxhO3dDPo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Watch the video or [download the slides](https://docs.google.com/presentation/d/1eJf6x1SwAx4BcvC2OrVUNmg99G5zoAP1TX4ZGnvfkwY/edit?usp=sharing)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LxmxhO3dDPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Download the slides](https://docs.google.com/presentation/d/1eJf6x1SwAx4BcvC2OrVUNmg99G5zoAP1TX4ZGnvfkwY/edit?usp=sharing)
-
-Much of what was covered is found elsewhere in this and other documentation. What follows is a condensed format to serve as a checklist.
+Much of what was covered in the presentation is found elsewhere in this and other documentation. What follows is a condensed format to serve as a checklist.
 
 ### AWS Lightsail instance
 
