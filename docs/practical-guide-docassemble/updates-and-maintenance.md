@@ -226,11 +226,10 @@ sudo apt-get upgrade
 When you connect to the Lighsail instance via SSH, you may see a message that "*** System restart required ***". You can restart the instance with this command:
 
 ```bash
-sudo apt-get update
-sudo apt-get upgrade
+sudo shutdown -r now
 ```
 
-  - When to update - Ubuntu: monthly app updates, restart more frequently when System restart required, if there is a security update required for a global security vulnerability
+  - When to update - You can update Ubuntu every month or so. Restart it as needed or more frequently when the "System restart required" message comes up. This could happen if there is an update required for a security vulnerability.
     - Beyond periodic updates, the version of Ubuntu software may need an upgrade. This is like going from Windows 10 to 11, or macOS Ventura to Sonoma. Every 2 years, there's a new Ubuntu Long Term Support (LTS) version. See Upgrading a Lightsail instance (instructions forthcoming).
   - What to back up - Keep a copy of the latest env.list file in case a rebuild is required.
   - Wnen to back up - After a backup copy of env.list is made, a new backup is needed only if the contents of the file changes.
