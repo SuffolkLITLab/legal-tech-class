@@ -13,28 +13,17 @@ choices.
 
 1. Provision a full virtual machine in [AWS
    Lightsail](https://aws.amazon.com/lightsail/).
-2. Wire up the file storage and backups to [AWS S3](https://aws.amazon.com/s3/).
+2. Store a copy of backups and files on [AWS S3](https://aws.amazon.com/s3/) for safer and easier recovery
 3. Use an env.list file that contains all of the startup configuration that I
    keep a local copy of.
 
-Why? This gets you:
+Larger deployments might consider using a [multi-server configuration](https://docassemble.org/docs/scalability.html).
+But for most deployments, it is cheaper and more reliable to scale vertically. An 8 GB instance on Lightsail,
+which costs $40/month to run at this time, handles 10s of thousands of monthly sessions for the state of Massachusetts.
 
-1. A cheap, easy to use, always on server. Provisioning the same server for
-   full-time usage on EC2 or Azure would be at least 2 times the price.
-2. The safety of all configuration and databases, files and backups being stored
-   and served from S3.
-3. The ability to easily destroy and restore a new copy of your server.
+It typically takes about **1 hour** to follow these steps from start to finish.
 
-What you miss out on:
-
-1. Automated load balancing and auto scaling that comes with EC-2.
-2. Clustering and managed docker that you get with docker swarm or Lightsail containers.
-
-Things that I don't do but should consider:
-
-1. Using docker compose instead of just an env.list
-
-# Setting up Docassemble, start to finish
+## A video walkthrough of the full process
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JXdOCLMFPHc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -43,50 +32,59 @@ Things that I don't do but should consider:
 [Follow Amazon's
 instructions](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 
-
 ## Choose a DNS name
 
-If you want to be able to reach your server over the Internet, you must add a
-DNS entry for it. You can use a _subdomain_ of an existing domain name you
-control.
+Choose a short, readable name, like `apps.example.com`, where `example.com`
+is a domain that you own.
 
-I recommend using something short, like `apps.example.com` (where `example.com`
-is a domain name you already own.) If you don't own a domain name yet, it may be
-simplest to purchase and manage it through [AWS Route
-53](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html).
+1. Use a subdomain of the domain you own like `apps.example.com`, not a base (second level) domain like `example.com`
+1. Stick with the common subdomain names: `app`, `apps`, or `interviews` unless you have a good
+   reason to choose something different. 
+1. Avoid `www` as this is usually used for a landing page.
 
-I still recommend using a _subdomain_ of the new domain you purchase, rather
-than pointing docassemble directly to a top level domain.
+### If you don't own a domain name yet
+
+If you don't own a domain name yet, it may be
+simplest to register and manage it through [AWS 
+Lightsail](https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-domain-registration)
+
+## Reserve a static IPv4 address in Lightsail
+
+Follow the [AWS
+Lightsail](https://lightsail.aws.amazon.com/ls/docs/en_us/articles/lightsail-create-static-ip)
+instructions to create a static IP. Use the DNS name you chose earlier to label
+the IP, with suffix to indicate that it is the IP. Like: `apps.example.com-IP`.
+
+## Create an `A` record that points to the reserved IP address in your DNS provider's website
+
+You now need a new `A` record that points your reserved IP address (like `127.0.0.1`)
+to your chosen domain name (like `apps.example.com`)
+
+The steps for this depend on your DNS provider.
+
+Here are some basic instructions about adding an `A` record for common platforms:
+
+* [AWS Lightsail](https://lightsail.aws.amazon.com/ls/docs/en_us/articles/lightsail-how-to-create-dns-entry)
+* [AWS Route 53](https://pantheon.io/docs/route53)
+* [GoDaddy](https://www.godaddy.com/help/add-an-a-record-19238)
+
+If you need to, you can stop now and come back to the rest of the steps later. The rest will take about 30 minutes and should
+be done all together.
 
 ## Create your Lightsail server
 
 Create a [Lightsail
 instance](https://lightsail.aws.amazon.com/ls/docs/en_us/articles/how-to-create-amazon-lightsail-instance-virtual-private-server-vps)
 
-Choose Ubuntu Server (the newest edition) as the operating system type.
+Select these options on the "Create an instance" page:
 
-Choose the 4 GB instance as the size, unless you have a very good reason to choose
-otherwise. Docassemble can run with fewer than 4 GB of RAM if you set up a swap
-file. You will probably not need more than 4 GB of RAM until you reach a very
-high traffic level or have a lot of developers working on your server at the same
-time.
-
-Choose an AWS region that matches your needs. E.g., one that is geographically
-close to your users or that is not subject to US jurisdiction if required by
-data privacy laws in your country.
+1. Select the closest "Instance location" or AWS region. (The default is probably fine if it is on your continent!)
+1. Select an "OS only" blueprint of "Linux".
+1. Select the latest long term support edition of **Ubuntu Server** (22.04 at this writing; avoid Amazon Linux)
+1. Select at least the 4 GB of memory plan (at this writing, it costs **$20/month**)
 
 Label the new Lighsail instance with the DNS name you chose earlier. For
 example: `apps.example.com`.
-
-Optionally: take note of the IPv6 address that AWS automatically assigns to your
-new Lightsail instance.
-
-## Create a static IPv4 address
-
-Follow the [AWS
-Lightsail](https://lightsail.aws.amazon.com/ls/docs/en_us/articles/lightsail-create-static-ip)
-instructions to create a static IP. Use the DNS name you chose earlier to label
-the IP. Like: `apps.example.com-IP`.
 
 ## Enable HTTPS traffic on your Lightsail server
 
@@ -97,17 +95,6 @@ you click on the instance name first).
 
 This should also create the matching IPv6 rule automatically for you.
 
-## Create a DNS entry with the new DNS name you chose
-
-Create a new `A` record that points to your new IP address and matches the DNS
-name you chose earlier. The instructions for this vary depending on where your
-DNS is hosted. The AWS documentation is pretty confusing. Here are some [good
-instructions](https://pantheon.io/docs/route53) on the Pantheon website.
-
-Optionally: create an `AAAA` record that points to the IPv6 IP address that
-matches your new Lightsail instance. This will allow people to access your new
-server over IPv6 and is a good future-proofing step with no cost.
-
 ## Create an S3 Bucket to match your new DNS name
 
 Follow the instructions to [create an AWS S3
@@ -116,45 +103,76 @@ bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-over
 You will make a new S3 bucket with these configuration options:
 
 1. Named the same as your DNS name. E.g., `apps.example.com`
-2. Matches the AWS region of your Lightsail instance.
+2. Matches the AWS region of your Lightsail instance (e.g., us-east-1a for Virginia).
 3. Use the default security policy, including `Block Public Access`.
+
+### Turn on S3 bucket versioning
+
+To improve your ability to recover from disasters, we recommend that you turn on bucket versioning.
+This will keep a "shadow copy" of any deleted or modified files.
+
+[View AWS instructions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/manage-versioning-examples.html)
+(For simplicity, jump ahead to the instructions for "S3 console"--you can ignore the preamble).
 
 ## Create an IAM user that has appropriate access to your S3 bucket
 
-I tend to create an S3 user with "Full Access" permissions because the 
-AWS account only includes S3 buckets that Docassemble is intended to access.
-
-Visit the Identity Access and Management (IAM) console in AWS. 
 Create a new user with the same name as your DNS name. E.g., 
-`apps.example.com`. 
+`apps.example.com`. Give it access to S3.
 
-Select "Provide user access to the AWS Management Console" and "I want to create an IAM user". The other defaults are fine to leave as is.
+[View Amazon's up to date instructions](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html),
+or keep reading for our more specific instructions. Note: these may change over time.
 
-Under permission options, choose "Attach policies directly".
+1. Visit the Identity Access and Management (IAM) console in AWS
+1. Under "Access Management" in the left menu, click "Users"
+1. Click "Create user"
+1. Name the new user to match your server's name (e.g., apps.example.com)
+1. Under permission options, choose "Attach policies directly".
+1. Under "Permissions policies", type S3. Check the box next to AmazonS3FullAccess. The permissions boundary is not necessary.
+1. Click next and don't modify anything on the Tags page. Review and then Create user.
+1. Navigate back to "Users" under "Access Management" and select the one you just created. In the Summary, select the option to "Create Access Key".
 
-Under "Permissions policies", type S3. Check the box next to AmazonS3FullAccess. The permissions boundary is not necessary.
-
-Click next and don't modify anything on the Tags page. Review and then
-Create user.
-
-Now, go to Users and select the one you just created. In the Summary, select the option to "Create Access Key". 
-
-For the use case, select "Command Line Interface (CLI)". Click next and add a description if desired. Create access key.
+For the use case, select "Command Line Interface (CLI)". Click next and add a description if desired. Create access key. (You may have to
+click through or ignore a warning).
 
 **Copy the Access key ID and Secret access key** to a safe place, such as an open
-text editor window. This is your only chance to view the secret access key.
+text editor window. This is your only chance to view the secret access key. But you
+can always make a new one later.
+
+### A note about S3 permissions
+
+Your new user account has access to all of S3, not just the one bucket. If your AWS account is used for multiple
+servers, it is best to limit its access.
+
+[View AWS instructions to limit access to one bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-policies-s3.html#iam-policy-ex0)
 
 ## Finish installation on your Lightsail instance over SSH
 
 ### Connect with SSH
 
+Next, use SSH to connect to your newly created server.
+
+#### Recommended: use Putty or another SSH client
+
+In Lightsail, download the default keypair for your region. Use this SSH key
+to connect to your new Lightsail container:
+
+Using the Windows command line (with SSH installed), WSL or Apple Terminal:
+
+```bash
+ssh ubuntu@apps.example.com -i /path/to/ssh_key
+```
+
+Or follow instructions for using 
+[Putty](https://lightsail.aws.amazon.com/ls/docs/en_us/articles/lightsail-how-to-set-up-putty-to-connect-using-ssh)
+
+### In a pinch: Use the Lightsail built-in SSH container
+
+You can also use the browser-based SSH client that is integrated into AWS
+Lightsail. **Warning**: it is _really_ bad at copying and pasting. You should copy
+and paste each line one at a time if you use the browser SSH container.
+
 Follow the AWS instructions to [connect to your new server with
 SSH](https://lightsail.aws.amazon.com/ls/docs/en_us/articles/understanding-ssh-in-amazon-lightsail).
-I recommend using either Putty or another 3rd-party SSH client, but the
-browser-based SSH console will work in a pinch.
-
-Either way, I suggest downloading the default lightsail SSH keypair and keeping
-a copy somewhere safe.
 
 ### Update the server
 
@@ -164,7 +182,6 @@ From the SSH console, type the following commands, hitting enter after one:
 sudo apt update
 sudo apt upgrade -u -y
 ```
-
 
 ### Install docker
 
@@ -267,7 +284,7 @@ Save this env.list file locally somewhere secure. It is the one important file t
 Start up your new docassemble server like this:
 
 ```bash
-docker run -d -p 443:443 -p 80:80 --restart always --env-file env.list jhpyle/docassemble
+docker run -d -p 443:443 -p 80:80 --restart always --env-file env.list --stop-timeout 600 jhpyle/docassemble
 ```
 
 ### If you are running Docker on a server you own instead of AWS
@@ -275,11 +292,35 @@ docker run -d -p 443:443 -p 80:80 --restart always --env-file env.list jhpyle/do
 Make sure that you set up [persistent volumes](https://docassemble.org/docs/docker.html#persistent).
 Both your startup command and your env.list file will look different.
 
-# Sit back and wait
+## Sit back and wait
 
 In a few minutes, your Docassemble server will be up and running. Visit the website at the DNS
 name you chose, `https://apps.example.com`. Log in with the default username and password,
 admin@admin.com/password. Change it to something more secure.
+
+### Monitor progress
+
+While the server starts up, you can run this command to monitor the container's progress, if
+Docassemble is the only docker container in your server:
+
+```bash
+docker exec -ti $(docker ps --format '{{.Names}}') sh -c "tail -f /var/log/supervisor/initialize-stderr*"
+```
+
+If you have more than one container, you can modify the command as follows:
+
+Note the name of the Docassemble container, which should be listed in the output of `docker ps`
+In the command below, replace [YOUR CONTAINER NAME] with the name of your container.
+
+```bash
+docker exec -ti [YOUR CONTAINER NAME] sh -c "tail -f /var/log/supervisor/initialize-stderr*"
+```
+
+Keep watching the output of this command until the install is finished, which will read 
+`initialize: Finished initializing`. You can hit CTRL+c to close the output.
+
+Watch out for the word "error" which may indicate that something went wrong. As long as it keeps
+updating, you should just stay patient.
 
 # How many servers do I need?
 
