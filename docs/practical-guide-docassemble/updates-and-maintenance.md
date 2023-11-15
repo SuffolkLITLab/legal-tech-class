@@ -203,67 +203,115 @@ Therefore, we recommend that most authors install AssemblyLine from PyPi instead
 of directly using the GitHub URL.
 
 ## Docassemble server maintenance checklist
-On August 24, 2023, ILAO gave a presentation on Maintaining your Docassemble server as part of a [Technology Initiative Grant funded by the Legal Services Corporation](https://www.lsc.gov/grants/technology-initiative-grant-program/tig-program-description). 
+On August 24, 2023, ILAO gave a presentation on Maintaining your Docassemble
+server as part of a [Technology Initiative Grant funded by the Legal Services
+Corporation](https://www.lsc.gov/grants/technology-initiative-grant-program/tig-program-description). 
 
-Watch the video or [download the slides](https://docs.google.com/presentation/d/1eJf6x1SwAx4BcvC2OrVUNmg99G5zoAP1TX4ZGnvfkwY/edit?usp=sharing)
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LxmxhO3dDPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Watch the video or
+[download the slides](https://docs.google.com/presentation/d/1eJf6x1SwAx4BcvC2OrVUNmg99G5zoAP1TX4ZGnvfkwY/edit?usp=sharing)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LxmxhO3dDPo"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Much of what was covered in the presentation is found elsewhere in this and other documentation. What follows is a condensed format to serve as a checklist.
+Much of what was covered in the presentation is found elsewhere in this and other documentation.
+What follows is a condensed format to serve as a checklist.
 
 ### AWS Lightsail instance
 
-This server instance runs Linux, typically Ubuntu. It is sometimes called the host. Docassemble software runs on it.
+This server instance runs Linux, typically Ubuntu. It is sometimes called the host. Docassemble
+software runs on it.
 
- - How to monitor - Log into AWS console and see if it is running. Set up CPU utilization alerts to be emailed if there's a performance issue. A server reboot may be required if the instance freezes.
+ - How to monitor - Log into AWS console and see if it is running. Set up CPU utilization alerts
+   to be emailed if there's a performance issue. A server reboot through AWS may be required if
+   the instance freezes.
  - How to update
-    - The typical setup is configured to automatically download and install security updates. It still requires a manual download of other updates and manual reboots. When you connect to the Lighsail instance via SSH, you may see a message that a number of "updates can be applied immediately." You can install Ubuntu updates with these commands:
+    - Important: Before you update or restart, we recommend that you 1) Stop the Docker container using
+      `docker stop -t 600 $(docker ps -a -q)`, and 2) Have a recent or make a backup of the docassemble
+      database and redis.rdb files. See below on how to access and backup these files on AWS S3.
+    - The typical setup is configured to automatically download and install security updates. It still
+      requires a manual download of other updates and manual reboots. When you connect to the Lighsail
+      instance via SSH, you may see a message that a number of "***updates can be applied immediately.***"
+      You can install Ubuntu updates with these commands:
 
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
 ```
 
-When you connect to the Lighsail instance via SSH, you may see a message that "*** System restart required ***". You can restart the instance with this command:
+We recommend that you restart Ubuntu after applying updates. The `sudo shutdown -r now` command will
+restart Ubuntu. The Docker container should automatically restart if it was run using the `--restart always`
+parameter.
+
+When you connect to the Lighsail instance via SSH, you may see a "***System restart required***" message.
+You can restart the instance with this command:
 
 ```bash
 sudo shutdown -r now
 ```
 
-  - When to update - You can update Ubuntu every month or so. Restart it as needed or more frequently when the "System restart required" message comes up. This could happen if there is an update required for a security vulnerability.
-    - Beyond periodic updates, the version of Ubuntu software may need an upgrade. This is like going from Windows 10 to 11, or macOS Ventura to Sonoma. Every 2 years, there's a new Ubuntu Long Term Support (LTS) version. See Upgrading a Lightsail instance (instructions forthcoming).
+  - When to update - You can update Ubuntu every month or so. Restart it as needed or more frequently when
+    the "***System restart required***" message comes up. This could happen if there is an update required
+    for a security vulnerability.
+    - Beyond periodic updates, the version of Ubuntu software may need an upgrade. This is like going from
+      Windows 10 to 11, or macOS Ventura to Sonoma. Every 2 years, there's a new Ubuntu Long Term Support
+      (LTS) version. See Upgrading a Lightsail instance (instructions forthcoming).
   - What to back up - Keep a copy of the latest env.list file in case a rebuild is required.
-  - Wnen to back up - After a backup copy of env.list is made, a new backup is needed only if the contents of the file changes.
+  - Wnen to back up - After a backup copy of env.list is made, a new backup is needed only if the contents
+    of that file changes.
 
 ### AWS S3 bucket
 
-This is where the Docassemble database lives. Separating the Docassemble data from the software makes it easier to maintain and rebuild if needed.
+This is where the Docassemble database lives. Separating the Docassemble data from the software makes it
+easier to maintain and rebuild if needed.
  - How to monitor - Log into the AWS console. Go to S3. You should see files within each bucket.
  - What to back up - The most important files to back up are:
    - configuration.yml
    - redis.rdb
    - docassemble (inside postgres folder)
- - When to back up - Every few months or as often as you want to have a backup you could rebuild from.
+ - When to back up - Every few months or as often as you want to have a backup you could rebuild from. By
+   default, Docassemble makes a daily backup of these and other files. Each daily backup is stored in the /backups
+   folder.
+
+It is important to make backups of the docassemble database and redis.rdb files at about the same time. If these 
+files are out of sync files when restoring, user accounts and data sync errors may result. See the Docassemble
+documentation to learn more about [Recovery from backup files](https://docassemble.org/docs/docker.html#recovery).
 
 ### Docker container
 
-This virtual machine is installed on the Lightsail instance and runs its own version of Linux. The Docassemble software runs within. Using a virtual machine adds to resiliency, though it also requires its own maintenance.
+This virtual machine is installed on the Lightsail instance and runs its own version of Linux. The Docassemble
+software runs within. Using a virtual machine adds to resiliency, though it also requires its own maintenance.
 
  - How to monitor - Use `docker ps` command to make sure it is running.
- - How to update - See [Updates to the Docassemble container](https://suffolklitlab.org/legal-tech-class/docs/practical-guide-docassemble/maintaining-docassemble#updates-to-the-docassemble-container) (commands: `docker stop, pull, run,` and `prune`) 
-    - If you [updated the nginx timeout to 5 minutes](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/installation/#increase-nginx-timeouts-to-5-minutes) earlier, you will need to redo it.
+ - How to update - See
+   [Updates to the Docassemble container](https://suffolklitlab.org/legal-tech-class/docs/practical-guide-docassemble/maintaining-docassemble#updates-to-the-docassemble-container).
+   You will use these commands: `docker stop, pull, run,` and `prune`. 
+    - If you [updated the nginx timeout to 5 minutes](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/installation/#increase-nginx-timeouts-to-5-minutes)
+      earlier, you will need to redo it.
     - This will pull the latest version of each package unless specific version of a package was pinned via PyPI.
-  - When to update - If the [Docassemble Change Log](https://docassemble.org/docs/changelog.html) has an update that says **System restart required**, rebuild the Docker container after updating the Docassemble web app. Otherwise, about every 6 months.
+  - When to update - If the [Docassemble Change Log](https://docassemble.org/docs/changelog.html) has an update
+    that says "**System upgrade required**," rebuild the Docker container after updating the Docassemble web
+    app. Otherwise, about every 6 months.
 
 ### Docassemble web app
 
-This is the Docassemble software users and developers most often interact with through interviews and the Playground.
- - How to monitor - If you can get to the Playground, My Interviews, or an individual program, then it's working. [UptimeRobot](https://uptimerobot.com/) can be used to receive server up/down notifications by email.
- - How to update - Log in as an administrator. Go to Package Management. Click the "Upgrade" button. See [Updates to the Docassemble frontend](https://suffolklitlab.org/legal-tech-class/docs/practical-guide-docassemble/maintaining-docassemble#updates-to-the-docassemble-frontend)
+This is the Docassemble software users and developers most often interact with through interviews and the
+Playground.
+ - How to monitor - If you can get to the Playground, My Interviews, or an individual program, then it's working.
+   [UptimeRobot](https://uptimerobot.com/) can be used to receive server up/down notifications by email.
+ - How to update - Log in as an administrator. Go to Package Management. Click the "Upgrade" button. See
+   [Updates to the Docassemble frontend](https://suffolklitlab.org/legal-tech-class/docs/practical-guide-docassemble/maintaining-docassemble#updates-to-the-docassemble-frontend)
  - When to update - Every few weeks or as needed if there is a critical bug fix or a desired new feature.
 
 ### Packages
 
-These are the program code, frameworks, and utilities that run on the Docassemble platform. The Assembly Line package is an example used by many programs.
- - How to monitor - Monitors like [httpstatus.io](https://httpstatus.io/) or homegrown programs can check if individual programs are running. Note: These tools just check whether individual interview pages are reachable. Learn about using [ALKiln](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/alkiln/) to do automated start-to-finish testing and monitoring.
- - How to update - You can [update Assembly Line packages individually](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/alkiln/), or you can use the [ALDashboard](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/alkiln/). You can also update individual packages on the Package Management screen.
+These are the program code, frameworks, and utilities that run on the Docassemble platform. The Assembly Line package
+is an example used by many programs.
+ - How to monitor - Monitors like [httpstatus.io](https://httpstatus.io/) or homegrown programs can check if individual
+   programs are running. Note: These tools just check whether individual interview pages are reachable. Learn about using
+   [ALKiln](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/alkiln/) to do automated
+   start-to-finish testing and monitoring.
+ - How to update - You can
+   [update Assembly Line packages individually](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/alkiln/),
+   or you can use the [ALDashboard](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/alkiln/).
+   You can also update individual packages on the Package Management screen.
  - When to update - Every few weeks or as needed if there is a critical bug fix or a desired new feature.
