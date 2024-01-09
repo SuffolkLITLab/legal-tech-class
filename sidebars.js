@@ -156,6 +156,7 @@ module.exports = {
             },
             'classes/small-firms/2022-legal-tech',
             'classes/small-firms/2023-legal-tech',
+            'classes/small-firms/2024-spring-legal-tech',
           ]
         },
         {
