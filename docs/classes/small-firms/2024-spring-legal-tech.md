@@ -40,10 +40,10 @@ LAW-2156-AD
 
 Tuesdays 02:00PM - 03:50PM, Sargent Hall, Room 305
 
-This course makes extensive use of Microsoft Teams, and does not use the
-Canvas online course management system. You will be invited to join
-the Microsoft Team. Teams will be used for turning in assignments and
-viewing grades and rubrics.
+This course uses the
+Canvas online course management system. However, you may be encouraged
+to use Microsoft Teams to contact the instructor or to make use of office
+hours by other members of the Suffolk LIT Lab, including volunteers.
 
 In the event of bad weather, we may have class over Zoom, but the default
 will be in-person attendance.
@@ -66,7 +66,7 @@ aims to introduce you to the use of legal technology in the practice of law. We
 will focus closely on the access to justice problem and the needs of people
 who cannot afford to hire attorneys.
 
-50% of your grade will be based on a final project that incorporates legal technology.
+55% of your grade will be based on a final project that incorporates legal technology.
 Most students will create a simple "app" that solves a legal problem using the tools and processes
 of the [Document Assembly Line](https://github.com/suffolklitlab/docassemble-AssemblyLine). You
 may also choose a different technology to develop your final project.
