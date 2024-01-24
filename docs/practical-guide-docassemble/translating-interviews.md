@@ -135,11 +135,10 @@ event: ending
 question: |
   All done
 subquestion: |
-  When you use the `comma_and_list()` function, the word "and"
+  When you use the comma_and_list() function, the word "and"
   is translated so long as a words.yml is defined in the global configuration
   file.
 
-  You selected ${ comma_and_list(field2.true_values()) }
 ```
 
 The XLSX file phrases_es.xlsx has these contents:
@@ -165,7 +164,7 @@ docassemble.playground10language:language.yml | Question_2 | 8 | 650857596fe374d
 docassemble.playground10language:language.yml | Question_3 | 0 | deeb6f5001d774a40a29140b74cf5011 | en | es | ending | 
 docassemble.playground10language:language.yml | Question_3 | 1 | c46c51f9085b1460607798292bcf5232 | en | es | "All done
 " | Todo listo
-docassemble.playground10language:language.yml | Question_3 | 2 | 0c5b0b5e1c20a9af00353e64f6d2a062 | en | es | "When you use the `comma_and_list()` function, the word "and" is translated so long as a words.yml is defined in the global configuration file. You selected ${ comma_and_list(field2.true_values()) } " | Cuando usas la función `coma_and_list()`, la palabra ""y"" se traduce siempre que se defina un archivo words.yml en la configuración global archivo. Seleccionó ${ comma_and_list(field2.true_values()) }
+docassemble.playground10language:language.yml | Question_3 | 2 | 0c5b0b5e1c20a9af00353e64f6d2a062 | en | es | "When you use the comma_and_list() function, the word "and" is translated so long as a words.yml is defined in the global configuration file. " | Cuando usas la función `coma_and_list()`, la palabra ""y"" se traduce siempre que se defina un archivo words.yml en la configuración global archivo.
 
 The XLSX file was created by visiting https://[myserver]/utilities and typing
 "docassemble.playground10language:language.yml" in the "Download an interview phrase translation file" box.
