@@ -48,7 +48,7 @@ In the error message above, we can see that Docassemble is not able to locate th
 
 ## Docassemble usage errors
 
-![This block is missing a 'question' directive. In file docassemble.playground10ErrorExamples:error.yml from package docassemble.playground10Error Examples: fields: - {Test: abc_123}](img/error_missing_question.png)
+![This block is missing a 'question' directive. In file docassemble.playground10ErrorExamples:error.yml from package docassemble.playground10Error Examples: fields: - Test: abc_123](img/error_missing_question.png)
 
 In the error above, the Docassemble author has forgotten to include a `question` "directive" in a block that Docassemble thinks is intended to be a question block. (The word "directive" has a lot of synonyms in Docassemble--sometimes it is called a "specifier" or a "key").
 
@@ -59,7 +59,10 @@ Even if we didn't know what a "directive" is, below the error message, the entir
 Sometimes, you don't get an error message from Docassemble at all. Instead, you get an error message that indicates that Docassemble wasn't able to read the YAML file. A lot of subtle syntax errors can make the YAML file invalid.
 
 
-<details><summary>Screen-reader friendly error</summary>
+<details>
+<summary>
+  Screen-reader friendly error
+</summary>
 <p>
 
 ```

@@ -211,7 +211,7 @@ With the **sample.yml** file open, type:
 
 You should see **Installed**.
 
-You can now go back to the browser at <http://localhost>, then go to the **‌Playground**
+You can now go back to the browser at `http://localhost`, then go to the **‌Playground**
 
 Let's run the code.
 
