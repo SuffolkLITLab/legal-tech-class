@@ -9,13 +9,13 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.4.1",
-    "@docusaurus/preset-classic": "^2.4.1",
-    "@easyops-cn/docusaurus-search-local": "^0.33.6",
+    "@docusaurus/core": "^3.1.0",
+    "@docusaurus/preset-classic": "^3.1.0",
+    "@easyops-cn/docusaurus-search-local": "^0.40.1",
     "@lebalz/remark-admonitions": "^1.2.3",
     "classnames": "^2.2.6",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "remarkable-plantuml": "^1.1.0",
     "to-vfile": "^6.0.0"
   },
