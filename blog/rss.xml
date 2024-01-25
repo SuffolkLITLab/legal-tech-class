@@ -14,7 +14,8 @@
             <guid>https://suffolklitlab.github.io/legal-tech-class/blog/welcome</guid>
             <pubDate>Thu, 30 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Blog features are powered by the blog plugin. Simple add files to the blog directory. It supports tags as well!]]></description>
-            <content:encoded><![CDATA[<p>Blog features are powered by the blog plugin. Simple add files to the <code>blog</code> directory. It supports tags as well!</p><p>Delete the whole directory if you don't want the blog features. As simple as that!</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Blog features are powered by the blog plugin. Simple add files to the <code>blog</code> directory. It supports tags as well!</p>
+<p>Delete the whole directory if you don't want the blog features. As simple as that!</p>]]></content:encoded>
             <category>facebook</category>
             <category>hello</category>
             <category>docusaurus</category>
@@ -25,7 +26,9 @@
             <guid>https://suffolklitlab.github.io/legal-tech-class/blog/hello-world</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></description>
-            <content:encoded><![CDATA[<p>Welcome to this blog. This blog is created with <a href="https://v2.docusaurus.io/" target="_blank" rel="noopener noreferrer"><strong>Docusaurus 2 alpha</strong></a>.</p><p>This is a test post.</p><p>A whole bunch of other information.</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Welcome to this blog. This blog is created with <a href="https://v2.docusaurus.io/" target="_blank" rel="noopener noreferrer"><strong>Docusaurus 2 alpha</strong></a>.</p>
+<p>This is a test post.</p>
+<p>A whole bunch of other information.</p>]]></content:encoded>
             <category>hello</category>
             <category>docusaurus</category>
         </item>

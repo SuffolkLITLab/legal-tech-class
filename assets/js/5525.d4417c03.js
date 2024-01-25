@@ -1,1 +1,0 @@
-(self.webpackChunkopen_class=self.webpackChunkopen_class||[]).push([[5525],{5525:function(){}}]);
