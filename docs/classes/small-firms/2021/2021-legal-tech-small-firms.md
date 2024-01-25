@@ -40,7 +40,7 @@ complete weekly short reflections on the nightly reading.
 ## Class Materials
 
 * [Syllabus](2021-legal-tech-small-firms-syllabus.md)
-* [Final Project](2021-legal-tech-small-firms-rubric.md)
+* [Final Project](2021-legal-tech-small-firms-rubric)
 * [Weekly Reading List and Assignments](2021-legal-tech-small-firms-assignments.md)
 * [Class Zoom
   session](https://sumail-my.sharepoint.com/:w:/g/personal/qsteenhuis_adm_suffolk_edu/EXqiagBAmUVDgsfJD-VGzRMBGNyQe45bZ7AMhpfPBL2gNw?e=iyfWTc)

@@ -264,7 +264,7 @@ to get a head start.
 #### Class 2: September 12th Docassemble Hello, World; Guest Jason Tashea
 :::tip Readings
 * [An Introduction to
-  Docassemble](practical-guide-docassemble/practical-guide-docassemble.md)
+  Docassemble](../../practical-guide-docassemble/practical-guide-docassemble)
 * John O. McGinnis & Russell G. Pearce, [The Great Disruption: How Machine Intelligence Will Transform the Role of Lawyers in the Delivery of Legal Services](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2436937)
 :::
 

@@ -10,6 +10,8 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'suffolklitlab', // Usually your GitHub org/user name.
   projectName: 'legal-tech-class', // Usually your repo name.
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
   themeConfig: {
     announcementBar: {
       id: 'lit_con',

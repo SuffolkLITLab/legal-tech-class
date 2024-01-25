@@ -28,7 +28,7 @@ started a different semester, or start a new form from scratch.
 
 Final projects can reflect a wide range of quality and capabilities. Before
 starting your final project, I recommend that you review the [maturity
-model](legal-tech-overview/maturity-model.md). For purposes of this class, you
+model](../../../legal-tech-overview/maturity-model). For purposes of this class, you
 should aim at a minimum for the "useful prototype" stage. In the maturity model
 linked above, this equates to a level 1.5. Projects that exceed that level and
 demonstrate effort, skill, and fit for solving a real-world problem will earn an

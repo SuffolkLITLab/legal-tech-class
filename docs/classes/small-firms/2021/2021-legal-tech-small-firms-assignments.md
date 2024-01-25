@@ -63,7 +63,7 @@ Before class:
 
 Before class, read:
 * [An Introduction to
-  Docassemble](practical-guide-docassemble/practical-guide-docassemble.md)
+  Docassemble](../../../practical-guide-docassemble/practical-guide-docassemble)
 * Explore the [Docassemble.org](https://docassemble.org) website.
 * Make sure you have an account on the Suffolk LIT Lab Docassemble server,
   https://apps-dev.suffolklitlab.org. NOTE: this server is for Suffolk Law
@@ -167,7 +167,7 @@ Before class:
 :::info Milestone
 Narrow down ideas for your final project.
 
-See guidance [here](2021-legal-tech-small-firms-rubric.md).
+See guidance [here](2021-legal-tech-small-firms-rubric).
 :::
 ## Week 5 9/27: Making a legal problem flowchart; QnAMarkup; Guest David Colarusso
 
@@ -207,7 +207,7 @@ complete the interaction, and follow-up steps that they will need to take.
 :::
 
 :::info Form groups
-Form groups for week 8's [Free Tool Fiesta](2021-legal-tech-small-firms-rubric.md#free-tool-fiesta)
+Form groups for week 8's [Free Tool Fiesta](2021-legal-tech-small-firms-rubric)
 :::
 ## Week 7 10/12: (Remote class? TBD) Project Management / Trello; Class meets at regular time on Tuesday,  Guest Ivy Grey, Wordrake
 
@@ -266,7 +266,7 @@ Your form (if using a form) should be properly labeled. You should request a rev
 
 :::info Start work
 Choose an app for the "app teardown" exercise due Week 10. See 
-[description here](2021-legal-tech-small-firms-rubric.md#app-teardown-and-review).
+[description here](2021-legal-tech-small-firms-rubric#app-teardown-and-review).
 
 Potential starting places:
 
@@ -285,7 +285,7 @@ Potential starting places:
 Presentations for Free Tool Fiesta
 :::
 
-See instructions [here](2021-legal-tech-small-firms-rubric.md#free-tool-fiesta)
+See instructions [here](2021-legal-tech-small-firms-rubric#free-tool-fiesta)
 
 
 :::info Milestone
@@ -400,7 +400,7 @@ Before class, read
 :::
 
 Please come prepared to deliver a 5 minute presentation of your work. See [final
-project guidelines](2021-legal-tech-small-firms-rubric.md) for more information
+project guidelines](2021-legal-tech-small-firms-rubric) for more information
 about how to structure your presentation. Slides are welcome, but not required.
 
 You do not need to have your final project finished. Be ready to demonstrate

@@ -130,7 +130,7 @@ The video includes breaks, questions, and introduction which you do not need to
 watch. Feel free to watch at a higher speed as well.
 
 Also see the training materials, which are hosted as part of this [legal tech
-text book](classes/docacon-2020/hello-world.md).
+text book](../../docacon-2020/hello-world).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lsh_2qmTSAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -280,7 +280,7 @@ reflection](https://forms.office.com/Pages/ResponsePage.aspx?id=qT9zeA5UuE6_KXPE
 ## Week 13 11/23: Presentation of student projects.
 
 Please come prepared to deliver a 5 minute presentation of your work. See [final
-project guidelines](2020-legal-tech-small-firms-rubric.md) for more information about how to structure your
+project guidelines](2020-legal-tech-small-firms-rubric) for more information about how to structure your
 presentation. Slides are welcome, but not required.
 
 You do not need to have your final project finished. Be ready to demonstrate what

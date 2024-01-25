@@ -418,7 +418,7 @@ more broadly.
 :::tip Readings
 
 * [An Introduction to
-  Docassemble](introduction-to-docassemble.md)
+  Docassemble](../../introduction-to-docassemble)
 * Explore the [Docassemble.org](https://docassemble.org) website.
 * Make sure you have an account on the Suffolk LIT Lab Docassemble server,
   https://apps-dev.suffolklitlab.org.

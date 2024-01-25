@@ -207,4 +207,4 @@ available at this web page.
 
 ### Final project
 
-[Final Project](2021-legal-tech-small-firms-rubric.md)
+[Final Project](2021-legal-tech-small-firms-rubric)

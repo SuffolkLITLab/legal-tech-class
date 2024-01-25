@@ -38,7 +38,7 @@ Before class:
   send to a court).
 
 Read:
-* [Introduction to Docassemble](https://suffolklitlab.org/legal-tech-class/docs/introduction-to-docassemble) and [What Should You Use Docassemble For](https://suffolklitlab.org/legal-tech-class/docs/practical-guide-docassemble/practical-guide-docassemble)
+* [Introduction to Docassemble](../../../introduction-to-docassemble) and [What Should You Use Docassemble For](https://suffolklitlab.org/legal-tech-class/docs/practical-guide-docassemble/practical-guide-docassemble)
 * Should Lawyers Learn to Code? https://esq.io/2016/08/should-lawyers-learn-to-code/, [perma.cc](https://perma.cc/TC2H-F5QB)
 * No, Lawyers Should not Learn to Code. https://web.archive.org/web/20180304090731/https://lawyerist.com/counterpoint-no-lawyers-not-learn-code/
 
@@ -172,7 +172,7 @@ Content and readings TBA based on YOUR questions, final project, and feedback
 ## Week 13 4/21: Presentation of student projects.
 
 Please come prepared to deliver a *5 minute* presentation of your work. See [final
-project guidelines](2021-smart-machines-rubric.md) for more information about how to structure your
+project guidelines](2021-smart-machines-rubric) for more information about how to structure your
 presentation. Slides are welcome, but not required.
 
 You do not need to have your final project finished. Be ready to demonstrate what

@@ -223,7 +223,7 @@ the country.
 #### Class 2: February 1 Docassemble Hello, World; Guest Jared Jaskot
 :::tip Readings
 * [An Introduction to
-  Docassemble](practical-guide-docassemble/practical-guide-docassemble.md)
+  Docassemble](../../practical-guide-docassemble/practical-guide-docassemble)
 * John O. McGinnis & Russell G. Pearce, [The Great Disruption: How Machine Intelligence Will Transform the Role of Lawyers in the Delivery of Legal Services](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2436937)
 * Explore [Yo Tengo Bot](https://yotengo.bot/)
 * Come prepared with questions for Jared Jaskot, technology-enabled immigration firm owner and CEO of Yo Tengo Bot.
