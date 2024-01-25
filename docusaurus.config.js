@@ -1,5 +1,5 @@
 //const mermaid = require('remark-mermaid');
-const admonitions = require('@lebalz/remark-admonitions');
+// const admonitions = require('@lebalz/remark-admonitions');
 // var vfile = require('to-vfile');
 
 module.exports = {
@@ -11,6 +11,14 @@ module.exports = {
   organizationName: 'suffolklitlab', // Usually your GitHub org/user name.
   projectName: 'legal-tech-class', // Usually your repo name.
   themeConfig: {
+    announcementBar: {
+      id: 'lit_con',
+      content:
+        'Suffolk\'s annual LIT Con is on April 8th, 2024! <a target="_blank" rel="noopener noreferrer" href="https://suffolklitlab.org/litcon/">Register now!</a>',
+      backgroundColor: '#fafbfc',
+      textColor: '#091E42',
+      isCloseable: false,
+    },
     tableOfContents: {
       minHeadingLevel: 2,
       maxHeadingLevel: 5,
@@ -81,10 +89,6 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/suffolklitlab/legal-tech-class',
             },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/suffolklitlab',
-            },
           ],
         },
         {
@@ -114,14 +118,14 @@ module.exports = {
           editUrl:
             'https://github.com/suffolklitlab/legal-tech-class/edit/master/class/',
           remarkPlugins: [
-            [admonitions, {
-              customTypes: {
-                custom: {
-                  emoji: '💻',
-                  svg: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"></path></svg>'
-                }
-              }
-            }]
+            // [admonitions, {
+            //   customTypes: {
+            //     custom: {
+            //       emoji: '💻',
+            //       svg: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"></path></svg>'
+            //     }
+            //   }
+            // }]
         ], // Plugin for remark-mermaid to generate UML diagrams
         },
         theme: {
@@ -140,8 +144,8 @@ module.exports = {
     //   async: true,
     // },
   ],
-  themes: [
-      // ... Your other themes.
+  themes: 
+    [
       [
         require.resolve("@easyops-cn/docusaurus-search-local"),
         /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
@@ -154,6 +158,6 @@ module.exports = {
           // language: ["en", "zh"],
           // ```
         }),
-      ],
+      ],     
     ],
 };
