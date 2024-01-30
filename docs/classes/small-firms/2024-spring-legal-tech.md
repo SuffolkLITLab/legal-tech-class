@@ -326,7 +326,9 @@ In-class topics:
 
 In-class topics:
 
-* Deep dive into LLM applications
+* Improve our small firm personas
+* Pitch and evaluate some generative AI use cases
+* Get started with legal tech assessment
 * The importance of plain language in law
 * Practice and exploration of using plain language principles to improve communication
 
@@ -345,17 +347,22 @@ This module covers the practical aspects of automating legal processes using too
 :::
 
 :::tip Readings
+* [Guide to prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering/six-strategies-for-getting-better-results)
+* OPTIONAL reading:  Meincke, Lennart and Mollick, Ethan R. and Terwiesch, Christian, Prompting Diverse Ideas: Increasing AI Idea Variance (January 27, 2024). Available at SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4708466
 * Orient yourself to Gavel:
     * Watch https://help.gavel.io/articles/demo-video
     * Read: https://www.gavel.io/resources/how-gavel-is-shaping-the-golden-era-of-solo-practitioners
 * Read [Pros and Cons of Low-Code Development Platforms](https://www.mrc-productivity.com/blog/2019/03/pros-and-cons-of-low-code-development-platforms/)
 * [Building your first expert system](interview-structure/building-an-app-outline.md)
+
 :::
 
 In-class topics:
 
 * Introduction to document automation with Gavel
 * Independent work: conceptualizing a solution for a firm problem
+* Practice with prompt engineering
+* Open the Docassemble playground
 
 #### Class 4: February 13, 2024 - Docassemble and GPT-4
 :::info Complete Legal Tech Assessment Powerpoint module
