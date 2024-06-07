@@ -295,7 +295,7 @@ Both your startup command and your env.list file will look different.
 ### Docker Compose
 
 For ease of future upgrades, you can save this command in a [Docker
-Compose](https://docs.docker.com/compose/) file. Docker Copose allows you to reduce
+Compose](https://docs.docker.com/compose/) file. Docker Compose allows you to reduce
 the `docker run` command to a saved file for repeated use. `docker stop` and `docker start`
 commands are not affected by using a Docker Compose file.
 
@@ -347,7 +347,7 @@ volumes:
 If you are not using docker persistant volumes, everything including and after the 
 first reference to `volumes` can be removed. 
 
-Different Operating Systems have different command lines for docker compose. To
+Different operating systems have different command lines for docker compose. To
 check which you have, run `docker-compose --version` or `docker compose version`.
 Only one of those will be successful. Depending on whether you need the hyphen to
 run the service, you'll either run:
