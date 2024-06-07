@@ -292,6 +292,86 @@ docker run -d -p 443:443 -p 80:80 --restart always --env-file env.list --stop-ti
 Make sure that you set up [persistent volumes](https://docassemble.org/docs/docker.html#persistent).
 Both your startup command and your env.list file will look different.
 
+### Docker Compose
+
+For ease of future upgrades, you can save this command in a [Docker
+Compose](https://docs.docker.com/compose/) file. Docker Copose allows you to reduce
+the `docker run` command to a saved file for repeated use. `docker stop` and `docker start`
+commands are not affected by using a Docker Compose file.
+
+Create a new file named docker-compose.yml on the server in the same directory as the
+env.list file. To match the `docker run` command above, it should have this content
+(lines beginning with a `#` are comments to help explain the commands):
+
+```yaml
+services:
+  docassemble_container:
+    # The name of the service. You can reference this name for inter-service communication.
+
+    image: jhpyle/docassemble
+    # Specifies the Docker image to use for this service. 
+    # Update this line to pull a different version/tag of the image, e.g., 'jhpyle/docassemble:1.2.3'.
+    
+    restart: always
+    # This ensures the container is always restarted if it stops.
+    # Options include 'no', 'always', 'on-failure', or 'unless-stopped'.
+    
+    stop_grace_period: 600s
+    # The duration to wait before forcefully killing the container upon stopping.
+    # You can adjust this value based on your application's shutdown requirements.
+    
+    ports:
+      - '80:80'
+      # Maps port 80 on the host to port 80 on the container.
+      # To change the host port, modify the first number, e.g., '8080:80'.
+    
+    env_file:
+      - env.list
+      # Specifies a file containing environment variables. 
+      # Update the filename if your environment variables are in a different file.
+
+    volumes:
+      - dacerts:/usr/share/docassemble/certs
+      - dabackup:/usr/share/docassemble/backup
+      # Maps the `dacerts` and `dabackup` volumes to specific directories in the container.
+      # These volumes are defined in the `volumes` section and will be created automatically if they don't exist.
+
+volumes:
+  dacerts:
+    # Defines the `dacerts` volume. Docker Compose will automatically create it if it doesn't exist.
+  
+  dabackup:
+    # Defines the `dabackup` volume. Docker Compose will automatically create it if it doesn't exist.
+```
+
+If you are not using docker persistant volumes, everything including and after the 
+first reference to `volumes` can be removed. 
+
+Different Operating Systems have different command lines for docker compose. To
+check which you have, run `docker-compose --version` or `docker compose version`.
+Only one of those will be successful. Depending on whether you need the hyphen to
+run the service, you'll either run:
+
+```
+docker-compose up -d
+```
+
+or 
+
+```
+docker compose up -d
+```
+
+The `-d` flag runs it in a detached mode meaning that everything is happening
+in the background. If you want to run it with some of the supervisorctl logs
+visible to you, you can run the command without the -d flag. You'll then know
+when your server is up when you see the line that `nginx entered RUNNING
+state`. That's the start of the expected webserver. A few seconds later you should
+be able to access the web interface. You can hit CTRL+c to close the output.
+
+When you need to upgrade your server in the future, you can use the same Docker
+Compose file to ensure you are setting the same flags in the new container. 
+
 ## Sit back and wait
 
 In a few minutes, your Docassemble server will be up and running. Visit the website at the DNS
