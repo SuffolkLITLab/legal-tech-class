@@ -108,6 +108,7 @@ module.exports = {
           label: 'Administering Docassemble',
           items: [
             'practical-guide-docassemble/setup-server',
+            'practical-guide-docassemble/rebuild-lightsail-instance',
             'practical-guide-docassemble/run-docassemble-docker-vscode',
             //'practical-guide-docassemble/combining-interviews',
             'practical-guide-docassemble/installing-production-app',

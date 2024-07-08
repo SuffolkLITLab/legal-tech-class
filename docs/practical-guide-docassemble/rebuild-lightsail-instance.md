@@ -1,5 +1,5 @@
 ---
-slug: maintaining-docassemble
+slug: rebuild-lightsail-instance
 title: Rebuilding your AWS Lightsail instance
 sidebar_label: Rebuilding your AWS Lightsail instance
 ---
