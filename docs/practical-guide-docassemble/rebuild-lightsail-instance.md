@@ -255,7 +255,7 @@ To exit the log, hit CTRL-C.
 ### Final steps
 
 Once the server is running, it is recommended to increase timeout period of nginx. This
-needs to be done inside docker container. Follow (these instructions)[https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/installation#increase-nginx-timeouts-to-5-minutes].
+needs to be done inside docker container. Follow [these instructions](https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs/installation#increase-nginx-timeouts-to-5-minutes).
 
 If you want to receive email alerts when the new AWS Lightsail instance is working hard,
 set up AWS Lightsail alerts - CPU utilization. A threshold of over 60% CPU utilization 2
