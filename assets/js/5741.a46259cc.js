@@ -1,0 +1,1 @@
+(self.webpackChunkopen_class=self.webpackChunkopen_class||[]).push([[5741],{5741:()=>{}}]);

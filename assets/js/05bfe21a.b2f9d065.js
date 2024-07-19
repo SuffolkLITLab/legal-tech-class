@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopen_class=self.webpackChunkopen_class||[]).push([[9265],{7682:s=>{s.exports=JSON.parse('{"permalink":"/legal-tech-class/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

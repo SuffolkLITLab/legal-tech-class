@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopen_class=self.webpackChunkopen_class||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/legal-tech-class/blog","blogTitle":"Blog"}')}}]);
