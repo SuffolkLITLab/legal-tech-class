@@ -254,7 +254,7 @@ sudo shutdown -r now
     for a security vulnerability.
     - Beyond periodic updates, the version of Ubuntu software may need an upgrade. This is like going from
       Windows 10 to 11, or macOS Ventura to Sonoma. Every 2 years, there's a new Ubuntu Long Term Support
-      (LTS) version. See Upgrading a Lightsail instance (instructions forthcoming).
+      (LTS) version. See [Rebuilding your AWS Lightsail instance](https://projects.suffolklitlab.org/legal-tech-class/docs/practical-guide-docassemble/rebuild-lightsail-instance).
   - What to back up - Keep a copy of the latest env.list file in case a rebuild is required.
   - Wnen to back up - After a backup copy of env.list is made, a new backup is needed only if the contents
     of that file changes.
