@@ -80,7 +80,7 @@ Select these options on the "Create an instance" page:
 
 1. Select the closest "Instance location" or AWS region. (The default is probably fine if it is on your continent!)
 1. Select an "OS only" blueprint of "Linux".
-1. Select the latest long term support edition of **Ubuntu Server** (22.04 at this writing; avoid Amazon Linux)
+1. Select the latest long term support edition of **Ubuntu Server** (24.04 at this writing; avoid Amazon Linux)
 1. Select at least the 4 GB of memory plan (at this writing, it costs **$20/month**)
 
 Label the new Lighsail instance with the DNS name you chose earlier. For
@@ -190,18 +190,16 @@ Type the command below to install the latest docker from the official Docker Eng
 (Or follow the [latest instructions from Docker Engine](https://docs.docker.com/engine/install/ubuntu/))
 
 ```bash
-sudo apt-get install \
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
-sudo mkdir -p /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
 echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
 ### Add your user account to the Docker group
@@ -210,7 +208,7 @@ Type the following commands in the SSH console:
 
 ```
 sudo usermod -aG docker $USER
-newgrp docker 
+newgrp docker
 ```
 
 ### Setup a Linux swap file
@@ -248,6 +246,8 @@ TIMEZONE=America/New_York
 USEHTTPS=true
 USELETSENCRYPT=true
 LETSENCRYPTEMAIL=apps@example.com
+DAEXTRAFONTS=false
+DAGOOGLEFONTS=false
 ```
 
 Update the values as follows:
@@ -263,6 +263,9 @@ Update the values as follows:
   and to set the time that daily scheduled cron scripts run.
 * Set LETSENCRYPTEMAIL to an email of your choice. You will receive messages at this
   address if your certificate is about to expire, but otherwise will not.
+* In Docassemble version 1.8.14 and later, if DAEXTRAFONTS and DAGOOGLEFONTS are true they
+  will install those fonts on startup. These might be necessary for your interviews that do
+  DOCX to PDF conversion.
   
 Notice that in the Docker environment file, we use a lowercase `true`, not `True`.
 
@@ -284,7 +287,7 @@ Save this env.list file locally somewhere secure. It is the one important file t
 Start up your new docassemble server like this:
 
 ```bash
-docker run -d -p 443:443 -p 80:80 --restart always --env-file env.list --stop-timeout 600 jhpyle/docassemble
+docker run -d -p 443:443 -p 80:80 --restart unless-stopped --env-file env.list --stop-timeout 600 jhpyle/docassemble
 ```
 
 ### If you are running Docker on a server you own instead of AWS
