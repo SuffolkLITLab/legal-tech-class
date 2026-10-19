@@ -28,7 +28,7 @@ Below is a short Python program that demonstrates two ways to handle a list of c
 
 Click the "run" button to run the code sample. After you have run it once, change the value of `use_variables` to False and run it again.
 
-<iframe src="https://trinket.io/embed/python/defc77eeb6" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<figure style="margin:0;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden"><iframe src="https://coddy.tech/embed-editor?lang=python&theme=light&layout=stacked&code=dXNlX3ZhcmlhYmxlcyA9IFRydWUKCmNoaWxkMSA9ICJKYW1lcyIKY2hpbGQyID0gIkFsaWNlIgpjaGlsZDMgPSAiUmljaGFyZCIKCmNoaWxkcmVuID0gWyJBbGV4YW5kcmEiLCJSb2JlcnQiLCJMaXNhIl0KCmlmIHVzZV92YXJpYWJsZXM6CiAgcHJpbnQoY2hpbGQxKQogIHByaW50KGNoaWxkMikKICBwcmludChjaGlsZDMpCgplbGlmIG5vdCB1c2VfdmFyaWFibGVzOgogIGZvciBjaGlsZCBpbiBjaGlsZHJlbjoKICAgIHByaW50KGNoaWxkKQo&credit=0" width="100%" height="420" style="display:block;border:0;width:100%" title="Python code editor by Coddy" loading="lazy"></iframe><figcaption style="box-sizing:border-box;padding:5px 12px;font:11px/1.4 system-ui,-apple-system,sans-serif;color:#64748b;background:#f1f5f9;border-top:1px solid #e2e8f0;text-align:right" dir="ltr">Powered by <a href="https://coddy.tech/embed" target="_blank" rel="noopener" style="color:#0077ff;font-weight:600;text-decoration:none;">Coddy</a></figcaption></figure>
 
 For easy reference, here is the full code:
 
@@ -58,9 +58,9 @@ children = ["Jenny","Shakira"]
 children[0]
 ```
 
-Try copying and running the code above (one line at a time) in the interactive Python console below:
+Run the code in the editor below, then try changing the index:
 
-<iframe src="https://trinket.io/embed/python/acbf9f2337?outputOnly=true&runOption=console" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<figure style="margin:0;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden"><iframe src="https://coddy.tech/embed-editor?lang=python&theme=light&layout=stacked&code=Y2hpbGRyZW4gPSBbIkplbm55IiwiU2hha2lyYSJdCnByaW50KGNoaWxkcmVuWzBdKQo&credit=0" width="100%" height="420" style="display:block;border:0;width:100%" title="Python code editor by Coddy" loading="lazy"></iframe><figcaption style="box-sizing:border-box;padding:5px 12px;font:11px/1.4 system-ui,-apple-system,sans-serif;color:#64748b;background:#f1f5f9;border-top:1px solid #e2e8f0;text-align:right" dir="ltr">Powered by <a href="https://coddy.tech/embed" target="_blank" rel="noopener" style="color:#0077ff;font-weight:600;text-decoration:none;">Coddy</a></figcaption></figure>
 
 The number in the square brackets is called an **index**. In Python, the first item in a list has an **index** of 0, not 1.
 
@@ -84,7 +84,7 @@ Changing the value of an item in a list is the same as changing the value of a v
 
 You can add items to a list by using `.append()`, like this:
 
-<iframe src="https://trinket.io/embed/python/885b0045c2" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<figure style="margin:0;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden"><iframe src="https://coddy.tech/embed-editor?lang=python&theme=light&layout=stacked&code=Y2hpbGRyZW4gPSBbIkFsZXhhbmRyYSIsIlJvYmVydCIsIkxpc2EiXQoKcHJpbnQoY2hpbGRyZW4pCgpjaGlsZHJlbi5hcHBlbmQoIk1pbGVzIikKCnByaW50KGNoaWxkcmVuKQo&credit=0" width="100%" height="420" style="display:block;border:0;width:100%" title="Python code editor by Coddy" loading="lazy"></iframe><figcaption style="box-sizing:border-box;padding:5px 12px;font:11px/1.4 system-ui,-apple-system,sans-serif;color:#64748b;background:#f1f5f9;border-top:1px solid #e2e8f0;text-align:right" dir="ltr">Powered by <a href="https://coddy.tech/embed" target="_blank" rel="noopener" style="color:#0077ff;font-weight:600;text-decoration:none;">Coddy</a></figcaption></figure>
 
 Try adding a new name to the list.
 
@@ -169,7 +169,7 @@ Sticking with our intake analogy, let's think about an intake that asks someone 
 
 Here's a small example of a Python dictionary:
 
-<iframe src="https://trinket.io/embed/python/201f75d61d" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<figure style="margin:0;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden"><iframe src="https://coddy.tech/embed-editor?lang=python&theme=light&layout=stacked&code=ZXhwZW5zZXMgPSB7CiAgInJlbnQiOiAxMDAwLAogICJ1dGlsaXRpZXMiOiAzMDAsCiAgImZvb2QiOiA0MDAsCiAgImNyZWRpdCBjYXJkcyI6IDEyMCwKICAic3R1ZGVudCBsb2FucyI6IDEwMDAsCiAgIm1lZGljYWwgYmlsbHMiOiAyMDAKfQoKZm9yIGtleSBpbiBleHBlbnNlczoKICBwcmludChrZXkpCiAgcHJpbnQoZXhwZW5zZXNba2V5XSkK&credit=0" width="100%" height="420" style="display:block;border:0;width:100%" title="Python code editor by Coddy" loading="lazy"></iframe><figcaption style="box-sizing:border-box;padding:5px 12px;font:11px/1.4 system-ui,-apple-system,sans-serif;color:#64748b;background:#f1f5f9;border-top:1px solid #e2e8f0;text-align:right" dir="ltr">Powered by <a href="https://coddy.tech/embed" target="_blank" rel="noopener" style="color:#0077ff;font-weight:600;text-decoration:none;">Coddy</a></figcaption></figure>
 
 Run the code sample above. Notice that when we use a `for` loop on this dictionary, on each loop the variable gets the keyword, or index of the dictionary.
 
@@ -201,7 +201,7 @@ food | 400
 
 For a quick example of why using a dictionary is powerful, let's introduce the `sum()` function. Try running the code sample below.
 
-<iframe src="https://trinket.io/embed/python/0835fc7fa9" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<figure style="margin:0;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden"><iframe src="https://coddy.tech/embed-editor?lang=python&theme=light&layout=stacked&code=ZXhwZW5zZXMgPSB7CiAgInJlbnQiOiAxMDAwLAogICJ1dGlsaXRpZXMiOiAzMDAsCiAgImZvb2QiOiA0MDAsCiAgImNyZWRpdCBjYXJkcyI6IDEyMCwKICAic3R1ZGVudCBsb2FucyI6IDEwMDAsCiAgIm1lZGljYWwgYmlsbHMiOiAyMDAKfQoKcHJpbnQoc3VtKGV4cGVuc2VzLnZhbHVlcygpKSkK&credit=0" width="100%" height="420" style="display:block;border:0;width:100%" title="Python code editor by Coddy" loading="lazy"></iframe><figcaption style="box-sizing:border-box;padding:5px 12px;font:11px/1.4 system-ui,-apple-system,sans-serif;color:#64748b;background:#f1f5f9;border-top:1px solid #e2e8f0;text-align:right" dir="ltr">Powered by <a href="https://coddy.tech/embed" target="_blank" rel="noopener" style="color:#0077ff;font-weight:600;text-decoration:none;">Coddy</a></figcaption></figure>
 
 Try changing some of the numbers and see how the value that is printed out changes at the same time.
 
@@ -213,7 +213,7 @@ You can add a new item to a dictionary simply by referencing a key that you have
 
 Run the code sample below. Try adding an expense for automobile insurance.
 
-<iframe src="https://trinket.io/embed/python/eb7652260f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<figure style="margin:0;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden"><iframe src="https://coddy.tech/embed-editor?lang=python&theme=light&layout=stacked&code=ZXhwZW5zZXMgPSB7CiAgInJlbnQiOiAxMDAwLAogICJ1dGlsaXRpZXMiOiAzMDAsCiAgImZvb2QiOiA0MDAsCiAgImNyZWRpdCBjYXJkcyI6IDEyMCwKICAic3R1ZGVudCBsb2FucyI6IDEwMDAsCiAgIm1lZGljYWwgYmlsbHMiOiAyMDAKfQpwcmludChleHBlbnNlcykKCiMgTXkgcmVudCB3ZW50IHVwIQpleHBlbnNlc1sicmVudCJdID0gMTIwMApwcmludChleHBlbnNlcykKCiMgSSBqdXN0IGdvdCBhIG5ldyBwZXQKZXhwZW5zZXNbImNhdCJdID0gMTMwMApwcmludChleHBlbnNlcykK&credit=0" width="100%" height="420" style="display:block;border:0;width:100%" title="Python code editor by Coddy" loading="lazy"></iframe><figcaption style="box-sizing:border-box;padding:5px 12px;font:11px/1.4 system-ui,-apple-system,sans-serif;color:#64748b;background:#f1f5f9;border-top:1px solid #e2e8f0;text-align:right" dir="ltr">Powered by <a href="https://coddy.tech/embed" target="_blank" rel="noopener" style="color:#0077ff;font-weight:600;text-decoration:none;">Coddy</a></figcaption></figure>
 
 ### Docassemble's DADict class
 
@@ -241,7 +241,7 @@ Suppose you go on a bird watch. You want to know how many different species of b
 
 Run the code sample below.
 
-<iframe src="https://trinket.io/embed/python/ecc912a6c2" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<figure style="margin:0;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden"><iframe src="https://coddy.tech/embed-editor?lang=python&theme=light&layout=stacked&code=YmlyZHMgPSBbXQpiaXJkcy5hcHBlbmQoIkJsdWVqYXkiKQpiaXJkcy5hcHBlbmQoIlJvYmluIikKYmlyZHMuYXBwZW5kKCJUdWZ0ZWQgdGl0bW91c2UiKQpiaXJkcy5hcHBlbmQoIkJsdWVqYXkiKQpiaXJkcy5hcHBlbmQoIlJvYmluIikKCnByaW50KGJpcmRzKQoKYmlyZHMgPSBzZXQoKQpiaXJkcy5hZGQoIkJsdWVqYXkiKQpiaXJkcy5hZGQoIlJvYmluIikKYmlyZHMuYWRkKCJUdWZ0ZWQgdGl0bW91c2UiKQpiaXJkcy5hZGQoIkJsdWVqYXkiKQpiaXJkcy5hZGQoIlJvYmluIikKCnByaW50KGJpcmRzKQo&credit=0" width="100%" height="420" style="display:block;border:0;width:100%" title="Python code editor by Coddy" loading="lazy"></iframe><figcaption style="box-sizing:border-box;padding:5px 12px;font:11px/1.4 system-ui,-apple-system,sans-serif;color:#64748b;background:#f1f5f9;border-top:1px solid #e2e8f0;text-align:right" dir="ltr">Powered by <a href="https://coddy.tech/embed" target="_blank" rel="noopener" style="color:#0077ff;font-weight:600;text-decoration:none;">Coddy</a></figcaption></figure>
 
 Notice that when we stored the bird names in a list, we had duplicates. When we use a set instead, each bird species only appears one time. Try adding a new bird species to both the set and to the list and see what happens when you run it again.
 
@@ -269,7 +269,7 @@ Sometimes, you may want to collect everything in a list, and then turn it into a
 
 You can do that with `set()`. Try running the code sample below:
 
-<iframe src="https://trinket.io/embed/python/573e9681c8" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<figure style="margin:0;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden"><iframe src="https://coddy.tech/embed-editor?lang=python&theme=light&layout=stacked&code=YmlyZHMgPSBbXQpiaXJkcy5hcHBlbmQoIkJsdWVqYXkiKQpiaXJkcy5hcHBlbmQoIlJvYmluIikKYmlyZHMuYXBwZW5kKCJUdWZ0ZWQgdGl0bW91c2UiKQpiaXJkcy5hcHBlbmQoIkJsdWVqYXkiKQpiaXJkcy5hcHBlbmQoIlJvYmluIikKCnByaW50KGJpcmRzKQpwcmludChzZXQoYmlyZHMpKQo&credit=0" width="100%" height="420" style="display:block;border:0;width:100%" title="Python code editor by Coddy" loading="lazy"></iframe><figcaption style="box-sizing:border-box;padding:5px 12px;font:11px/1.4 system-ui,-apple-system,sans-serif;color:#64748b;background:#f1f5f9;border-top:1px solid #e2e8f0;text-align:right" dir="ltr">Powered by <a href="https://coddy.tech/embed" target="_blank" rel="noopener" style="color:#0077ff;font-weight:600;text-decoration:none;">Coddy</a></figcaption></figure>
 
 ### Docassemble's DASet class
 
